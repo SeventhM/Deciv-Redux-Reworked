@@ -38,8 +38,8 @@
 		"cost": 0,
 		"specialistSlots": { "Administrator": 1 },
 		"uniques": [
-            "Automatically built in all cities where it is buildable"
-			"Provides [1] [Weapons]"
+            "Automatically built in all cities where it is buildable",
+			"Provides [1] [Weapons]",
 			"Free [Militia] appears",
 			"Can only be built [in capital]",
 			"Gain a free [Food Store] [in this city]"
@@ -60,7 +60,7 @@
 		"cityHealth": 20,
 		"cost": 0,
 		"uniques": [
-            "Automatically built in all cities where it is buildable"
+            "Automatically built in all cities where it is buildable",
 			"Provides [1] [Power]",
 			"Provides [2] [Encrypted Data]",
 			"[2] free [Purge Robot Proto] units appear",
@@ -85,7 +85,7 @@
 		"cityHealth": 60,
 		"cost": 0,
 		"uniques": [
-            "Automatically built in all cities where it is buildable"
+            "Automatically built in all cities where it is buildable",
 			"Provides [1] [Power]",
 			"Provides [1] [Weapons]",
 			"Free [Security] appears",
@@ -108,7 +108,7 @@
 		"cityHealth": 40,
 		"cost": 0,
 		"uniques": [
-            "Automatically built in all cities where it is buildable"
+            "Automatically built in all cities where it is buildable",
 			"Provides [1] [Power]",
 			"[2] free [Surveyor] units appear",
 			"Can only be built [in capital]",
@@ -131,7 +131,7 @@
 		"cityHealth": 80,
 		"cost": 0,
 		"uniques": [
-            "Automatically built in all cities where it is buildable"
+            "Automatically built in all cities where it is buildable",
 			"[10]% Food is carried over after population increases [in this city]",
 			"Provides [1] [Power]",
 			"Provides [2] [Weapons]",
@@ -154,7 +154,7 @@
 		"culture": 1,
 		"cost": 0,
 		"uniques": [
-            "Automatically built in all cities where it is buildable"
+            "Automatically built in all cities where it is buildable",
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Free [Swordsman] appears",
 			"Can only be built [in capital]",
@@ -176,7 +176,7 @@
 		"faith": 2,
 		"cost": 0,
 		"uniques": [
-            "Automatically built in all cities where it is buildable"
+            "Automatically built in all cities where it is buildable",
 			"[+2 Culture] [in this city] <after discovering [Iron Working]>",
 			"Provides [2] [Oil]",
 			"Free [War Buggy] appears",
@@ -197,7 +197,7 @@
 		"culture": 1,
 		"cost": 0,
 		"uniques": [
-            "Automatically built in all cities where it is buildable"
+            "Automatically built in all cities where it is buildable",
 			"[25]% Great Person generation [in this city]",
 			"[+1 Faith, +1 Happiness] [in this city] <when not at war>",
 			"Free [Ranger] appears",
@@ -221,7 +221,7 @@
 		"cityStrength": 1,
 		"cityHealth": 10,
 		"uniques": [
-            "Automatically built in all cities where it is buildable"
+            "Automatically built in all cities where it is buildable",
 			"[2] free [Scavenger] units appear",
 			"Can only be built [in capital]",
 			"Gain a free [Salvage Yard] [in this city]"
@@ -240,7 +240,7 @@
 		"culture": 1,
 		"cost": 0,
 		"uniques": [
-            "Automatically built in all cities where it is buildable"
+            "Automatically built in all cities where it is buildable",
 			"Can only be built [in capital]",
 			"[+1 Faith] [in this city] <with [1] to [6] neighboring [Coast] tiles>",
 			"[2] free [Sharkman] units appear",
@@ -263,7 +263,7 @@
 		"cityStrength": 1,
 		"cityHealth": 10,
 		"uniques": [
-			"Automatically built in all cities where it is buildable"
+			"Automatically built in all cities where it is buildable",
 			"Can only be built [in capital]",
 			"Provides [1] [Weapons]",
 			"Free [Panther] appears",
@@ -285,7 +285,7 @@
 		"gold": 1,
 		"cityHealth": 10,
 		"uniques": [
-            "Automatically built in all cities where it is buildable"
+            "Automatically built in all cities where it is buildable",
 			"Can only be built [in capital]",
 			"Provides [1] [Weapons]",
 			"[2] free [Clansman] units appear",
@@ -306,7 +306,7 @@
 		"cost": 0,
 		"production": 1,
 		"uniques": [
-            "Automatically built in all cities where it is buildable"
+            "Automatically built in all cities where it is buildable",
 			"Provides [2] [Uranium]",
 			"Provides [1] [Power]",
 			"[+2 Culture, +1 Happiness] [in this city] <after discovering [Decontamination]>",
@@ -331,7 +331,7 @@
 			"Hidden until [5] social policy branches have been completed",
 			"Triggers a global alert upon build start",
 			"Triggers a Cultural Victory upon completion",
-			"Hidden when [Cultural] Victory is disabled"
+			"Hidden when [Cultural] Victory is disabled",
 			"Cannot be hurried"
 		]
 	},
@@ -642,7 +642,7 @@
 		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"[+1 Science, +1 Gold, +1 Culture] per [4] population [in all cities]",
+			"[+1 Science, +1 Culture] per [4] population [in all cities]",
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
@@ -2258,6 +2258,7 @@
 		"name": "Library",
 		"hurryCostModifier": 25,
 		"uniques": [
+			"[+1 Science] per [3] population [in this city]",
 			"[+1 Science] [in this city] <with [Power]>",
 			"[+1 Science, +1 Culture] from [Books] tiles [in this city]",
 			"Enables construction of [Power] buildings"
@@ -2272,7 +2273,7 @@
 		"uniques": [
 			"[+1 Science] [in this city] <with [Power]>",
 			"[+1 Science] per [3] population [in this city]",
-			"[+1 Science] from [Refinery] tiles [in this city]"
+			"[+1 Science] from [Refinery] tiles [in this city]",
 			"Free [Field Scientist] appears",
 			"Enables construction of [Power] buildings"
 		],
