@@ -445,7 +445,7 @@
 		"name": "Works of Genius",
 		"type": "Enhancer",
 		"uniques": [
-			"[+4 Faith, +2 Science, +2 Culture] from every [Great Improvement]"
+			"[+2 Faith, +2 Science, +2 Culture] from every [Great Improvement]"
 		]
 	},
 ]

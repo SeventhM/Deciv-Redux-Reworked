@@ -81,9 +81,7 @@
 		    "Can Mix Unique Strategic Resources to Generate a Great Person",
 			"[-99]% Great Person generation [in all cities]",
 			"Starts with [Writing]",
-			"Starts with [Construction]",
-			"Starts with [Machinery]",
-			"Starts with [Engineering]",
+			"Starts with [Chemistry]",
 			"Starts with [Electronics]",
 			"[-2 Happiness] [in all cities]"
 		],
@@ -136,8 +134,7 @@
 			"Starts with [Collectivism] adopted",
 			"[+1 Faith] [in all cities] <with [1] to [2] neighboring [Jungle] tiles>",
 			"[+2 Faith] [in all cities] <with [3] to [6] neighboring [Jungle] tiles>",
-			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
-			"Starts with [Redomestication]"
+			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."
 		],
 		"cities": [
 			"Phoenix",
@@ -192,8 +189,8 @@
 			"[+10]% Strength <for [All] units> <when fighting in [Foreign Land] tiles> <while the empire is happy>",
 			"City-State Influence recovers at twice the normal rate",
 			"Starts with [Writing]",
-			"Starts with [Construction]",
-			"Starts with [Machinery]",
+			"Starts with [Trade]",
+			"Starts with [Currency]",
 			"Starts with [Electronics]",
 			"[-2 Science] [in all cities] <before discovering [Education]>",
 			"Starts with [Monopoly] adopted",
@@ -253,8 +250,6 @@
 			"Receive free [Great Scientist] when you discover [Secrets of the Past]",
 			"[+33]% Great Person generation [in all cities]",
 			"Starts with [Writing]",
-			"Starts with [Construction]",
-			"Starts with [Machinery]",
 			"Starts with [Electronics]",
 			"[-2 Science] [in all cities] <before discovering [Education]>",
 			"Starts with [Rationalism] adopted",
@@ -321,7 +316,6 @@
 			"Military Units gifted from City-States start with [+10] XP",
 			"City-State territory always counts as friendly territory",
 			"[Great General] is earned [33]% faster",
-			"Starts with [Redomestication]",
 			"Cannot build [Enslaved] units",
 			"Starts with [Constitution] adopted"
 		],
@@ -384,11 +378,7 @@
 			"Double quantity of [Encrypted Data] produced",
 			"Double quantity of [Weapons] produced",
 			"Cannot build [Low Tech] units",
-			"Starts with [Writing]",
-			"Starts with [Construction]",
-			"Starts with [Machinery]",
-			"Starts with [Electronics]",
-			"[-2 Science] [in all cities] <before discovering [Education]>"
+			"Starts with [Electronics]"
 		],
 		"cities": [
 			"Eagle Rock",
@@ -456,8 +446,7 @@
 			"Land units may cross [Mountain] tiles after the first [Great General] is earned",
 			"Units ending their turn on [Mountain] tiles take [50] damage",
 			"[{Land} {Low Tech}] units gain the [Guerilla Warfare I] promotion",
-			"[Personnel] units gain the [Guerilla Warfare I] promotion",
-			"Starts with [Redomestication]"
+			"[Personnel] units gain the [Guerilla Warfare I] promotion"
 		],
 		"cities": [
 			"The Enclave",
@@ -565,7 +554,6 @@
 		"uniques": [
 			"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>",
 			"[-33]% maintenance costs <for [Land] units>",
-			"Starts with [Redomestication]",
 			"Starts with [Supremacy] adopted",
 			"Empire enters golden age <upon conquering a city> <after adopting [Supremacy Complete]>"
 		],
@@ -751,7 +739,6 @@
 			"[+10]% Strength <within [2] tiles of a [City center]>",
 			"Enemy [Land] units must spend [1] extra movement points when inside your territory",
 			"Starts with [Secrets of the Past]",
-			"Starts with [Redomestication]",
 			"[+20]% Strength <when fighting units from a Civilization with more Cities than you> <after adopting [Sovereignty Complete]>"
 		],
 		"cities": [
@@ -817,11 +804,6 @@
 		"innerColor": [266,225,157],
 		"uniqueName": "Radioactivity",
 		"uniques": [
-			"Starts with [Secrets of the Past]",
-			"Starts with [Writing]",
-			"Starts with [Construction]",
-			"Starts with [Mining]",
-			"[-1 Science] [in all cities] <before discovering [Education]>",
 			"[-10]% growth [in all cities]",
 			"[-1 Food] [in all cities]",
 			"[{non-air} {Military}] units gain the [Radioactive] promotion",

@@ -7,7 +7,7 @@
     "maxXPfromBarbarians":150,
     "cityStrengthBase":20,
     "cityStrengthPerPop":0.5,
-    "unitUpgradeCost":{}
+    "unitUpgradeCost":{},
     "religionLimitBase": 0,
     "religionLimitMultiplier": 1,
     "unitSupplyPerPopulation": 10,

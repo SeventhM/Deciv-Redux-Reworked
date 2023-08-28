@@ -1083,8 +1083,7 @@
 	{
 		"name": "Hazard Pay",
 		"uniques": [
-			"Earn [+100]% of [military] opponent's [Strength] as [Gold] for kills",
-			"Can move immediately once bought"
+			"Earn [+20]% of [military] opponent's [Strength] as [Gold] for kills",
 		],
 		"column": 5,
 		"row": 9
@@ -1110,10 +1109,10 @@
 	{
 		"name": "Promotion Nullifier",
 		"uniques": [
-			"[+1] Sight",
 			"Promotion Nullifier",
 			"Negates the combat bonus effect of Enemy Promotions",
-			"[-100]% XP gained from combat"
+			"[-100]% XP gained from combat",
+			"[+1] Sight"
 		],
 		"column": 6,
 		"row": 7
@@ -1166,7 +1165,9 @@
 	{
 		"name": "[Surveyor] ability",
 		"uniques": [
-			"Can build [Land] improvements on tiles"
+		    "[+2] Movement <after discovering [Replaceable Parts]>",
+		    "[-25]% tile improvement construction time <after discovering [Replaceable Parts]>",
+			"Can build [All] improvements on tiles"
 		],
 		"column": 6,
 		"row": 11

@@ -2,7 +2,7 @@
 	{
 		"name": "discover cultural artifacts",
 		"notification": "We have discovered cultural artifacts in the camp! (+[cultureAmount] culture)",
-		"uniques": ["Gain [20]-[30] [Culture]"]
+		"uniques": ["Gain [20]-[30] [Culture] <after [15] turns>"]
 	},
 	{
 		"name": "squatters willing to work for you",
@@ -56,18 +56,18 @@
 		"notification": "Our unit finds advanced weaponry hidden in the camp!",
 		"uniques": ["This Unit upgrades for free including special upgrades"]
 	},
-	{
+	/*{
 		"name": "reveal nearby Barbarian camps",
 		"notification": "You find evidence of Barbarian activity. Nearby Barbarian camps are revealed!",
 		"uniques": [
 			"Reveal up to [All] [Barbarian encampment] within a [10] tile radius"
 		]
-	},
+	},*/
 	{
 		"name": "find a crudely-drawn map",
 		"notification": "The camp contains maps of the nearby area!",
 		"uniques": [
-			"From a randomly chosen tile [4] tiles away, reveal tiles up to [4] tiles away with [80]% chance"
+			"Reveal up to [All] [All] within a [5] tile radius"
 		]
 	},
 	{
@@ -75,7 +75,7 @@
 		"notification": "We have found religious texts in the camp, giving us a deeper understanding of religion! (+[faithAmount] Faith)",
 		"uniques": [
 			"Hidden when religion is disabled",
-			"Gain enough Faith for a Pantheon",
+			"Gain enough Faith for a Pantheon <after [15] turns>",
 			"Only available <before founding a Pantheon>"
 		]
 	},
@@ -85,7 +85,7 @@
 		"uniques": [
 			"Hidden when religion is disabled",
 			"Only available <after founding a Pantheon>",
-			"Gain enough Faith for [33]% of a Great Prophet",
+			"Gain enough Faith for [33]% of a Great Prophet <after [15] turns>",
 			"Hidden after generating a Great Prophet"
 		]
 	}

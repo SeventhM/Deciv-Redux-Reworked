@@ -36,7 +36,6 @@
 		"culture": 1,
 		"production": 1,
 		"cost": 0,
-		"specialistSlots": { "Administrator": 1 },
 		"uniques": [
             "Automatically built in all cities where it is buildable",
 			"Provides [1] [Weapons]",
@@ -79,11 +78,11 @@
 		"isWonder": true,
 		"uniqueTo": "Blackwarden",
 		"culture": 1,
-		"happiness": 1,
 		"gold": 1,
 		"cityStrength": 10,
 		"cityHealth": 60,
 		"cost": 0,
+		"specialistSlots": { "Merchant": 1 },
 		"uniques": [
             "Automatically built in all cities where it is buildable",
 			"Provides [1] [Power]",
@@ -125,7 +124,6 @@
 		"name": "Eagle Rock Complex",
 		"isWonder": true,
 		"uniqueTo": "The Patriots",
-		"specialistSlots": { "Engineer": 1 },
 		"gold": 1,
 		"cityStrength": 20,
 		"cityHealth": 80,
@@ -172,7 +170,6 @@
 		"isWonder": true,
 		"uniqueTo": "Cult of Ignis",
 		"specialistSlots": { "Administrator": 1 },
-		"happiness": 1,
 		"faith": 2,
 		"cost": 0,
 		"uniques": [
@@ -218,8 +215,6 @@
 		"cost": 0,
 		"production": 1,
 		"culture": 1,
-		"cityStrength": 1,
-		"cityHealth": 10,
 		"uniques": [
             "Automatically built in all cities where it is buildable",
 			"[2] free [Scavenger] units appear",
@@ -260,8 +255,6 @@
 		"cost": 0,
 		"culture": 1,
 		"food": 2,
-		"cityStrength": 1,
-		"cityHealth": 10,
 		"uniques": [
 			"Automatically built in all cities where it is buildable",
 			"Can only be built [in capital]",
@@ -283,7 +276,6 @@
 		"uniqueTo": "Deadrock Clan",
 		"cost": 0,
 		"gold": 1,
-		"cityHealth": 10,
 		"uniques": [
             "Automatically built in all cities where it is buildable",
 			"Can only be built [in capital]",
@@ -938,7 +930,7 @@
 	// Projects
 	{
 		"name": "Search for Survivors",
-		"cost": 30,
+		"cost": 60,
 		"isNationalWonder": true,
 		"uniques": [
 			"[+1] population [in all cities]",
@@ -949,7 +941,7 @@
 		"name": "Electing Leaders",
 		"replaces": "Search for Survivors",
 		"uniqueTo": "New Star",
-		"cost": 20,
+		"cost": 50,
 		"isNationalWonder": true,
 		"uniques": [
 			"Free [Great General] appears",
@@ -960,7 +952,7 @@
 		"name": "Experiment on Survivors",
 		"replaces": "Search for Survivors",
 		"uniqueTo": "Hexlock",
-		"cost": 30,
+		"cost": 50,
 		"isNationalWonder": true,
 		"uniques": [
 			"[+1] population [in all cities]",
@@ -976,7 +968,7 @@
 		"uniqueTo": "Crimson Legion",
 		"uniques": [
 			"[+1 Happiness] [in all cities connected to capital]",
-			"Provides [1] [Slaves]",
+			"Provides [3] [Slaves]",
 			"[+50]% Production when constructing [Worker] units [in all cities]",
 			"Free [Auxiliary] appears"
 		]
@@ -992,6 +984,7 @@
 	{
 		"name": "Heavy Equipment",
 		"isNationalWonder": true,
+		"cost": 125,
 		"requiredTech": "Engineering",
 		"requiredNearbyImprovedResources": ["Oil", "Coal", "Aluminum"],
 		"uniques": [
@@ -1566,12 +1559,14 @@
 	{
 		"name": "Public Works Administration",
 		"isNationalWonder": true,
+		"cost": 150,
 		"culture": 1,
 		"science": 1,
 		"greatPersonPoints": { "Great Administrator": 2 },
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"Requires a [Town Hall] in all cities",
+			"Cost increases by [30] per owned city"
 			"Only available <after adopting [Constitution]>",
 			"[+1 Production] [in all cities connected to capital]",
 			"[+50]% Golden Age length",
@@ -1583,6 +1578,7 @@
 		"name": "Chemical Weapons Laboratory",
 		"isNationalWonder": true,
 		"requiredTech": "Laboratory",
+		"cost": 500,
 		"science": 1,
 		"maintenance": 2,
 		"greatPersonPoints": { "Great Scientist": 1 },
@@ -1670,6 +1666,7 @@
 		"isNationalWonder": true,
 		"culture": 1,
 		"faith": 8,
+		"cost": 150,
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"Requires a [Monastery] in all cities",
@@ -1684,12 +1681,13 @@
 	},
 	{
 		"name": "Execution Chamber",
+		"uniqueTo": "Cult of Ignis",
+		"replaces": "Grand Monastery",
 		"isNationalWonder": true,
+		"cost": 150,
 		"culture": 1,
 		"faith": 10,
 		"requiredTech": "Civil Service",
-		"uniqueTo": "Cult of Ignis",
-		"replaces": "Grand Monastery",
 		"uniques": [
 			"Requires a [Altar of Ignis] in all cities",
 			"Cost increases by [30] per owned city",
@@ -1707,10 +1705,12 @@
 	{
 		"name": "Medical Network",
 		"isNationalWonder": true,
+		"cost": 150,
 		"science": 1,
 		"requiredTech": "Biology",
 		"uniques": [
 			"Requires a [Hospital] in all cities"
+			"Cost increases by [30] per owned city"
 			"[15]% Food is carried over after population increases [in all cities]",
 			"[+10]% growth [in all cities]",
 			"[All] Units adjacent to this city heal [30] HP per turn when healing",
@@ -1925,6 +1925,7 @@
 	{
 		"name": "Organ Lab",
 		"isNationalWonder": true,
+		"cost": 400
 		"maintenance": 2,
 		"requiredTech": "Human Genome", // cloning?
 		"uniques": [
@@ -1965,13 +1966,14 @@
 	},
 	{
 		"name": "Domestic Electrification",
+		"cost": 150,
 		"isNationalWonder": true,
 		"uniques": [
 			"[+2 Happiness, +2 Culture] [in this city] <with [Power]>",
 			"[+2 Happiness] [in this city] <with [Data]>",
 			"[+2 Happiness] [in this city] <with [Electronics]>",
 			"[+2 Happiness] [in this city] <with [Machine Parts]>",
-			"Cost increases by [50] per owned city",
+			"Cost increases by [30] per owned city",
 			"Can only be built [in capital]"
 		],
 		"hurryCostModifier": 25,
@@ -2090,11 +2092,13 @@
 	},
 	{
 		"name": "Broadcast Network",
+		"cost": 150,
 		"happiness": 4,
 		"culture": 4,
 		"uniques": [
-			"Requires a [Television Studio] in all cities"
-			"Only available <in cities with a [Television Studio]>"
+			"Requires a [Television Studio] in all cities",
+			"Only available <in cities with a [Television Studio]>",
+			"Cost increases by [30] per owned city"
 		],
 		"isNationalWonder": true,
 		"requiredTech": "Social Engineering"
@@ -2166,7 +2170,6 @@
 	},
 	{
 		"name": "Chemical Extractor",
-		"replaces": "Distillery",
 		"uniqueTo": "Hexlock",
 		"maintenance": 1,
 		"uniques": [
@@ -2274,6 +2277,7 @@
 			"[+1 Science] [in this city] <with [Power]>",
 			"[+1 Science] per [3] population [in this city]",
 			"[+1 Science] from [Refinery] tiles [in this city]",
+			"[+2 Happiness] [in this city] <with [Power]>",
 			"Free [Field Scientist] appears",
 			"Enables construction of [Power] buildings"
 		],
@@ -2298,9 +2302,7 @@
 		"replaces": "Library",
 		"uniqueTo": "Crimson Legion",
 		"science": 1,
-		"greatPersonPoints": { "Great Scientist": 1 },
 		"uniques": [
-			"[+1 Science] [in this city] <with [Power]>",
 			"[+1 Science] per [3] population [in this city]",
 			"Enables construction of [Power] buildings"
 		],
@@ -2311,8 +2313,6 @@
 		"name": "Sanctum",
 		"replaces": "Library",
 		"uniqueTo": "Cult of Ignis",
-		"culture": 1,
-		"science": 1,
 		"uniques": [
 			"[+1 Science, +1 Culture] [in this city] <with [Power]>",
 			"[+1 Science, +1 Culture] from [Books] tiles [in this city]",
@@ -2326,6 +2326,7 @@
 		"name": "National College",
 		"science": 2,
 		"culture": 1,
+		"cost": 150,
 		"isNationalWonder": true,
 		"percentStatBonus": { "science": 33 },
 		"uniques": [
@@ -2461,8 +2462,6 @@
 		"specialistSlots": { "Scientist": 1 },
 		"maintenance": 1,
 		"uniques": [
-			"[+1 Science, +1 Culture] from [Data] tiles [in this city]",
-			"[+1 Science, +1 Culture] from [Encrypted Data] tiles [in this city]",
 			"Only available <in cities with a [University]>",
 			"Consumes [1] [Power]"
 		],
@@ -2476,8 +2475,6 @@
 		"specialistSlots": { "Scientist": 1 },
 		"maintenance": 1,
 		"uniques": [
-			"[+1 Science, +1 Culture] from [Data] tiles [in this city]",
-			"[+1 Science, +1 Culture] from [Encrypted Data] tiles [in this city]",
 			"Only available <in cities with a [University]>",
 			"[+25]% Production when constructing [Promotion Nullifier] units [in this city]",
 			"Consumes [1] [Power]"
@@ -2529,6 +2526,7 @@
 		"name": "Media Center", //Why is this here???
 		"happiness": 3,
 		"culture": 2,
+		"cost": 400,
 		"isNationalWonder": true,
 		//"requiredNearbyImprovedResources": ["Data"],
 		"greatPersonPoints": { "Great Administrator": 2 },
@@ -2552,6 +2550,7 @@
 		"happiness": 2,
 		"science": 2,
 		"culture": 5,
+		"cost": 600,
 		"greatPersonPoints": { "Great Engineer": 1 },
 		"isNationalWonder": true,
 		"uniques": [
@@ -2712,7 +2711,6 @@
 		"cost": 160,
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
-			"Can only be built [in annexed cities]",
 			"Provides [3] [Slaves]",
 			"Destroyed when the city is captured"
 		],
@@ -2744,7 +2742,6 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
-			"Can only be built [in annexed cities]",
 			"Provides [4] [Slaves]",
 			"[+15]% Production when constructing [Melee] units [in this city]",
 			"Free [Auxiliary] appears",
@@ -2774,7 +2771,6 @@
 		"cost": 160,
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
-			"Can only be built [in annexed cities]",
 			"Provides [2] [Slaves]",
 			"Destroyed when the city is captured"
 		],
@@ -2827,11 +2823,13 @@
 	},
 	{
 		"name": "Military Academy",
+		"cost": 150,
 		"isNationalWonder": true,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Requires a [Barracks] in all cities"
 			"New [Military] units start with [30] Experience [in this city]",
+			"Cost increases by [30] per owned city",
 			"Only available <in cities with a [Barracks]>",
 			"Free [Great General] appears"
 		],
@@ -2846,6 +2844,7 @@
 		"uniques": [
 			"New [Military] units start with [15] Experience [in all cities]",
 			"All newly-trained [{Land} {Military}] units [in all cities] receive the [Guerilla Warfare II] promotion",
+			"Cost increases by [30] per owned city",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Combined Arms"
@@ -2859,7 +2858,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Enables construction of [Mounted] units",
-			"[+2 Production, -1 Food] from [Horses] tiles [in this city]"
+			"[+1 Production] from [Horses] tiles [in this city]"
 		],
 		"requiredTech": "Redomestication"
 	},
@@ -2963,8 +2962,8 @@
 		"hurryCostModifier": 25,
 		"requiredNearbyImprovedResources": ["Scrap", "Metal"],
 		"uniques": [
-			"[-1 Food, +2 Production] from [Scrap] tiles [in this city]",
-			"[-1 Food, +2 Production] from [Metal] tiles [in this city]",
+			"[+1 Production] from [Scrap] tiles [in this city]",
+			"[+1 Production] from [Metal] tiles [in this city]",
 			//"Consumes [1] [Coal]"
 		],
 		"requiredTech": "Steel"
@@ -2978,7 +2977,7 @@
 		"uniques": [
 			"Provides [1] [Oil]",
 			"[+1 Production] [in this city] <with [Machine Parts]>",
-			"[-1 Food, +3 Production] from [Oil] tiles [in this city]",
+			"[+2 Production] from [Oil] tiles [in this city]",
 			"Consumes [1] [Power]",
 			"Only available <in cities without a [Oil Plant]>"
 		],
@@ -3010,7 +3009,7 @@
 		"uniques": [
 			"Provides [1] [Power]",
 			"[+1 Production] [in this city] <with [Machine Parts]>",
-			"[-1 Food, +3 Production] from [Oil] tiles [in this city]",
+			"[+2 Production] from [Oil] tiles [in this city]",
 			"Consumes [1] [Oil]",
 			"Only available <in cities without a [Oil Refinery]>",
 			"Only available <in cities with a [Library]>"
@@ -3060,7 +3059,7 @@
 		"hurryCostModifier": 25,
 		"requiredNearbyImprovedResources": ["Aluminum"],
 		"uniques": [
-			"[-1 Food, +2 Production] from [Aluminum] tiles [in this city]",
+			"[+1 Production] from [Aluminum] tiles [in this city]",
 			"Consumes [1] [Power]",
 			"Provides [1] [Aluminum]"
 		],
@@ -3290,6 +3289,7 @@
 	},
 	{
 		"name": "Ground Control Center",
+		"cost": 500,
 		"isNationalWonder": true,
 		"cityStrength": 5,
 		"culture": 3,
@@ -3304,6 +3304,7 @@
 		"name": "Survey Center",
 		"replaces": "Ground Control Center",
 		"uniqueTo": "Atlas",
+		"cost": 500,
 		"isNationalWonder": true,
 		"cityStrength": 5,
 		"culture": 3,
@@ -3318,6 +3319,7 @@
 		"name": "Operations Center",
 		"replaces": "Ground Control Center",
 		"uniqueTo": "Blackwarden",
+		"cost": 500,
 		"isNationalWonder": true,
 		"cityStrength": 5,
 		"culture": 3,
@@ -3693,12 +3695,14 @@
 	{
 		"name": "Compound Mixer",
 		"uniqueTo": "Hexlock",
+		"replaces": "Distillery"
 		"specialistSlots": { "Engineer": 1 },
 		"cost": 120,
 		"hurryCostModifier": 25,
 		"happiness": 2,
 		"uniques": [
-			"Enables construction of [Compound Mix] buildings"
+			"Enables construction of [Compound Mix] buildings",
+			"Provides [1] [Alcohol]"
 		]
 	},
 	{

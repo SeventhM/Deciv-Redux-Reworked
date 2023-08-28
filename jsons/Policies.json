@@ -1,4 +1,5 @@
-[{
+[
+    {
     "name": "Adaptation",
     "era": "Decivilized era",
     "priorities": {
@@ -35,7 +36,7 @@
         {
             "name": "Centralization",
             "uniques": [
-                "[+1 Culture] from every specialist [in all cities]",
+                "[+1 Culture] from every specialist [in all cities]"
             ],
             "row": 1,
             "column": 5
@@ -63,7 +64,7 @@
             "uniques": [
                 "[+10]% growth [in all cities]",
                 "[+2 Food] [in all cities]",
-                "Provides a [Defensive Emplacements] in your first [4] cities for free"
+                "Provides a [Defensive Emplacements] in your first [4] cities for free",
                 "May buy [Great Farmer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
             ]
         }]
@@ -112,7 +113,7 @@
             {
                 "name": "Reclaimers",
                 "uniques": [
-                    "Retain [50]% of the happiness from a luxury after the last copy has been traded away"
+                    "Retain [50]% of the happiness from a luxury after the last copy has been traded away",
                     "[+5]% Production when constructing [All] buildings [in all cities]"
                 ],
                 "requires": ["Restorers"],
@@ -123,7 +124,7 @@
                 "name": "Courier Service",
                 "uniques": [
                     "[+1 Happiness] [in all cities connected to capital]",
-                    "[+15]% [Gold] [in all cities connected to capital]"
+                    "[+15]% [Gold] [in all cities connected to capital]",
                     "[-10]% Unhappiness from [Population] [in all cities]",
                     "[-50]% City-State Influence degradation"
                 ],
@@ -166,7 +167,7 @@
             {
                 "name": "Doctrine",
                 "uniques": [
-                    "Earn [50]% of killed [Military] unit's [Strength] as [Gold]"
+                    "Earn [50]% of killed [Military] unit's [Strength] as [Gold]",
                     "[+2 Production, +2 Gold, +2 Culture] from every [Barracks]"
                 ],
                 "row": 1,
@@ -175,7 +176,7 @@
             {
                 "name": "Autocracy",
                 "uniques": [
-                    "[+3 Happiness, +2 Culture] [in all cities with a garrison]",
+                    "[+3 Happiness, +2 Culture] [in all cities with a garrison]"
                 ],
                 "row": 1,
                 "column": 5
@@ -184,7 +185,7 @@
                 "name": "Military Tradition",
                 "uniques": [
 					"[+3 Production, +3 Food, +3 Gold] from every [Prison Camp]",
-                    "[50]% XP gained from combat <for [Military] units>",
+                    "[50]% XP gained from combat <for [Military] units>"
                 ],
                 "requires": ["Doctrine", "Discipline"],
                 "row": 2,
@@ -204,7 +205,7 @@
             {
                 "name": "Sovereignty Complete",
                 "uniques": [
-                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation"
+                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
                     "Earn [50]% of killed [Military] unit's [Cost] as [Science]",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
@@ -221,8 +222,8 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+1 Faith, +1 Culture] [in capital]"
-            "[+100]% Production when constructing [Faith] buildings [in all cities]",
+            "[+1 Faith, +1 Culture] [in capital]",
+            "[+100]% Production when constructing [Faith] buildings [in all cities]"
         ],
         "policies": [{
             "name": "Organized Religion",
@@ -237,8 +238,8 @@
             {
                 "name": "Mandate Of Heaven",
                 "uniques": [
-                    "[+1 Happiness] from every [Monastery]"
-                    "[+10]% [Faith] from every [Monastery]",
+                    "[+1 Happiness] from every [Monastery]",
+                    "[+10]% [Faith] from every [Monastery]"
                 ],
                 "row": 1,
                 "column": 5
@@ -249,9 +250,9 @@
                     "[+33]% [Gold] from every [Monastery]",
                     "[+1 Gold] from every [Shrine]",
                     "[+1 Gold] from every [Monastery]",
-                    "[+1 Gold] from every [Megachurch]"
+                    "[+1 Gold] from every [Megachurch]",
                     "[+2 Gold] from every [Seminary]",
-                    "[+2 Gold] from every [Oracle]",
+                    "[+2 Gold] from every [Oracle]"
                 ],
                 "requires": ["Organized Religion"],
                 "row": 2,
@@ -282,7 +283,7 @@
                 "uniques": [
                     "[Faith] cost of purchasing items in cities [-20]%",
                     "[+3 Culture, +1 Faith, +1 Food] from every [Seminary]",
-                    "[+3 Culture, +1 Faith, +1 Food] from every [Oracle]",
+                    "[+3 Culture, +1 Faith, +1 Food] from every [Oracle]"
                 ]
             }]
     },
@@ -297,7 +298,7 @@
             "Scientific": 20
         },
         "uniques": [
-            "[Great Scientist] is earned [20]% faster",
+            "[Great Scientist] is earned [20]% faster"
         ],
         "policies": [
             {
@@ -366,12 +367,12 @@
             "Scientific": 20
         },
         "uniques": [
-            "[+25]% Great Person generation [in all cities]",
+            "[+25]% Great Person generation [in all cities]"
         ],
         "policies": [{
             "name": "Civil Society",
             "uniques": [
-                "[+1 Culture, +1 Happiness] from every [Town Hall]",
+                "[+1 Culture, +1 Happiness] from every [Town Hall]"
             ],
             "row": 1,
             "column": 2
@@ -387,7 +388,7 @@
             {
                 "name": "Public Good",
                 "uniques": [
-                    "[+2 Gold, +2 Science, +2 Culture] from every [Broadcast Tower]",
+                    "[+2 Gold, +2 Science, +2 Culture] from every [Broadcast Tower]"
                 ],
                 "requires": ["Civil Society"],
                 "row": 2,
@@ -406,8 +407,8 @@
             {
                 "name": "Voting Rights",
                 "uniques": [
-                    "[+1 Happiness] per [4] social policies adopted"
-                    "[50]% of excess happiness converted to [Culture]",
+                    "[+1 Happiness] per [4] social policies adopted",
+                    "[50]% of excess happiness converted to [Culture]"
                 ],
                 "requires": ["Protected Speech"],
                 "row": 2,
@@ -436,7 +437,7 @@
             "[8] units cost no maintenance",
             "[+33]% Production when constructing [Barracks] buildings [in all cities]",
             "[+33]% Production when constructing [Military Academy] wonders [in all cities]",
-            "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
+            "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately"
         ],
         "policies": [{
             "name": "Militarism",
@@ -510,14 +511,14 @@
         },
         "uniques": [
             "[Great Merchant] is earned [20]% faster",
-            "[+33]% [Gold] from every [Council]",
+            "[+33]% [Gold] from every [Council]"
         ],
         "policies": [{
             "name": "Mass Consumption",
             "uniques": [
                 "[+50]% Happiness from luxury resources gifted by City-States",
                 "[+1] Happiness from each type of luxury resource",
-                    "[+1 Gold] from every [Moisture trap]"
+                    "[+1 Gold] from every [Moisture trap]",
                     "[+1 Gold] from every [Water pump]"
             ],
             "row": 1,
@@ -527,10 +528,10 @@
                 "name": "Venture Capital",
                 "uniques": [
                     "Gifts of Gold to City-States generate [25]% more Influence",
-                    "[+100]% Gold from Great Merchant trade missions"
+                    "[+100]% Gold from Great Merchant trade missions",
                     "[+2 Gold] from every [Market]",
                     "[+2 Gold] from every [Water Plant]",
-                    "[+2 Gold] from every [Water Storage]"
+                    "[+2 Gold] from every [Water Storage]",
                     "[+2 Gold] from every [Greywater Treatment Plant]"
                 ],
                 "row": 1,
@@ -553,10 +554,10 @@
                 "name": "Entrepreneurship",
                 "uniques": [
                     "[-50]% maintenance on road & railroads",
-                    "[-25]% maintenance cost for buildings [in all cities]"
+                    "[-25]% maintenance cost for buildings [in all cities]",
                     "[+2 Science] from every [Market]",
                     "[+2 Science] from every [Water Plant]",
-                    "[+2 Science] from every [Water Storage]"
+                    "[+2 Science] from every [Water Storage]",
                     "[+2 Science] from every [Greywater Treatment Plant]"
                 ],
                 "requires": ["Venture Capital"],
@@ -567,7 +568,7 @@
                 "name": "Corporate Personhood",
                 "uniques": [
                     "[-33]% maintenance costs <for [All] units>",
-                    "[+1 Gold] from every [Strategic resource]",
+                    "[+1 Gold] from every [Strategic resource]"
                 ],
                 "requires": ["Privatization"],
                 "row": 3,
@@ -576,9 +577,9 @@
             {
                 "name": "Monopoly Complete",
                 "uniques": [
-                    "[+1 Gold, +1 Food] from every [Moisture trap]"
+                    "[+1 Gold, +1 Food] from every [Moisture trap]",
                     "[+1 Gold, +1 Food] from every [Water pump]",
-                    "[+2 Gold, +2 Culture, +3 Food] from every [Settlement]"
+                    "[+2 Gold, +2 Culture, +3 Food] from every [Settlement]",
                     "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }]
@@ -595,14 +596,14 @@
         },
         "uniques": [
             "[Great Engineer] is earned [25]% faster",
-            "[+5]% [Production] [in all cities]",
+            "[+5]% [Production] [in all cities]"
         ],
         "policies": [{
             "name": "Re-Education",
             "uniques": [
                 "[+1 Happiness, +1 Production, +1 Science] from every [Factory]",
                 "[+1 Happiness, +1 Production, +1 Science] from every [Library]",
-                "[+1 Happiness, +1 Production, +1 Science] from every [Work Camp]",
+                "[+1 Happiness, +1 Production, +1 Science] from every [Work Camp]"
             ],
             "row": 1,
             "column": 1
@@ -674,7 +675,7 @@
             "uniques": [
                 "[+10]% [Food] from every [Coal Plant]",
                 "[+2 Happiness, +1 Culture] from every [Recycling Plant]",
-                "[+2 Happiness, +1 Culture] from every [Greenhouse]"
+                "[+2 Happiness, +1 Culture] from every [Greenhouse]",
                 "[+2 Happiness, +1 Culture] from every [Mycoprotein Vats]"
             ],
             "row": 1,
@@ -706,7 +707,7 @@
                 "name": "Harmony",
                 "requires": ["Physiolatry"],
                 "uniques": [
-                    "[-50]% Food consumption by specialists [in all cities]"
+                    "[-50]% Food consumption by specialists [in all cities]",
                     "[-50]% Unhappiness from [Specialists] [in all cities]",
                     "Resting point for Influence with City-States is increased by [15]",
                     "[-25]% City-State Influence degradation"
@@ -738,7 +739,7 @@
                     "[+5 Faith, +1 Culture] from every [Oracle]",
                     "[+5 Faith] from every [Seminary]",
                     "[+5 Science] from every [Academy]",
-                    "[50]% Golden Age length",
+                    "[50]% Golden Age length"
                 ]
             }]
     },
@@ -782,7 +783,7 @@
                 "requires": ["Urbanization", "Automation"],
                 "uniques": [
                     "[+1] Movement <for [All] units> <in [Friendly Land] tiles>",
-                    "[+2 Food, +2 Gold, +2 Production] [in all cities]"
+                    "[+2 Food, +2 Gold, +2 Production] [in all cities]",
                     "[-25]% maintenance costs <for [All] units>"
                 ],
                 "row": 2,
@@ -803,7 +804,7 @@
                 "name": "Deregulation",
                 "requires": ["Logistics"],
                 "uniques": [
-                    "[+50]% Production when constructing [Automated] units [in all cities]"
+                    "[+50]% Production when constructing [Automated] units [in all cities]",
                     "[Gold] cost of purchasing items in cities [-20]%",
                     "[-33]% maintenance on road & railroads"
                 ],
@@ -880,7 +881,7 @@
                 "requires": ["Eugenics", "Cybernetics"],
                 "uniques": [
                     "[+25]% Great Person generation [in all cities]",
-                    "[+12 Happiness] [in capital]"
+                    "[+12 Happiness] [in capital]",
                     "[Great General] is earned [25]% faster",
                     "[Faith] cost of purchasing items in cities [-10]%"
                 ],
@@ -896,4 +897,5 @@
                     "[+15]% Production when constructing [Terraformer Part] units [in all cities]"
                 ]
             }]
-    }]
+    }
+]
