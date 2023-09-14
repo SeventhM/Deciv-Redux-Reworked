@@ -1,6 +1,6 @@
 # DeCiv-Redux-Rewored
 
-DeCiv Redux Reworked Version 1<br>
+DeCiv Redux Reworked Version 3<br>
 
 [Join our Discord server!](https://discord.gg/SsWZ3w8UFJ)<br>
 [Visit our wiki!](https://github.com/SpacedOutChicken/DeCiv-Redux/wiki)
