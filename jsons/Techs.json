@@ -103,6 +103,7 @@
 				"prerequisites": ["Writing", "Sailing"],
 				"uniques": [
 					"[+1] Movement <for [Embarked] units>",
+					"[+1] Sight <for [Embarked] units>",
 					"Enables [Embarked] units to enter ocean tiles"
 				],
 				"quote": "'When you have no landmarks to navigate by, you have to get creative.' - Captain Ray Decca"
@@ -142,7 +143,6 @@
 				"name": "Education",
 				"row": 4,
 				"prerequisites": ["Writing"],
-				"uniques": ["Enables Research agreements"],
 				"quote": "Hereby it is manifest that during the time men live without a common Power to keep them all in awe, they are in that condition which is called War; and such a war as is of every man against every man."
 			},
 
@@ -171,6 +171,7 @@
 				"name": "Oceanography",
 				"row": 1,
 				"prerequisites": ["Navigation", "Education"],
+				"uniques": ["[+1] Movement <for [Embarked] units>"],
 				"quote": "Why did the old Persians hold the sea holy? Why did the Greeks give it a separate deity, and own brother of Jove? Surely all this is not without meaning."
 			},
 			{
@@ -193,7 +194,6 @@
 				"name": "Steam Power",
 				"row": 7,
 				"prerequisites": ["Steel"],
-				"uniques": ["[+1] Movement <for [Embarked] units>"],
 				"quote": "Is it a fact - or have I dreamt it - that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?"
 			},
 			{
@@ -255,6 +255,7 @@
 				"name": "Desalination",
 				"row": 1,
 				"prerequisites": ["Decontamination", "Oceanography"],
+				"uniques": ["[+1] Movement <for [Embarked] units>"],
 				"quote": "Record the start and finish times of the lights and appliances when you are finished in your logbook. If your role involves access to running water, you must record the meter readings before and after use. Failure to do so will lead to disciplinary action.\n\nRemember -\nEVERY DROP COSTS"
 			},
 			{
@@ -315,7 +316,7 @@
 				"row": 8,
 				"prerequisites": ["Munitions", "Replaceable Parts"],
 				"quote": "Our goal is not the victory of might, but the vindication of right; not peace at the expense of freedom, but both peace and freedom, here in this hemisphere, and, we hope, around the world.\n\nGod willing, that goal will be achieved."
-			}
+			},
 			{
 				"name": "Railroads",
 				"row": 9,

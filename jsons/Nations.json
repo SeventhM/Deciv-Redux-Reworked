@@ -77,9 +77,8 @@
 		"innerColor": [255, 40, 255],
 		"style": "Hexlock",
 		"uniqueName": "Adaptive Systems",
-		"uniques": ["[Purge Robot] units gain the [Portable Power Cell] promotion",
+		"uniques": [
 		    "Can Mix Unique Strategic Resources to Generate a Great Person",
-			"[-99]% Great Person generation [in all cities]",
 			"Starts with [Writing]",
 			"Starts with [Chemistry]",
 			"Starts with [Electronics]",
@@ -247,13 +246,13 @@
 		"style": "Corporate",
 		"uniqueName": "Creative Leadership",
 		"uniques": [
+			"[{Melee} {Land}] units gain the [[Surveyor] ability] promotion",
 			"Receive free [Great Scientist] when you discover [Secrets of the Past]",
 			"[+33]% Great Person generation [in all cities]",
 			"Starts with [Writing]",
 			"Starts with [Electronics]",
 			"[-2 Science] [in all cities] <before discovering [Education]>",
-			"Starts with [Rationalism] adopted",
-			"[100]% Production when constructing [Electrostatic Generator] buildings [in all cities] <after adopting [Rationalism Complete]>"
+			"Starts with [Rationalism] adopted"
 		],
 		"cities": [
 			"Atlas Canyon",
@@ -313,9 +312,9 @@
 			"[+50]% [Science] from City-States",
 			"[+50]% [Happiness] from City-States",
 			"[+50]% [Production] from City-States",
+            "[+50]% Happiness from luxury resources gifted by City-States",
 			"Military Units gifted from City-States start with [+10] XP",
 			"City-State territory always counts as friendly territory",
-			"[Great General] is earned [33]% faster",
 			"Cannot build [Enslaved] units",
 			"Starts with [Constitution] adopted"
 		],
@@ -441,10 +440,9 @@
 		"style": "Military",
 		"uniqueName": "Hills Have Eyes",
 		"uniques": [
-			"Units ignore terrain costs when moving into any tile with Hills",
+			"[Land] units gain the [Ignore terrain cost] promotion",
+			"[Land] units gain the [Hills Have Eyes] promotion",
 			"No Maintenance costs for improvements in [Hill] tiles",
-			"Land units may cross [Mountain] tiles after the first [Great General] is earned",
-			"Units ending their turn on [Mountain] tiles take [50] damage",
 			"[{Land} {Low Tech}] units gain the [Guerilla Warfare I] promotion",
 			"[Personnel] units gain the [Guerilla Warfare I] promotion"
 		],
@@ -500,10 +498,10 @@
 		"uniqueName": "Regulators",
 		"uniques": [
 			"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>",
-			"[+1] Sight <for [{Military} {Land}] units>",
-			"City-State Influence recovers at twice the normal rate",
+			"[+1] Sight <for [Clansman] units>",
 			"[Personnel] units gain the [Clansman] promotion",
-			"[Scout] units gain the [Clansman] promotion"
+			"[Scout] units gain the [Clansman] promotion",
+			"[Enslaved] units gain the [Clansman] promotion"
 		],
 		"cities": [
 			"Xanadu",
@@ -554,6 +552,7 @@
 		"uniques": [
 			"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>",
 			"[-33]% maintenance costs <for [Land] units>",
+			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Starts with [Supremacy] adopted",
 			"Empire enters golden age <upon conquering a city> <after adopting [Supremacy Complete]>"
 		],
@@ -622,7 +621,6 @@
 			"Starts with [Machinery]",
 			"Starts with [Theocracy] adopted",
 			"[+1 Culture, +1 Faith] from every [Strategic resource]",
-			"[+10]% [Culture] from every [Coal Plant]",
 			"Free [Great Prophet] appears <upon adopting [Theocracy Complete]>",
 			"Gain a free [Founder] belief <upon adopting [Theocracy Complete]>"
 		],
@@ -689,6 +687,7 @@
 			"[1] Movement point cost to disembark <for [All] units>",
 			"Defense bonus when embarked <for [All] units>",
 			"[+1] Sight <for [Embarked] units>",
+			"[+1] Movement <for [Embarked] units>",
 			"[+1] Movement <for [Water] units>",
 			"[{Land} {Low Tech}] units gain the [Amphibious] promotion",
 			"[{Land} {Personnel}] units gain the [Amphibious] promotion",
@@ -737,9 +736,10 @@
 		"uniqueName": "Community Watch",
 		"uniques": [
 			"[+10]% Strength <within [2] tiles of a [City center]>",
+			"[+20]% Strength <when fighting units from a Civilization with more Cities than you> <after adopting [Sovereignty Complete]>",
+			"May choose [1] additional belief(s) of any type when [enhancing] a religion",
 			"Enemy [Land] units must spend [1] extra movement points when inside your territory",
-			"Starts with [Secrets of the Past]",
-			"[+20]% Strength <when fighting units from a Civilization with more Cities than you> <after adopting [Sovereignty Complete]>"
+			"Starts with [Secrets of the Past]"
 		],
 		"cities": [
 			"Gao",
@@ -921,7 +921,10 @@
 		"cityStateType": "Weapons",
 		"startBias": ["Hills"],
 		"style": "Military",
-		"uniques": ["Double quantity of [Weapons] produced"],
+		"uniques": [
+			"Cannot build [Low Tech] units",
+			"Double quantity of [Weapons] produced"
+		],
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "How could we fall to the likes of you?!",

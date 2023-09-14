@@ -12,7 +12,8 @@
 		"name": "Heal Instantly",
 		"uniques": [
 			"Heal this unit by [50] HP",
-			"Doing so will consume this opportunity to choose a Promotion"
+			"Doing so will consume this opportunity to choose a Promotion",
+			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": [
 			"Scrapper",
@@ -30,7 +31,7 @@
 			"Mounted"
 		],
 		"row": 0,
-        "column": 0
+		"column": 0
 	},
 
 	////////////////////
@@ -44,59 +45,55 @@
 		"name": "Entrench",
 		"uniques": [
 			"[+33]% Strength <vs [Ranged] units> <when defending>",
-			"[+5]% Strength <when defending>"],
-		"unitTypes": ["Scrapper", "Shooter"],
-		"column": 1,
-        "row": 1
+			"[+5]% Strength <when defending>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Scrapper","Shooter"]
 	},
 	{
 		"name": "Forage",
 		"uniques": [
 			"Heals [25] damage if it kills a unit",
-			"[25]% XP gained from combat",
-			"Earn [100]% of killed [Military] unit's [Strength] as [Science]"
+			"Earn [100]% of killed [Military] unit's [Strength] as [Science]",
+			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper"],
-		"column": 1,
-        "row": 2
+		"unitTypes": ["Scrapper"]
 	},
 	{
 		"name": "Skirmish",
 		"uniques": [
-			"May withdraw before melee ([75]%)",
-			"[25]% XP gained from combat"
+			"[25]% XP gained from combat",
+			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Shooter"],
-		"column": 1,
-        "row": 3
+		"unitTypes": ["Shooter"]
 	},
 
 	//// Armor, formerly mounted
 	{
 		"name": "Shock",
-		"uniques": ["[+25]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Scrapper", "Armor", "Mounted"],
-		"column": 1,
-        "row": 4
+		"uniques": [
+			"[+25]% Strength <when fighting in [Open terrain] tiles>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Scrapper","Armor","Mounted"]
 	},
 	{
 		"name": "Loose Formation",
 		"uniques": [
 			"[+33]% Strength <vs [Ranged] units> <when defending>",
-			"May withdraw before melee ([25]%)"
+			"May withdraw before melee ([25]%)",
+			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper", "Mounted", "Armor"],
-		"column": 1,
-        "row": 5
+		"unitTypes": ["Scrapper","Mounted","Armor"]
 	},
 	{
 		"name": "Hull Down",
-		"uniques": ["[+15]% Strength <when defending>"],
-		"unitTypes": ["Armor"],
-		"column": 1,
-        "row": 6
+		"uniques": [
+			"[+15]% Strength <when defending>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Armor"]
 	},
-
 	//// Traditional terrain bonus
 	{
 		"name": "Urban Warfare I",
@@ -105,112 +102,124 @@
 			"Double movement in [Jungle]",
 			"[+10]% Strength <when fighting in [Forest] tiles>",
 			"[+10]% Strength <when fighting in [Jungle] tiles>",
-			"[+10]% Strength <vs cities>"
+			"[+10]% Strength <vs cities>",
+			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper", "Shooter", "Mounted"],
-		"column": 2,
-        "row": 1
+		"unitTypes": ["Scrapper","Shooter","Mounted"]
 	},
 	{
 		"name": "Urban Warfare II",
-		"prerequisites": ["Urban Warfare I"],
+		"prerequisites": [
+			"Urban Warfare I"
+		],
 		"uniques": [
 			"[+30]% Strength <when fighting in [Forest] tiles>",
 			"[+30]% Strength <when fighting in [Jungle] tiles>",
-			"[+30]% Strength <vs cities>"
+			"[+30]% Strength <vs cities>",
+			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
-		"column": 2,
-        "row": 2
+		"unitTypes": ["Scrapper","Shooter","Scout","Mounted"]
 	},
 	{
 		"name": "Guerilla Warfare I",
 		"uniques": [
 			"[+10]% Strength <when fighting in [Rough terrain] tiles>",
-			"Can move after attacking"
+			"Can move after attacking",
+			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper", "Shooter", "Mounted"],
-		"column": 2,
-        "row": 3
+		"unitTypes": ["Scrapper","Shooter","Mounted"]
 	},
 	{
 		"name": "Guerilla Warfare II",
-		"prerequisites": ["Guerilla Warfare I"],
-		"uniques": [
-			"[+30]% Strength <when fighting in [Hill] tiles>",
-			"[+10]% Strength <when attacking>"
+		"prerequisites": [
+			"Guerilla Warfare I"
 		],
-		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
-		"column": 2,
-        "row": 4
+		"uniques": [
+			"[+30]% Strength <when fighting in [Rough terrain] tiles>",
+			"[+10]% Strength <when attacking>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Scrapper","Shooter","Scout","Mounted"]
 	},
 
 	//// Siege, Helicopter
 	{
 		"name": "Accuracy",
-		"uniques": ["[+20]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege", "Helicopter"],
-		"column": 3,
-        "row": 1
+		"uniques": [
+			"[+20]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Siege","Helicopter"]
 	},
 	{
 		"name": "Combat Drill",
-		"uniques": ["[+20]% Strength <when defending>"],
-		"unitTypes": ["Siege", "Helicopter"],
-		"column": 3,
-        "row": 2
+		"uniques": [
+			"[+20]% Strength <when defending>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Siege","Helicopter"]
 	},
 
 	//// Water (+ Air)
 	{
 		"name": "Evasion",
-		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Melee Water"],
-		"column": 1,
-        "row": 7
+		"uniques": [
+			"[+33]% Strength <vs [Ranged] units> <when defending>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Melee Water"]
 	},
 	{
 		"name": "Strike",
-		"uniques": ["[+33]% Strength <when attacking>"],
-		"unitTypes": ["Melee Water"],
-		"column": 1,
-        "row": 8
+		"uniques": [
+			"[+33]% Strength <when attacking>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Melee Water"]
 	},
 	{
 		"name": "Bombardment",
-		"uniques": ["[+33]% Strength <vs [Land] units>"],
-		"unitTypes": ["Ranged Water", "Fighter", "Bomber"],
-		"column": 1,
-        "row": 9
+		"uniques": [
+			"[+33]% Strength <vs [Land] units>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Ranged Water","Fighter","Bomber"]
 	},
 	{
 		"name": "Targeting",
-		"uniques": ["[+25]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water", "Fighter", "Bomber"],
-		"column": 1,
-        "row": 10
+		"uniques": [
+			"[+25]% Strength <vs [Water] units>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Ranged Water","Fighter","Bomber"]
 	},
 	{
 		"name": "Armor Plating",
-		"uniques": ["[+20]% Strength <when defending>"],
-		"unitTypes": ["Aircraft Carrier"],
-		"column": 2,
-        "row": 5
+		"uniques": [
+			"[+20]% Strength <when defending>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Aircraft Carrier"]
 	},
 	{
 		"name": "Flight Deck I",
-		"uniques": ["Can carry [1] extra [Aircraft] units"],
-		"unitTypes": ["Aircraft Carrier"],
-		"column": 2,
-        "row": 6
+		"uniques": [
+			"Can carry [1] extra [Aircraft] units",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Aircraft Carrier"]
 	},
 	{
 		"name": "Flight Deck II",
-		"prerequisites": ["Flight Deck I", "Armor Plating"],
-		"uniques": ["Can carry [1] extra [Aircraft] units"],
-		"unitTypes": ["Aircraft Carrier"],
-		"column": 2,
-        "row": 7
+		"prerequisites": [
+			"Flight Deck I",
+			"Armor Plating"
+		],
+		"uniques": [
+			"Can carry [1] extra [Aircraft] units",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Aircraft Carrier"]
 	},
 	{
 		"name": "Flight Deck III",
@@ -219,179 +228,239 @@
 			"Damage Control",
 			"Close-In Weapons System"
 		],
-		"uniques": ["Can carry [1] extra [Aircraft] units"],
-		"unitTypes": ["Aircraft Carrier"],
-		"column": 2,
-        "row": 8
+		"uniques": [
+			"Can carry [1] extra [Aircraft] units",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Aircraft Carrier"]
 	},
 	{
 		"name": "Wolfpack I",
-		"uniques": ["[+25]% Strength <when attacking>"],
-		"unitTypes": ["Submarine"],
-		"column": 3,
-        "row": 3
+		"uniques": [
+			"[+25]% Strength <when attacking>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Submarine"]
 	},
 	{
 		"name": "Wolfpack II",
-		"prerequisites": ["Wolfpack I"],
-		"uniques": ["[+25]% Strength <when attacking>"],
-		"unitTypes": ["Submarine"],
-		"column": 3,
-        "row": 4
+		"prerequisites": [
+			"Wolfpack I"
+		],
+		"uniques": [
+			"[+25]% Strength <when attacking>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Submarine"]
 	},
 	{
 		"name": "Wolfpack III",
-		"prerequisites": ["Wolfpack II"],
-		"uniques": ["[+25]% Strength <when attacking>"],
-		"unitTypes": ["Submarine"],
-		"column": 3,
-        "row": 5
+		"prerequisites": [
+			"Wolfpack II"
+		],
+		"uniques": [
+			"[+25]% Strength <when attacking>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Submarine"]
 	},
 
 	//// Air
 	{
 		"name": "Siege I",
-		"uniques": ["[+33]% Strength <vs cities>"],
-		"unitTypes": ["Bomber"],
-		"column": 4,
-		"row": 1
+		"uniques": [
+			"[+33]% Strength <vs cities>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Bomber"]
 	},
 	{
 		"name": "Siege II",
-		"prerequisites": ["Siege I", "Bombardment", "Targeting"],
-		"uniques": ["[+33]% Strength <vs cities>"],
-		"unitTypes": ["Bomber"],
-		"column": 4,
-		"row": 2
+		"prerequisites": [
+			"Siege I",
+			"Bombardment",
+			"Targeting"
+		],
+		"uniques": [
+			"[+33]% Strength <vs cities>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Bomber"]
 	},
 	{
 		"name": "Siege III",
-		"prerequisites": ["Siege II", "Operational Range"],
-		"uniques": ["[+34]% Strength <vs cities>"],
-		"unitTypes": ["Bomber"],
-		"column": 4,
-		"row": 3
+		"prerequisites": [
+			"Siege II",
+			"Operational Range"
+		],
+		"uniques": [
+			"[+34]% Strength <vs cities>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Bomber"]
 	},
 	{
 		"name": "Interception I",
-		"uniques": ["[+33]% Damage when intercepting"],
-		"unitTypes": ["Fighter"],
-		"column": 4,
-		"row": 4
+		"uniques": [
+			"[+33]% Damage when intercepting",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Fighter"]
 	},
 	{
 		"name": "Interception II",
-		"prerequisites": ["Interception I", "Bombardment", "Targeting"],
-		"uniques": ["[+33]% Damage when intercepting"],
-		"unitTypes": ["Fighter"],
-		"column": 4,
-		"row": 5
+		"prerequisites": [
+			"Interception I",
+			"Bombardment",
+			"Targeting"
+		],
+		"uniques": [
+			"[+33]% Damage when intercepting",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Fighter"]
 	},
 	{
 		"name": "Interception III",
-		"prerequisites": ["Interception II", "Operational Range"],
-		"uniques": ["[+34]% Damage when intercepting"],
-		"unitTypes": ["Fighter"],
-		"column": 4,
-		"row": 6
+		"prerequisites": [
+			"Interception II",
+			"Operational Range"
+		],
+		"uniques": [
+			"[+34]% Damage when intercepting",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Fighter"]
 	},
 	{
 		"name": "Dogfighting I",
-		"uniques": ["[+33]% Strength when performing Air Sweep"],
-		"unitTypes": ["Fighter"],
-		"column": 4,
-		"row": 7
+		"uniques": [
+			"[+33]% Strength when performing Air Sweep",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Fighter"]
 	},
 	{
 		"name": "Dogfighting II",
-		"prerequisites": ["Dogfighting I"],
-		"uniques": ["[+33]% Strength when performing Air Sweep"],
-		"unitTypes": ["Fighter"],
-		"column": 4,
-		"row": 8
+		"prerequisites": [
+			"Dogfighting I"
+		],
+		"uniques": [
+			"[+33]% Strength when performing Air Sweep",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Fighter"]
 	},
 	{
 		"name": "Dogfighting III",
-		"prerequisites": ["Dogfighting II"],
-		"uniques": ["[+34]% Strength when performing Air Sweep"],
-		"unitTypes": ["Fighter"],
-		"column": 4,
-		"row": 9
+		"prerequisites": [
+			"Dogfighting II"
+		],
+		"uniques": [
+			"[+34]% Strength when performing Air Sweep",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Fighter"]
 	},
-
 	// With Prerequisites
 	{
 		"name": "Reconnaissance I",
-		"uniques": ["Ignores terrain cost", "[25]% XP gained from combat"],
-		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
-		"column": 5,
-		"row": 1
+		"uniques": [
+			"[+1] Sight",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Scout"]
 	},
 	{
 		"name": "Reconnaissance II",
-		"prerequisites": ["Reconnaissance I"],
-		"uniques": ["[+1] Movement", "No movement cost to pillage"],
-		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
-		"column": 5,
-		"row": 2
+		"prerequisites": [
+			"Reconnaissance I"
+		],
+		"uniques": [
+			"[+1] Sight",
+			"[+1] Movement",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Scout"]
 	},
 	{
 		"name": "Reconnaissance III",
-		"prerequisites": ["Reconnaissance II"],
-		"uniques": ["[+1] Movement", "[+50]% Strength <vs [Siege] units>", "Ignores Zone of Control"],
-		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
-		"column": 5,
-		"row": 3
+		"prerequisites": [
+			"Reconnaissance II"
+		],
+		"uniques": [
+			"[+1] Sight",
+			"[+1] Movement",
+			"Ignores Zone of Control",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Scout"]
 	},
 	{
 		"name": "Smokescreen",
-		"prerequisites": ["Entrench", "Forage"],
+		"prerequisites": [
+			"Entrench",
+			"Forage"
+		],
 		"uniques": [
 			"[+33]% Strength <vs [Ranged] units> <when defending>",
 			"[+10]% Strength <vs [Low Tech] units>",
-			"[+10]% Strength <vs cities>"
-			],
-		"unitTypes": ["Scrapper"],
-		"column": 5,
-		"row": 4
+			"[+10]% Strength <vs cities>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Scrapper"]
 	},
 	{
 		"name": "Assault",
-		"prerequisites": ["Entrench", "Forage", "Loose Formation", "Shock"],
-		"uniques": ["[+10]% Strength <when attacking>"],
-		"unitTypes": ["Scrapper", "Mounted"],
-		"column": 5,
-		"row": 5
+		"prerequisites": [
+			"Entrench",
+			"Forage",
+			"Loose Formation",
+			"Shock"
+		],
+		"uniques": [
+			"[+10]% Strength <when attacking>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Scrapper","Mounted"]
 	},
 	{
 		"name": "Pursuit",
-		"prerequisites": ["Loose Formation", "Shock"],
+		"prerequisites": [
+			"Loose Formation",
+			"Shock"
+		],
 		"uniques": [
 			"[+25]% Strength <vs [Wounded] units>",
-			"Heals [25] damage if it kills a unit"
+			"Heals [25] damage if it kills a unit",
+			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper", "Mounted"],
-		"column": 5,
-		"row": 6
+		"unitTypes": ["Scrapper","Mounted"]
 	},
 	{
 		"name": "Awe",
-		"prerequisites": ["Hull Down", "Shock"],
+		"prerequisites": [
+			"Hull Down",
+			"Shock"
+		],
 		"uniques": [
 			"[+25]% Strength <vs [Wounded] units>",
-			"[+10]% Strength <when attacking>"
+			"[+10]% Strength <when attacking>",
+			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Armor"],
-		"column": 6,
-		"row": 1
+		"unitTypes": ["Armor"]
 	},
 	{
 		"name": "Maneuver",
-		"prerequisites": ["Hull Down", "Shock"],
-		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Armor"],
-		"column": 6,
-		"row": 2
+		"prerequisites": [
+			"Hull Down",
+			"Shock"
+		],
+		"uniques": [
+			"[+1] Movement",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Armor"]
 	},
 	{
 		"name": "Formation",
@@ -403,10 +472,11 @@
 			"Guerilla Warfare I",
 			"Urban Warfare I"
 		],
-		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
-		"unitTypes": ["Scrapper"],
-		"column": 6,
-		"row": 3
+		"uniques": [
+			"[+33]% Strength <vs [Mounted] units>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Scrapper"]
 	},
 	{
 		"name": "Ambush",
@@ -419,50 +489,73 @@
 			"Guerilla Warfare I",
 			"Urban Warfare I"
 		],
-		"uniques": ["[+33]% Strength <vs [Armor] units>"],
-		"unitTypes": ["Scrapper", "Armor", "Mounted"],
-		"column": 6,
-		"row": 4
+		"uniques": [
+			"[+33]% Strength <vs [Armor] units>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Scrapper","Armor","Mounted"]
 	},
 	{
 		"name": "Precision",
-		"prerequisites": ["Entrench", "Skirmish"],
-		"uniques": ["[+25]% Strength <vs [Wounded] units>"],
-		"unitTypes": ["Shooter"],
-		"column": 6,
-		"row": 5
+		"prerequisites": [
+			"Entrench",
+			"Skirmish"
+		],
+		"uniques": [
+			"[+25]% Strength <vs [Wounded] units>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Shooter"]
 	},
 	{
 		"name": "Suppression",
-		"prerequisites": ["Entrench", "Skirmish"],
-		"uniques": ["[+33]% Strength <vs [Melee] units>"],
-		"unitTypes": ["Shooter"],
-		"column": 6,
-		"row": 6
+		"prerequisites": [
+			"Entrench",
+			"Skirmish"
+		],
+		"uniques": [
+			"[+33]% Strength <vs [Melee] units>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Shooter"]
 	},
 	{
 		"name": "Barrage",
-		"prerequisites": ["Accuracy", "Combat Drill"],
-		"uniques": ["[+20]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege", "Helicopter"],
-		"column": 7,
-		"row": 1
+		"prerequisites": [
+			"Accuracy",
+			"Combat Drill"
+		],
+		"uniques": [
+			"[+20]% Strength <when fighting in [Rough terrain] tiles> <when attacking>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Siege","Helicopter"]
 	},
 	{
 		"name": "Resupply",
-		"prerequisites": ["Accuracy", "Combat Drill", "Awe", "Maneuver"],
-		"uniques": ["[+10] HP when healing"],
-		"unitTypes": ["Armor", "Siege", "Helicopter"],
-		"column": 7,
-		"row": 2
+		"prerequisites": [
+			"Accuracy",
+			"Combat Drill",
+			"Awe",
+			"Maneuver"
+		],
+		"uniques": [
+			"[+10] HP when healing",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Armor","Siege","Helicopter"]
 	},
 	{
 		"name": "Mobility",
-		"prerequisites": ["Barrage", "Resupply"],
-		"uniques": ["[+2] Movement"],
-		"unitTypes": ["Siege", "Helicopter"],
-		"column": 7,
-		"row": 3
+		"prerequisites": [
+			"Barrage",
+			"Resupply"
+		],
+		"uniques": [
+			"[+2] Movement",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Siege","Helicopter"]
 	},
 	{
 		"name": "Littoral Warfare",
@@ -470,20 +563,26 @@
 			"[+10]% Strength <when fighting in [Coast] tiles>",
 			"[+10]% Strength <when fighting in [Land] tiles>",
 			"[+10]% Strength <vs cities>",
-			"Eliminates combat penalty for attacking across a coast"
+			"Eliminates combat penalty for attacking across a coast",
+			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"prerequisites": ["Evasion", "Strike"],
-		"unitTypes": ["Melee Water"],
-		"column": 7,
-		"row": 4
+		"prerequisites": [
+			"Evasion",
+			"Strike"
+		],
+		"unitTypes": ["Melee Water"]
 	},
 	{
 		"name": "Exploit Weakness",
-		"uniques": ["[+25]% Strength <vs [Wounded] units>"],
-		"prerequisites": ["Evasion", "Strike"],
-		"unitTypes": ["Melee Water"],
-		"column": 7,
-		"row": 5
+		"uniques": [
+			"[+25]% Strength <vs [Wounded] units>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"prerequisites": [
+			"Evasion",
+			"Strike"
+		],
+		"unitTypes": ["Melee Water"]
 	},
 	{
 		"name": "Damage Control",
@@ -496,11 +595,10 @@
 		"uniques": [
 			"[+5] HP when healing",
 			"All adjacent units heal [+20] HP when healing",
-			"May heal outside of friendly territory"
+			"May heal outside of friendly territory",
+			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Ranged Water", "Aircraft Carrier"],
-		"column": 7,
-		"row": 6
+		"unitTypes": ["Ranged Water","Aircraft Carrier"]
 	},
 	{
 		"name": "Close-In Weapons System",
@@ -513,11 +611,10 @@
 		"uniques": [
 			"[+10]% Strength <when defending>",
 			"[+25]% Strength <vs [Air] units>",
-			"[25]% chance to intercept air attacks"
+			"[25]% chance to intercept air attacks",
+			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Ranged Water", "Aircraft Carrier"],
-		"column": 7,
-		"row": 7
+		"unitTypes": ["Ranged Water","Aircraft Carrier"]
 	},
 	{
 		"name": "Flank Speed",
@@ -530,15 +627,12 @@
 			"Flight Deck II",
 			"Wolfpack I"
 		],
-		"uniques": ["[+1] Movement", "[+25]% to Flank Attack bonuses"],
-		"unitTypes": [
-			"Melee Water",
-			"Ranged Water",
-			"Aircraft Carrier",
-			"Submarine"
+		"uniques": [
+			"[+1] Movement",
+			"[+25]% to Flank Attack bonuses",
+			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"column": 7,
-		"row": 8
+		"unitTypes": ["Melee Water","Ranged Water","Aircraft Carrier","Submarine"]
 	},
 	{
 		"name": "Convoy",
@@ -553,16 +647,10 @@
 		],
 		"uniques": [
 			"[+10] HP when healing",
-			"May heal outside of friendly territory"
+			"May heal outside of friendly territory",
+			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": [
-			"Melee Water",
-			"Ranged Water",
-			"Aircraft Carrier",
-			"Submarine"
-		],
-		"column": 7,
-		"row": 9
+		"unitTypes": ["Melee Water","Ranged Water","Aircraft Carrier","Submarine"]
 	},
 	{
 		"name": "Sentry",
@@ -581,18 +669,11 @@
 			"Strike",
 			"Barrage"
 		],
-		"uniques": ["[+1] Sight"],
-		"unitTypes": [
-			"Scrapper",
-			"Shooter",
-			"Scout",
-			"Ranged Water",
-			"Melee Water",
-			"Helicopter",
-			"Mounted"
+		"uniques": [
+			"[+1] Sight",
+			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"column": 8,
-		"row": 1
+		"unitTypes": ["Scrapper","Shooter","Ranged Water","Melee Water","Helicopter","Mounted"]
 	},
 	{
 		"name": "Blitz",
@@ -606,10 +687,12 @@
 			"Ambush",
 			"Sentry"
 		],
-		"uniques": ["[1] additional attacks per turn", "Can move after attacking"],
-		"unitTypes": ["Scrapper", "Armor", "Mounted"],
-		"column": 8,
-		"row": 2
+		"uniques": [
+			"[1] additional attacks per turn",
+			"Can move after attacking",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Scrapper","Armor","Mounted"]
 	},
 	{
 		"name": "March",
@@ -625,10 +708,11 @@
 			"Reconnaissance III",
 			"Medic II"
 		],
-		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
-		"column": 8,
-		"row": 3
+		"uniques": [
+			"Unit will heal every turn, even if it performs an action",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Scrapper","Shooter","Scout","Mounted"]
 	},
 	{
 		"name": "Extended Range",
@@ -641,32 +725,37 @@
 			"Flank Speed",
 			"Convoy"
 		],
-		"uniques": ["[+1] Range"],
-		"unitTypes": ["Shooter", "Siege", "Helicopter", "Ranged Water"],
-		"column": 8,
-		"row": 4
+		"uniques": [
+			"[+1] Range",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Shooter","Siege","Helicopter","Ranged Water"]
 	},
 	{
 		"name": "Amphibious",
-		"prerequisites": ["Blitz", "March", "Extended Range"],
+		"prerequisites": [
+			"Blitz",
+			"March",
+			"Extended Range"
+		],
 		"uniques": [
 			"Eliminates combat penalty for attacking over a river",
 			"Eliminates combat penalty for attacking across a coast",
-			"Defense bonus when embarked"
+			"Defense bonus when embarked",
+			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
-		"column": 8,
-		"row": 5
+		"unitTypes": ["Scrapper","Shooter","Scout","Mounted"]
 	},
 	{
 		"name": "Seafarer",
-		"prerequisites": ["Amphibious"],
-		"uniques": [
-			"May attack when embarked"
+		"prerequisites": [
+			"Amphibious"
 		],
-		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
-		"column": 8,
-		"row": 6
+		"uniques": [
+			"May attack when embarked",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Scrapper","Shooter","Scout","Mounted"]
 	},
 	{
 		"name": "Operational Range",
@@ -676,26 +765,36 @@
 			"Bombardment",
 			"Targeting"
 		],
-		"uniques": ["[+2] Range"],
-		"unitTypes": ["Fighter", "Bomber"],
-		"column": 9,
-		"row": 1
+		"uniques": [
+			"[+2] Range",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Fighter","Bomber"]
 	},
 	{
 		"name": "Sortie",
-		"prerequisites": ["Interception II", "Operational Range"],
-		"uniques": ["[1] extra interceptions may be made per turn"],
-		"unitTypes": ["Fighter"],
-		"column": 9,
-		"row": 2
+		"prerequisites": [
+			"Interception II",
+			"Operational Range"
+		],
+		"uniques": [
+			"[1] extra interceptions may be made per turn",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Fighter"]
 	},
 	{
 		"name": "Evasive Maneuvers",
-		"prerequisites": ["Interception II", "Siege II", "Operational Range"],
-		"uniques": ["Damage taken from interception reduced by [50]%"],
-		"unitTypes": ["Fighter", "Bomber"],
-		"column": 9,
-		"row": 3
+		"prerequisites": [
+			"Interception II",
+			"Siege II",
+			"Operational Range"
+		],
+		"uniques": [
+			"Damage taken from interception reduced by [50]%",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Fighter","Bomber"]
 	},
 	{
 		"name": "Air Repair",
@@ -706,10 +805,11 @@
 			"Evasive Maneuvers",
 			"Logistics"
 		],
-		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Fighter", "Bomber", "Helicopter"],
-		"column": 9,
-		"row": 4
+		"uniques": [
+			"Unit will heal every turn, even if it performs an action",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Fighter","Bomber","Helicopter"]
 	},
 	{
 		"name": "Logistics",
@@ -728,20 +828,10 @@
 		],
 		"uniques": [
 			"[1] additional attacks per turn",
-			"Can move after attacking"
+			"Can move after attacking",
+			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": [
-			"Shooter",
-			"Siege",
-			"Helicopter",
-			"Melee Water",
-			"Ranged Water",
-			"Submarine",
-			"Fighter",
-			"Bomber"
-		],
-		"column": 9,
-		"row": 5
+		"unitTypes": ["Shooter","Siege","Helicopter","Melee Water","Ranged Water","Submarine","Fighter","Bomber"]
 	},
 	{
 		"name": "Medic I",
@@ -760,31 +850,37 @@
 		],
 		"uniques": [
 			"[+5] HP when healing",
-			"All adjacent units heal [+5] HP when healing"
+			"All adjacent units heal [+5] HP when healing",
+			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
-		"column": 10,
-		"row": 1
+		"unitTypes": ["Scrapper","Shooter","Scout","Mounted"]
 	},
 	{
 		"name": "Medic II",
-		"prerequisites": ["Medic I"],
+		"prerequisites": [
+			"Medic I"
+		],
 		"uniques": [
 			"[+5] HP when healing",
-			"All adjacent units heal [+5] HP when healing",
-			"[+5] HP when healing <in [Foreign Land] tiles>"
+			"All adjacent units heal [+5] HP when healing"
 		],
-		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
-		"column": 10,
-		"row": 2
+		"unitTypes": ["Scrapper","Shooter","Scout","Mounted"]
 	},
 	{
 		"name": "Survivalism",
-		"prerequisites": ["Medic I", "Resupply", "Air Repair", "March", "Damage Control", "Convoy"],
+		"prerequisites": [
+			"Medic I",
+			"Resupply",
+			"Air Repair",
+			"March",
+			"Damage Control",
+			"Convoy"
+		],
 		"uniques": [
 			"[+5] HP when healing <in [Foreign Land] tiles>",
 			"[+25]% Strength <when defending>",
-			"[-50]% maintenance costs"
+			"[-50]% maintenance costs",
+			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": [
 			"Scrapper",
@@ -800,15 +896,11 @@
 			"Fighter",
 			"Bomber",
 			"Mounted"
-		],
-		"column": 10,
-		"row": 3
+		]
 	},
-
 	////////////////////
 	// Special and unique promotions
 	////////////////////
-
 	// Prerequisite promotions
 	{
 		"name": "Drone Recon",
@@ -816,174 +908,188 @@
 			"Can see over obstacles",
 			"[+1] Sight <when [Embarked]>",
 			"[25]% XP gained from combat",
-			"Only available <if [Ground Control Center] is constructed>"
+			"Only available <if [Ground Control Center] is constructed>",
+			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper", "Shooter", "Scout", "Armor"],
-		"column": 0,
-		"row": 2
+		"unitTypes": ["Scrapper","Shooter","Scout","Armor"]
 	},
 	{
 		"name": "Infantry Weapons",
 		"uniques": [
 			"[+25]% Strength <vs [Low Tech] units>",
 			"[+50]% Strength <vs cities>",
-			"Only available <if [Armaments Production Line] is constructed>"
+			"Only available <if [Armaments Production Line] is constructed>",
+			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper", "Shooter", "Scout"],
-		"column": 0,
-		"row": 6
+		"unitTypes": ["Scrapper","Shooter","Scout"]
 	},
 	{
 		"name": "Artillery",
-		"prerequisites": ["Logistics"],
+		"prerequisites": [
+			"Logistics"
+		],
 		"uniques": [
 			"Ranged attacks may be performed over obstacles",
-			"Only available <for units with [Extended Range]>"
+			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Siege", "Helicopter", "Ranged Water"],
-		"column": 9,
-		"row": 6
+		"unitTypes": ["Siege","Helicopter","Ranged Water"]
 	},
 	{
 		"name": "Advanced Weapons",
 		"uniques": [
 			"[+5]% Strength <when attacking>",
-			"Only available <if [Aerospace Facility] is constructed>"
+			"Only available <if [Aerospace Facility] is constructed>",
+			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Fighter", "Bomber", "Helicopter"],
-        "column": 0,
-		"row": 7
+		"unitTypes": ["Fighter","Bomber","Helicopter"]
 	},
 
 	// Land-ish
 	{
 		"name": "Drone Support",
-		"prerequisites": ["Drone Recon"],
+		"prerequisites": [
+			"Drone Recon"
+		],
 		"uniques": [
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
-			"[+10]% Strength for enemy [Promotion Nullifier] units in adjacent [All] tiles"
+			"[+10]% Strength for enemy [Promotion Nullifier] units in adjacent [All] tiles",
+			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper", "Shooter", "Armor"],
-		"column": 0,
-		"row": 3
+		"unitTypes": ["Scrapper","Shooter","Armor"]
 	},
 	{
 		"name": "Care Package",
-		"prerequisites": ["Drone Recon"],
-		"uniques": ["[+10] HP when healing"],
-		"unitTypes": ["Scrapper", "Shooter"],
-		"column": 0,
-		"row": 4
+		"prerequisites": [
+			"Drone Recon"
+		],
+		"uniques": [
+			"[+10] HP when healing",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Scrapper","Shooter"]
 	},
 	{
 		"name": "Advanced Sensors",
-		"prerequisites": ["Drone Recon"],
-		"uniques": ["Can see invisible [Land] units"],
-		"unitTypes": ["Scrapper", "Shooter"],
-		"column": 0,
-		"row": 5
+		"prerequisites": [
+			"Drone Recon"
+		],
+		"uniques": [
+			"Can see invisible [Land] units",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Scrapper","Shooter"]
 	},
 	{
 		"name": "Infantry Mortar",
-		"prerequisites": ["Infantry Weapons"],
-		"uniques": [
-			"[+10]% Strength <when attacking>",
-			"Ranged attacks may be performed over obstacles"
+		"prerequisites": [
+			"Infantry Weapons"
 		],
-		"unitTypes": ["Scrapper", "Shooter"],
-		"column": 0,
-		"row": 8
+		"uniques": [
+			"[+10]% Strength <vs cities> <when attacking>",
+			"Ranged attacks may be performed over obstacles",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Shooter"]
 	},
 	{
 		"name": "White Phosphorus Munitions",
-		"prerequisites": ["Infantry Mortar", "Artillery"],
+		"prerequisites": [
+			"Infantry Mortar",
+			"Artillery"
+		],
 		"uniques": [
 			"[+50]% Strength <vs [Low Tech] units>",
 			"[+25]% Strength <vs [Personnel] units>",
-			"[+50]% Strength <vs cities>"
+			"[+50]% Strength <vs cities>",
+			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper", "Shooter", "Siege", "Ranged Water"],
-		"column": 0,
-		"row": 9
+		"unitTypes": ["Shooter","Siege","Ranged Water"]
 	},
 	{
 		"name": "Antipersonnel Mines",
-		"prerequisites": ["Infantry Weapons"],
-		"uniques": ["[+10]% Strength <when defending>"],
-		"unitTypes": ["Scrapper", "Shooter"],
-		"column": 0,
-		"row": 10
+		"prerequisites": [
+			"Infantry Weapons"
+		],
+		"uniques": [
+			"[+10]% Strength <when defending>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],]
 	},
 	{
 		"name": "Antitank Missile",
-		"prerequisites": ["Advanced Weapons", "Infantry Weapons"],
-		"uniques": ["[+66]% Strength <vs [Armor] units>"],
-		"unitTypes": [
-			"Scrapper",
-			"Shooter",
-			"Fighter",
-			"Bomber",
-			"Helicopter"
+		"prerequisites": [
+			"Advanced Weapons",
+			"Infantry Weapons"
 		],
-		"column": 0,
-		"row": 11
+		"uniques": [
+			"[+66]% Strength <vs [Armor] units>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Scrapper","Shooter","Fighter","Bomber","Helicopter"]
 	},
 	{
 		"name": "Surface-to-Air Missile",
-		"prerequisites": ["Infantry Weapons"],
+		"prerequisites": [
+			"Infantry Weapons"
+		],
 		"uniques": [
 			"[33]% chance to intercept air attacks",
 			"[+50]% Strength <vs [Air] units>",
-			"[+100]% Strength <vs [Helicopter] units>"
+			"[+100]% Strength <vs [Helicopter] units>",
+			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper", "Shooter"],
-		"column": 0,
-		"row": 12
+		"unitTypes": ["Scrapper","Shooter"]
 	},
 
 	// Air-ish
 	{
 		"name": "Cluster Munitions",
-		"prerequisites": ["Advanced Weapons"],
+		"prerequisites": [
+			"Advanced Weapons"
+		],
 		"uniques": [
 			"[+50]% Strength <vs [Low Tech] units>",
 			"[+50]% Strength <vs [Personnel] units>",
-			"[+50]% Strength <vs cities>"
+			"[+50]% Strength <vs cities>",
+			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Fighter", "Bomber", "Helicopter"],
-		"column": 2,
-        "row": 9
+		"unitTypes": ["Fighter","Bomber","Helicopter"]
 	},
 	{
 		"name": "Napalm",
-		"prerequisites": ["Advanced Weapons"],
+		"prerequisites": [
+			"Advanced Weapons"
+		],
 		"uniques": [
 			"[+33]% Strength <when fighting in [Forest] tiles>",
 			"[+33]% Strength <when fighting in [Jungle] tiles>",
-			"[+50]% Strength <vs cities>"
+			"[+50]% Strength <vs cities>",
+			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Fighter", "Bomber", "Helicopter"],
-		"column": 2,
-        "row": 10
+		"unitTypes": ["Fighter","Bomber","Helicopter"]
 	},
 	{
 		"name": "Antiship Missile",
-		"prerequisites": ["Advanced Weapons"],
-		"uniques": ["[+33]% Strength <vs [Water] units>"],
-		"unitTypes": ["Fighter", "Bomber", "Helicopter"],
-		"column": 2,
-        "row": 11
+		"prerequisites": [
+			"Advanced Weapons"
+		],
+		"uniques": [
+			"[+33]% Strength <vs [Water] units>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Fighter","Bomber","Helicopter"]
 	},
 	{
 		"name": "Air-to-Air Missile",
-		"prerequisites": ["Advanced Weapons"],
+		"prerequisites": [
+			"Advanced Weapons"
+		],
 		"uniques": [
 			"[+33]% Strength <vs [Air] units>",
-			"[+33]% Strength <vs [Helicopter] units>"
+			"[+33]% Strength <vs [Helicopter] units>",
+			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Fighter", "Bomber", "Helicopter"],
-		"column": 2,
-        "row": 12
+		"unitTypes": ["Fighter","Bomber","Helicopter"]
 	},
 
 	// 'Given' promotions
@@ -992,25 +1098,22 @@
 		"uniques": [
 			"Automated",
 			"[+20]% Strength <vs [Wounded] units>",
-			"[+20]% Strength <vs cities>"
-		],
-		"column": 3,
-        "row": 6
+			"[+20]% Strength <vs cities>",
+			"No defensive terrain penalty"
+		]
 	},
 	{
 		"name": "Thermoptic Camouflage",
-		"uniques": ["Invisible to non-adjacent units"],
-		"column": 3,
-        "row": 7
+		"uniques": [
+			"Invisible to non-adjacent units"
+		]
 	},
 	{
 		"name": "Tear Gas",
 		"uniques": [
 			"[+33]% Strength <vs [Low Tech] units>",
 			"[+10]% Strength <vs cities>"
-		],
-		"column": 3,
-        "row": 8
+		]
 	},
 	{
 		"name": "Chemical Weapons",
@@ -1019,103 +1122,78 @@
 			"[+100]% Strength <vs [Low Tech] units>",
 			"[+100]% Strength <vs [Personnel] units>",
 			"[+50]% Strength <vs cities>",
-			"Only available <if [Chemical Weapons Laboratory] is constructed>"
+			"Only available <if [Chemical Weapons Laboratory] is constructed>",
+			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": [
-			"Siege",
-			"Fighter",
-			"Bomber",
-			"Helicopter",
-			"Ranged Water"
-		],
-		"column": 3,
-        "row": 9
+		"unitTypes": ["Siege","Fighter","Bomber","Helicopter","Ranged Water"]
 	},
 	{
 		"name": "Powered Armor",
-		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"column": 3,
-        "row": 10
+		"uniques": [
+			"[+33]% Strength <vs [Ranged] units> <when defending>"
+		]
 	},
 	{
 		// Only for Units that have been close
 		// to Natural Wonder Fountain of Youth
 		"name": "Rejuvenation",
-		"uniques": ["All healing effects doubled"],
-		"column": 4,
-		"row": 10
-	},
-	{
-		"name": "Gas Mask",
-		"uniques": ["Gas Mask", "No defensive terrain penalty"],
-		"column": 4,
-		"row": 11
+		"uniques": [
+			"All healing effects doubled"
+		]
 	},
 	{
 		"name": "Headhunter",
 		"uniques": [
-			"Earn [-10]% of [military] opponent's [Cost] as [Gold] for kills",
 			"[+25]% Strength <vs [Wounded] units>"
-		],
-		"column": 4,
-		"row": 12
+		]
 	},
 	{
 		"name": "Raider",
 		"uniques": [
-			"[-50]% XP gained from combat",
-			"[Great General] is earned [250]% faster"
-		],
-		"column": 5,
-		"row": 7
+			"[Great General] is earned [50]% faster"
+		]
 	},
 	{
 		"name": "Clansman",
 		"uniques": [
 			"Clansman",
 			"Earn [10]% of [military] opponent's [Cost] as [Gold] for kills",
-			"[-50]% XP gained from combat",
-			"[Great General] is earned [250]% faster"
-		],
-		"column": 5,
-		"row": 8
+			"[Great General] is earned [150]% faster"
+		]
 	},
 	{
 		"name": "Hazard Pay",
 		"uniques": [
-			"Earn [+20]% of [military] opponent's [Strength] as [Gold] for kills",
-		],
-		"column": 5,
-		"row": 9
+			"Earn [+20]% of [military] opponent's [Strength] as [Gold] for kills"
+		]
 	},
 	{
 		"name": "Pride",
 		"uniques": [
 			"[Great General] is earned [25]% faster",
 			"[+15]% Strength decreasing with distance from the capital"
-		],
-		"column": 5,
-		"row": 10
+		]
 	},
 	{
-		"name": "Stormfront",
+		"name": "Ignore terrain cost",
 		"uniques": [
-			"No defensive terrain penalty",
 			"Ignores terrain cost"
-		],
-		"column": 5,
-		"row": 11
+		]
+	},
+	{
+		"name": "Gas Mask",
+		"uniques": [
+			"No defensive terrain penalty"
+		]
 	},
 	{
 		"name": "Promotion Nullifier",
 		"uniques": [
 			"Promotion Nullifier",
 			"Negates the combat bonus effect of Enemy Promotions",
-			"[-100]% XP gained from combat",
+			"No defensive terrain penalty",
 			"[+1] Sight"
-		],
-		"column": 6,
-		"row": 7
+		]
 	},
 	{
 		"name": "Portable Power Cell",
@@ -1124,60 +1202,44 @@
 			"[+50] HP when healing <within [1] tiles of a [Refinery]>",
 			"[+50] HP when healing <within [1] tiles of a [Solar collector]>",
 			"[+50] HP when healing <within [1] tiles of a [Wind farm]>"
-		],
-		"column": 6,
-		"row": 8
+		]
 	},
 	{
 		"name": "Super Alloy",
 		"uniques": [
 			"[+10]% Strength <when defending>",
 			"[+33]% Strength <vs [Ranged] units> <when defending>"
-		],
-		"column": 6,
-		"row": 9
+		]
 	},
 	{
 		"name": "Radioactive",
 		"uniques": [
 			"[-10]% Strength for enemy [All] units in adjacent [All] tiles",
 			"Double movement in [Fallout]",
-			"Double movement in [Toxic Waste]"
-		],
-		"column": 6,
-		"row": 13
+			"Double movement in [Toxic Waste]",
+			"No defensive terrain penalty"
+		]
 	},
-	// 'ability' promotions
-
 	{
-		"name": "[Ranger] ability",
+		"name": "Hills Have Eyes",
 		"uniques": [
-			"Great General",
-			"[+20]% Strength <when fighting in [Friendly Land] tiles>",
-			"[+15]% Strength bonus for [Military] units within [2] tiles",
-			"[50]% XP gained from combat",
-			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
-			"Uncapturable"
-		],
-		"column": 6,
-		"row": 10
+			"Can pass through impassable tiles"
+		]
 	},
+	
+
+	// 'ability' promotions
 	{
 		"name": "[Surveyor] ability",
 		"uniques": [
-		    "[+2] Movement <after discovering [Replaceable Parts]>",
-		    "[-25]% tile improvement construction time <after discovering [Replaceable Parts]>",
+			"[-25]% tile improvement construction time <after discovering [Replaceable Parts]>",
 			"Can build [All] improvements on tiles"
-		],
-		"column": 6,
-		"row": 11
+		]
 	},
 	{
 		"name": "[Demolition Track] ability",
 		"uniques": [
 			"[+15]% Strength bonus for [Military] units within [2] tiles <vs cities>"
-		],
-		"column": 6,
-		"row": 12
+		]
 	}
 ]

@@ -18,8 +18,7 @@
         "uniques": [
             "Units in cities cost no Maintenance",
             "Provides a [Walls] in your first [4] cities for free",
-            "[+50]% Strength for cities <with a garrison> <when attacking>",
-            "[+1 Happiness] [in all cities with a garrison]"
+            "[+50]% Strength for cities <with a garrison> <when attacking>"
         ],
         "row": 1,
         "column": 1
@@ -93,8 +92,7 @@
             {
                 "name": "Representation",
                 "uniques": [
-                    "Each city founded increases culture cost of policies [33]% less than normal",
-                    "[+5 Happiness] from every [Congress]"
+                    "Each city founded increases culture cost of policies [33]% less than normal"
                 ],
                 "row": 1,
                 "column": 3
@@ -104,7 +102,7 @@
                 "uniques": [
                     "Free [Worker] appears",
                     "Units in cities cost no Maintenance",
-                    "[+2 Production] [in all cities with a garrison]",
+                    "[+2 Production] [in all cities]",
                     "[-33]% maintenance costs <for [Civilian] units>"
                 ],
                 "row": 1,
@@ -261,7 +259,7 @@
             {
                 "name": "God Emperor",
                 "uniques": [
-                    "[+1 Happiness, +1 Culture, +1 Faith] from every [Monument]",
+                    "[+1 Culture, +1 Faith] from every [Monument]",
                     "Empire enters golden age"
                 ],
                 "requires": ["Organized Religion"],
@@ -289,7 +287,7 @@
     },
     {
         "name": "Rationalism",
-        "era": "Neofeudal era",
+        "era": "Rediscovering era",
         "priorities": {
             "Neutral": 20,
             "Cultural": 0,
@@ -358,7 +356,7 @@
     },
     {
         "name": "Constitution",
-        "era": "Neofeudal era",
+        "era": "Rediscovering era",
         "priorities": {
             "Neutral": 20,
             "Cultural": 20,
@@ -372,7 +370,7 @@
         "policies": [{
             "name": "Civil Society",
             "uniques": [
-                "[+1 Culture, +1 Happiness] from every [Town Hall]"
+                "[+2 Culture] from every [Town Hall]"
             ],
             "row": 1,
             "column": 2
@@ -425,7 +423,7 @@
     },
     {
         "name": "Supremacy",
-        "era": "Neofeudal era",
+        "era": "Rediscovering era",
         "priorities": {
             "Neutral": 20,
             "Cultural": 0,
@@ -437,11 +435,12 @@
             "[8] units cost no maintenance",
             "[+33]% Production when constructing [Barracks] buildings [in all cities]",
             "[+33]% Production when constructing [Military Academy] wonders [in all cities]",
-            "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately"
+            "Earn [50]% of the damage done to [City] units as [Culture]",
+            "Earn [10]% of the damage done to [Military] units as [Culture]"
         ],
         "policies": [{
             "name": "Militarism",
-            "uniques": ["[Gold] cost of purchasing [All] units [-33]%"],
+            "uniques": ["[+15]% Production when constructing [Military] units [in all cities]"],
             "row": 1,
             "column": 1
         },
@@ -449,9 +448,9 @@
                 "name": "Scorched Earth",
                 "uniques": [
                     "[+15]% Strength <vs cities>",
+                    "Upon capturing a city, receive [10] times its [Gold] production as [Gold] immediately",
                     "Cities are razed [2] times as fast",
-                    "No movement cost to pillage <for [Melee] units>",
-                    "[+2] Movement <for [Great General] units>"
+                    "No movement cost to pillage <for [Melee] units>"
                 ],
                 "row": 1,
                 "column": 5
@@ -459,11 +458,9 @@
             {
                 "name": "Police State",
                 "uniques": [
-                    "[+1 Happiness] from every [Town Hall]",
-                    "[+1 Happiness] from every [Listening Post]",
-                    "[+3 Happiness, +3 Production] from every [Prison Camp]",
-                    "[-3 Food] [in annexed cities]",
-                    "[-3 Food] [in puppeted cities]"
+                    "[+3 Happiness] [in annexed cities]",
+                    "[+3 Happiness] [in puppeted cities]",
+                    "[+3 Production] from every [Work Camp]"
                 ],
                 "requires": ["Scorched Earth", "Militarism"],
                 "row": 2,
@@ -473,7 +470,9 @@
                 "name": "Total War",
                 "uniques": [
                     "[+15]% Production when constructing [Military] units [in all cities]",
-                    "New [Military] units start with [15] Experience [in all cities]"
+                    "[+25]% XP gained from combat",
+                    "[+25]% XP gained from combat <vs cities>",
+                    "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately"
                 ],
                 "requires": ["Scorched Earth"],
                 "row": 2,
@@ -485,7 +484,7 @@
                 "uniques": [
                     "Double quantity of [Weapons] produced",
                     "Earn [33]% of the damage done to [City] units as [Gold]",
-                    "Earn [10]% of killed [Military] unit's [Cost] as [Gold]"
+                    "Earn [10]% of the damage done to [Military] units as [Gold]"
                 ],
                 "requires": ["Police State"],
                 "row": 3,
@@ -494,6 +493,7 @@
             {
                 "name": "Supremacy Complete",
                 "uniques": [
+                    "Upon capturing a city, receive [10] times its [Science] production as [Science] immediately",
                     "[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
@@ -501,7 +501,7 @@
     },
     {
         "name": "Monopoly",
-        "era": "Neofeudal era",
+        "era": "Rediscovering era",
         "priorities": {
             "Neutral": 20,
             "Cultural": 20,
@@ -586,7 +586,7 @@
     },
     {
         "name": "Collectivism",
-        "era": "Neofeudal era",
+        "era": "Rediscovering era",
         "priorities": {
             "Neutral": 20,
             "Cultural": 20,
@@ -639,7 +639,6 @@
                 "name": "Workers' Union",
                 "requires": ["Shared Vision"],
                 "uniques": [
-                    "[+2 Production] [in all cities]",
                     "[+1 Production] from every [Mine]",
                     "[+1 Production] from every [Borehole]",
                     "[+1 Production] from every [Manufactory]"

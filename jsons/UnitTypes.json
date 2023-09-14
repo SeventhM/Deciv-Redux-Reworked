@@ -40,8 +40,28 @@
 		"movementType": "Land"
 	},
 	{
+		"name": "Mounted Ranged",
+		"uniques": [
+			"Mounted",
+			"Cannot intercept [Stealth Fighter] units",
+			"Cannot intercept [Stealth Bomber] units",
+			"Cannot intercept [Missile] units"
+		],
+		"movementType": "Land"
+	},
+	{
 		"name": "Armor",
 		 "uniques": [
+			"Cannot intercept [Stealth Fighter] units",
+			"Cannot intercept [Stealth Bomber] units",
+			"Cannot intercept [Missile] units"
+		],
+		"movementType": "Land"
+	},
+	{
+		"name": "Ranged Vechicle",
+		 "uniques": [
+			"Armor",
 			"Cannot intercept [Stealth Fighter] units",
 			"Cannot intercept [Stealth Bomber] units",
 			"Cannot intercept [Missile] units"

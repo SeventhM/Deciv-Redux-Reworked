@@ -186,6 +186,7 @@
 		"name": "Power",
 		"resourceType": "Strategic",
 		"improvement": "Wind farm",
+		"production": 1,
 		"improvementStats": { "production": 1 },
 		"terrainsCanBeFoundOn": [
 			"Hill",
@@ -193,7 +194,7 @@
 			"Coast",
 			"Ocean"
 		],
-		"majorDepositAmount": { "sparse": 4, "default": 6, "abundant": 8 },
+		"majorDepositAmount": { "sparse": 5, "default": 7, "abundant": 9 },
 		"minorDepositAmount": { "sparse": 2, "default": 3, "abundant": 3 },
 		"uniques": [
 			"Deposits in [Coast] tiles always provide [2] resources",
@@ -352,7 +353,7 @@
 			"Minor deposits generated with weight [20] <in [Wasteland] [Hill] tiles>",
 			"Minor deposits generated with weight [20] <in [Badlands] [Hill] tiles>"
 		],
-		"majorDepositAmount": { "sparse": 3, "default": 5, "abundant": 6 },
+		"majorDepositAmount": { "sparse": 4, "default": 6, "abundant": 8 },
 		"minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 }
 	},
 
@@ -372,7 +373,6 @@
 	{
 		"name": "Data",
 		"resourceType": "Luxury",
-		"revealedBy": "Electronics",
 		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
 		"improvedBy": ["Research site", "Borough"],
 		"improvementStats": { "science": 2 },
@@ -385,11 +385,10 @@
 	{
 		"name": "Encrypted Data",
 		"resourceType": "Strategic",
-		"revealedBy": "Electronics",
 		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
 		"improvedBy": ["Borough", "Research site"],
 		"improvementStats": { "science": 2 },
-		"majorDepositAmount": { "sparse": 3, "default": 4, "abundant": 5 },
+		"majorDepositAmount": { "sparse": 5, "default": 7, "abundant": 9 },
 		"minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 },
 		"uniques": [
 			"Guaranteed with Strategic Balance resource option",
