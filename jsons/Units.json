@@ -3586,7 +3586,6 @@
 			"Terraformer Part",
 			"Consumes [1] [Uranium]",
 			"Only available <if [Biosphere Project] is constructed>",
-			"Only available <in cities with a [Harbor]>",
 			"Can be added to [The Terraformer] in the Capital",
 			"Limited to [1] per Civilization",
 			"Cannot be purchased",

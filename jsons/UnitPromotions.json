@@ -1013,7 +1013,7 @@
 		"uniques": [
 			"[+10]% Strength <when defending>",
 			"Only available <for units without [Promotion Nullifier]>"
-		],]
+		],
 	},
 	{
 		"name": "Antitank Missile",
@@ -1241,5 +1241,19 @@
 		"uniques": [
 			"[+15]% Strength bonus for [Military] units within [2] tiles <vs cities>"
 		]
+	},
+	{
+		"name": "[Ranger] ability",
+		"uniques": [
+			"Great General",
+			"Great Person - [War]",
+			"[+20]% Strength <when fighting in [Friendly Land] tiles>",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"[50]% XP gained from combat",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Uncapturable"
+		],
+		"column": 6,
+		"row": 10
 	}
 ]
