@@ -554,7 +554,7 @@
 			"[-33]% maintenance costs <for [Land] units>",
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Starts with [Supremacy] adopted",
-			"Empire enters golden age <upon conquering a city> <after adopting [Supremacy Complete]>"
+			"Empire enters golden age <upon conquering a city> <after adopting [Sovereignty Complete]>"
 		],
 		"cities": [
 			"Postumus",

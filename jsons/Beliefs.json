@@ -14,7 +14,7 @@
 		"type": "Pantheon",
 		"uniques": [
 			"[+1 Faith] from [Tundra]",
-			"[+1 Faith] from [Permafrost]",
+			"[+1 Faith] from [Permafrost]"
 		]
 	},
 	{
@@ -42,19 +42,19 @@
 		"name": "God of Beasts",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Culture, +1 Faith] from every [Horses]",
-			"[+1 Culture, +1 Faith] from every [Cattle]",
-			"[+1 Culture, +1 Faith] from every [Goats]"
+			"[+1 Food, +1 Faith] from every [Horses]",
+			"[+1 Food, +1 Faith] from every [Cattle]",
+			"[+1 Food, +1 Faith] from every [Goats]"
 		]
 	},
 	{
 		"name": "Spiritual Research",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Culture, +1 Faith] from every [Artifacts]",
-			"[+1 Culture, +1 Faith] from every [Encrypted Data]",
-			"[+1 Culture, +1 Faith] from every [Data]"
-			"[+1 Culture, +1 Faith] from every [Books]"
+			"[+1 Science, +1 Faith] from every [Artifacts]",
+			"[+1 Science, +1 Faith] from every [Encrypted Data]",
+			"[+1 Science, +1 Faith] from every [Data]",
+			"[+1 Science, +1 Faith] from every [Books]"
 		]
 	},
 	{
@@ -64,7 +64,7 @@
 			"[+1 Culture, +1 Faith] from every [Machine Parts]",
 			"[+1 Culture, +1 Faith] from every [Electronics]",
 			"[+1 Culture, +1 Faith] from every [Scrap]",
-			"[+1 Culture, +1 Faith] from every [Plastics]"
+			"[+1 Culture, +1 Faith] from every [Plastics]",
 			"[+1 Culture, +1 Faith] from every [Weapons]"
 		]
 	},
@@ -143,8 +143,8 @@
 		"name": "Blessed Steel",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Culture, +1 Faith] from every [Metal]",
-			"[+1 Culture, +1 Faith] from every [Scrap]"
+			"[+1 Production, +1 Faith] from every [Metal]",
+			"[+1 Production, +1 Faith] from every [Scrap]"
 		]
 	},
 	{
@@ -173,9 +173,9 @@
 		"name": "Strength of the Earth",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Production, +1 Faith] from every [Mine]",
-			"[+1 Production, +1 Faith] from every [Borehole]",
-			"[+1 Production, +1 Faith] from every [Manufactory]",
+			"[+1 Faith] from every [Mine]",
+			"[+1 Faith] from every [Borehole]",
+			"[+1 Faith] from every [Manufactory]",
 			"[+1 Production, +1 Faith] from every [Mining Pit]"
 		]
 	},
@@ -191,12 +191,12 @@
         "name": "Home and Hearth",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Faith, +1 Science, +1 Culture] from every [Bomb Shelter]",
+            "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Faith, +1 Science, +1 Culture] from every [Bomb Shelter]"
         ]
     },
 	{
 		"name": "Hymns of Praise",
-		"type": "Follower",
+		"type": "Pantheon",
 		"uniques": [
 			"[+1 Happiness] from every [Shrine]"
 		]
@@ -258,7 +258,7 @@
 		"uniques": [
 			"May buy [Holy Works] buildings for [200] [Faith] [in cities following this religion]"
 		]
-	}
+	},
 	{
 		"name": "Communion Centers",
 		"type": "Follower",
@@ -346,6 +346,16 @@
 		]
 	},
 	{
+		"name": "Missionary Zeal",
+		"type": "Founder",
+		"uniques": [
+			"[Faith] cost of purchasing [Philosopher] units [-50]%",
+			"[Faith] cost of purchasing [Censor] units [-50]%",
+			"[Censor] units built [in all cities] can [Remove Foreign religions from your own cities] [1] extra times",
+			"[+25]% Spread Religion Strength <for [Philosopher] units>"
+		]
+	},
+	{
 		"name": "Path of the Sage",
 		"type": "Founder",
 		"uniques": [
@@ -406,13 +416,17 @@
 		"uniques": ["[+15]% growth [in all cities] <when not at war>"]
 	},
 	{
-		"name": "Illuminated Order",
-		"type": "Enhancer",
-		"uniques": [
-			"[Faith] cost of purchasing [Philosopher] units [-30]%",
-			"[Faith] cost of purchasing [Censor] units [-30]%"
-		]
-	},
+        "name": "City of God",
+        "type": "Enhancer",
+        "uniques": [
+            "[+2 Food, +1 Science, +2 Faith] from every [Great Improvement]"
+        ]
+    },
+    {
+        "name": "Indulgences",
+        "type": "Enhancer",
+        "uniques": ["[+1 Food, +1 Culture, +1 Production, +1 Gold, +1 Faith] [in all cities]"]
+    },
     {
         "name": "Karma",
         "type": "Enhancer",
@@ -427,25 +441,20 @@
 		]
 	},
 	{
-		"name": "Missionary Zeal",
-		"type": "Enhancer",
-		"uniques": ["[+25]% Spread Religion Strength <for [Philosopher] units>"]
-	},
-	{
 		"name": "Funeral Rites",
 		"type": "Enhancer",
 		"uniques": ["[+100 Faith, +20 Culture] whenever a Great Person is expended"]
 	},
 	{
-		"name": "Thought Control",
-		"type": "Enhancer",
-		"uniques": ["[Censor] units built [in all cities] can [Remove Foreign religions from your own cities] [1] extra times"]
-	}
-	{
 		"name": "Works of Genius",
 		"type": "Enhancer",
 		"uniques": [
-			"[+2 Faith, +2 Science, +2 Culture] from every [Great Improvement]"
+			"[+2 Science, +2 Culture] from every [Great Improvement]"
 		]
 	},
+    {
+        "name": "Unity of the Prophets",
+        "type": "Enhancer",
+        "uniques": ["[+4 Faith, +2 Production] from every [Great Improvement]"]
+    }
 ]

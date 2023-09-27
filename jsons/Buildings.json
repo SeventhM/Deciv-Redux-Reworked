@@ -466,7 +466,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+1 Culture] per [4] population [in all cities]",
-			"[-10]% Unhappiness from [Population] [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Council]>",
@@ -494,7 +494,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+1 Culture] per [4] population [in all cities]",
-			"[-10]% Unhappiness from [Population] [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
 		    "[+1] Movement <for [All] units>",
 			"[+15]% Strength <for [All] units> <when fighting in [Foreign Land] tiles>",
 			"Only available <if [Search for Survivors] is constructed>",
@@ -529,7 +529,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+1 Culture] per [4] population [in all cities]",
-			"[-10]% Unhappiness from [Population] [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
 		    "[Land] units gain the [Ignore terrain cost] promotion",
 			"[+100]% City Strength from defensive buildings",
 			"[+50]% Great Person generation [in all cities]",
@@ -568,7 +568,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+1 Culture] per [4] population [in all cities]",
-			"[-10]% Unhappiness from [Population] [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
 			"[+1 Production] per [4] population [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
@@ -601,7 +601,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+1 Culture] per [4] population [in all cities]",
-			"[-10]% Unhappiness from [Population] [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
 			"[+1 Gold] per [4] population [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
@@ -634,7 +634,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+1 Culture] per [4] population [in all cities]",
-			"[-10]% Unhappiness from [Population] [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
 			"[+1 Science] per [4] population [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
@@ -667,7 +667,7 @@
 		"requiredTech": "Currency",
 		"uniques": [
 			"[+1 Culture] per [4] population [in all cities]",
-			"[-10]% Unhappiness from [Population] [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
 			"[+1 Gold] per [4] population [in all cities]",
 			"Provides a sum of gold each time you spend a Great Person",
 			"[Great Merchant] is earned [25]% faster",
@@ -703,7 +703,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+1 Culture] per [4] population [in all cities]",
-			"[-10]% Unhappiness from [Population] [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
 			"Great General provides double combat bonus",
 			"[+20]% Strength <vs cities>",
 			"Only available <if [Search for Survivors] is constructed>",
@@ -737,7 +737,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+1 Culture] per [4] population [in all cities]",
-			"[-10]% Unhappiness from [Population] [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
 			"[+20]% Production when constructing [Armor] units [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
@@ -770,7 +770,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+1 Culture] per [4] population [in all cities]",
-			"[-10]% Unhappiness from [Population] [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
 			"[-50]% City-State Influence degradation",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
@@ -803,7 +803,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+1 Culture] per [4] population [in all cities]",
-			"[-10]% Unhappiness from [Population] [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
 			"[+2 Gold] [in all coastal cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
@@ -836,7 +836,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+1 Culture] per [4] population [in all cities]",
-			"[-10]% Unhappiness from [Population] [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
 			"[-50]% maintenance costs <for [Military] units>",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
@@ -868,7 +868,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+1 Culture] per [4] population [in all cities]",
-			"[-10]% Unhappiness from [Population] [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
 			"[+1 Food, +1 Production] per [4] population [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
@@ -1787,7 +1787,7 @@
 	},
 	{
 		"name": "Cold Store",
-		"percentStatBonus": { "food": 10 },
+		"percentStatBonus": { "food": 5 },
 		"specialistSlots": { "Farmer": 1 },
 		"maintenance": 1,
 		"uniques": [
@@ -1862,7 +1862,7 @@
 	},
 	{
 		"name": "Mycoprotein Vats",
-		"food": 5,
+		"food": 3,
 		"maintenance": 3,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -1872,7 +1872,7 @@
 	},
 	{
 		"name": "Reclamation Vats",
-		"percentStatBonus": { "food": 25 },
+		"percentStatBonus": { "food": 5 },
 		"maintenance": 4,
 		"hurryCostModifier": 25,
 		"requiredTech": "Human Genome"
@@ -1893,7 +1893,7 @@
 		"requiredTech": "Biology",
 		"uniques": [
 			"[30]% Food is carried over after population increases [in this city]",
-			"All newly-trained [Personnel] units [in this city] receive the [Medic I] promotion",
+			"All newly-trained [relevant] units [in this city] receive the [Medic I] promotion",
 			"[+1 Food] <with [Harvested Organs]>",
 			"Consumes [1] [Power]"
 		]
@@ -1907,7 +1907,7 @@
 		"requiredTech": "Biology",
 		"uniques": [
 			"[30]% Food is carried over after population increases [in this city]",
-			"All newly-trained [Personnel] units [in this city] receive the [Medic I] promotion",
+			"All newly-trained [relevant] units [in this city] receive the [Medic I] promotion",
 			"All newly-trained [Promotion Nullifier] units [in this city] receive the [Medic I] promotion",
 			"[+1 Food] from [Refinery] tiles [in this city]",
 			"[+5]% [Food] <with [Harvested Organs]>",
@@ -1924,7 +1924,7 @@
 		"requiredTech": "Biology",
 		"uniques": [
 			"[30]% Food is carried over after population increases [in this city]",
-			"All newly-trained [Personnel] units [in this city] receive the [Medic I] promotion",
+			"All newly-trained [relevant] units [in this city] receive the [Medic I] promotion",
 			"[+1 Food] <with [Harvested Organs]>",
 			"Provides [1] [Harvested Organs]",
 			"Consumes [1] [Slaves]"
@@ -1939,7 +1939,7 @@
 		"requiredTech": "Biology",
 		"uniques": [
 			"[30]% Food is carried over after population increases [in this city]",
-			"All newly-trained [Personnel] units [in this city] receive the [Medic I] promotion",
+			"All newly-trained [relevant] units [in this city] receive the [Medic I] promotion",
 			"[+1 Food] <with [Harvested Organs]>",
 			"All newly-trained [Armor] units [in this city] receive the [Resupply] promotion",
 			"Consumes [1] [Slaves]"
@@ -1956,7 +1956,7 @@
 			"[30]% Food is carried over after population increases [in this city]",
 			"Population loss from nuclear attacks [-25]% [in this city]",
 			"All newly-trained [Personnel] units [in this city] receive the [Gas Mask] promotion",
-			"All newly-trained [Personnel] units [in this city] receive the [Medic I] promotion",
+			"All newly-trained [relevant] units [in this city] receive the [Medic I] promotion",
 			"All newly-trained [{Land} {Low Tech}] units [in this city] receive the [Gas Mask] promotion",
 			"[+1 Food] <with [Harvested Organs]>",
 			"Consumes [1] [Power]"
@@ -2098,7 +2098,7 @@
 		"name": "Plantation",
 		"replaces": "Town Hall",
 		"uniqueTo": "Cult of Ignis",
-		"percentStatBonus": { "food": 10 },
+		"percentStatBonus": { "food": 5 },
 		"specialistSlots": {"Administrator": 1, "Farmer": 1 },
 		"uniques": [
 			"[+1 Happiness, +1 Culture] <with [Power]>",
@@ -2467,7 +2467,7 @@
 		],
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"requiredTech": "Secrets of the Past"
+		"requiredTech": "Civil Service"
 	},
 	{
 		"name": "Military School",
@@ -3024,7 +3024,7 @@
 			"[+1 Production] <with [Machine Parts]>",
 			"[+2 Production] from [Oil] tiles [in this city]",
 			"Consumes [1] [Power]",
-			"Only available <in cities without a [Oil Plant]>"
+			//"Only available <in cities without a [Oil Plant]>"
 		],
 		"requiredTech": "Chemistry"
 	},
@@ -3042,10 +3042,10 @@
 			"Provides [1] [Oil]",
 			"[+1 Production] <with [Power]>",
 			"[+1 Production] <with [Machine Parts]>",
-			"Only available <in cities without a [Oil Plant]>"
+			//"Only available <in cities without a [Oil Plant]>"
 		]
 	},
-	{
+	/*{
 		"name": "Oil Plant",
 		"maintenance": 1,
 		"cost": 150,
@@ -3062,7 +3062,7 @@
 			"Only available <in cities with a [Library]>"
 		],
 		"requiredTech": "Chemistry"
-	},
+	},*/
 	{
 		"name": "Factory",
 		"percentStatBonus": { "production": 25 },

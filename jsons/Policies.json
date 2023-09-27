@@ -43,7 +43,7 @@
         {
             "name": "Planned Economy",
             "uniques": [
-                "[+33]% [Production] from every [Council]"
+                "[+15]% [Production] from every [in capital]"
             ],
             "requires": ["Castle Doctrine", "Differential Rationing"],
             "row": 2,
@@ -111,7 +111,7 @@
             {
                 "name": "Reclaimers",
                 "uniques": [
-                    "Retain [50]% of the happiness from a luxury after the last copy has been traded away",
+                    "Retain [25]% of the happiness from a luxury after the last copy has been traded away",
                     "[+5]% Production when constructing [All] buildings [in all cities]"
                 ],
                 "requires": ["Restorers"],
@@ -123,7 +123,7 @@
                 "uniques": [
                     "[+1 Happiness] [in all cities connected to capital]",
                     "[+15]% [Gold] [in all cities connected to capital]",
-                    "[-10]% Unhappiness from [Population] [in all cities]",
+                    "[-5]% Unhappiness from [Population] [in all cities]",
                     "[-50]% City-State Influence degradation"
                 ],
                 "requires": ["Representation", "Citizen Militia"],
@@ -302,7 +302,6 @@
             {
                 "name": "Technocracy",
                 "uniques": [
-                    "[+25]% [Science] from every [Council]",
                     "[+1 Gold] from all [Science] buildings"
                 ],
                 "row": 1,
@@ -396,6 +395,7 @@
                 "name": "Legislative Process",
                 "uniques": [
                     "[+25]% [Culture] from every [Congress]",
+                    "[+25]% [Culture] from every [Council]",
                     "[Great Administrator] is earned [25]% faster"
                 ],
                 "requires": ["Civil Society", "Protected Speech"],
@@ -510,16 +510,15 @@
             "Scientific": 20
         },
         "uniques": [
-            "[Great Merchant] is earned [20]% faster",
-            "[+33]% [Gold] from every [Council]"
+            "[Great Merchant] is earned [50]% faster"
         ],
         "policies": [{
             "name": "Mass Consumption",
             "uniques": [
-                "[+50]% Happiness from luxury resources gifted by City-States",
-                "[+1] Happiness from each type of luxury resource",
-                    "[+1 Gold] from every [Moisture trap]",
-                    "[+1 Gold] from every [Water pump]"
+                //"[+50]% Happiness from luxury resources gifted by City-States",
+                //"[+1] Happiness from each type of luxury resource",
+                "[+1 Gold] from every [Moisture trap]",
+                "[+1 Gold] from every [Water pump]"
             ],
             "row": 1,
             "column": 1
@@ -629,8 +628,7 @@
                 "name": "Shared Vision",
                 "requires": ["Nationalization"],
                 "uniques": [
-                    "[+1 Production] from every [Factory]",
-                    "[+10]% [Production] from every [Congress]"
+                    "[+10]% [Production] from every [Factory]"
                 ],
                 "row": 2,
                 "column": 3
@@ -672,10 +670,9 @@
         "policies": [{
             "name": "Emissions Standards",
             "uniques": [
-                "[+10]% [Food] from every [Coal Plant]",
-                "[+2 Happiness, +1 Culture] from every [Recycling Plant]",
-                "[+2 Happiness, +1 Culture] from every [Greenhouse]",
-                "[+2 Happiness, +1 Culture] from every [Mycoprotein Vats]"
+                "[+1 Happiness, +1 Culture] from every [Protected Area]",
+                "[+1 Happiness, +1 Culture] from every [Greenhouse]",
+                "[+1 Happiness, +1 Culture] from every [Mycoprotein Vats]"
             ],
             "row": 1,
             "column": 3
@@ -686,8 +683,8 @@
                 "uniques": [
                     "[+2 Food, +1 Culture, +1 Faith, +2 Production] from every [Greenhouse]",
                     "[+2 Food, +1 Culture, +1 Faith, +2 Production] from every [Protected Area]",
-                    "[+2 Food, +1 Culture, +1 Faith, +2 Production] from every [Carbon Capture]",
-                    "[+2 Food, +1 Culture, +1 Faith, +2 Production] from every [Arcology Dome]"
+                    "[+2 Food, +1 Culture, +1 Faith, +2 Production] from every [Mycoprotein Vats]",
+                    "[+2 Food, +1 Culture, +1 Faith, +2 Production] from every [Carbon Capture]"
                 ],
                 "row": 2,
                 "column": 2
@@ -696,7 +693,7 @@
                 "name": "Ecodefense",
                 "requires": ["Emissions Standards"],
                 "uniques": [
-                    "[+10]% Strength <for [All] units> <within [2] tiles of a [Natural tile]>",
+                    "[+5]% Strength <for [All] units> <within [2] tiles of a [Natural tile]>",
 					"[+25]% Strength for cities"
                 ],
                 "row": 2,
@@ -792,8 +789,8 @@
                 "name": "Digitization",
                 "requires": ["Logistics"],
                 "uniques": [
-                    "[+1 Happiness, +1 Culture, +1 Faith] from every [Data Center]",
-                    "[+1 Happiness, +1 Culture, +1 Faith] from every [Decryption Center]",
+                    "[+2 Happiness, +1 Culture, +1 Faith] from every [Data Center]",
+                    "[+2 Happiness, +1 Culture, +1 Faith] from every [Decryption Center]",
                     "Double quantity of [Encrypted Data] produced"
                 ],
                 "row": 3,
@@ -813,8 +810,7 @@
             {
                 "name": "Mechanization Complete",
                 "uniques": [
-                    "[+1 Happiness] [in all cities]",
-                    "Quantity of strategic resources produced by the empire +[25]%",
+                    "[+2 Happiness] [in all cities]",
                     "[+10]% Production towards any buildings that already exist in the Capital <while the empire is happy>",
                     "[+10]% Production when constructing [All] units [in all cities] <while the empire is happy>"
                 ]
@@ -840,7 +836,7 @@
             "uniques": [
                 "[+2 Gold] [in all cities]",
                 "[+2 Gold] from every [Moisture trap]",
-                "[+10]% growth [in all cities] <during a Golden Age>"
+                "[+5]% growth [in all cities] <during a Golden Age>"
             ],
             "row": 1,
             "column": 1
@@ -880,7 +876,7 @@
                 "requires": ["Eugenics", "Cybernetics"],
                 "uniques": [
                     "[+25]% Great Person generation [in all cities]",
-                    "[+12 Happiness] [in capital]",
+                    "[+12 Happiness]",
                     "[Great General] is earned [25]% faster",
                     "[Faith] cost of purchasing items in cities [-10]%"
                 ],
