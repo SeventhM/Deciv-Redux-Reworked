@@ -247,7 +247,7 @@
 		"uniqueName": "Creative Leadership",
 		"uniques": [
 			"[{Melee} {Land}] units gain the [[Surveyor] ability] promotion",
-			"Receive free [Great Scientist] when you discover [Secrets of the Past]",
+			"Free [Great Scientist] appears <upon discovering [Secrets of the Past]>",
 			"[+33]% Great Person generation [in all cities]",
 			"Starts with [Writing]",
 			"Starts with [Electronics]",
@@ -736,9 +736,8 @@
 		"uniqueName": "Community Watch",
 		"uniques": [
 			"[+10]% Strength <within [2] tiles of a [City center]>",
-			"[+20]% Strength <when fighting units from a Civilization with more Cities than you> <after adopting [Sovereignty Complete]>",
+			"[+20]% Strength <when fighting units from a Civilization with more Cities than you>",
 			"May choose [1] additional belief(s) of any type when [enhancing] a religion",
-			"Enemy [Land] units must spend [1] extra movement points when inside your territory",
 			"Starts with [Secrets of the Past]"
 		],
 		"cities": [

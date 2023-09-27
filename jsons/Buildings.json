@@ -193,8 +193,8 @@
 		"uniques": [
 			"Automatically built in all cities where it is buildable",
 			"[25]% Great Person generation [in this city]",
-			"[+1 Faith, +1 Happiness , +1 Culture] <when not at war>",
-			"Free [Ranger] appears",
+			"[+1 Faith, +1 Happiness, +1 Culture] <when not at war>",
+			"Free [Gunman] appears",
 			"Can only be built [in capital]",
 			"Gain a free [Monument] [in this city]"
 		],
@@ -2166,7 +2166,7 @@
 	},
 	{
 		"name": "Stadium",
-		"happiness": 2,
+		"happiness": 1,
 		"uniques": [
 			"[+1 Gold, +1 Happiness] <with [Alcohol]>",
 			"[+1 Gold, +1 Happiness] <with [Soft Drinks]>"
@@ -3586,7 +3586,7 @@
 			"Must be next to [Coast]",
 			"[+1 Gold] from [Coast] tiles [in this city]",
 			"[+1 Gold] <with [Power]>",
-			"Provides [1] [Salt]",
+			//"Provides [1] [Salt]",
 			"Consumes [1] [Power]"
 		],
 		"requiredTech": "Desalination"
@@ -3602,7 +3602,7 @@
 			"[+1 Gold] from [Coast] tiles [in this city]",
             "[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
 			"[+1 Gold] <with [Power]>",
-			"Provides [1] [Salt]",
+			//"Provides [1] [Salt]",
 			"Consumes [1] [Power]"
 		],
 		"requiredTech": "Desalination"
@@ -4018,7 +4018,7 @@
 			"Reveals the entire map",
 			"Provides [2] [Oil]",
 			"Provides [1] [Power]",
-			"Free [Howitzer] appears"
+			"Free [Artillery] appears"
 		]
 	},
 	{
