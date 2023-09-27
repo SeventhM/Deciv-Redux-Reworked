@@ -22,13 +22,15 @@
 			"Helicopter",
 			"Shooter",
 			"Armor",
+			"Ranged Vechicle",
 			"Melee Water",
 			"Ranged Water",
 			"Submarine",
 			"Aircraft Carrier",
 			"Fighter",
 			"Bomber",
-			"Mounted"
+			"Mounted",
+			"Mounted Ranged"
 		],
 		"row": 0,
 		"column": 0
@@ -65,7 +67,7 @@
 			"[25]% XP gained from combat",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Shooter"]
+		"unitTypes": ["Shooter","Scrapper","Mounted","Mounted Ranged"]
 	},
 
 	//// Armor, formerly mounted
@@ -92,7 +94,7 @@
 			"[+15]% Strength <when defending>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Armor"]
+		"unitTypes": ["Armor","Ranged Vechicle"]
 	},
 	//// Traditional terrain bonus
 	{
@@ -105,7 +107,7 @@
 			"[+10]% Strength <vs cities>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper","Shooter","Mounted"]
+		"unitTypes": ["Scrapper","Shooter","Mounted","Mounted Ranged"]
 	},
 	{
 		"name": "Urban Warfare II",
@@ -118,7 +120,7 @@
 			"[+30]% Strength <vs cities>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper","Shooter","Scout","Mounted"]
+		"unitTypes": ["Scrapper","Shooter","Scout","Mounted","Mounted Ranged"]
 	},
 	{
 		"name": "Guerilla Warfare I",
@@ -127,7 +129,7 @@
 			"Can move after attacking",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper","Shooter","Mounted"]
+		"unitTypes": ["Scrapper","Shooter","Mounted","Mounted Ranged"]
 	},
 	{
 		"name": "Guerilla Warfare II",
@@ -139,7 +141,7 @@
 			"[+10]% Strength <when attacking>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper","Shooter","Scout","Mounted"]
+		"unitTypes": ["Scrapper","Shooter","Scout","Mounted","Mounted Ranged"]
 	},
 
 	//// Siege, Helicopter
@@ -149,7 +151,7 @@
 			"[+20]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Siege","Helicopter"]
+		"unitTypes": ["Siege","Helicopter","Ranged Vechicle"]
 	},
 	{
 		"name": "Combat Drill",
@@ -157,7 +159,7 @@
 			"[+20]% Strength <when defending>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Siege","Helicopter"]
+		"unitTypes": ["Siege","Helicopter","Ranged Vechicle"]
 	},
 
 	//// Water (+ Air)
@@ -448,7 +450,7 @@
 			"[+10]% Strength <when attacking>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Armor"]
+		"unitTypes": ["Armor","Ranged Vechicle"]
 	},
 	{
 		"name": "Maneuver",
@@ -460,7 +462,7 @@
 			"[+1] Movement",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Armor"]
+		"unitTypes": ["Armor","Ranged Vechicle","Siege"]
 	},
 	{
 		"name": "Formation",
@@ -469,6 +471,7 @@
 			"Forage",
 			"Loose Formation",
 			"Shock",
+			"Hull Down",
 			"Guerilla Warfare I",
 			"Urban Warfare I"
 		],
@@ -476,7 +479,7 @@
 			"[+33]% Strength <vs [Mounted] units>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper"]
+		"unitTypes": ["Scrapper","Armor","Mounted"]
 	},
 	{
 		"name": "Ambush",
@@ -505,7 +508,7 @@
 			"[+25]% Strength <vs [Wounded] units>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Shooter"]
+		"unitTypes": ["Shooter","Ranged Vechicle","Mounted Ranged"]
 	},
 	{
 		"name": "Suppression",
@@ -517,7 +520,7 @@
 			"[+33]% Strength <vs [Melee] units>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Shooter"]
+		"unitTypes": ["Shooter","Ranged Vechicle","Mounted Ranged"]
 	},
 	{
 		"name": "Barrage",
@@ -529,7 +532,7 @@
 			"[+20]% Strength <when fighting in [Rough terrain] tiles> <when attacking>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Siege","Helicopter"]
+		"unitTypes": ["Siege","Helicopter","Ranged Vechicle"]
 	},
 	{
 		"name": "Resupply",
@@ -543,7 +546,7 @@
 			"[+10] HP when healing",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Armor","Siege","Helicopter"]
+		"unitTypes": ["Armor","Siege","Helicopter","Ranged Vechicle"]
 	},
 	{
 		"name": "Mobility",
@@ -555,7 +558,7 @@
 			"[+2] Movement",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Siege","Helicopter"]
+		"unitTypes": ["Helicopter"]
 	},
 	{
 		"name": "Littoral Warfare",
@@ -673,7 +676,7 @@
 			"[+1] Sight",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper","Shooter","Ranged Water","Melee Water","Helicopter","Mounted"]
+		"unitTypes": ["Scrapper","Shooter","Ranged Water","Melee Water","Helicopter","Mounted","Armor","Ranged Vechicle","Mounted Ranged"]
 	},
 	{
 		"name": "Blitz",
@@ -712,7 +715,7 @@
 			"Unit will heal every turn, even if it performs an action",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper","Shooter","Scout","Mounted"]
+		"unitTypes": ["Scrapper","Shooter","Scout","Mounted","Mounted Ranged"]
 	},
 	{
 		"name": "Extended Range",
@@ -729,7 +732,7 @@
 			"[+1] Range",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Shooter","Siege","Helicopter","Ranged Water"]
+		"unitTypes": ["Shooter","Siege","Helicopter","Ranged Water","Ranged Vechicle","Mounted Ranged"]
 	},
 	{
 		"name": "Amphibious",
@@ -744,7 +747,7 @@
 			"Defense bonus when embarked",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper","Shooter","Scout","Mounted"]
+		"unitTypes": ["Scrapper","Shooter","Scout"]
 	},
 	{
 		"name": "Seafarer",
@@ -755,7 +758,7 @@
 			"May attack when embarked",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper","Shooter","Scout","Mounted"]
+		"unitTypes": ["Scrapper","Shooter","Scout"]
 	},
 	{
 		"name": "Operational Range",
@@ -831,7 +834,7 @@
 			"Can move after attacking",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Shooter","Siege","Helicopter","Melee Water","Ranged Water","Submarine","Fighter","Bomber"]
+		"unitTypes": ["Shooter","Mounted Ranged","Ranged Vechicle","Siege","Helicopter","Melee Water","Ranged Water","Submarine","Fighter","Bomber"]
 	},
 	{
 		"name": "Medic I",
@@ -853,7 +856,7 @@
 			"All adjacent units heal [+5] HP when healing",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper","Shooter","Scout","Mounted"]
+		"unitTypes": ["Scrapper","Shooter","Scout","Mounted","Mounted Ranged"]
 	},
 	{
 		"name": "Medic II",
@@ -864,7 +867,7 @@
 			"[+5] HP when healing",
 			"All adjacent units heal [+5] HP when healing"
 		],
-		"unitTypes": ["Scrapper","Shooter","Scout","Mounted"]
+		"unitTypes": ["Scrapper","Shooter","Scout","Mounted","Mounted Ranged"]
 	},
 	{
 		"name": "Survivalism",
@@ -889,13 +892,13 @@
 			"Helicopter",
 			"Shooter",
 			"Armor",
+			"Ranged Vechicle",
 			"Melee Water",
 			"Ranged Water",
 			"Submarine",
 			"Aircraft Carrier",
-			"Fighter",
-			"Bomber",
-			"Mounted"
+			"Mounted",
+			"Mounted Ranged"
 		]
 	},
 	////////////////////
@@ -911,7 +914,7 @@
 			"Only available <if [Ground Control Center] is constructed>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper","Shooter","Scout","Armor"]
+		"unitTypes": ["Scrapper","Shooter","Scout","Armor","Mounted Ranged","Mounted","Ranged Vechicle"]
 	},
 	{
 		"name": "Infantry Weapons",
@@ -932,7 +935,7 @@
 			"Ranged attacks may be performed over obstacles",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Siege","Helicopter","Ranged Water"]
+		"unitTypes": ["Siege","Helicopter","Ranged Water","Ranged Vechicle"]
 	},
 	{
 		"name": "Advanced Weapons",
@@ -955,7 +958,7 @@
 			"[+10]% Strength for enemy [Promotion Nullifier] units in adjacent [All] tiles",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper","Shooter","Armor"]
+		"unitTypes": ["Scrapper","Shooter","Mounted","Mounted Ranged","Ranged Vechicle","Armor"]
 	},
 	{
 		"name": "Care Package",
@@ -966,7 +969,7 @@
 			"[+10] HP when healing",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper","Shooter"]
+		"unitTypes": ["Scrapper","Shooter","Mounted","Mounted Ranged","Ranged Vechicle","Armor"]
 	},
 	{
 		"name": "Advanced Sensors",
@@ -977,7 +980,7 @@
 			"Can see invisible [Land] units",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper","Shooter"]
+		"unitTypes": ["Scrapper","Shooter","Mounted","Mounted Ranged","Ranged Vechicle","Armor"]
 	},
 	{
 		"name": "Infantry Mortar",
@@ -1003,7 +1006,7 @@
 			"[+50]% Strength <vs cities>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Shooter","Siege","Ranged Water"]
+		"unitTypes": ["Shooter","Siege","Ranged Water","Ranged Vechicle"]
 	},
 	{
 		"name": "Antipersonnel Mines",
