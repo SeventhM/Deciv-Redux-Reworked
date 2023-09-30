@@ -1160,14 +1160,14 @@
 		"name": "Clansman",
 		"uniques": [
 			"Clansman",
-			"Earn [10]% of [military] opponent's [Cost] as [Gold] for kills",
+			"Earn [10]% of killed [Military] unit's [Cost] as [Gold]",
 			"[Great General] is earned [150]% faster"
 		]
 	},
 	{
 		"name": "Hazard Pay",
 		"uniques": [
-			"Earn [+20]% of [military] opponent's [Strength] as [Gold] for kills"
+			"Earn [20]% of killed [Military] unit's [Cost] as [Gold]"
 		]
 	},
 	{

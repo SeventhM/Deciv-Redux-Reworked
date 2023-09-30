@@ -13,8 +13,8 @@
 		"name": "God of Winter",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Faith] from [Tundra]",
-			"[+1 Faith] from [Permafrost]"
+			"[+1 Faith] from every [Tundra]",
+			"[+1 Faith] from every [Permafrost]"
 		]
 	},
 	{
@@ -361,7 +361,7 @@
 		"uniques": [
 			"[+25]% Spread Religion Strength <for [Great Sage] units>",
 			"[-25]% Faith cost of generating Great Prophet equivalents",
-			"[Faith] cost for [Great Sage] units [-25]%"
+			"[Faith] cost of purchasing [Great Sage] units [-25]%"
 		]
 	},
 	{

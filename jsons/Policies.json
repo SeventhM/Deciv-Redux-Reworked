@@ -43,7 +43,7 @@
         {
             "name": "Planned Economy",
             "uniques": [
-                "[+15]% [Production] from every [in capital]"
+                "[+15]% [Production] [in capital]"
             ],
             "requires": ["Castle Doctrine", "Differential Rationing"],
             "row": 2,

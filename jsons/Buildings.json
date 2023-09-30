@@ -619,7 +619,7 @@
 			"[+10]% growth [in all cities]",
 			"[+5]% Production when constructing [All] buildings [in this city]",
 			"[+2 Gold] from every [Town Hall]",
-			"Cost of purchasing items in cities reduced by [20]%",
+			"[Gold] cost of purchasing items in cities [-20]%",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Shareholders' Fund]>",
@@ -2304,8 +2304,7 @@
 		"uniques": [
 			"[+1 Science] per [2] population [in this city]",
 			"[+1 Science] <with [Power]>",
-			"[+2 Science] from [Books] tiles [in this city]",
-			"Enables construction of [Power] buildings"
+			"[+2 Science] from [Books] tiles [in this city]"
 		],
 		"requiredTech": "Writing"
 	},
@@ -2320,8 +2319,7 @@
 			"[+2 Science] from [Books] tiles [in this city]",
 			"[+1 Science] from [Refinery] tiles [in this city]",
 			"[+2 Happiness] <with [Power]>",
-			"Free [Field Scientist] appears",
-			"Enables construction of [Power] buildings"
+			"Free [Field Scientist] appears"
 		],
 		"requiredTech": "Writing"
 	},
@@ -2332,8 +2330,7 @@
 		"uniques": [
 			"[+1 Science, +1 Gold] <with [Power]>",
 			"[+1 Science] per [2] population [in this city]",
-			"[+2 Science] from [Books] tiles [in this city]",
-			"Enables construction of [Power] buildings"
+			"[+2 Science] from [Books] tiles [in this city]"
 		],
 		"requiredTech": "Writing"
 	},
@@ -2344,8 +2341,7 @@
 		"science": 1,
 		"uniques": [
 			"[+1 Science] per [2] population [in this city]",
-			"[+2 Science] from [Books] tiles [in this city]",
-			"Enables construction of [Power] buildings"
+			"[+2 Science] from [Books] tiles [in this city]"
 		],
 		"hurryCostModifier": 25,
 		"requiredTech": "Writing"
@@ -2357,8 +2353,7 @@
 		"uniques": [
 			"[+1 Science, +1 Faith] [in this city] <with [Power]>",
 			"[+2 Science] from [Books] tiles [in this city]",
-			"[+1 Science] per [3] population [in this city]",
-			"Enables construction of [Power] buildings"
+			"[+1 Science] per [3] population [in this city]"
 		],
 		"hurryCostModifier": 25,
 		"requiredTech": "Writing"
@@ -3070,7 +3065,6 @@
 		"maintenance": 2,
 		"hurryCostModifier": 0,
 		"uniques": [
-			"Only available <in cities with a [Library]>",
 			"Enables construction of [advanced] units",
 			"[+2 Production] <with [Power]>",
 			"[+1 Production] <with [Machine Parts]>",
@@ -3204,8 +3198,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Must be on [River]",
-			"Provides [2] [Power]",
-			"Only available <in cities with a [Library]>"
+			"Provides [2] [Power]"
 		],
 		"requiredTech": "Steam Power"
 	},
@@ -3227,8 +3220,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Must be next to [Coast]",
-			"Provides [2] [Power]",
-			"Only available <in cities with a [Library]>"
+			"Provides [2] [Power]"
 		],
 		"requiredTech": "Steam Power"
 	},
@@ -3239,8 +3231,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Provides [8] [Power]",
-			"Consumes [1] [Coal]",
-			"Only available <in cities with a [Library]>"
+			"Consumes [1] [Coal]"
 		],
 		"requiredTech": "Steam Power"
 	},
@@ -3256,8 +3247,7 @@
 			"[+3 Production] <in cities without a [Coal Plant]>",
 			"[+33]% Production when constructing [Manhattan Project] wonders [in this city]",
 			"[+33]% Production when constructing [Missile] units [in this city]",
-			"Only available <in cities without a [Recycling Plant]>",
-			"Only available <in cities with a [Library]>"
+			"Only available <in cities without a [Recycling Plant]>"
 		],
 		"requiredTech": "Nuclear Fission"
 	},
@@ -3280,8 +3270,7 @@
 			"[-10]% [Food] <before discovering [Nuclear Fission]>",
 			"[+33]% Production when constructing [Manhattan Project] wonders [in this city]",
 			"[+33]% Production when constructing [Missile] units [in this city]",
-			"Only available <in cities without a [Recycling Plant]>",
-			"Only available <in cities with a [Library]>"
+			"Only available <in cities without a [Recycling Plant]>"
 		],
 		"requiredTech": "Steam Power"
 	},
@@ -3294,8 +3283,7 @@
 			"Provides [6] [Power]",
 			"Provides [8] [Power] <in cities without a [Coal Plant]>",
 			"[+2 Food] <in cities without a [Coal Plant]>",
-			"Only available <in cities without a [Nuclear Plant]>",
-			"Only available <in cities with a [Library]>"
+			"Only available <in cities without a [Nuclear Plant]>"
 		],
 		"requiredTech": "Plastics Recycling"
 	},
