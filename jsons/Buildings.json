@@ -1614,7 +1614,7 @@
 		]
 	},
 
-	{
+	/*{
 		"name": "Content Farm",
 		"culture": 1,
 		"uniques": [
@@ -1682,7 +1682,7 @@
 			"Only available <in cities with a [Factory]>"
 		],
 		"requiredTech": "Manufacturing"
-	},
+	},*/
 	
 	{
 		"name": "Grand Monastery",

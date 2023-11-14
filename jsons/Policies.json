@@ -421,7 +421,7 @@
                 ]
             }]
     },
-    {
+    /*{
         "name": "Supremacy",
         "era": "Rediscovering era",
         "priorities": {
@@ -498,7 +498,7 @@
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }]
-    },
+    },*/
     {
         "name": "Monopoly",
         "era": "Rediscovering era",
@@ -515,8 +515,8 @@
         "policies": [{
             "name": "Mass Consumption",
             "uniques": [
-                //"[+50]% Happiness from luxury resources gifted by City-States",
-                //"[+1] Happiness from each type of luxury resource",
+                "[+50]% Happiness from luxury resources gifted by City-States",
+                "[+1] Happiness from each type of luxury resource",
                 "[+1 Gold] from every [Moisture trap]",
                 "[+1 Gold] from every [Water pump]"
             ],
