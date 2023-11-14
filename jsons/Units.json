@@ -397,8 +397,7 @@
 		"movement": 2,
 		"strength": 20,
 		"cost": 50,
-		"obsoleteTech": "Engineering",
-		"upgradesTo": "Soldier",
+		"upgradesTo": "Militia",
 		"uniques": ["Low Tech"],
 		"promotions": ["Forage"],
 		"attackSound": "nonmetalhit"
@@ -651,7 +650,7 @@
 		"movement": 4,
 		"strength": 20,
 		"cost": 50,
-		"obsoleteTech": "Steam Power",
+		"obsoleteTech": "Navigation",
 		"upgradesTo": "Patrol Boat",
 		"uniques": [
 			"Low Tech",
@@ -668,7 +667,7 @@
 		"movement": 4,
 		"strength": 20,
 		"cost": 50,
-		"obsoleteTech": "Steam Power",
+		"obsoleteTech": "Navigation",
 		"upgradesTo": "Patrol Boat",
 		"uniques": [
 			"Low Tech"
@@ -731,7 +730,7 @@
 		"cost": 70,
 		"requiredTech": "Redomestication",
 		"upgradesTo": "Outlaw",
-		"obsoleteTech": "Replaceable Parts",
+		"obsoleteTech": "Rifling",
 		"uniques": [
 			"Personnel",
 			"[+50]% Strength <vs [Low Tech] units>",
