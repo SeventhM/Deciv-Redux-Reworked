@@ -2884,7 +2884,7 @@
 		"cityStrength": 10,
 		"uniques": [
 			"New [Military] units start with [15] Experience [in all cities]",
-			"All newly-trained [{Land} {Military}] units [in all cities] receive the [Guerilla Warfare II] promotion",
+			"All newly-trained [relevant] units [in all cities] receive the [Guerilla Warfare] promotion",
 			"Cost increases by [30] per owned city",
 			"Free [Great General] appears"
 		],
@@ -2894,7 +2894,6 @@
 	// Production buldings
 	{
 		"name": "Stable",
-		"requiredNearbyImprovedResources": ["Horses"],
 		"cost": 50,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -3065,7 +3064,6 @@
 		"maintenance": 2,
 		"hurryCostModifier": 0,
 		"uniques": [
-			"Enables construction of [advanced] units",
 			"[+2 Production] <with [Power]>",
 			"[+1 Production] <with [Machine Parts]>",
 			"[+1 Production] from [Machine Parts] tiles [in this city]",
@@ -3082,7 +3080,6 @@
 		"maintenance": 2,
 		"hurryCostModifier": 0,
 		"uniques": [
-			"Enables construction of [advanced] units",
 			"[+1 Production] from [Refinery] tiles [in this city]",
 			"[+2 Production] <with [Power]>",
 			"[+1 Production] <with [Machine Parts]>",
@@ -3111,7 +3108,6 @@
 		"production": 4,
 		"maintenance": 3,
 		"uniques": [
-			"Enables construction of [advanced energy] units",
 			"[+1 Production] <with [Power]>",
 			"Only available <in cities with a [Factory]>",
 			"Consumes [1] [Power]",
@@ -3383,7 +3379,6 @@
 		"name": "Aerospace Facility",
 		"cityStrength": 10,
 		"uniques": [
-			"Enables construction of [advanced aircraft] units",
 			"[Aircraft] units gain the [Advanced Weapons] promotion",
 			"[+15]% Production when constructing [Air] units [in this city]",
 			"Only available <in cities with a [Factory]>",

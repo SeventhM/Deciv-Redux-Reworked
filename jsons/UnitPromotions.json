@@ -50,19 +50,38 @@
 			"[+5]% Strength <when defending>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper","Shooter"]
+		"unitTypes": ["Scrapper"]
 	},
 	{
 		"name": "Forage",
+		"prerequisites": [
+			"Drill",
+			"Shock",
+			"Entrench",
+			"Hull Down"
+		],
 		"uniques": [
 			"Heals [25] damage if it kills a unit",
 			"Earn [100]% of killed [Military] unit's [Strength] as [Science]",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper"]
+		"unitTypes": ["Scrapper","Mounted","Armor"]
 	},
 	{
 		"name": "Skirmish",
+		"prerequisites": [
+			"Amphibious",
+			"Ambush",
+			"Assault",
+			"Medic I",
+			"Formation",
+			"Sentry",
+			"Survivalism",
+			"Urban Warfare",
+			"Forage",
+			"Guerilla Warfare",
+			"Precision"
+		],
 		"uniques": [
 			"[25]% XP gained from combat",
 			"Only available <for units without [Promotion Nullifier]>"
@@ -81,12 +100,24 @@
 	},
 	{
 		"name": "Loose Formation",
+		"prerequisites":[
+			"Reconnaissance II",
+			"Amphibious",
+			"Ambush",
+			"Assault",
+			"Medic I",
+			"Formation",
+			"Sentry",
+			"Survivalism",
+			"Urban Warfare",
+			"Forage",
+			"Guerilla Warfare"
+		],
 		"uniques": [
-			"[+33]% Strength <vs [Ranged] units> <when defending>",
 			"May withdraw before melee ([25]%)",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper","Mounted","Armor"]
+		"unitTypes": ["Scrapper","Scout","Mounted","Armor"]
 	},
 	{
 		"name": "Hull Down",
@@ -98,47 +129,49 @@
 	},
 	//// Traditional terrain bonus
 	{
-		"name": "Urban Warfare I",
+		"name": "Drill",
+		"uniques": [
+			"[+25]% Strength <when fighting in [Rough terrain] tiles>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Scrapper","Mounted","Armor"]
+	},
+	{
+		"name": "Urban Warfare",
+		"prerequisites": [
+			"Drill",
+			"Shock",
+			"Entrench",
+			"Reconnaissance I",
+			"Survivalism I",
+			"Accuracy",
+			"Barrage",
+			"Combat Drill"
+		],
 		"uniques": [
 			"Double movement in [Forest]",
 			"Double movement in [Jungle]",
 			"[+10]% Strength <when fighting in [Forest] tiles>",
 			"[+10]% Strength <when fighting in [Jungle] tiles>",
-			"[+10]% Strength <vs cities>",
-			"Only available <for units without [Promotion Nullifier]>"
-		],
-		"unitTypes": ["Scrapper","Shooter","Mounted","Mounted Ranged"]
-	},
-	{
-		"name": "Urban Warfare II",
-		"prerequisites": [
-			"Urban Warfare I"
-		],
-		"uniques": [
-			"[+30]% Strength <when fighting in [Forest] tiles>",
-			"[+30]% Strength <when fighting in [Jungle] tiles>",
-			"[+30]% Strength <vs cities>",
+			"[+25]% Strength <vs cities>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Scrapper","Shooter","Scout","Mounted","Mounted Ranged"]
 	},
 	{
-		"name": "Guerilla Warfare I",
-		"uniques": [
-			"[+10]% Strength <when fighting in [Rough terrain] tiles>",
-			"Can move after attacking",
-			"Only available <for units without [Promotion Nullifier]>"
-		],
-		"unitTypes": ["Scrapper","Shooter","Mounted","Mounted Ranged"]
-	},
-	{
-		"name": "Guerilla Warfare II",
+		"name": "Guerilla Warfare",
 		"prerequisites": [
-			"Guerilla Warfare I"
+			"Drill",
+			"Shock",
+			"Entrench",
+			"Reconnaissance I",
+			"Survivalism I",
+			"Accuracy",
+			"Barrage",
+			"Combat Drill"
 		],
 		"uniques": [
-			"[+30]% Strength <when fighting in [Rough terrain] tiles>",
-			"[+10]% Strength <when attacking>",
+			"Can move after attacking",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Scrapper","Shooter","Scout","Mounted","Mounted Ranged"]
@@ -151,7 +184,7 @@
 			"[+20]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Siege","Helicopter","Ranged Vechicle"]
+		"unitTypes": ["Siege","Helicopter","Ranged Vechicle","Shooter","Mounted Ranged"]
 	},
 	{
 		"name": "Combat Drill",
@@ -159,7 +192,7 @@
 			"[+20]% Strength <when defending>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Siege","Helicopter","Ranged Vechicle"]
+		"unitTypes": ["Shooter","Siege","Helicopter"]
 	},
 
 	//// Water (+ Air)
@@ -174,7 +207,7 @@
 	{
 		"name": "Strike",
 		"uniques": [
-			"[+33]% Strength <when attacking>",
+			"[+25]% Strength <when attacking>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Melee Water"]
@@ -193,7 +226,7 @@
 			"[+25]% Strength <vs [Water] units>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Ranged Water","Fighter","Bomber"]
+		"unitTypes": ["Ranged Water","Submarine","Fighter","Bomber"]
 	},
 	{
 		"name": "Armor Plating",
@@ -227,7 +260,7 @@
 		"name": "Flight Deck III",
 		"prerequisites": [
 			"Flight Deck II",
-			"Damage Control",
+			"Survivalism",
 			"Close-In Weapons System"
 		],
 		"uniques": [
@@ -312,9 +345,7 @@
 	{
 		"name": "Interception II",
 		"prerequisites": [
-			"Interception I",
-			"Bombardment",
-			"Targeting"
+			"Interception I"
 		],
 		"uniques": [
 			"[+33]% Damage when intercepting",
@@ -325,8 +356,7 @@
 	{
 		"name": "Interception III",
 		"prerequisites": [
-			"Interception II",
-			"Operational Range"
+			"Interception II"
 		],
 		"uniques": [
 			"[+34]% Damage when intercepting",
@@ -401,13 +431,11 @@
 	{
 		"name": "Smokescreen",
 		"prerequisites": [
-			"Entrench",
-			"Forage"
+			"Entrench"
 		],
 		"uniques": [
 			"[+33]% Strength <vs [Ranged] units> <when defending>",
-			"[+10]% Strength <vs [Low Tech] units>",
-			"[+10]% Strength <vs cities>",
+			"[+15]% Strength <vs cities> <when defending>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Scrapper"]
@@ -416,8 +444,7 @@
 		"name": "Assault",
 		"prerequisites": [
 			"Entrench",
-			"Forage",
-			"Loose Formation",
+			"Drill",
 			"Shock"
 		],
 		"uniques": [
@@ -429,12 +456,19 @@
 	{
 		"name": "Pursuit",
 		"prerequisites": [
-			"Loose Formation",
-			"Shock"
+			"Amphibious",
+			"Ambush",
+			"Assault",
+			"Medic I",
+			"Formation",
+			"Sentry",
+			"Survivalism",
+			"Urban Warfare",
+			"Forage",
+			"Guerilla Warfare"
 		],
 		"uniques": [
 			"[+25]% Strength <vs [Wounded] units>",
-			"Heals [25] damage if it kills a unit",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Scrapper","Mounted"]
@@ -442,12 +476,15 @@
 	{
 		"name": "Awe",
 		"prerequisites": [
-			"Hull Down",
-			"Shock"
+			"Forage",
+			"Formation",
+			"Ambush",
+			"Sentry",
+			"Survivalism",
+			"Precision"
 		],
 		"uniques": [
 			"[+25]% Strength <vs [Wounded] units>",
-			"[+10]% Strength <when attacking>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Armor","Ranged Vechicle"]
@@ -455,92 +492,107 @@
 	{
 		"name": "Maneuver",
 		"prerequisites": [
-			"Hull Down",
-			"Shock"
+			"Survivalism",
+			"Amphibious",
+			"Sentry",
+			"Precision",
+			"Urban Warfare",
+			"Guerilla Warfare",
+			"Medic I",
+			"Formation",
+			"Ambush",
+			"Assault",
+			"Forage"
 		],
 		"uniques": [
 			"[+1] Movement",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Armor","Ranged Vechicle","Siege"]
+		"unitTypes": ["Mounted","Mounted Ranged","Armor","Ranged Vechicle","Siege"]
 	},
 	{
 		"name": "Formation",
 		"prerequisites": [
-			"Entrench",
-			"Forage",
-			"Loose Formation",
+			"Drill",
 			"Shock",
+			"Entrench",
 			"Hull Down",
-			"Guerilla Warfare I",
-			"Urban Warfare I"
+			"Accuracy",
+			"Barrage",
+			"Combat Drill"
 		],
 		"uniques": [
 			"[+33]% Strength <vs [Mounted] units>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper","Armor","Mounted"]
+		"unitTypes": ["Scrapper","Armor","Mounted","Helicopter"]
 	},
 	{
 		"name": "Ambush",
 		"prerequisites": [
-			"Entrench",
-			"Forage",
-			"Loose Formation",
+			"Drill",
 			"Shock",
+			"Entrench",
 			"Hull Down",
-			"Guerilla Warfare I",
-			"Urban Warfare I"
+			"Accuracy",
+			"Barrage",
+			"Combat Drill"
 		],
 		"uniques": [
 			"[+33]% Strength <vs [Armor] units>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper","Armor","Mounted"]
+		"unitTypes": ["Scrapper","Armor","Mounted","Helicopter"]
 	},
 	{
 		"name": "Precision",
 		"prerequisites": [
-			"Entrench",
-			"Skirmish"
+			"Accuracy",
+			"Combat Drill",
+			"Barrage"
 		],
 		"uniques": [
 			"[+25]% Strength <vs [Wounded] units>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Shooter","Ranged Vechicle","Mounted Ranged"]
+		"unitTypes": ["Shooter","Siege","Ranged Vechicle","Mounted Ranged","Helicopter"]
 	},
 	{
 		"name": "Suppression",
 		"prerequisites": [
-			"Entrench",
-			"Skirmish"
+			"Survivalism",
+			"Amphibious",
+			"Sentry",
+			"Precision",
+			"Urban Warfare",
+			"Guerilla Warfare",
+			"Medic I",
+			"Ambush",
+			"Formation"
 		],
 		"uniques": [
 			"[+33]% Strength <vs [Melee] units>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Shooter","Ranged Vechicle","Mounted Ranged"]
+		"unitTypes": ["Shooter","Siege","Ranged Vechicle","Mounted Ranged","Helicopter"]
 	},
 	{
 		"name": "Barrage",
-		"prerequisites": [
-			"Accuracy",
-			"Combat Drill"
-		],
 		"uniques": [
 			"[+20]% Strength <when fighting in [Rough terrain] tiles> <when attacking>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Siege","Helicopter","Ranged Vechicle"]
+		"unitTypes": ["Shooter","Mounted Ranged","Siege","Helicopter","Ranged Vechicle"]
 	},
 	{
 		"name": "Resupply",
 		"prerequisites": [
-			"Accuracy",
-			"Combat Drill",
-			"Awe",
-			"Maneuver"
+			"Survivalism",
+			"Precision",
+			"Sentry",
+			"Forage",
+			"Formation",
+			"Ambush"
 		],
 		"uniques": [
 			"[+10] HP when healing",
@@ -551,8 +603,9 @@
 	{
 		"name": "Mobility",
 		"prerequisites": [
-			"Barrage",
-			"Resupply"
+			"Resupply",
+			"Suppression",
+			"Extended Range"
 		],
 		"uniques": [
 			"[+2] Movement",
@@ -563,19 +616,20 @@
 	{
 		"name": "Littoral Warfare",
 		"uniques": [
-			"[+10]% Strength <when fighting in [Coast] tiles>",
-			"[+10]% Strength <when fighting in [Land] tiles>",
-			"[+10]% Strength <vs cities>",
-			"Eliminates combat penalty for attacking across a coast",
+			"[+33]% Strength <vs cities>",
 			"Only available <for units without [Promotion Nullifier]>"
-		],
-		"prerequisites": [
-			"Evasion",
-			"Strike"
 		],
 		"unitTypes": ["Melee Water"]
 	},
 	{
+		"name": "Convoy",
+		"uniques": [
+			"[+33]% Strength <vs [Water] units>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": ["Melee Water"]
+	},
+	/*{
 		"name": "Exploit Weakness",
 		"uniques": [
 			"[+25]% Strength <vs [Wounded] units>",
@@ -586,22 +640,22 @@
 			"Strike"
 		],
 		"unitTypes": ["Melee Water"]
-	},
+	},*/
 	{
 		"name": "Damage Control",
 		"prerequisites": [
-			"Bombardment",
-			"Targeting",
-			"Armor Plating",
-			"Flight Deck I"
+			"Survivalism",
+			"Sentry",
+			"Flight Deck II",
+			"Wolfpack II",
+			"Close-In Weapons System"
 		],
 		"uniques": [
 			"[+5] HP when healing",
-			"All adjacent units heal [+20] HP when healing",
 			"May heal outside of friendly territory",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Ranged Water","Aircraft Carrier"]
+		"unitTypes": ["Ranged Water","Aircraft Carrier","Melee Water","Submarine"]
 	},
 	{
 		"name": "Close-In Weapons System",
@@ -622,13 +676,11 @@
 	{
 		"name": "Flank Speed",
 		"prerequisites": [
-			"Littoral Warfare",
-			"Exploit Weakness",
-			"Damage Control",
-			"Close-In Weapons System",
+			"Survivalism",
 			"Sentry",
 			"Flight Deck II",
-			"Wolfpack I"
+			"Close-In Weapons System",
+			"Wolfpack II"
 		],
 		"uniques": [
 			"[+1] Movement",
@@ -638,57 +690,40 @@
 		"unitTypes": ["Melee Water","Ranged Water","Aircraft Carrier","Submarine"]
 	},
 	{
-		"name": "Convoy",
-		"prerequisites": [
-			"Littoral Warfare",
-			"Exploit Weakness",
-			"Damage Control",
-			"Close-In Weapons System",
-			"Sentry",
-			"Flight Deck II",
-			"Wolfpack II"
-		],
-		"uniques": [
-			"[+10] HP when healing",
-			"May heal outside of friendly territory",
-			"Only available <for units without [Promotion Nullifier]>"
-		],
-		"unitTypes": ["Melee Water","Ranged Water","Aircraft Carrier","Submarine"]
-	},
-	{
 		"name": "Sentry",
 		"prerequisites": [
-			"Skirmish",
-			"Entrench",
-			"Forage",
-			"Loose Formation",
+			"Drill",
 			"Shock",
-			"Guerilla Warfare I",
-			"Urban Warfare I",
-			"Reconnaissance I",
-			"Bombardment",
-			"Targeting",
+			"Entrench",
+			"Accuracy",
+			"Combat Drill",
+			"Barrage",
+			"Hull Down",
 			"Evasion",
 			"Strike",
-			"Barrage"
+			"Littoral Warfare",
+			"Convoy",
+			"Bombardment",
+			"Targeting",
+			"Wolfpack I",
+			"Armor Plating",
+			"Flight Deck I"
 		],
 		"uniques": [
 			"[+1] Sight",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper","Shooter","Ranged Water","Melee Water","Helicopter","Mounted","Armor","Ranged Vechicle","Mounted Ranged"]
+		"unitTypes": ["Scrapper","Shooter","Siege","Submarine","Ranged Water","Melee Water","Aircraft Carrier","Helicopter","Mounted","Armor","Ranged Vechicle","Mounted Ranged"]
 	},
 	{
 		"name": "Blitz",
 		"prerequisites": [
-			"Smokescreen",
-			"Assault",
+			"Loose Formation",
+			"Skirmish",
 			"Pursuit",
-			"Maneuver",
 			"Awe",
-			"Formation",
-			"Ambush",
-			"Sentry"
+			"Resupply",
+			"Maneuver"
 		],
 		"uniques": [
 			"[1] additional attacks per turn",
@@ -700,16 +735,14 @@
 	{
 		"name": "March",
 		"prerequisites": [
-			"Smokescreen",
-			"Assault",
+			"Loose Formation",
+			"Skirmish",
 			"Pursuit",
-			"Precision",
-			"Suppression",
-			"Formation",
-			"Ambush",
-			"Sentry",
+			"Medic II",
 			"Reconnaissance III",
-			"Medic II"
+			"Suppression",
+			"Extended Range",
+			"Maneuver"
 		],
 		"uniques": [
 			"Unit will heal every turn, even if it performs an action",
@@ -720,13 +753,15 @@
 	{
 		"name": "Extended Range",
 		"prerequisites": [
-			"Precision",
-			"Suppression",
+			"Survivalism",
+			"Amphibious",
 			"Sentry",
-			"Barrage",
-			"Resupply",
-			"Flank Speed",
-			"Convoy"
+			"Precision",
+			"Urban Warfare",
+			"Guerilla Warfare",
+			"Medic I",
+			"Ambush",
+			"Formation"
 		],
 		"uniques": [
 			"[+1] Range",
@@ -737,9 +772,12 @@
 	{
 		"name": "Amphibious",
 		"prerequisites": [
-			"Blitz",
-			"March",
-			"Extended Range"
+			"Drill",
+			"Entrench",
+			"Shock",
+			"Accuracy",
+			"Combat Drill",
+			"Barrage"
 		],
 		"uniques": [
 			"Eliminates combat penalty for attacking over a river",
@@ -747,7 +785,7 @@
 			"Defense bonus when embarked",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper","Shooter","Scout"]
+		"unitTypes": ["Scrapper","Shooter"]
 	},
 	{
 		"name": "Seafarer",
@@ -758,13 +796,14 @@
 			"May attack when embarked",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper","Shooter","Scout"]
+		"unitTypes": ["Scrapper","Shooter"]
 	},
 	{
 		"name": "Operational Range",
 		"prerequisites": [
 			"Interception I",
 			"Siege I",
+			"Dogfighting I",
 			"Bombardment",
 			"Targeting"
 		],
@@ -778,7 +817,8 @@
 		"name": "Sortie",
 		"prerequisites": [
 			"Interception II",
-			"Operational Range"
+			"Operational Range",
+			"Dogfighting II"
 		],
 		"uniques": [
 			"[1] extra interceptions may be made per turn",
@@ -802,11 +842,14 @@
 	{
 		"name": "Air Repair",
 		"prerequisites": [
-			"Interception III",
+			"Suppression",
+			"Extended Range",
+			"Resupply",
 			"Siege III",
-			"Sortie",
 			"Evasive Maneuvers",
-			"Logistics"
+			"Interception III",
+			"Sortie",
+			"Dogfighting III"
 		],
 		"uniques": [
 			"Unit will heal every turn, even if it performs an action",
@@ -817,17 +860,21 @@
 	{
 		"name": "Logistics",
 		"prerequisites": [
-			"Mobility",
+			"Suppression",
+			"Skirmish",
 			"Extended Range",
-			"March",
+			"Suppression",
+			"Resupply",
 			"Flank Speed",
-			"Convoy",
-			"Wolfpack III",
-			"Interception III",
+			"Damage Control",
 			"Siege III",
+			"Evasive Maneuvers",
+			"Maneuver",
+			"Damage Control",
+			"Interception III",
 			"Sortie",
-			"Operational Range",
-			"Evasive Maneuvers"
+			"Dogfighting III",
+			"Wolfpack III"
 		],
 		"uniques": [
 			"[1] additional attacks per turn",
@@ -839,17 +886,13 @@
 	{
 		"name": "Medic I",
 		"prerequisites": [
-			"Smokescreen",
-			"Assault",
-			"Pursuit",
-			"Formation",
-			"Ambush",
-			"Precision",
-			"Suppression",
-			"Sentry",
-			"Guerilla Warfare II",
-			"Urban Warfare II",
-			"Reconnaissance I"
+			"Drill",
+			"Entrench",
+			"Shock",
+			"Survivalism I",
+			"Accuracy",
+			"Combat Drill",
+			"Barrage"
 		],
 		"uniques": [
 			"[+5] HP when healing",
@@ -870,24 +913,43 @@
 		"unitTypes": ["Scrapper","Shooter","Scout","Mounted","Mounted Ranged"]
 	},
 	{
+		"name": "Survivalism I",
+		"uniques": [
+			"[+5] HP when healing <in [Foreign Land] tiles>",
+			"[+25]% Strength <when defending>",
+			"Only available <for units without [Promotion Nullifier]>"
+		],
+		"unitTypes": [
+			"Scout"
+		]
+	},
+	{
 		"name": "Survivalism",
 		"prerequisites": [
-			"Medic I",
-			"Resupply",
-			"Air Repair",
-			"March",
-			"Damage Control",
-			"Convoy"
+			"Drill",
+			"Entrench",
+			"Shock",
+			"Accuracy",
+			"Combat Drill",
+			"Barrage",
+			"Hull Down",
+			"Convoy",
+			"Evasion",
+			"Strike",
+			"Littoral Warfare",
+			"Bombardment",
+			"Targeting",
+			"Flight Deck I",
+			"Armor Plating",
+			"Wolfpack I"
 		],
 		"uniques": [
 			"[+5] HP when healing <in [Foreign Land] tiles>",
 			"[+25]% Strength <when defending>",
-			"[-50]% maintenance costs",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": [
 			"Scrapper",
-			"Scout",
 			"Siege",
 			"Helicopter",
 			"Shooter",
@@ -929,13 +991,18 @@
 	{
 		"name": "Artillery",
 		"prerequisites": [
-			"Logistics"
+			"Suppression",
+			"Skirmish",
+			"Extended Range",
+			"Maneuver",
+			"Resupply",
+			"Damage Control"
 		],
 		"uniques": [
 			"Ranged attacks may be performed over obstacles",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Siege","Helicopter","Ranged Water","Ranged Vechicle"]
+		"unitTypes": ["Shooter","Mounted Ranged","Siege","Helicopter","Ranged Water","Ranged Vechicle"]
 	},
 	{
 		"name": "Advanced Weapons",
@@ -997,8 +1064,7 @@
 	{
 		"name": "White Phosphorus Munitions",
 		"prerequisites": [
-			"Infantry Mortar",
-			"Artillery"
+			"Infantry Mortar"
 		],
 		"uniques": [
 			"[+50]% Strength <vs [Low Tech] units>",
@@ -1006,7 +1072,7 @@
 			"[+50]% Strength <vs cities>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Shooter","Siege","Ranged Water","Ranged Vechicle"]
+		"unitTypes": ["Shooter"]
 	},
 	{
 		"name": "Antipersonnel Mines",
@@ -1051,9 +1117,9 @@
 			"Advanced Weapons"
 		],
 		"uniques": [
-			"[+50]% Strength <vs [Low Tech] units>",
-			"[+50]% Strength <vs [Personnel] units>",
-			"[+50]% Strength <vs cities>",
+			"[+33]% Strength <vs [Low Tech] units>",
+			"[+33]% Strength <vs [Personnel] units>",
+			"[+33]% Strength <vs cities>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Fighter","Bomber","Helicopter"]
@@ -1066,7 +1132,7 @@
 		"uniques": [
 			"[+33]% Strength <when fighting in [Forest] tiles>",
 			"[+33]% Strength <when fighting in [Jungle] tiles>",
-			"[+50]% Strength <vs cities>",
+			"[+33]% Strength <vs cities>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Fighter","Bomber","Helicopter"]
@@ -1193,7 +1259,7 @@
 		"name": "Promotion Nullifier",
 		"uniques": [
 			"Promotion Nullifier",
-			"Negates the combat bonus effect of Enemy Promotions",
+			//"Negates the combat bonus effect of Enemy Promotions",
 			"No defensive terrain penalty",
 			"[+1] Sight"
 		]
@@ -1255,8 +1321,6 @@
 			"[50]% XP gained from combat",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Uncapturable"
-		],
-		"column": 6,
-		"row": 10
+		]
 	}
 ]

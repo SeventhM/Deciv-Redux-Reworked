@@ -127,9 +127,9 @@
 		"style": "",
 		"uniqueName": "Rubble Runners",
 		"uniques": [
-			"[Civilian] units gain the [Urban Warfare I] promotion",
-			"[Low Tech] units gain the [Urban Warfare I] promotion",
-			"[Personnel] units gain the [Urban Warfare I] promotion",
+			"[Civilian] units gain the [Urban Warfare] promotion",
+			"[Low Tech] units gain the [Urban Warfare] promotion",
+			"[Personnel] units gain the [Urban Warfare] promotion",
 			"Starts with [Collectivism] adopted",
 			"[+1 Faith] [in all cities] <with [1] to [2] neighboring [Jungle] tiles>",
 			"[+2 Faith] [in all cities] <with [3] to [6] neighboring [Jungle] tiles>",
@@ -442,9 +442,7 @@
 		"uniques": [
 			"[Land] units gain the [Ignore terrain cost] promotion",
 			"[Land] units gain the [Hills Have Eyes] promotion",
-			"No Maintenance costs for improvements in [Hill] tiles",
-			"[{Land} {Low Tech}] units gain the [Guerilla Warfare I] promotion",
-			"[Personnel] units gain the [Guerilla Warfare I] promotion"
+			"No Maintenance costs for improvements in [Hill] tiles"
 		],
 		"cities": [
 			"The Enclave",
@@ -901,10 +899,8 @@
 			"Cannot build [Armor] units",
 			"Cannot build [Siege] units",
 			"Cannot build [Helicopter] units",
-			"[Personnel] units gain the [Guerilla Warfare I] promotion",
-			"[Personnel] units gain the [Guerilla Warfare II] promotion",
-			"[{Land} {Low Tech}] units gain the [Guerilla Warfare I] promotion",
-			"[{Land} {Low Tech}] units gain the [Guerilla Warfare II] promotion",
+			"[Personnel] units gain the [Guerilla Warfare] promotion",
+			"[{Land} {Low Tech}] units gain the [Guerilla Warfare] promotion",
 			"Units ignore terrain costs when moving into any tile with Hills"
 		],
 		"declaringWar": "You leave us no choice. War it must be.",

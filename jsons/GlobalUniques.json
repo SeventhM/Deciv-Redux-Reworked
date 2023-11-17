@@ -9,11 +9,11 @@
         "Rebel units may spawn <when below [-20] Happiness>",
 
         "[-1] Sight <for [Embarked] units>",
-        "Notified of new Barbarian encampments"
+        "Notified of new Barbarian encampments",
 
         //Combat Nullifier Related Uniques
 
-        "[-33]% Strength <for units with [Entrench]> <vs [Ranged] units> <when defending> <vs [Promotion Nullifier] units>",
+        /*"[-33]% Strength <for units with [Entrench]> <vs [Ranged] units> <when defending> <vs [Promotion Nullifier] units>",
         "[-5]% Strength <for units with [Entrench]> <when defending> <vs [Promotion Nullifier] units>",
         "[-25]% Strength <for units with [Shock]> <when fighting in [Open terrain] tiles> <vs [Promotion Nullifier] units>",
         "[-33]% Strength <for units with [Loose Formation]> <vs [Ranged] units> <when defending> <vs [Promotion Nullifier] units>",
@@ -85,7 +85,7 @@
         "[-25]% XP gained from combat <for units with [Promotion Nullifier]> <for units with [Skirmish]>",
         "[-25]% XP gained from combat <for units with [Promotion Nullifier]> <for units with [Forage]>",
         "[-25]% XP gained from combat <for units with [Promotion Nullifier]> <for units with [Reconnaissance I]>",
-        "[-50]% XP gained from combat <for units with [Promotion Nullifier]> <after adopting [Military Tradition]>",
+        "[-50]% XP gained from combat <for units with [Promotion Nullifier]> <after adopting [Military Tradition]>",*/
 
         // Factory farm food bonus
         "[+1 Food] from every [Food source] <with [1] to [6] neighboring [Factory farm] tiles>"

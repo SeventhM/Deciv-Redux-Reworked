@@ -225,7 +225,7 @@
 			"[+50]% Strength <vs [Mounted] units>",
 			"Consumes [1] [Slaves]"
 		],
-		"promotions": ["Urban Warfare I"],
+		"promotions": ["Urban Warfare"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -240,7 +240,7 @@
 		"uniques": [
 			"Low Tech"
 		],
-		"promotions": ["Forage", "Urban Warfare I"],
+		"promotions": ["Forage", "Urban Warfare"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -293,7 +293,6 @@
 			"Can build [Research site] improvements on tiles",
 			"Can build [Borough] improvements on tiles"
 		],
-		"promotions": ["Forage"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -443,7 +442,7 @@
 			"[+33]% Strength <vs [Low Tech] units>",
 			"Consumes [1] [Slaves]"
 		],
-		"promotions": ["Urban Warfare I"],
+		"promotions": ["Urban Warfare"],
 		"attackSound": "arrow"
 	},
 	{
@@ -463,6 +462,7 @@
 			"Low Tech",
 			"[+33]% Strength <vs [Low Tech] units>"
 		],
+		"promotions": ["Forage"],
 		"attackSound": "arrow"
 	},
 	{
@@ -491,7 +491,7 @@
 		"upgradesTo": "Soldier",
 		"hurryCostModifier": 20,
 		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
-		"promotions": ["Forage"],
+		"promotions": ["Guerilla Warfare"],
 		"attackSound": "shot"
 	},
 	{
@@ -622,7 +622,7 @@
 			"Can build [Trench] improvements on tiles",
 			"Consumes [1] [Slaves]"
 		],
-		"promotions": ["Urban Warfare I"],
+		"promotions": ["Urban Warfare"],
 		"attackSound": "shot"
 	},
 	{
@@ -641,6 +641,7 @@
 		"upgradesTo": "Rifleman",
 		"hurryCostModifier": 20,
 		"uniques": ["Personnel"],
+		"promotions": ["Forage"],
 		"attackSound": "shot"
 	},
 	{
@@ -783,7 +784,6 @@
 			"Can move after attacking",
 			"[+33]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"Only available <if [Stable] is constructed>",
 			"Only available <in cities with a [Stable]>",
 			"Enslaved",
 			"Can build [All Road] improvements on tiles",
@@ -793,7 +793,7 @@
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "horse",
-		"promotions": ["Urban Warfare I"]
+		"promotions": ["Urban Warfare"]
 	},
 	{
 		"name": "Hussar",
@@ -835,8 +835,8 @@
 			"[-33]% Strength <vs cities> <when attacking>"
 		],
 		"promotions": [
-			"Forage",
-			"Entrench"
+			"Entrench",
+			"Forage"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
@@ -970,6 +970,7 @@
 			"Can move after attacking",
 			"No defensive terrain bonus"
 		],
+		"promotions": ["Forage"],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
 	},
@@ -1136,7 +1137,6 @@
 		"upgradesTo": "Tank",
 		"obsoleteTech": "Combined Arms",
 		"uniques": [
-			"Only available <if [Chop Shop] is constructed>",
 			"[+100]% Strength <vs cities>",
 			"[+33]% Strength <vs [Ranged] units> <when defending>",
 			"Can move after attacking",
@@ -1391,7 +1391,7 @@
 		"upgradesTo": "Assassin",
 		"hurryCostModifier": 20,
 		"uniques": ["Personnel"],
-		"promotions": ["Headhunter","Urban Warfare I"],
+		"promotions": ["Headhunter","Urban Warfare"],
 		"attackSound": "shot"
 	},
 	{
@@ -1411,6 +1411,7 @@
 		"hurryCostModifier": 20,
 		"uniques": ["Personnel"],
 		"promotions": [
+			"Forage",
 			"Entrench"
 		],
 		"attackSound": "shot"
@@ -1521,6 +1522,7 @@
 			"[-33]% Strength <vs cities> <when attacking>"
 		],
 		"promotions": [
+			"Forage",
 			"Entrench"
 		],
 		"hurryCostModifier": 20,
@@ -1544,8 +1546,7 @@
 			"Automated",
 			"[+2] Sight",
 			"Can see over obstacles",
-			"Consumes [1] [Aluminum]",
-			"Only available <if [Factory] is constructed>"
+			"Consumes [1] [Aluminum]"
 		],
 		"promotions": ["Automated"],
 		"attackSound": "jetgun"
@@ -1558,7 +1559,6 @@
 		"cost": 200,
 		"hurryCostModifier": 20,
 		"uniques": [
-			"Only available <if [Factory] is constructed>",
 			"Can build [All] improvements on tiles",
 			"[-25]% tile improvement construction time",
 			"Automation is a primary action"
@@ -1696,7 +1696,7 @@
 		"requiredTech": "Currency",
 		"hurryCostModifier": 20,
 		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
-		"promotions": ["Headhunter","Urban Warfare I"],
+		"promotions": ["Headhunter","Urban Warfare"],
 		"attackSound": "shot"
 	},
 	{
@@ -1733,7 +1733,6 @@
 			"Must set up to ranged attack",
 			"[-33]% Strength <vs [Armor] units>",
 			"[-50]% Strength <vs cities> <when attacking>",
-			"Only available <if [Factory] is constructed>",
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
@@ -1753,7 +1752,6 @@
 			"[-33]% Strength <vs cities> <when attacking>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
-			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"
 		],
 		"hurryCostModifier": 20,
@@ -1771,7 +1769,6 @@
 		"upgradesTo": "Tank",
 		"obsoleteTech": "Combined Arms",
 		"uniques": [
-			"Only available <if [Chop Shop] is constructed>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Consumes [1] [Oil]"
@@ -1795,7 +1792,6 @@
 			"[-33]% Strength <vs cities> <when attacking>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
-			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]",
 			"Double movement in [Hill]"
 		],
@@ -1818,6 +1814,7 @@
 			"Can move after attacking",
 			"No defensive terrain bonus"
 		],
+		"promotions": ["Forage"],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
 	},
@@ -1903,6 +1900,7 @@
 			"[-33]% Strength <vs [Armor] units>"
 		],
 		"promotions": [
+			"Forage",
 			"Accuracy"
 		],
 		"hurryCostModifier": 20,
@@ -1959,7 +1957,6 @@
 		"upgradesTo": "Missile Vehicle",
 		"uniques": [
 			"[+200]% Strength <vs [Armor] units>",
-			"Only available <if [Factory] is constructed>",
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
@@ -1981,7 +1978,6 @@
 			"[-50]% Strength <vs [Helicopter] units>",
 			"Must set up to ranged attack",
 			"[-1] Sight",
-			"Only available <if [Factory] is constructed>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Artillery"],
@@ -2001,7 +1997,6 @@
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Personnel",
-			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Weapons]"
 		],
 		"promotions":["Gas Mask"],
@@ -2021,8 +2016,8 @@
 		"hurryCostModifier": 20,
 		"uniques": ["Personnel"],
 		"promotions": [
-			"Entrench",
 			"Forage",
+			"Entrench",
 			"Gas Mask"
 		],
 		"attackSound": "machinegun"
@@ -2040,7 +2035,6 @@
 		"uniques": [
 			"Personnel",
 			"Enslaved",
-			"Only available <if [Factory] is constructed>",
 			"[-25]% tile improvement construction time",
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
@@ -2066,14 +2060,13 @@
 		"uniques": [
 			"Personnel",
 			"Enslaved",
-			"Only available <if [Factory] is constructed>",
 			"[-25]% tile improvement construction time",
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Can build [Trench] improvements on tiles",
 			"Consumes [1] [Slaves]"
 		],
-		"promotions":["Gas Mask","Urban Warfare I"],
+		"promotions":["Gas Mask","Urban Warfare"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -2090,7 +2083,6 @@
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Personnel",
-			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Weapons]"
 		],
 		"promotions": ["Gas Mask"],
@@ -2114,6 +2106,7 @@
 			"Personnel"
 		],
 		"promotions": [
+			"Forage",
 			"Entrench"
 		],
 		"attackSound": "shot"
@@ -2129,7 +2122,6 @@
 		    "Can move after attacking",
 			"Consumes [1] [Oil]",
 			"Double movement in [Coast]",
-			"Only available <if [Factory] is constructed>",
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
@@ -2173,7 +2165,6 @@
 			"Cannot intercept [Stealth Bomber] units",
 			"[+100]% Strength <vs [Bomber] units>",
 			"[+100]% Strength <vs [Helicopter] units>",
-			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"
 		],
 		"attackSound": "machinegun"
@@ -2189,7 +2180,6 @@
 		"requiredTech": "Flight",
 		"upgradesTo": "Heavy Bomber",
 		"uniques": [
-			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"
 		],
 		"obsoleteTech": "Lasers",
@@ -2214,7 +2204,6 @@
 			"[-33]% Strength <vs [Armor] units>",
 			"[-50]% Strength <vs cities> <when attacking>",
 			"Must set up to ranged attack",
-			"Only available <if [Factory] is constructed>",
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
@@ -2232,7 +2221,6 @@
 		"requiredTech": "Ballistics",
 		"uniques": [
 			"[+25]% Strength <vs cities>",
-			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]",
 			"Never appears as a Barbarian unit"
 		],
@@ -2278,7 +2266,6 @@
 			"[-25]% Strength <vs [Armor] units>",
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
-			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]",
 			"Never appears as a Barbarian unit"
 		],
@@ -2297,7 +2284,6 @@
 		"uniques": [
 			"[+75]% Strength <when attacking>",
 			"Can only attack [Water] tiles",
-			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]",
 			"Never appears as a Barbarian unit"
 		],
@@ -2317,7 +2303,6 @@
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
-			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]",
 			"Never appears as a Barbarian unit"
 		],
@@ -2341,7 +2326,6 @@
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
-			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"
 		],
 		"hurryCostModifier": 20,
@@ -2359,7 +2343,6 @@
 		"upgradesTo": "Modern Armor",
 		"obsoleteTech": "Advanced Materials",
 		"uniques": [
-			"Only available <if [Factory] is constructed>",
 			"[+25]% Strength <vs [Air] units>",
 			"[-25]% Strength <vs cities> <when attacking>",
 			"Can move after attacking",
@@ -2386,7 +2369,6 @@
 			"[+50]% Strength <vs [Air] units>",
 			"[+50]% Strength <vs [Helicopter] units>",
 			"[+100]% Strength <vs [Submarine] units>",
-			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]",
 			"Never appears as a Barbarian unit"
 		],
@@ -2406,7 +2388,6 @@
 		"upgradesTo": "Heavy Carrier",
 		"uniques": [
 			"Can carry [2] [Aircraft] units",
-			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]",
 			"Never appears as a Barbarian unit"
 		],
@@ -2428,7 +2409,6 @@
 			"May Paradrop up to [10] tiles from inside friendly territory",
 			"Consumes [1] [Weapons]",
 			"Never appears as a Barbarian unit",
-			"Only available <if [Factory] is constructed>"
 		],
 		"attackSound": "shot"
 	},
@@ -2446,8 +2426,7 @@
 		    "Personnel",
 			"No movement cost to pillage",
 			"May Paradrop up to [10] tiles from inside friendly territory",
-			"Consumes [1] [Weapons]",
-			"Only available <if [Factory] is constructed>"
+			"Consumes [1] [Weapons]"
 			],
 		"promotions": ["Smokescreen"],
 		"attackSound": "shot"
@@ -2471,8 +2450,6 @@
 			"Cannot intercept [Stealth Fighter] units",
 			"Cannot intercept [Stealth Bomber] units",
 			"[+100]% Strength <vs [Bomber] units>",
-			"Only available <if [Aerospace Facility] is constructed>",
-			"Only available <in cities with a [Aerospace Facility]>",
 			"Consumes [1] [Oil]"
 		],
 		"attackSound": "jetgun"
@@ -2489,8 +2466,6 @@
 		"upgradesTo": "Stealth Bomber",
 		"hurryCostModifier": 20,
 		"uniques": [
-			"Only available <if [Aerospace Facility] is constructed>",
-			"Only available <in cities with a [Aerospace Facility]>",
 			"Consumes [1] [Oil]"
 		],
 		"attackSound": "bombing"
@@ -2509,8 +2484,6 @@
 			"Automated",
 			"[+4] Sight",
 			"Can see over obstacles",
-			"Only available <if [Factory] is constructed>",
-			"Only available <in cities with a [Factory]>",
 			"Consumes [1] [Aluminum]"
 		],
 		"promotions": ["Automated"],
@@ -2533,8 +2506,6 @@
 			"[+4] Sight",
 			"Promotion Nullifier",
 			"Can see over obstacles",
-			"Only available <if [Factory] is constructed>",
-			"Only available <in cities with a [Factory]>",
 			"Consumes [1] [Aluminum]"
 		],
 		"promotions": ["Automated","Promotion Nullifier"],
@@ -2553,8 +2524,7 @@
 		"requiredTech": "Rocketry",
 		"uniques": [
 		    "[-100]% maintenance costs",
-		    "[+40]% Strength <after discovering [Energy Weapons]>",
-			"Only available <if [Factory] is constructed>"
+		    "[+40]% Strength <after discovering [Energy Weapons]>"
 		],
 		"attackSound": "missile"
 	},
@@ -2611,7 +2581,6 @@
 			"No defensive terrain bonus",
 			"[-50]% Strength <vs [Helicopter] units>",
 			"[-1] Sight",
-			"Only available <if [Factory] is constructed>",
 			"Can carry [1] [Missile] units",
 			"Consumes [1] [Oil]",
 			"Never appears as a Barbarian unit"
@@ -2637,7 +2606,6 @@
 			"No defensive terrain bonus",
 			"[-50]% Strength <vs [Helicopter] units>",
 			"[-1] Sight",
-			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"
 		],
 		"promotions": ["Artillery","Promotion Nullifier","Portable Power Cell"],
@@ -2680,7 +2648,6 @@
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[+150]% Strength <vs [Armor] units>",
-			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]",
 			"Never appears as a Barbarian unit"
 		],
@@ -2702,7 +2669,6 @@
 			"[+200]% Strength <vs [Air] units>",
 			"[+200]% Strength <vs [Helicopter] units>",
 			"No defensive terrain bonus",
-			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]",
 			"Never appears as a Barbarian unit"
 		],
@@ -2728,7 +2694,6 @@
 			"[+200]% Strength <vs [Helicopter] units>",
 			"All adjacent units heal [+15] HP when healing",
 			"No defensive terrain bonus",
-			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"
 		],
 		"hurryCostModifier": 20,
@@ -2750,7 +2715,6 @@
 			"[33]% chance to intercept air attacks",
 			"[+4] Sight",
 			"Can move after attacking",
-			"Only available <in cities with a [Aerospace Facility]>",
 			"[-25]% Strength <vs cities> <when attacking>",
 			"Consumes [1] [Oil]",
 			"Never appears as a Barbarian unit"
@@ -2773,7 +2737,6 @@
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
-			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]",
 			"Never appears as a Barbarian unit"
 		],
@@ -2795,7 +2758,6 @@
 		"uniques": [
 			"Promotion Nullifier",
 			"Purge Robot",
-			"Only available <if [Factory] is constructed>",
 			"[100]% chance to intercept air attacks",
 			"[+25]% Strength <vs [Air] units>",
 			"Can move after attacking",
@@ -2821,7 +2783,6 @@
 			"[+100]% Strength <vs [Air] units>",
 			"[+100]% Strength <vs [Submarine] units>",
 			"[+100]% Strength <vs [Helicopter] units>",
-			"Only available <if [Factory] is constructed>",
 			"Can carry [2] [Missile] units",
 			"Never appears as a Barbarian unit",
 			"Consumes [1] [Oil]"
@@ -2848,7 +2809,6 @@
 			"[+100]% Strength <vs [Air] units>",
 			"[+100]% Strength <vs [Submarine] units>",
 			"[+100]% Strength <vs [Helicopter] units>",
-			"Only available <if [Factory] is constructed>",
 			"Can carry [2] [Missile] units",
 			"Consumes [1] [Oil]"
 		],
@@ -2889,7 +2849,6 @@
 		"requiredTech": "Particle Physics",
 		"uniques": [
 			"Can carry [3] [Air] units",
-			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Uranium]",
 			"Never appears as a Barbarian unit"
 		],
@@ -2912,7 +2871,6 @@
 			"Can only attack [Water] tiles",
 			"[+1] Sight",
 			"Can carry [2] [Missile] units",
-			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Uranium]",
 			"Never appears as a Barbarian unit"
 		],
@@ -2931,7 +2889,6 @@
 			"Personnel",
 			"Never appears as a Barbarian unit",
 			"May Paradrop up to [4] tiles from inside friendly territory",
-			"Only available <if [Automated Factory] is constructed>",
 			"Consumes [1] [Weapons]"
 		],
 		"promotions": [
@@ -2952,7 +2909,6 @@
 		"hurryCostModifier": 20,		
 		"uniques": [
 			"Personnel",
-			"Only available <if [Automated Factory] is constructed>",
 			"May Paradrop up to [4] tiles from inside friendly territory",
 			"Consumes [1] [Weapons]",
 			"Never appears as a Barbarian unit"
@@ -2975,8 +2931,7 @@
 			"No movement cost to pillage",
 			"May Paradrop up to [30] tiles from inside friendly territory",
 			"Consumes [1] [Weapons]",
-			"Never appears as a Barbarian unit",
-			"Only available <if [Automated Factory] is constructed>"
+			"Never appears as a Barbarian unit"
 			],
 		"promotions": ["Assault"],
 		"attackSound": "shot"
@@ -2995,8 +2950,6 @@
 			"Automated",
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
-			"Only available <if [Aerospace Facility] is constructed>",
-			"Only available <in cities with a [Aerospace Facility]>",
 			"Consumes [1] [Aluminum]",
 			"Never appears as a Barbarian unit"
 		],
@@ -3024,8 +2977,6 @@
 			"Cannot intercept [Stealth Bomber] units",
 			"[+100]% Strength <vs [Bomber] units>",
 			"[+100]% Strength <vs [Helicopter] units>",
-			"Only available <if [Aerospace Facility] is constructed>",
-			"Only available <in cities with a [Aerospace Facility]>",
 			"Consumes [1] [Aluminum]"
 		],
 		"promotions": ["Automated"],
@@ -3048,7 +2999,6 @@
 			"[50]% chance to intercept air attacks",		
 			"[+4] Sight",
 			"Can move after attacking",
-			"Only available <in cities with a [Aerospace Facility]>",
 			"[-25]% Strength <vs cities> <when attacking>",
 			"Consumes [1] [Aluminum]",
 			"Never appears as a Barbarian unit"
@@ -3074,8 +3024,6 @@
 			"[100]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Bomber] units>",
 			"[+100]% Strength <vs [Helicopter] units>",
-			"Only available <if [Aerospace Facility] is constructed>",
-			"Only available <in cities with a [Aerospace Facility]>",
 			"Can only be intercepted by [Stealth Fighter]",
 			"Consumes [1] [Aluminum]"
 		],
@@ -3094,8 +3042,6 @@
 		"uniques": [
 			"[+4] Sight",
 			"Can see over obstacles",
-			"Only available <if [Aerospace Facility] is constructed>",
-			"Only available <in cities with a [Aerospace Facility]>",
 			"Can only be Intercepted by [Stealth Fighter]",
 			"Consumes [1] [Aluminum]",
 			"Cannot be carried by [Carrier] units"
@@ -3116,7 +3062,6 @@
 			"[100]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Air] units>",
 			"Can move after attacking",
-			"Only available <if [Automated Factory] is constructed>",
 			"Consumes [1] [Uranium]",
 			"Can carry [1] [Automated] units",
 			"Never appears as a Barbarian unit"
@@ -3155,7 +3100,6 @@
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
-			"Only available <if [Automated Factory] is constructed>",
 			"Consumes [1] [Oil]",
 			"Never appears as a Barbarian unit"
 		],
@@ -3549,7 +3493,6 @@
 		"uniques": [
 			"Terraformer Part",
 			"Consumes [1] [Aluminum]",
-			"Only available <in cities with a [Aerospace Facility]>",
 			"Only available <if [Biosphere Project] is constructed>",
 			"Can be added to [The Terraformer] in the Capital",
 			"Limited to [1] per Civilization",
