@@ -671,7 +671,7 @@
 		]
 	},
 	//Hexlock Unique
-	{
+	/*{
 		"name": "C1F3",
 		"production": 1,
 		"resourceType": "Strategic",
@@ -698,7 +698,7 @@
 		"resourceType": "Strategic",
 		"improvementStats": { "science": 1 },
 		"uniques": ["Not shown on world screen"]
-	},
+	},*/
 	{
 		"name": "VX",
 		"faith": 1,

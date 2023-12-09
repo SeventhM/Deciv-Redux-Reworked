@@ -548,11 +548,11 @@
 		"uniques": [
 			"[+10]% growth [in all cities]",
 			"[+5]% Production when constructing [All] buildings [in this city]",
-		    "Provides [2] [C1F3]",
+		    /*"Provides [2] [C1F3]",
 			"Provides [2] [C2N14]",
 			"Provides [2] [C8H17]",
-			"Provides [2] [SbF5]",
-			"Provides [2] [VX]",
+			"Provides [2] [SbF5]",*/
+			"Provides [6] [VX]",
 			"[+100]% Yield from every [Crystal Refinery]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
