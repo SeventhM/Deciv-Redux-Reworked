@@ -2491,7 +2491,7 @@
 			"New [Armor] units start with [15] Experience [in this city]",
 			"Only available <in cities with a [Sanctum]>"
 		],
-		"requiredTech": "Civil Service"
+		"requiredTech": "Pharmaceuticals"
 	},
 	{
 		"name": "Research Lab",
