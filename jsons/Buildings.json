@@ -2675,7 +2675,6 @@
 	},
 	{
 		"name": "Active Denial System",
-		"happiness": 3,
 		"maintenance": 1,
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
@@ -2690,7 +2689,6 @@
 		"name": "Field Turret",
 		"replaces": "Active Denial System",
 		"uniqueTo": "Hexlock",
-		"happiness": 3,
 		"maintenance": 1,
 		"cityStrength": 25,
 		"cityHealth": 50,
@@ -3205,7 +3203,6 @@
 		"uniques": [
 			"Provides [2] [Power]",
 			"[+2 Production] from [Fissure] tiles [in this city]",
-			"Only available <in cities with a [Record Grid]>"
 		],
 		"requiredTech": "Steam Power"
 	},
