@@ -2447,7 +2447,7 @@
 			"[+1 Science] <with [Power]>",
 			"Only available <in cities with a [Library]>"
 		],
-		"requiredTech": "Civil Service"
+		"requiredTech": "Pharmaceuticals"
 	},
 	{
 		"name": "Clubhouse",
@@ -2462,7 +2462,7 @@
 		],
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"requiredTech": "Civil Service"
+		"requiredTech": "Pharmaceuticals"
 	},
 	{
 		"name": "Military School",
@@ -2473,12 +2473,11 @@
 		"uniques": [
 			"[+1 Science] per [2] population [in this city]",
 			"[+15]% Production when constructing [Military] units [in this city]",
-			"New [Military] units start with [15] Experience [in this city]",
-			"Only available <in cities with a [Barracks]>"
+			"New [Military] units start with [15] Experience [in this city]"
 		],
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"requiredTech": "Civil Service"
+		"requiredTech": "Pharmaceuticals"
 	},
 	{
 		"name": "Initiate School",
