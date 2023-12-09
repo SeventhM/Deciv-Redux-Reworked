@@ -1009,7 +1009,6 @@
 		"isNationalWonder": true,
 		"cost": 125,
 		"requiredTech": "Engineering",
-		"requiredNearbyImprovedResources": ["Oil", "Coal", "Aluminum"],
 		"uniques": [
 			"[-25]% tile improvement construction time",
 			"Free [Worker] appears"
@@ -3168,7 +3167,7 @@
 	},
 	
 	// Resource buldings
-	{
+	/*{
 		"name": "Biofuel Refinery",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -3187,7 +3186,7 @@
 			"Consumes [1] [Coal]"
 		],
 		"requiredTech": "Steam Power"
-	},
+	},*/
 	{
 		"name": "Hydro Plant",
 		"hurryCostModifier": 25,
