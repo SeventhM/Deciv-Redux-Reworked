@@ -61,8 +61,8 @@
 		"techRequired": "Redomestication",
 		"uniques": [
 			"Food source",
-			"[+1 Food] <after discovering [Genetics]>",
-			"Obsolete with [Genetics]",
+			"[+1 Food] <after discovering [Ecology]>",
+			"Obsolete with [Hydroponics]",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
