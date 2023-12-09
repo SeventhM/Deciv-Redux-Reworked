@@ -1766,7 +1766,7 @@
 		"uniques": [
 			"[20]% Food is carried over after population increases [in this city]",
 			"[+1 Food] <with [Salt]>",
-			"[+1 Gold] <with [Alcohol]>",
+			//"[+1 Gold] <with [Alcohol]>",
 			"[+1 Gold] <with [Narcotics]>",
 			"[+1 Gold] <with [Refined Narcotics]>"
 		]
@@ -1780,7 +1780,7 @@
 		"uniques": [
 			"[30]% Food is carried over after population increases [in this city]",
 			"[+1 Food] <with [Salt]>",
-			"[+1 Gold] <with [Alcohol]>",
+			//"[+1 Gold] <with [Alcohol]>",
 			"[+1 Gold] <with [Narcotics]>",
 			"[+1 Gold] <with [Refined Narcotics]>"
 		]
@@ -2073,7 +2073,7 @@
 		"specialistSlots": {"Administrator": 1, "Merchant": 1 },
 		"uniques": [
 			"[+1 Happiness, +1 Culture, +1 Gold] <with [Power]>",
-			"[+1 Gold] <with [Alcohol]>",
+			//"[+1 Gold] <with [Alcohol]>",
 			"[+1 Gold] <with [Narcotics]>",
 			"[+1 Gold] <with [Refined Narcotics]>"
 		],
@@ -2166,9 +2166,9 @@
 	},
 	{
 		"name": "Stadium",
-		"happiness": 1,
+		"happiness": 2,
 		"uniques": [
-			"[+1 Gold, +1 Happiness] <with [Alcohol]>",
+			//"[+1 Gold, +1 Happiness] <with [Alcohol]>",
 			"[+1 Gold, +1 Happiness] <with [Soft Drinks]>"
 		],
 		"maintenance": 2,
@@ -2178,7 +2178,7 @@
 		"name": "Distillery",
 		"happiness": 2,
 		"maintenance": 1,
-		"uniques": ["Provides [1] [Alcohol]"],
+		//"uniques": ["Provides [1] [Alcohol]"],
 		"requiredNearbyImprovedResources": ["Grain", "Tubers"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Chemistry"
@@ -2190,7 +2190,7 @@
 		"culture": 1,
 		"happiness": 2,
 		"maintenance": 1,
-		"uniques": ["Provides [1] [Alcohol]"],
+		//"uniques": ["Provides [1] [Alcohol]"],
 		"requiredNearbyImprovedResources": ["Grain", "Tubers"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Chemistry"
@@ -2204,7 +2204,7 @@
 		"happiness": 2,
 		"uniques": [
 			"Enables construction of [Compound Mix] buildings",
-			"Provides [1] [Alcohol]"
+			//"Provides [1] [Alcohol]"
 		]
 	},
 	{
