@@ -411,7 +411,7 @@
 		"science": 1,
 		"culture": 1,
 		"cost": 1024,
-		"requiredTech": "Pharmaceuticals",
+		"requiredTech": "Genetics",
 		"uniques": [
 			"Victory Transmission",
 			"[15]% Production when constructing [Victory Transmission] wonders [in all cities]",
