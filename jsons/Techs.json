@@ -482,7 +482,7 @@
 			{
 				"name": "Human Genome",
 				"row": 3,
-				"prerequisites": ["Genetics", "Pharmaceuticals"],
+				"prerequisites": ["Genetics"],
 				"quote": "Humanity should study the foundations of heredity. But this will be possible only when science is liberated from superstition and limitation."
 			},
 			{
@@ -555,7 +555,7 @@
 			{
 				"name": "Future Materials",
 				"row": 8,
-				"prerequisites": ["Advanced Materials","Robotics"],
+				"prerequisites": ["Robotics"],
 				"quote": "You ask, what is our aim? I can answer in one word. It is victory. Victory at all costs - Victory in spite of all terrors - Victory, however long and hard the road may be, for without victory there is no survival."
 			}
 		]
