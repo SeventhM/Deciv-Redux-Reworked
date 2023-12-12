@@ -1335,7 +1335,7 @@
 		"uniques": [
 			"Must have an owned [Soft Drinks Factory] within [3] tiles",
 			"Empire enters golden age",
-			"[-1 Culture, -1 Happiness, -1 Gold] from [Soft Drinks Factory] tiles [in all cities]",
+			"[+10 Gold] from [Soft Drinks Factory] tiles [in all cities]",
 			"Unbuildable <if [Produce Soft Drinks] is constructed>"
 		],
 		"quote": "E-NERGY ULTRA BRIGHT ZERO EMISSION STEALTH\n(Per 500ml Energy 11kCal(1%**)\nNiacin 43mg(266%**)\nPANTHOTENIC ACID 21mg (350%**)\nCaffeine-B 150mg (600%**)**%RDA)\nZERO SUGAR - JUST AS PUMPED!\nIn collaboration with Gearheads, Musicians, Coders, CEOs, Anarchists, Bikers, Historical Reenactors, Hipsters, and YOU!",
@@ -1351,9 +1351,9 @@
 		"requiredTech": "Steam Power",
 		"uniques": [
 			"Must have an owned [Soft Drinks Factory] within [3] tiles",
-			"Provides [3] [Soft Drinks]",
+			//"Provides [3] [Soft Drinks]",
 			"Empire enters golden age",
-			"[+1 Culture, +1 Happiness, +1 Gold] from [Soft Drinks Factory] tiles [in all cities]",
+			"[+2 Culture, +2 Happiness, +1 Gold] from [Soft Drinks Factory] tiles [in all cities]",
 			"Consumes [1] [Power]",
 			"Unbuildable <if [Distribute Soft Drinks] is constructed>"
 		]
@@ -1760,14 +1760,14 @@
 	// Food buildings
 	{
 		"name": "Food Store",
-		"cost": 10,
+		"cost": 20,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"[20]% Food is carried over after population increases [in this city]",
-			"[+1 Food] <with [Salt]>",
+			//"[+1 Food] <with [Salt]>",
 			//"[+1 Gold] <with [Alcohol]>",
-			"[+1 Gold] <with [Narcotics]>",
-			"[+1 Gold] <with [Refined Narcotics]>"
+			//"[+1 Gold] <with [Narcotics]>",
+			//"[+1 Gold] <with [Refined Narcotics]>"
 		]
 	},
 	{
@@ -1778,10 +1778,10 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"[30]% Food is carried over after population increases [in this city]",
-			"[+1 Food] <with [Salt]>",
+			//"[+1 Food] <with [Salt]>",
 			//"[+1 Gold] <with [Alcohol]>",
-			"[+1 Gold] <with [Narcotics]>",
-			"[+1 Gold] <with [Refined Narcotics]>"
+			//"[+1 Gold] <with [Narcotics]>",
+			//"[+1 Gold] <with [Refined Narcotics]>"
 		]
 	},
 	{
@@ -1910,7 +1910,7 @@
 			"All newly-trained [Promotion Nullifier] units [in this city] receive the [Medic I] promotion",
 			"[+1 Food] from [Refinery] tiles [in this city]",
 			"[+5]% [Food] <with [Harvested Organs]>",
-			"[+5]% [Science] <with [Machine Parts]>",
+			"[+5]% [Science] <with [Harvested Organs]>",
 			"Consumes [1] [Power]"
 		]
 	},
@@ -2019,12 +2019,8 @@
 		"cost": 150,
 		"isNationalWonder": true,
 		"uniques": [
-			"[+2 Happiness, +2 Culture] <with [Power]>",
-			"[+2 Happiness] <with [Data]>",
-			"[+2 Happiness] <with [Electronics]>",
-			"[+2 Happiness] <with [Machine Parts]>",
-			"Cost increases by [30] per owned city",
-			"Can only be built [in capital]"
+			"[+4 Happiness, +2 Culture] <with [Power]>",
+			"Cost increases by [30] per owned city"
 		],
 		"hurryCostModifier": 25,
 		"requiredTech": "Engineering"
@@ -2073,8 +2069,8 @@
 		"uniques": [
 			"[+1 Happiness, +1 Culture, +1 Gold] <with [Power]>",
 			//"[+1 Gold] <with [Alcohol]>",
-			"[+1 Gold] <with [Narcotics]>",
-			"[+1 Gold] <with [Refined Narcotics]>"
+			//"[+1 Gold] <with [Narcotics]>",
+			//"[+1 Gold] <with [Refined Narcotics]>"
 		],
 		"cost": 160,
 		"requiredTech": "Currency"
@@ -2168,7 +2164,6 @@
 		"happiness": 2,
 		"uniques": [
 			//"[+1 Gold, +1 Happiness] <with [Alcohol]>",
-			"[+1 Gold, +1 Happiness] <with [Soft Drinks]>"
 		],
 		"maintenance": 2,
 		"requiredTech": "Social Engineering"
@@ -2813,7 +2808,7 @@
 		],
 		"requiredTech": "Construction"
 	},
-	{
+	/*{
 		"name": "Narcotics Refinery",
 		"requiredTech": "Chemistry",
 		"uniques": [
@@ -2822,7 +2817,7 @@
 			"Only available <with [Narcotics]>",
 			"Consumes [1] [Power]"
 		]
-	},
+	},*/
 	{
 		"name": "Barracks",
 		"hurryCostModifier": 25,
@@ -2907,8 +2902,7 @@
 		"requiredTech": "Iron Working",
 		"uniques": [
 			"[+15]% Production when constructing [Land] units [in this city]",
-			"[+1 Production] <with [Power]>",
-			"[+1 Production] <with [Machine Parts]>"
+			"[+1 Production] <with [Power]>"
 		]
 	},
 	{
@@ -2924,8 +2918,7 @@
 			"[+1 Production] from [Forest] tiles [in this city]",
 			"[+1 Production] from [Jungle] tiles [in this city]",
 			"[+1 Production] from [Sunken Ruins] tiles [in this city]",
-			"[+1 Production] <with [Power]>",
-			"[+1 Production] <with [Machine Parts]>"
+			"[+1 Production] <with [Power]>"
 		]
 	},
 	/*{
@@ -2954,8 +2947,7 @@
 		"uniques": [
 			"[+15]% Production when constructing [Land] units [in this city]",
 			"[+10]% Production when constructing [Armor] units [in this city]",
-			"[+1 Production] <with [Power]>",
-			"[+1 Production] <with [Machine Parts]>"
+			"[+1 Production] <with [Power]>"
 		]
 	},
 	{
@@ -2970,8 +2962,7 @@
 		"uniques": [
 			"[+15]% Production when constructing [Land] units [in this city]",
 			"Provides [1] [Weapons]",
-			"[+1 Production] <with [Power]>",
-			"[+1 Production] <with [Machine Parts]>"
+			"[+1 Production] <with [Power]>"
 		]
 	},
 	{
@@ -2986,8 +2977,7 @@
 			"[+15]% Production when constructing [Land] units [in this city]",
 			"Provides [1] [Uranium]",
 			"[+1 Production, +1 Culture] from [Uranium] tiles [in this city]",
-			"[+1 Production] <with [Power]>",
-			"[+1 Production] <with [Machine Parts]>"
+			"[+1 Production] <with [Power]>"
 		]
 	},
 	{
@@ -3012,7 +3002,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Provides [1] [Oil]",
-			"[+1 Production] <with [Machine Parts]>",
+			"[+1 Production] <with [Power]>",
 			"[+2 Production] from [Oil] tiles [in this city]",
 			"Consumes [1] [Power]",
 			//"Only available <in cities without a [Oil Plant]>"
@@ -3032,7 +3022,6 @@
 			"[+2 Production, +2 Culture] from [Oil] tiles [in this city]",
 			"Provides [1] [Oil]",
 			"[+1 Production] <with [Power]>",
-			"[+1 Production] <with [Machine Parts]>",
 			//"Only available <in cities without a [Oil Plant]>"
 		]
 	},
@@ -3046,7 +3035,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Provides [1] [Power]",
-			"[+1 Production] <with [Machine Parts]>",
+			"[+1 Production] <with [Power]>",
 			"[+2 Production] from [Oil] tiles [in this city]",
 			"Consumes [1] [Oil]",
 			"Only available <in cities without a [Oil Refinery]>",
@@ -3062,7 +3051,6 @@
 		"hurryCostModifier": 0,
 		"uniques": [
 			"[+2 Production] <with [Power]>",
-			"[+1 Production] <with [Machine Parts]>",
 			"[+1 Production] from [Machine Parts] tiles [in this city]",
 			"Consumes [1] [Power]"
 		],
@@ -3079,7 +3067,6 @@
 		"uniques": [
 			"[+1 Production] from [Refinery] tiles [in this city]",
 			"[+2 Production] <with [Power]>",
-			"[+1 Production] <with [Machine Parts]>",
 			"[+1 Production] from [Machine Parts] tiles [in this city]",
 			"Provides [2] [Encrypted Data]",
 			"Consumes [1] [Power]"
@@ -3894,7 +3881,7 @@
 		"cost": 0,
 		"uniques": [
 			"Automatically built in all cities where it is buildable",
-			"Provides [2] [Soft Drinks]",
+			//"Provides [2] [Soft Drinks]",
 			"Never destroyed when the city is captured"
 		]
 	},

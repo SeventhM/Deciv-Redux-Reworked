@@ -645,7 +645,7 @@
 	{
 		"name": "Narcotics farm",
 		"science": 2,
-		"gold": 2,
+		"gold": 4,
 		"culture": 2,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
