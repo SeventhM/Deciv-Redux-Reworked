@@ -1215,11 +1215,11 @@
 	{
 		"name": "Ally with Isolationists",
 		"isWonder": true,
-		"cost": 5,
+		"cost": 200,
 		"uniques": [
 			"Limited to [1] per Civilization",
 			"Must have an owned [Isolated Island] within [3] tiles",
-			"[+2 Science, +2 Gold] from [Isolated Island] tiles [in this city]",
+			"[+2 Science, +3 Faith, +2 Culture] from [Isolated Island] tiles [in this city]",
 			"Only available <in cities without a [Annex Isolationists]>"
 		]
 	},
@@ -1228,13 +1228,10 @@
 		"isWonder": true,
 		"requiredTech": "Sailing",
 		"cost": 200,
-		"happiness": -1,
-		"culture": -1,
 		"uniques": [
 			"Must have an owned [Isolated Island] within [3] tiles",
-			"[+2 Food, +5 Gold, -1 Culture] from [Isolated Island] tiles [in all cities]",
+			"[+2 Food, +2 Production] from [Isolated Island] tiles [in all cities]",
 			"Provides [1] [Weapons]",
-			"Provides [1] [Slaves]",
 			"Only available <in cities without a [Ally with Isolationists]>"
 		],
 		"civilopediaText": [
@@ -1247,12 +1244,11 @@
 		"name": "Faust Project",
 		"isWonder": true,
 		"cost": 125,
+        "greatPersonPoints": {"Great Scientist": 1},
 		"uniques": [
 			"Must have an owned [Missile Complex] within [3] tiles",
-			"[+20]% Production when constructing [Manhattan Project] wonders [in all cities]",
-			"[+20]% Production when constructing [Missile] units [in all cities]",
 			"Free Technology",
-			"[+1 Production, +1 Science] from [Missile Complex] tiles [in all cities]",
+			"[+2 Production, +2 Science] from [Missile Complex] tiles [in all cities]",
 			"Provides [1] [Uranium]",
 			"Unbuildable <if [Fist of God] is constructed>"
 		],
@@ -1267,10 +1263,11 @@
 	{
 		"name": "Fist of God",
 		"isWonder": true,
-		"cost": 125,
+		"cost": 1000,
 		"uniques": [
 			"Must have an owned [Missile Complex] within [3] tiles",
-			"[-1 Science] from [Missile Complex] tiles [in all cities]",
+			"[+50]% Production when constructing [Manhattan Project] wonders [in all cities]",
+			"[+20]% Production when constructing [Missile] units [in all cities]",
 			"Free [Divine Spear] appears",
 			"Unbuildable <if [Faust Project] is constructed>"
 		],
@@ -1288,7 +1285,7 @@
 		"requiredTech": "Writing",
 		"uniques": [
 			"Must have an owned [Nuclear Waste Storage] within [3] tiles",
-			"[+1 Culture, +1 Science] from [Nuclear Waste Storage] tiles [in this city]",
+			"[+2 Culture, +4 Science] from [Nuclear Waste Storage] tiles [in this city]",
 			"Unbuildable <if [Excavate Nuclear Waste] is constructed>",
 			"Limited to [1] per Civilization"
 		]
@@ -1296,12 +1293,10 @@
 	{
 		"name": "Excavate Nuclear Waste",
 		"isWonder": true,
-		"happiness": -1,
-		"percentStatBonus": { "food": -20 },
 		"requiredTech": "Mining",
 		"uniques": [
 			"Must have an owned [Nuclear Waste Storage] within [3] tiles",
-			"[-3 Food, +4 Science] from [Nuclear Waste Storage] tiles [in all cities]",
+			"[+5 Science] from [Nuclear Waste Storage] tiles [in all cities]",
 			"Provides [5] [Uranium]",
 			"Unbuildable <if [Nuclear Waste Museum] is constructed>"
 		],
@@ -1316,10 +1311,11 @@
 		"name": "Propagate Seeds",
 		"isWonder": true,
 		"requiredTech": "Ecology",
-		"cost": 50,
+		"cost": 200,
 		"uniques": [
 			"Must have an owned [Seed Vault] within [3] tiles",
-			"Provides [3] [Exotic Seeds]"
+			"[+3 Food, +1 Culture] from [Seed Vault] tiles [in all cities]",
+			//"Provides [3] [Exotic Seeds]"
 		],
 		"quote": "What about us? What about all the plans that ended in disaster?",
 		"civilopediaText": [
@@ -1331,7 +1327,7 @@
 	{
 		"name": "Distribute Soft Drinks",
 		"isWonder": true,
-		"cost": 25,
+		"requiredTech": "Steam Power",
 		"uniques": [
 			"Must have an owned [Soft Drinks Factory] within [3] tiles",
 			"Empire enters golden age",
@@ -1351,7 +1347,6 @@
 		"requiredTech": "Steam Power",
 		"uniques": [
 			"Must have an owned [Soft Drinks Factory] within [3] tiles",
-			//"Provides [3] [Soft Drinks]",
 			"Empire enters golden age",
 			"[+2 Culture, +2 Happiness, +1 Gold] from [Soft Drinks Factory] tiles [in all cities]",
 			"Consumes [1] [Power]",
@@ -1365,10 +1360,10 @@
 		"cost": 50,
 		"uniques": [
 			"Must have an owned [Army Depot] within [3] tiles",
-			"[+1 Science, +1 Production] from [Army Depot] tiles [in all cities]",
+			"[+1 Science, +2 Production] from [Army Depot] tiles [in all cities]",
 			"Provides [2] [Weapons]",
 			"Provides [1] [Oil]",
-			"Free [Modern Armor] appears"
+			"Free [Ancient Armor] appears"
 		],
 		"quote": "Oh, see the fire is sweepin, our very street today; burns like a red coat carpet, mad bull lost your way... War, children! It's just a shot away!",
 		"civilopediaText": [
@@ -1384,7 +1379,7 @@
 		"cost": 50,
 		"uniques": [
 			"Must have an owned [Ship Graveyard] within [3] tiles",
-			"[+1 Science, +1 Production] from [Ship Graveyard] tiles [in all cities]",
+			"[+1 Science, +1 Production, +2 Gold] from [Ship Graveyard] tiles [in all cities]",
 			"Provides [1] [Oil]",
 			"Free [Patrol Boat] appears"
 		],
@@ -1401,8 +1396,8 @@
 		"requiredTech": "Steel",
 		"uniques": [
 			"Must have an owned [Hydroelectric Dam] within [3] tiles",
-			"[+1 Production] from [Hydroelectric Dam] tiles [in all cities]",
-			"Provides [8] [Power]"
+			"[+2 Production, +2 Gold] from [Hydroelectric Dam] tiles [in all cities]",
+			//"Provides [8] [Power]"
 		],
 		"quote": "At full capacity, these turbines were able to provide clean electricity for 31,052 homes, offsetting up to 51,997 tons of CO2 each year.",
 		"civilopediaText": [
@@ -1417,8 +1412,8 @@
 		"requiredTech": "Laboratory",
 		"greatPersonPoints": { "Great Scientist": 2 },
 		"uniques": [
+			"[+4 Science] from [Research Facility] tiles [in all cities]",
 			"Must have an owned [Research Facility] within [5] tiles",
-			"All newly-trained [relevant] units [in this city] receive the [March] promotion"
 		]
 	},
 	{
@@ -1427,9 +1422,8 @@
 		"requiredTech": "Secrets of the Past",
 		"uniques": [
 			"Free [Great Sage] appears",
-			"[+1 Culture, +1 Faith] from [Vault of Records] tiles [in all cities]",
+			"[+2 Culture, +4 Faith] from [Vault of Records] tiles [in all cities]",
 			"Must have an owned [Vault of Records] within [3] tiles",
-			"Provides [2] [Books]",
 			"Hidden when religion is disabled"
 		],
 		"quote": "And I seal up these records, after I have spoken a few words by way of exhortation unto you.",
@@ -1446,7 +1440,7 @@
 		"uniques": [
 			"Must have an owned [Space Station Wreckage] within [3] tiles",
 			"Free Technology",
-			"[+1 Science, +1 Production] from [Space Station Wreckage] tiles [in all cities]"
+			"[+3 Science, +1 Production] from [Space Station Wreckage] tiles [in all cities]"
 		],
 		"quote": "Everything in space obeys the laws of physics. If you know these laws, and obey them, space will treat you kindly. And don't tell me that man doesn't belong out there. Man belongs wherever he wants to go - and he'll do plenty well when he gets there.",
 		"civilopediaText": [
@@ -1460,7 +1454,7 @@
 		"isWonder": true,
 		"requiredTech": "Mining",
 		"uniques": [
-			"[+1 Science, +4 Production] from [Mining Pit] tiles [in all cities]",
+			"[+4 Production, +2 Gold] from [Mining Pit] tiles [in all cities]",
 			"Must have an owned [Mining Pit] within [3] tiles",
 			"Unbuildable <if [Pit of Sacrifice] is constructed>"
 		],
@@ -1476,8 +1470,8 @@
 		"isWonder": true,
 		"requiredTech": "Secrets of the Past",
 		"uniques": [
-			"Gain a free [Pantheon] belief",
-			"[+1 Food, +3 Faith] from [Mining Pit] tiles [in all cities]",
+			//"Gain a free [Pantheon] belief",
+			"[+2 Food, +8 Faith] from [Mining Pit] tiles [in all cities]",
 			"Must have an owned [Mining Pit] within [3] tiles",
 			"Unbuildable <if [Mining Operation] is constructed>"
 		],
@@ -1496,7 +1490,7 @@
 			"Free [Salvaged Purge Robot] appears",
 			"Provides [1] [Encrypted Data]",
 			"[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
-			"[+2 Science, +2 Production] from [Mainframe AI Ruins] tiles [in all cities]",
+			"[+2 Production] from [Mainframe AI Ruins] tiles [in all cities]",
 			"Must have an owned [Mainframe AI Ruins] within [3] tiles"
 		],
 		"quote": "LOADING... MACHINE DEFENSE SYSTEM OPERATIONAL. OPERATING AT APPROXIMATELY 16.38% CAPACITY. WHAT ARE YOUR ORDERS?",
@@ -1513,7 +1507,7 @@
 		"cost": 125,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"uniques": [
-			"[+1 Culture, +1 Happiness] from [Oasis] tiles [in all cities]",
+			"[+1 Culture, +1 Food, +4 Happiness] from [Oasis] tiles [in all cities]",
 			"Must have an owned [Oasis] within [3] tiles"
 		],
 		"quote": "The Lord God made all kinds of trees grow out of the ground - trees that were pleasing to the eye and good for food.",
@@ -1528,11 +1522,11 @@
 		"name": "Research Underwater City",
 		"requiredTech": "Sailing",
 		"isWonder": true,
-		"cost": 10,
+		"cost": 200,
 		"uniques": [
 			"Must have an owned [Underwater City] within [3] tiles",
-			"[+1 Science, +1 Culture] from [Underwater City] tiles [in all cities]",
-			"[+1 Science, +1 Culture] from [Underwater City] tiles [in all cities] <after discovering [Navigation]>"
+			"[+4 Science, +4 Culture] from [Underwater City] tiles [in all cities]",
+			"[+4 Science, +4 Culture] from [Underwater City] tiles [in all cities] <after discovering [Navigation]>"
 		],
 		"quote": "But more wonderful than the lore of old men and the lore of books is the secret lore of ocean.",
 		"civilopediaText": [
@@ -1564,8 +1558,8 @@
 		"isWonder": true,
 		"uniques": [
 			"Must have an owned [Underwater City] within [3] tiles",
-			"Free Technology",
-			"[+1 Science, +1 Culture, +1 Production, +1 Food] from [Underwater City] tiles [in all cities]",
+			//"Free Technology",
+			"[+2 Science, +2 Culture, +1 Production, +2 Food] from [Underwater City] tiles [in all cities]",
 			"Only available <in cities with a [Explore Underwater City]>"
 		],
 		"quote": "The sea, that great library of books one cannot read.",
@@ -1826,11 +1820,12 @@
 	{
 		"name": "Protected Area",
 		"food": 1,
+		"culture": 1,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"[+1 Culture, +1 Food] from [Tree plantation] tiles [in this city]",
-			"[+1 Food, +1 Culture] <with [Exotic Seeds]>"
+			//"[+1 Food, +1 Culture] <with [Exotic Seeds]>"
 		],
 		"requiredTech": "Hydroponics"
 	},
@@ -1839,11 +1834,13 @@
 		"replaces": "Protected Area",
 		"uniqueTo": "Hexlock",
 		"science": 2,
+		"production": 1,
+		"culture": 1,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"[+2 Science, +2 Production, -1 Food, +1 Culture] from [Tree plantation] tiles [in this city]",
-			"[+1 Science, +1 Production, +1 Food, +1 Culture] <with [Exotic Seeds]>"
+			//"[+1 Science, +1 Production, +1 Food, +1 Culture] <with [Exotic Seeds]>"
 		],
 		"requiredTech": "Hydroponics"
 	},
