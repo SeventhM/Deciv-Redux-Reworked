@@ -236,8 +236,8 @@
             {
                 "name": "Mandate Of Heaven",
                 "uniques": [
-                    "[+1 Happiness] from every [Monastery]",
-                    "[+10]% [Faith] from every [Monastery]"
+                    "[Faith] cost of purchasing items in cities [-20]%",
+                    "[+1 Happiness] from every [Monastery]"
                 ],
                 "row": 1,
                 "column": 5
@@ -260,6 +260,7 @@
                 "name": "God Emperor",
                 "uniques": [
                     "[+1 Culture, +1 Faith] from every [Monument]",
+                    "[+2 Science] from every [Monastery]",
                     "Empire enters golden age"
                 ],
                 "requires": ["Organized Religion"],
@@ -269,7 +270,7 @@
             {
                 "name": "Holy Scriptures",
                 "uniques": [
-                    "[-10]% Culture cost of adopting new Policies",
+                    "[-15]% Culture cost of natural border growth [in all cities]",
                     "Gain a free [Enhancer] belief"
                 ],
                 "requires": ["Mandate Of Heaven", "God Emperor"],
@@ -279,9 +280,9 @@
             {
                 "name": "Theocracy Complete",
                 "uniques": [
-                    "[Faith] cost of purchasing items in cities [-20]%",
                     "[+3 Culture, +1 Faith, +1 Food] from every [Seminary]",
-                    "[+3 Culture, +1 Faith, +1 Food] from every [Oracle]"
+                    "[+3 Culture, +1 Faith, +1 Food] from every [Oracle]",
+                    "Free [Great Sage] appears"
                 ]
             }]
     },
