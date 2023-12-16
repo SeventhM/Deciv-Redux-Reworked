@@ -273,7 +273,7 @@
                     "[-15]% Culture cost of natural border growth [in all cities]",
                     "Gain a free [Enhancer] belief"
                 ],
-                "requires": ["Mandate Of Heaven", "God Emperor"],
+                "requires": ["Indulgences", "God Emperor"],
                 "row": 3,
                 "column": 4
             },
