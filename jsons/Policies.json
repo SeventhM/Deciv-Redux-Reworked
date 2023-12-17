@@ -894,4 +894,561 @@
                 ]
             }]
     }
+    /*{
+        "name": "Over Simplificied Rekmod Order",
+        // Adding this for an internal comparison. Shouldn't be seen in game
+        // I'm just curious about something
+        // Basically, imagine picking 5 of these for a tree, plue one for the opener and one for the finisher
+        "era": "Ancient era",
+        "uniques": [
+            "Only available <before adopting [Autocracy]>",
+            "Only available <before adopting [Freedom]>",
+            "Only available <after adopting [Ideology]>"
+        ],
+        "policies": [
+            {
+                "name": "Hero of the People",
+                "uniques": [
+                    "Possible Policy"
+                    "[+20]% Great Person generation [in all cities]",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Socialist Realism",
+                "uniques": [
+                    "Basically Vanilla Opener",
+                    "[+2 Happiness] from every [Monument]",
+                    "[+100]% Production when constructing [Monument] buildings [in all cities]",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Patriotic War",
+                "uniques": [
+                    "Possible unlikely Policy"
+                    "[+15]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+                    "[+50]% XP gained from combat <for [All] units>",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Young Pioneers",
+                "uniques": [
+                    "Likely Policy (match Freedom Happiness)"
+                    "[+1 Happiness] from every [Workshop]",
+                    "[+1 Happiness] from every [Factory]",
+                    "[+1 Happiness] from every [Solar Plant]",
+                    "[+1 Happiness] from every [Nuclear Plant]",
+                    "[+1 Happiness] from every [Hydro Plant]",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 9
+            },
+            {
+                "name": "Party Leadership",
+                "uniques": [
+                    "Guaranteed Policy"
+                    "[+2 Food, +2 Gold, +1 Production, +1 Science] [in all cities]",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 11
+            },
+            {
+                "name": "Resettlements",
+                "uniques": [
+                    "Possible Likely Policy"
+                    "Gain a free [Workshop] [in all cities]",
+                    "Gain a free [Monument] [in all cities]",
+                    "Gain a free [Granary] [in all cities]",
+                    "Gain a free [Library] [in all cities]",
+                    "Gain a free [Aqueduct] [in all cities]",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 13
+            },
+            {
+                "name": "Academy of Sciences",
+                "uniques": [
+                    "Likely Policy (match Freedom Happiness)"
+                    "[+1 Happiness] from every [Observatory]",
+                    "[+1 Happiness] from every [Public School]",
+                    "[+1 Happiness] from every [Research Lab]",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Workers Faculties",
+                "uniques": [
+                    "Guaranteed Policy"
+                    "[+25]% [Science] <in cities with a [Factory]>",
+                    "[+100]% Production when constructing [Factory] buildings [in all cities]",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 8
+            },
+            {
+                "name": "Five-Year Plan",
+                "uniques": [
+                    "Guaranteed Policy"
+                    "[+2 Production] [in all cities]",
+                    "[+1 Production] from every [Mine]",
+                    "[+1 Production] from every [Quarry]",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 10
+            },
+            {
+                "name": "People's Army",
+                "uniques": [
+                    "Possible unlikely Policy"
+                    "[+100]% Production when constructing [Military Academy] buildings [in all cities]",
+                    "[+100]% Production when constructing [Armory] buildings [in all cities]",
+                    "[+2 Science, +2 Culture] from every [Military Academy]",
+                    "[+2 Science, +2 Culture] from every [Armory]",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 12
+            },
+            {
+                "name": "Communism",
+                "uniques": [
+                    "Guaranteed Finisher",
+                    "[+10]% [Science] [in all cities]",
+                    "Provides [-1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 2 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Order Complete",
+                "uniques": [
+                    Guaranteed: "Socialist Realism", "Communism", "Five-Year Plan", "Workers Faculties"
+                        "Party Leadership"
+                    Likely: "Academy of Sciences", "Resettlements", "Young Pioneers", "Hero of the People"
+                ]
+            }
+        ]
+    },*/
+
+
+    /*{
+        "name": "Over Simplificied Rekmod Freedom",
+        // Adding this for an internal comparison. Shouldn't be seen in game
+        // I'm just curious about something
+        // Basically, imagine picking 5 of these for a tree, plue one for the opener and one for the finisher
+        "era": "Ancient era",
+        "uniques": [
+            "Free Social Policy",
+            "Unlocks [Statue of Liberty]",
+            "Only available <before adopting [Autocracy]>",
+            "Only available <before adopting [Order]>",
+            "Only available <after adopting [Ideology]>"
+        ],
+        "policies": [
+            {
+                "name": "Avant Garde",
+                "uniques": [
+                    "Guaranteed Policy"
+                    "[+25]% Great Person generation [in all cities]",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Creative Expression",
+                "uniques": [
+                    "Likely Policy"
+                    "[+2 Culture] from every [Great Work]",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Civil Society",
+                "uniques": [
+                    "Guaranteed Policy"
+                    "[-50]% Food consumption by specialists [in all cities]",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Capitalism",
+                "uniques": [
+                    "Possible Policy (extra Happiness?)"
+                    "[+1 Happiness] from every [Market]",
+                    "[+1 Happiness] from every [Bank]",
+                    "[+1 Happiness] from every [Stock Exchange]",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 9
+            },
+            {
+                "name": "Economic Union",
+                "uniques": [
+                    "Unlikely Policy (too different, even if it is an intentional part of Lekmod balance)"
+                    "[+25]% [Gold] [in all cities]",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 11
+            },
+            {
+                "name": "Volunteer Army",
+                "uniques": [
+                    "Possible Policy (Though a bit too different)"
+                    "[6] free [Foreign Legion] units appear",
+                    "[6] units cost no maintenance",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Urbanization",
+                "uniques": [
+                    "Unlikely Policy (Too different and random)"
+                    "[+2 Production, +2 Science] from every [Windmill]",
+                    "[+2 Production, +2 Science] from every [Workshop]",
+                    "[+2 Production, +2 Science] from every [Factory]",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Free Mind",
+                "uniques": [
+                    "Possible Policy"
+                    "[Great Artist] is earned [33]% faster",
+                    "[Great Writer] is earned [33]% faster",
+                    "[Great Musician] is earned [33]% faster",
+                    "[+20]% [Gold] <in cities with a [Zoo]>",
+                    "[+20]% [Gold] <in cities with a [Museum]>",
+                    "[+20]% [Gold] <in cities with a [Broadcast Tower]>",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 6
+            },
+            {
+                "name": "Universal Suffrage",
+                "uniques": [
+                    "Guaranteed Policy"
+                    "[-50]% Unhappiness from [Specialists] [in all cities]",
+                    "[+50]% Golden Age length",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 8
+            },
+            {
+                "name": "New Deal",
+                "uniques": [
+                    "Extremely, Extremely Likely Policy"
+                    "[+5 Science] from every [Academy]",
+                    "[+5 Production] from every [Manufactory]",
+                    "[+5 Production] from every [Dry Dock]",
+                    "[+5 Faith] from every [Holy site]",
+                    "[+5 Culture] from every [Landmark]",
+                    "[+5 Gold] from every [Customs house]",
+                    "[+1 Culture, +1 Science, +1 Faith, +1 Production, +1 Food] from every [Sacred Grove]",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 10
+            },
+            {
+                "name": "Media Culture",
+                "uniques": [
+                    "Possible Policy if it was tourism, not Culture
+                    "[+20]% [Culture] <in cities with a [Broadcast Tower]>",
+                    "Provides [-1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 2 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Treaty Organization",
+                "uniques": [
+                    "Guaranteed Finisher"
+                    "[+1 Production] from every specialist [in all cities]",
+                    "Provides [-1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 2 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "Space Procurements",
+                "uniques": [
+                    "Unlikely Policy
+                    "May buy [Spaceship part] units with [Gold] [in all cities]",
+                    "Provides [-1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 2 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 3,
+                "column": 7
+            },
+            {
+                "name": "Freedom Complete",
+                "uniques": [
+                    Guaranteed: "Avant Garde", "Treaty Organization", "New Deal"?,"Universal Suffrage"
+                        "Civil Society"
+                    Likely: "Media Culture", "Free Mind", "Volunteer Army", "Capitalism", "Creative Expression"
+                ]
+            }
+        ]
+    },*/
+
+    /*{
+        "name": "Over Simplificied Rekmod Autocracy",
+        // Adding this for an internal comparison. Shouldn't be seen in game
+        // I'm just curious about something
+        // Basically, imagine picking 5 of these for a tree, plue one for the opener and one for the finisher
+        "era": "Ancient era",
+        "uniques": [
+            "Free Social Policy",
+            "Unlocks [Prora]",
+            "Only available <before adopting [Order]>",
+            "Only available <before adopting [Freedom]>",
+            "Only available <after adopting [Ideology]>"
+        ],
+        "policies": [
+            {
+                "name": "Elite Forces",
+                "uniques": [
+                    "Guaranteed Policy"
+                    "[+10]% Strength <for [Military] units>",
+                    "[+10] HP when healing <for [Military] units>",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Mobilization",
+                "uniques": [
+                    "Likely Policy"
+                    "[Gold] cost of purchasing [All] units [-25]%",
+                    "[-25]% maintenance costs <for [All] units>",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "United Front",
+                "uniques": [
+                    "Unlikely Policy"
+                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Militarism",
+                "uniques": [
+                    "Possible Policy (match Freedom happiness)"
+                    "[+1 Happiness] from every [Barracks]",
+                    "[+1 Happiness] from every [Armory]",
+                    "[+1 Happiness] from every [Military Academy]",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 11
+            },
+            {
+                "name": "Fascism",
+                "uniques": [
+                    "Guaranteed Policy (match Freedom happiness)"
+                    "[+12 Happiness]",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 13
+            },
+            {
+                "name": "Lightning Warfare",
+                "uniques": [
+                    "Likely Policy"
+                    "[+1] Movement <for [Gunpowder] units>",
+                    "[+1] Movement <for [Armored] units>",
+                    "[+1] Movement <for [Great General] units>",
+                    "[+1] Movement <for [Worker] units>",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Police State",
+                "uniques": [
+                    "Likely Policy"
+                    "[+3 Happiness] from every [Courthouse]",
+                    "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Nationalism",
+                "uniques": [
+                    "Likely Policy"
+                    "[+100]% XP gained from combat <for [All] units> <in [Friendly Land] tiles>",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 6
+            },
+            {
+                "name": "Third Alternative",
+                "uniques": [
+                    "Likely Policy"
+                    "Double quantity of [Horses] produced",
+                    "Double quantity of [Iron] produced",
+                    "Double quantity of [Coal] produced",
+                    "Double quantity of [Oil] produced",
+                    "Double quantity of [Aluminum] produced",
+                    "Double quantity of [Uranium] produced",
+                    "[+5 Science, +5 Food] [in capital]",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 8
+            },
+            {
+                "name": "Total War",
+                "uniques": [
+                    "Likely Policy"
+                    "[+25]% Production when constructing [Military] units [in all cities]",
+                    "New [Military] units start with [15] Experience [in all cities]",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 10
+            },
+            {
+                "name": "Iron Fist",
+                "uniques": [
+                    "Possible Policy"
+                    "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
+                    "Earn [100]% of killed [Military] unit's [Strength] as [Science]",
+                    "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
+                    "[+50]% XP gained from combat <for [All] units>",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 12
+            },
+            {
+                "name": "Clausewitz's Legacy",
+                "uniques": [
+                    "Guaranteed Finisher"
+                    "[+25]% Strength <for [All] units> <for [50] turns>",
+                    "Provides [-1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 2 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 3,
+                "column": 7
+            },
+            {
+                "name": "Autocracy Complete",
+                "uniques": [
+                    Guaranteed: "Clausewitz's Legacy", "Fascism", "Elite Forces",
+                    Likely: "Iron Fist", "Third Alternative", "Nationalism", "Police State",
+                        "Lightning Warfare", "Militarism", "Mobilization"
+                ]
+            }
+        ]
+    },*/
 ]
