@@ -15,7 +15,7 @@
 	},
 	{
 		"name": "Stockpile",
-		"isWonder": true,
+		"isNationalWonder": true,
 		"uniqueTo": "Enclavers",
 		"food": 1,
 		"cost": 0,
@@ -23,7 +23,6 @@
 			"Automatically built in all cities where it is buildable",
 			"[10]% Food is carried over after population increases [in this city]",
 			"Provides [2] [Weapons]",
-			"Free [Guerilla] appears",
 			"Can only be built [in capital]",
 			"Gain a free [Deep Larder] [in this city]"
 		],
@@ -32,7 +31,7 @@
 	},
 	{
 		"name": "Mobile Encampment",
-		"isWonder": true,
+		"isNationalWonder": true,
 		"uniqueTo": "New Star",
 		"production": 1,
 		"cityStrength": 10,
@@ -41,7 +40,6 @@
 		"uniques": [
 			"Automatically built in all cities where it is buildable",
 			"Provides [1] [Weapons]",
-			"Free [Militia] appears",
 			"Can only be built [in capital]",
 			"Gain a free [Food Store] [in this city]"
 		],
@@ -54,7 +52,7 @@
 	},
 	{
 		"name": "Hex Corporation",
-		"isWonder": true,
+		"isNationalWonder": true,
 		"uniqueTo": "Hexlock",
 		"science": 2,
 		"production": 1,
@@ -63,7 +61,6 @@
 			"Automatically built in all cities where it is buildable",
 			"Provides [1] [Power]",
 			"Provides [2] [Encrypted Data]",
-			"[2] free [Purge Robot Proto] units appear",
 			"Can only be built [in capital]",
 			"Gain a free [Compound Mixer] [in this city]"
 		],
@@ -76,7 +73,7 @@
 	},
 	{
 		"name": "Ark One",
-		"isWonder": true,
+		"isNationalWonder": true,
 		"uniqueTo": "Blackwarden",
 		"gold": 2,
 		"cityStrength": 10,
@@ -87,7 +84,6 @@
 			"Automatically built in all cities where it is buildable",
 			"Provides [1] [Power]",
 			"Provides [1] [Weapons]",
-			"Free [Security] appears",
 			"Can only be built [in capital]",
 			"Gain a free [Food Store] [in this city]"
 		],
@@ -100,7 +96,7 @@
 	},
 	{
 		"name": "Atlas Refuge",
-		"isWonder": true,
+		"isNationalWonder": true,
 		"uniqueTo": "Atlas",
 		"specialistSlots": { "Scientist": 1 },
 		"science": 2,
@@ -109,7 +105,6 @@
 		"uniques": [
 			"Automatically built in all cities where it is buildable",
 			"Provides [1] [Power]",
-			"[2] free [Surveyor] units appear",
 			"Can only be built [in capital]",
 			"Gain a free [Food Store] [in this city]"
 		],
@@ -122,7 +117,7 @@
 	},
 	{
 		"name": "Eagle Rock Complex",
-		"isWonder": true,
+		"isNationalWonder": true,
 		"uniqueTo": "The Patriots",
 		"gold": 1,
 		"cityStrength": 20,
@@ -133,7 +128,6 @@
 			"[10]% Food is carried over after population increases [in this city]",
 			"Provides [1] [Power]",
 			"Provides [2] [Weapons]",
-			"Free [Spec Ops] appears",
 			"Can only be built [in capital]",
 			"Gain a free [Food Store] [in this city]"
 		],
@@ -146,14 +140,13 @@
 	},
 	{
 		"name": "Forum",
-		"isWonder": true,
+		"isNationalWonder": true,
 		"uniqueTo": "Crimson Legion",
 		"cityHealth": 20,
 		"production": 2,
 		"cost": 0,
 		"uniques": [
 			"Automatically built in all cities where it is buildable",
-			"Free [Swordsman] appears",
 			"Can only be built [in capital]",
 			"Gain a free [Food Store] [in this city]"
 		],
@@ -166,7 +159,7 @@
 	},
 	{
 		"name": "Temple",
-		"isWonder": true,
+		"isNationalWonder": true,
 		"uniqueTo": "Cult of Ignis",
 		"specialistSlots": { "Administrator": 1 },
 		"cost": 0,
@@ -174,7 +167,6 @@
 			"Automatically built in all cities where it is buildable",
 			"[+2 Culture, +1 Faith] [in this city] <after discovering [Iron Working]>",
 			"Provides [2] [Oil]",
-			"Free [War Buggy] appears",
 			"Can only be built [in capital]",
 			"Gain a free [Fuel Depot] [in this city]"
 		],
@@ -187,14 +179,13 @@
 	},
 	{
 		"name": "Peace Memorial",
-		"isWonder": true,
+		"isNationalWonder": true,
 		"uniqueTo": "Commonwealth",
 		"cost": 0,
 		"uniques": [
 			"Automatically built in all cities where it is buildable",
 			"[25]% Great Person generation [in this city]",
 			"[+1 Faith, +1 Happiness, +1 Culture] <when not at war>",
-			"Free [Gunman] appears",
 			"Can only be built [in capital]",
 			"Gain a free [Monument] [in this city]"
 		],
@@ -207,14 +198,13 @@
 	},
 	{
 		"name": "Longhouse",
-		"isWonder": true,
+		"isNationalWonder": true,
 		"uniqueTo": "Children of Rust",
 		"cost": 0,
 		"production": 1,
 		"culture": 1,
 		"uniques": [
 			"Automatically built in all cities where it is buildable",
-			"[2] free [Scavenger] units appear",
 			"Can only be built [in capital]",
 			"Gain a free [Salvage Yard] [in this city]"
 		],
@@ -227,7 +217,7 @@
 	},
 	{
 		"name": "The Great Lighthouse",
-		"isWonder": true,
+		"isNationalWonder": true,
 		"uniqueTo": "The Mariners",
 		"culture": 1,
 		"cost": 0,
@@ -235,7 +225,6 @@
 			"Automatically built in all cities where it is buildable",
 			"Can only be built [in capital]",
 			"[+1 Food] <with [1] to [6] neighboring [Coast] tiles>",
-			"[2] free [Sharkman] units appear",
 			"Gain a free [Lighthouse] [in this city]"
 		],
 		"quote": "Brightly beams our father's mercy\nFrom his lighthouse evermore\nBut to us he gives the keeping\nOf the lights along the shore.",
@@ -247,7 +236,7 @@
 	},
 	{
 		"name": "Great Mosque",
-		"isWonder": true,
+		"isNationalWonder": true,
 		"uniqueTo": "New Afrika",
 		"cost": 0,
 		"culture": 1,
@@ -256,7 +245,6 @@
 			"Automatically built in all cities where it is buildable",
 			"Can only be built [in capital]",
 			"Provides [1] [Weapons]",
-			"Free [Panther] appears",
 			"Gain a free [Food Store] [in this city]"
 		],
 		"quote": "We declare our right on this earth to be a human being, to be respected as a human being, to be given the rights of a human being in this society, on this earth, in this day, which we intend to bring into existence by any means necessary.",
@@ -268,7 +256,7 @@
 	},
 	{
 		"name": "Clan Hideout",
-		"isWonder": true,
+		"isNationalWonder": true,
 		"uniqueTo": "Deadrock Clan",
 		"cost": 0,
 		"gold": 1,
@@ -276,7 +264,6 @@
 			"Automatically built in all cities where it is buildable",
 			"Can only be built [in capital]",
 			"Provides [1] [Weapons]",
-			"[2] free [Clansman] units appear",
 			"Gain a free [Food Store] [in this city]"
 		],
 		"quote": "If you would keep your secret from an enemy, tell it not to a friend.",
@@ -288,7 +275,7 @@
 	},
 	{
 		"name": "Sarcophagus",
-		"isWonder": true,
+		"isNationalWonder": true,
 		"uniqueTo": "Proklyatyye",
 		"cityHealth": 20,
 		"cost": 0,
@@ -298,7 +285,6 @@
 			"Provides [2] [Uranium]",
 			"Provides [1] [Power]",
 			"[+2 Culture, +1 Happiness] <after discovering [Decontamination]>",
-			"Free [Mutant] appears",
 			"Can only be built [in capital]",
 			"Gain a free [Food Store] [in this city]"
 		],
