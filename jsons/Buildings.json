@@ -571,8 +571,8 @@
 		"uniques": [
 			"[+10]% growth [in all cities]",
 			"[+5]% Production when constructing [All] buildings [in this city]",
-			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
-			"[+20]% Production when constructing [Military] units [in all cities]",
+			"[+15]% Strength <for [All] units> <when fighting in [Urban Terrain] tiles>",
+			"[+10]% Production when constructing [Military] units [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Citizens' Assembly]>",
