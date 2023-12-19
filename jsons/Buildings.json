@@ -1571,7 +1571,7 @@
 		"maintenance": 2,
 		"greatPersonPoints": { "Great Scientist": 1 },
 		"uniques": [
-			"Only available <after adopting [Supremacy]>",
+			//"Only available <after adopting [Supremacy]>",
 			"[Siege] units gain the [Chemical Weapons] promotion",
 			"[Aircraft] units gain the [Chemical Weapons] promotion",
 			"[Helicopter] units gain the [Chemical Weapons] promotion",
