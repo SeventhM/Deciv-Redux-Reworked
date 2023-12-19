@@ -133,7 +133,6 @@
 			"[Civilian] units gain the [Urban Warfare] promotion",
 			"[Low Tech] units gain the [Urban Warfare] promotion",
 			"[Personnel] units gain the [Urban Warfare] promotion",
-			"Starts with [Collectivism] adopted",
             "[+1 Faith] from every [Urban terrain] <in tiles without [Improvement]>",
             "[+1 Faith] from every [Urban terrain] <with [3] to [6] neighboring [Urban terrain] tiles><in tiles without [Improvement]>",
 			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."
