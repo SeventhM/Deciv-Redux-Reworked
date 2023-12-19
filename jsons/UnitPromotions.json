@@ -58,7 +58,9 @@
 			"Drill",
 			"Shock",
 			"Entrench",
-			"Hull Down"
+			"Hull Down",
+			"Guerilla Warfare",
+			"Urban Warfare"
 		],
 		"uniques": [
 			"Heals [25] damage if it kills a unit",
@@ -77,9 +79,7 @@
 			"Formation",
 			"Sentry",
 			"Survivalism",
-			"Urban Warfare",
 			"Forage",
-			"Guerilla Warfare",
 			"Precision"
 		],
 		"uniques": [
@@ -109,9 +109,7 @@
 			"Formation",
 			"Sentry",
 			"Survivalism",
-			"Urban Warfare",
-			"Forage",
-			"Guerilla Warfare"
+			"Forage"
 		],
 		"uniques": [
 			"May withdraw before melee ([25]%)",
@@ -138,16 +136,6 @@
 	},
 	{
 		"name": "Urban Warfare",
-		"prerequisites": [
-			"Drill",
-			"Shock",
-			"Entrench",
-			"Reconnaissance I",
-			"Survivalism I",
-			"Accuracy",
-			"Barrage",
-			"Combat Drill"
-		],
 		"uniques": [
 			"Double movement in [Forest]",
 			"Double movement in [Jungle]",
@@ -160,16 +148,6 @@
 	},
 	{
 		"name": "Guerilla Warfare",
-		"prerequisites": [
-			"Drill",
-			"Shock",
-			"Entrench",
-			"Reconnaissance I",
-			"Survivalism I",
-			"Accuracy",
-			"Barrage",
-			"Combat Drill"
-		],
 		"uniques": [
 			"Can move after attacking",
 			"Only available <for units without [Promotion Nullifier]>"
@@ -445,7 +423,9 @@
 		"prerequisites": [
 			"Entrench",
 			"Drill",
-			"Shock"
+			"Shock",
+			"Guerilla Warfare",
+			"Urban Warfare"
 		],
 		"uniques": [
 			"[+10]% Strength <when attacking>",
@@ -463,9 +443,7 @@
 			"Formation",
 			"Sentry",
 			"Survivalism",
-			"Urban Warfare",
-			"Forage",
-			"Guerilla Warfare"
+			"Forage"
 		],
 		"uniques": [
 			"[+25]% Strength <vs [Wounded] units>",
@@ -496,8 +474,6 @@
 			"Amphibious",
 			"Sentry",
 			"Precision",
-			"Urban Warfare",
-			"Guerilla Warfare",
 			"Medic I",
 			"Formation",
 			"Ambush",
@@ -519,7 +495,9 @@
 			"Hull Down",
 			"Accuracy",
 			"Barrage",
-			"Combat Drill"
+			"Combat Drill",
+			"Guerilla Warfare",
+			"Urban Warfare"
 		],
 		"uniques": [
 			"[+33]% Strength <vs [Mounted] units>",
@@ -536,7 +514,9 @@
 			"Hull Down",
 			"Accuracy",
 			"Barrage",
-			"Combat Drill"
+			"Combat Drill",
+			"Guerilla Warfare",
+			"Urban Warfare"
 		],
 		"uniques": [
 			"[+33]% Strength <vs [Armor] units>",
@@ -549,7 +529,9 @@
 		"prerequisites": [
 			"Accuracy",
 			"Combat Drill",
-			"Barrage"
+			"Barrage",
+			"Guerilla Warfare",
+			"Urban Warfare"
 		],
 		"uniques": [
 			"[+25]% Strength <vs [Wounded] units>",
@@ -564,8 +546,6 @@
 			"Amphibious",
 			"Sentry",
 			"Precision",
-			"Urban Warfare",
-			"Guerilla Warfare",
 			"Medic I",
 			"Ambush",
 			"Formation"
@@ -707,7 +687,9 @@
 			"Targeting",
 			"Wolfpack I",
 			"Armor Plating",
-			"Flight Deck I"
+			"Flight Deck I",
+			"Guerilla Warfare",
+			"Urban Warfare"
 		],
 		"uniques": [
 			"[+1] Sight",
@@ -757,8 +739,6 @@
 			"Amphibious",
 			"Sentry",
 			"Precision",
-			"Urban Warfare",
-			"Guerilla Warfare",
 			"Medic I",
 			"Ambush",
 			"Formation"
@@ -777,7 +757,9 @@
 			"Shock",
 			"Accuracy",
 			"Combat Drill",
-			"Barrage"
+			"Barrage",
+			"Guerilla Warfare",
+			"Urban Warfare"
 		],
 		"uniques": [
 			"Eliminates combat penalty for attacking over a river",
@@ -892,7 +874,9 @@
 			"Survivalism I",
 			"Accuracy",
 			"Combat Drill",
-			"Barrage"
+			"Barrage",
+			"Guerilla Warfare",
+			"Urban Warfare"
 		],
 		"uniques": [
 			"[+5] HP when healing",
@@ -941,7 +925,9 @@
 			"Targeting",
 			"Flight Deck I",
 			"Armor Plating",
-			"Wolfpack I"
+			"Wolfpack I",
+			"Guerilla Warfare",
+			"Urban Warfare"
 		],
 		"uniques": [
 			"[+5] HP when healing <in [Foreign Land] tiles>",
