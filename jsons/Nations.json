@@ -134,8 +134,8 @@
 			"[Low Tech] units gain the [Urban Warfare] promotion",
 			"[Personnel] units gain the [Urban Warfare] promotion",
 			"Starts with [Collectivism] adopted",
-			"[+1 Faith] [in all cities] <with [1] to [2] neighboring [Jungle] tiles>",
-			"[+2 Faith] [in all cities] <with [3] to [6] neighboring [Jungle] tiles>",
+            "[+1 Faith] from every [Urban terrain] <in tiles without [Improvement]>",
+            "[+1 Faith] from every [Urban terrain] <with [3] to [6] neighboring [Urban terrain] tiles><in tiles without [Improvement]>",
 			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."
 		],
 		"cities": [
@@ -557,7 +557,6 @@
 		"uniqueName": "One Banner",
 		"uniques": [
 			"Free [Swordsman] appears",
-			"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>",
 			"[-33]% maintenance costs <for [Land] units>",
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Starts with [Sovereignty] adopted",
@@ -629,8 +628,7 @@
 			"Starts with [Machinery]",
 			"Starts with [Theocracy] adopted",
 			"[+1 Culture, +1 Faith] from every [Strategic resource]",
-			"Free [Great Prophet] appears <upon adopting [Theocracy Complete]>",
-			"Gain a free [Founder] belief <upon adopting [Theocracy Complete]>"
+			"Free [Great Prophet] appears <upon adopting [Theocracy Complete]>"
 		],
 		"cities": [
 			"Gastown",
