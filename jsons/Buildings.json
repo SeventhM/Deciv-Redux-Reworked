@@ -1147,8 +1147,6 @@
 		"requiredTech": "Engineering",
 		"isWonder": true,
 		"cost": 75,
-		"science": 1,
-		"production": -3,
 		"uniques": [
 			"Free [Modern Armor] appears",
 			"Only available <in cities with a [Alma Tank Depot]>"
@@ -1163,8 +1161,6 @@
 		"requiredTech": "Manufacturing",
 		"isWonder": true,
 		"cost": 60,
-		"science": 1,
-		"production": -3,
 		"uniques": [
 			"Free [Bomber] appears",
 			"Only available <in cities with a [Alma Air Base]>",
@@ -1182,8 +1178,6 @@
 		"requiredTech": "Engineering",
 		"isWonder": true,
 		"cost": 75,
-		"science": 1,
-		"production": -3,
 		"uniques": [
 			"Free [Helicopter] appears",
 			"Only available <in cities with a [Alma Air Base]>",
