@@ -1997,8 +1997,9 @@
 	{
 		"name": "Town Hall",
 		"specialistSlots": { "Administrator": 1 },
-		"maintenance": 1,
+		"maintenance": 2,
 		"uniques": [
+			"[+25]% Great Person generation [in this city]",
 			"[+1 Happiness, +1 Culture] <with [Power]>"
 		],
 		"hurryCostModifier": 25,
@@ -2009,10 +2010,11 @@
 		"replaces": "Town Hall",
 		"uniqueTo": "Children of Rust",
 		"specialistSlots": { "Administrator": 1 },
-		"maintenance": 1,
+		"maintenance": 2,
 		"cost": 120,
 		"requiredTech": "Civil Service",
 		"uniques": [
+			"[+25]% Great Person generation [in this city]",
 			"[+2 Happiness, +1 Culture, +2 Food] <with [Power]>",
 			"[+1] population [in this city]",
 			"Unsellable"
@@ -2026,6 +2028,7 @@
 		"requiredTech": "Civil Service",
 		"specialistSlots": {"Administrator": 1, "Merchant": 1 },
 		"uniques": [
+			"[+25]% Great Person generation [in this city]",
 			"[-25]% Gold cost of acquiring tiles [in this city]",
 			"[+1 Happiness, +1 Culture, +1 Gold] <with [Power]>"
 		],
@@ -2038,6 +2041,7 @@
 		"uniqueTo": "Deadrock Clan",
 		"specialistSlots": {"Administrator": 1, "Merchant": 1 },
 		"uniques": [
+			"[+25]% Great Person generation [in this city]",
 			"[+1 Happiness, +1 Culture, +1 Gold] <with [Power]>",
 			//"[+1 Gold] <with [Alcohol]>",
 			//"[+1 Gold] <with [Narcotics]>",
@@ -2056,6 +2060,7 @@
 		"culture": 1,
 		"happiness": 1,
 		"uniques": [
+			"[+25]% Great Person generation [in this city]",
 			"Consumes [1] [Slaves]"
 		],
 		"requiredTech": "Trade"
@@ -2067,6 +2072,7 @@
 		"percentStatBonus": { "food": 5 },
 		"specialistSlots": {"Administrator": 1, "Farmer": 1 },
 		"uniques": [
+			"[+25]% Great Person generation [in this city]",
 			"[+1 Happiness, +1 Culture] <with [Power]>",
 			"Consumes [1] [Slaves]"
 		],
@@ -2673,11 +2679,9 @@
 		"happiness": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Remove extra unhappiness from annexed cities",
-			"[+25]% Great Person generation [in this city]",
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Civil Service"
+		"requiredTech": "Trade"
 	},
 	{
 		"name": "Prison Camp",
@@ -2700,12 +2704,10 @@
 		"cost": 160,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Remove extra unhappiness from annexed cities",
-			"[+25]% Great Person generation [in this city]",
 			"New [Armor] units start with [15] Experience [in this city]",
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Machinery"
+		"requiredTech": "Trade"
 	},
 	{
 		"name": "Processing Center",
@@ -2728,12 +2730,10 @@
 		"cost": 160,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"[+25]% Great Person generation [in this city]",
 			"New [Military] units start with [15] Experience [in this city]",
-			"Remove extra unhappiness from annexed cities",
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Engineering"
+		"requiredTech": "Trade"
 	},
 	{
 		"name": "Legion Camp",
