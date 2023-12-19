@@ -511,7 +511,8 @@
             "Scientific": 20
         },
         "uniques": [
-            "[Great Merchant] is earned [50]% faster"
+            "[Great Merchant] is earned [50]% faster",
+            "[+1 Culture] from every [Market]"
         ],
         "policies": [{
             "name": "Mass Consumption",
