@@ -2011,8 +2011,9 @@
 		"specialistSlots": { "Administrator": 1 },
 		"maintenance": 1,
 		"cost": 120,
+		"requiredTech": "Civil Service",
 		"uniques": [
-			"[+1 Happiness, +1 Culture, +2 Food] <with [Power]>",
+			"[+2 Happiness, +1 Culture, +2 Food] <with [Power]>",
 			"[+1] population [in this city]",
 			"Unsellable"
 		],
@@ -2022,6 +2023,7 @@
 		"name": "Personnel Office",
 		"replaces": "Town Hall",
 		"uniqueTo": "Blackwarden",
+		"requiredTech": "Civil Service",
 		"specialistSlots": {"Administrator": 1, "Merchant": 1 },
 		"uniques": [
 			"[-25]% Gold cost of acquiring tiles [in this city]",
