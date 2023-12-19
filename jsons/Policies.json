@@ -63,7 +63,6 @@
             "uniques": [
                 "[+10]% growth [in all cities]",
                 "[+2 Food] [in all cities]",
-                "Provides a [Defensive Emplacements] in your first [4] cities for free",
                 "May buy [Great Farmer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
             ]
         }]
@@ -111,7 +110,6 @@
             {
                 "name": "Reclaimers",
                 "uniques": [
-                    "Retain [25]% of the happiness from a luxury after the last copy has been traded away",
                     "[+5]% Production when constructing [All] buildings [in all cities]"
                 ],
                 "requires": ["Restorers"],
@@ -123,8 +121,7 @@
                 "uniques": [
                     "[+1 Happiness] [in all cities connected to capital]",
                     "[+15]% [Gold] [in all cities connected to capital]",
-                    "[-5]% Unhappiness from [Population] [in all cities]",
-                    "[-50]% City-State Influence degradation"
+                    "[-5]% Unhappiness from [Population] [in all cities]"
                 ],
                 "requires": ["Representation", "Citizen Militia"],
                 "row": 2,
@@ -517,7 +514,6 @@
         "policies": [{
             "name": "Mass Consumption",
             "uniques": [
-                "[+50]% Happiness from luxury resources gifted by City-States",
                 "[+1] Happiness from each type of luxury resource",
                 "[+1 Gold] from every [Moisture trap]",
                 "[+1 Gold] from every [Water pump]"
@@ -596,8 +592,7 @@
             "Scientific": 20
         },
         "uniques": [
-            "[Great Engineer] is earned [25]% faster",
-            "[+5]% [Production] [in all cities]"
+            "[Great Engineer] is earned [50]% faster"
         ],
         "policies": [{
             "name": "Re-Education",
@@ -612,7 +607,7 @@
             {
                 "name": "Nationalization",
                 "uniques": [
-                    "[+25]% [Science] from every [Factory]",
+                    "[+15]% [Science] from every [Factory]",
                     "[+100]% Production when constructing [Factory] buildings [in all cities]"
                 ],
                 "row": 1,
@@ -630,7 +625,7 @@
                 "name": "Shared Vision",
                 "requires": ["Nationalization"],
                 "uniques": [
-                    "[+10]% [Production] from every [Factory]"
+                    "[+5]% [Production] from every [Factory]"
                 ],
                 "row": 2,
                 "column": 3
