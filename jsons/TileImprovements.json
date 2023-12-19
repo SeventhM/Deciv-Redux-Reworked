@@ -145,7 +145,7 @@
 		],
 		"production": 2,
 		"turnsToBuild": 9,
-		"techRequired": "Electronics",
+		"techRequired": "Engineering",
 		"uniques": [
 			"Provides [1] [Power]",
 			"Pillaging this improvement yields approximately [+10 Gold]"
