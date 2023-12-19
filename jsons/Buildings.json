@@ -2086,7 +2086,7 @@
 		"cost": 40,
 		"requiredNearbyImprovedResources": ["Artifacts"],
 		"hurryCostModifier": 25,
-		"requiredTech": "Secrets of the Past",
+		"requiredTech": "Writing",
 		"uniques": [
 			"[+1 Culture, +1 Science] from [Artifacts] tiles [in this city]"
 		]
