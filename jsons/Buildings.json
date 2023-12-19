@@ -2677,6 +2677,7 @@
 		"name": "Listening Post",
 		"maintenance": 1,
 		"happiness": 1,
+		"cost": 160,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Destroyed when the city is captured"
