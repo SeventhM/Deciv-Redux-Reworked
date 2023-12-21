@@ -191,19 +191,19 @@
 		"terrainsCanBeFoundOn": [
 			"Hill",
 			"Badlands",
-			"Coast",
-			"Ocean"
+			"Coast"
+			//"Ocean"
 		],
 		"majorDepositAmount": { "sparse": 5, "default": 7, "abundant": 9 },
 		"minorDepositAmount": { "sparse": 2, "default": 3, "abundant": 3 },
 		"uniques": [
-			"Deposits in [Coast] tiles always provide [2] resources",
-			"Deposits in [Ocean] tiles always provide [2] resources",
+			"Deposits in [Coast] tiles always provide [3] resources",
+			//"Deposits in [Ocean] tiles always provide [3] resources",
 			"Guaranteed with Strategic Balance resource option",
 			"Generated with weight [40] <in [Featureless] [Badlands] tiles>",
 			"Generated with weight [39] <in [Hill] tiles>",
-			"Generated with weight [40] <in [Featureless] [Coast] tiles>",
-			"Generated with weight [10] <in [Featureless] [Ocean] tiles>"
+			"Generated with weight [40] <in [Featureless] [Coast] tiles>"
+			//"Generated with weight [10] <in [Featureless] [Ocean] tiles>"
 		]
 	},
 
@@ -215,7 +215,7 @@
 			"Tundra",
 			"Permafrost",
 			"Coast",
-			"Ocean",
+			//"Ocean",
 			"Swamp"
 		],
 		"production": 1,
@@ -225,14 +225,14 @@
 		"minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 },
 		"uniques": [
 			"Deposits in [Coast] tiles always provide [2] resources",
-			"Deposits in [Ocean] tiles always provide [2] resources",
+			//"Deposits in [Ocean] tiles always provide [2] resources",
 			"Guaranteed with Strategic Balance resource option",
 			"Generated with weight [65] <in [Toxic Waste] tiles> <in tiles without [Hill]>",
 			"Generated with weight [40] <in [Featureless] [Tundra] tiles>",
 			"Generated with weight [60] <in [Featureless] [Permafrost] tiles>",
 			"Generated with weight [65] <in [Featureless] [Desert] tiles>",
 			"Generated with weight [100] <in [Featureless] [Coast] tiles>",
-			"Generated with weight [10] <in [Featureless] [Ocean] tiles>",
+			//"Generated with weight [10] <in [Featureless] [Ocean] tiles>",
 			"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
 			"Minor deposits generated with weight [20] <in [Featureless] [Tundra] tiles>",
 			"Minor deposits generated with weight [20] <in [Featureless] [Permafrost] tiles>"
@@ -613,7 +613,7 @@
 	{
 		"name": "Jellyfish",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Coast","Ocean"],
+		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"improvedBy": ["Fishing Boats", "Bioculture"],
 		"improvementStats": { "food": 1 },
@@ -631,7 +631,7 @@
 	{
 		"name": "Plankton",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Coast","Ocean"],
+		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"improvedBy": ["Fishing Boats", "Bioculture"],
 		"improvementStats": { "food": 1 },
