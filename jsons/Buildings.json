@@ -2680,6 +2680,7 @@
 		"cost": 160,
 		"hurryCostModifier": 25,
 		"uniques": [
+			"Remove extra unhappiness from annexed cities",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Trade"
@@ -2705,6 +2706,7 @@
 		"cost": 160,
 		"hurryCostModifier": 25,
 		"uniques": [
+			"Remove extra unhappiness from annexed cities",
 			"New [Armor] units start with [15] Experience [in this city]",
 			"Destroyed when the city is captured"
 		],
@@ -2731,6 +2733,7 @@
 		"cost": 160,
 		"hurryCostModifier": 25,
 		"uniques": [
+			"Remove extra unhappiness from annexed cities",
 			"New [Military] units start with [15] Experience [in this city]",
 			"Destroyed when the city is captured"
 		],
@@ -3081,6 +3084,7 @@
 		"uniques": [
 			"[+2 Production] <with [Power]>",
 			"Consumes [1] [Slaves]",
+			"Can only be built [in annexed cities]",
 			"Only available <with [Slaves]>"
 		],
 		"requiredTech": "Construction"
