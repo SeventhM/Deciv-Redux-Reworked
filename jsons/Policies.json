@@ -1056,6 +1056,27 @@
                     Guaranteed: "Socialist Realism", "Communism", "Five-Year Plan", "Workers Faculties"
                         "Party Leadership"
                     Likely: "Academy of Sciences", "Resettlements", "Young Pioneers", "Hero of the People"
+
+                    The idea: The primary 3 policies are Party Leadership, Five-Year Plan, and Worker's Faculities. The idea is
+                    that Order primarily benefits you the more cities you have, while having mediocre benefits. On the other hand,
+                    Worker's Faculities and Five-Year Plan explictly is deisgned to make science victory as easy as possible without 
+                    relying on great people. Communism also hammers this idea home with even more science to cross the finish line
+
+                    2 main questions arise trying to squeeze Order down to a traditional tree:
+                    1. How do you handle the happiness policies, especially in comparison to Freedom. In BNw, the happiness per specialist policy
+                        is 6 happiness per city. In G&K, that would jump to 8. The current formula seems to just be add more happiness policies.
+                        But that leads to the second point
+                    2. Which policies do you choose? In Lekmod discussions, the discussion often is that there's a ton of choices in Order to be
+                    worth your time while Freedom only really wants to get their level 3 policy and then get anything else. There is definitely
+                    options to choose from and reasons to choose them. If you don't argue all in on the happiness policies, People's Army is a worthwhile
+                    consideration, Patriotic War gives Order some combat ability, Resettlements help settle new cities late, and Hero of the People
+                    let's you get at least some great people easier late game
+
+                    Comparision to Deciv Collectivism: Of the three, this is the closest to matching up. Collectivism is made to be a production focused tree,
+                    as a sort of opposite of Monopoly. This works suprisingly well due to the sheer amount of production gives. Still, it's not perfect.
+                    The most obvious problem is just that Order as is, with very little changes, is incredibly strong, even if you don't give it the happiness
+                    that Freedom or Autocracy can get. It also has a weird name for what it actually amounts to imo, as many of the effects are focused around
+                    stuff like mines or factories
                 ]
             }
         ]
@@ -1255,6 +1276,47 @@
                     Guaranteed: "Avant Garde", "Treaty Organization", "New Deal"?,"Universal Suffrage"
                         "Civil Society"
                     Likely: "Media Culture", "Free Mind", "Volunteer Army", "Capitalism", "Creative Expression"
+
+                    Freedom's main effects are from their 3 specialist policies. This sends a very clear message:
+                    Freedom is all about rewarding you mfor working specialists and generating great people. While
+                    people claim that Freedom is particular good at culture victory, it doesn't necessarily care about
+                    it. It just wgets there with more Artists, the culture from working artist specialists in the first place,
+                    and from great works in more Brave New World based mods.
+
+                    A hidden side effect of this is that while Order gives a few benefits that help out when having
+                    a large amount of cities, Freedom's focus on specialists is far more helpful for going tall.
+                    Specialist stats usual are worse than tile stats, particularly late in a game, unless you go with
+                    Freedom, and even when Freedom makes specialist equal to tile stats, the extra food given still
+                    heavily promotes the high population cities needed for playing tall, unlike Order. On the other hand
+                    The production Freedom gives definitely doesn't compare nearly as well in an area full of mines
+
+                    From this perspective, Freedom's branch mostly builds itself. Universal Suffrage, Treaty Organization,
+                    and Civil Society are core to the tree. Avant Garde increases the speed that your specialists create
+                    great people. And New Deal increases the stats of the great improvements from said great people.
+                    From here, you're only really missing 2 policy effects. Here, you have a few options
+                    1. If you add in all of the happiness effects from Order, you might as well race them with
+                    Capitalism. This makes both policy give a ton happiness, however, so it's worth being careful about
+                    2. Free Mind and Creative Expression are especially fitting if you balance this for a BNW style mod
+                    They lean a bit hard on the angle of culture victory, but they do both give you even more reason to work
+                    culture specialists. Media Culture also fits in this idea (assuming it gave toursim as expected, not culture),
+                    but it doesn't really fit as directly into the gimmick around specialists. Likelise, a large part of this
+                    idea falls apart in G&K, where increasing Artist generation is oddly specific alongside Avant Garde
+                    and Great Works don't exists as a direct consquecence of generating great people
+                    3. Volunteer Army provides Freedom with some way to defend itself. So does the city defense policy in the regular
+                    G&K ruleset. However, they are a bit off the intended idea
+                    4. Urbanization and Economic Union is an intentional addition to give Freedom some flexiblity and are also
+                    extremely important Freedom policies. However, they do benefit a bit too much for playing wide, when Freedom's
+                    gimmick is far more suited for playing tall
+
+                    Comparison to Deciv Constitution: There seems to be a loss in communication somewhere along the line.
+                    As stated, Freedom doesn't necessarily care about culture victory, it's just easier at acomplishing it,
+                    particularly in BNW. That't kinda the least of the problems, though. The bigger issue is there seems to be a loss
+                    of what to do with the tree besides just the specialist benefits. For instance, there's a strangely high amount
+                    of food growth in the tree despite being supposedly culture/specialist focused. There's a whole policy that
+                    gives gold and reduces the maintentence of roads. It seems to lean even harder on growing cities than Freedom already
+                    does, which makes the tree even stronger than it could've been otherwise (and it would've already been base level
+                    extremely strong). The idea of what to do seems to just be lost in translation. There's a reason many of the Deciv
+                    rebalances just drop the Freedom aspects from Constitution and instead play the culture tree idea straight
                 ]
             }
         ]
@@ -1442,7 +1504,31 @@
                 "uniques": [
                     Guaranteed: "Clausewitz's Legacy", "Fascism", "Elite Forces",
                     Likely: "Iron Fist", "Third Alternative", "Nationalism", "Police State",
-                        "Lightning Warfare", "Militarism", "Mobilization"
+                        "Lightning Warfare", "Militarism", "Mobilization", Total War
+
+                    In Lekmod, Autocracy is known for one thing and one thing only: Comabat bonuses. While the other
+                    Ideology tree have a good amount of stats with very little combat benefit, Autocracy is the exact opposite:
+                    combat bonuses with very little stats. Part of the idea is to at least allow the other trees a way to fight
+                    back, even if they don't have the raw strength of Autocracy
+
+                    This brings some interesting questions of which policies to make a tree out of Autocracy. While
+                    Clausewitz's Legacy and Elite Forces are a given, and Fascism is a necessity to match Freedom's happiness, everything else
+                    is up to the person implementing it. Do you add in Total War, and Mobilization to make it easier to amass a massive army?
+                    Do you double down on Honor's benefits with Iron Fist and Police State, given both branches are combat focused?
+                    Do you add in Third Alternative to remove resources as a barrier to war? What about Nationism and Lightning
+                    Warfare to make the benefits to combat even more noteworthy? The other trees also had questions regarding the number
+                    of happiness policies you add, so why not discuss the same question with Militarism
+
+                    Comparison to Supremacy: At face value, there is a comparison. Total Wat and Clausewitz's Legacy is here,
+                    (though not the more important Eltle Forces), there's some benefits to captured cities, I guess. In practice, though,
+                    this branch seems far more focused on fighting cities. This almost makes sense. Sovereignty, the replacement for Honor,
+                    is also focused on combat and so it makes sense to try to differenciate them. But that just means you're doubleing on effects.
+                    And as a reminder: part of the reason Autocracy doesn't have too many production or food is explictly to make it easier to fight.
+                    Having both Honor and Autocracy be available to choosen alongside a production heavy branch like Order just makes things especially
+                    dangerous and removes pretty much all other options. Again, Supremacy tries to limit this by limiting its
+                    effects to just vs cities, but now the policy tree is kinda weak in all other circumstances and is even less like where
+                    it started. There's a reason I commented out Supremacy: and have been moving some of its effects to Bionics it seems
+                    like a mess to actually balance correctly
                 ]
             }
         ]
