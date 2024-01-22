@@ -168,7 +168,7 @@
 			"[+2 Culture, +1 Faith] [in this city] <after discovering [Iron Working]>",
 			"Provides [2] [Oil]",
 			"Can only be built [in capital]",
-			"Gain a free [Fuel Depot] [in this city]"
+			"Gain a free [Food Store] [in this city]"
 		],
 		"quote": "Be thy hands, anointed, with holy oil.\nBe thy breast, anointed, with holy oil.\nBe thy head, anointed, with holy oil.\nAs kings, priests, and prophets were anointed.\nAnd as Solomon was anointed king by Zadok the priest and Nathan the prophet, so be thee anointed.",
 		"civilopediaText": [
@@ -201,7 +201,6 @@
 		"isNationalWonder": true,
 		"uniqueTo": "Children of Rust",
 		"cost": 0,
-		"production": 1,
 		"culture": 1,
 		"uniques": [
 			"Automatically built in all cities where it is buildable",
