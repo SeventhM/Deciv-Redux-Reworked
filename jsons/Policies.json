@@ -36,6 +36,7 @@
             {
                 "name": "Centralization",
                 "uniques": [
+                    "Provides the cheapest [Culture] building in your first [4] cities for free",
                     "[+1 Culture] from every specialist [in all cities]"
                 ],
                 "row": 1,
@@ -722,6 +723,7 @@
         "uniques": [
             "[+2 Food, +2 Culture] [in all cities]",
             "Only available <before adopting [Mechanization]>",
+            "Only available <before adopting [Legacy]>",
             "Only available <before adopting [Bionics]>"
         ],
         "policies": [
@@ -767,8 +769,6 @@
                     "Physiolatry"
                 ],
                 "uniques": [
-                    "[-50]% Food consumption by specialists [in all cities]",
-                    "[-50]% Unhappiness from [Specialists] [in all cities]",
                     "Resting point for Influence with City-States is increased by [15]",
                     "[-25]% City-State Influence degradation"
                 ],
@@ -791,17 +791,6 @@
             {
                 "name": "Naturalism Complete",
                 "uniques": [
-                    "[+5 Food] from every [Factory farm]",
-                    "[+5 Production] from every [Manufactory]",
-                    "[+2 Production] from every [Outpost]",
-                    "[+2 Production] from every [Prison farm]",
-                    "[+3 Gold, +3 Culture] from every [Settlement]",
-                    "[+2 Gold, +2 Science] from every [Citadel]",
-                    "[+3 Culture] from every [Narcotics farm]",
-                    "[+5 Faith, +1 Culture] from every [Oracle]",
-                    "[+5 Faith] from every [Seminary]",
-                    "[+5 Science] from every [Academy]",
-                    "[50]% Golden Age length"
                 ]
             }
         ]
@@ -819,6 +808,7 @@
         "uniques": [
             "[+1 Production, +1 Science] [in all cities]",
             "Only available <before adopting [Naturalism]>",
+            "Only available <before adopting [Legacy]>",
             "Only available <before adopting [Bionics]>"
         ],
         "policies": [
@@ -905,6 +895,7 @@
         "uniques": [
             "[+1 Science] per [4] population [in all cities]",
             "Only available <before adopting [Naturalism]>",
+            "Only available <before adopting [Legacy]>",
             "Only available <before adopting [Mechanization]>"
         ],
         "policies": [
@@ -976,6 +967,87 @@
                     "[+15]% Production when constructing [Terraformer Part] units [in all cities]"
                 ]
             }
+        ]
+    },
+    {
+        "name": "Legacy",
+        "era":"Industrial era",
+        "uniques": [
+            "Only available <before adopting [Bionics]>",
+            "Only available <before adopting [Mechanization]>",
+            "Only available <before adopting [Naturalism]>",
+            "[+1 Culture] from every specialist [in all cities]"
+        ],
+        "policies": [
+            {
+				"name": "Special Projects",
+				"uniques": [
+                    "[+1 Science, +2 Culture, +2 Gold] from every [Wonder]"
+                ],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Nationalization",
+				"uniques": [
+                    "[+25]% Great Person generation [in all cities]"
+				],
+				"row": 1,
+				"column": 3
+			},			
+			{
+				"name": "Inheritance",
+				"uniques": [
+                    "[-50]% Food consumption by specialists [in all cities]"
+                ],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Endurance Programme",
+				"uniques": [
+                    "[+25]% [Gold] [in all cities]"
+				],
+				"requires": ["Special Projects"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Unity",
+				"uniques": [
+                    "[+5 Food] from every [Factory farm]",
+                    "[+5 Production] from every [Manufactory]",
+                    "[+2 Production] from every [Outpost]",
+                    "[+2 Production] from every [Prison farm]",
+                    "[+3 Gold, +3 Culture] from every [Settlement]",
+                    "[+2 Gold, +2 Science] from every [Citadel]",
+                    "[+3 Culture] from every [Narcotics farm]",
+                    "[+5 Faith, +1 Culture] from every [Oracle]",
+                    "[+5 Faith] from every [Seminary]",
+                    "[+5 Science] from every [Academy]",
+				],
+				"requires": ["Nationalization"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Vision",
+				"uniques": [
+                    "[-50]% Unhappiness from [Specialists] [in all cities]",
+                    "[50]% Golden Age length",
+                    "Empire enters golden age"
+                ],
+				"requires": ["Inheritance"],
+				"row": 2,
+				"column": 5
+			},			
+
+			{
+				"name": "Legacy Complete",
+				"uniques": [
+                    "[+1 Production] from every specialist [in all cities]"
+                ]
+			}
         ]
     }
     /*{
