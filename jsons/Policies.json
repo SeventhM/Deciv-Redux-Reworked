@@ -730,6 +730,7 @@
             {
                 "name": "Emissions Standards",
                 "uniques": [
+                    "[+2 Food, +2 Production] from every [Smart Grid]",
                     "[+1 Happiness, +1 Culture] from every [Protected Area]",
                     "[+1 Happiness, +1 Culture] from every [Greenhouse]",
                     "[+1 Happiness, +1 Culture] from every [Mycoprotein Vats]"
@@ -791,6 +792,10 @@
             {
                 "name": "Naturalism Complete",
                 "uniques": [
+                    "[2] free [Great Farmer] units appear",
+                    "Empire enters golden age",
+                    "[+50]% Golden Age length",
+                    "[+10]% Production when constructing [Utopia Project] wonders [in all cities]"
                 ]
             }
         ]
