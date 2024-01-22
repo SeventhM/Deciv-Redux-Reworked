@@ -556,7 +556,8 @@
         },
         "uniques": [
             "[Great Merchant] is earned [50]% faster",
-            "[+1 Culture] from every [Market]"
+            "[+1 Culture] from every [Market]",
+            "[+100]% Production when constructing [Market] buildings [in all cities]"
         ],
         "policies": [
             {

@@ -62,7 +62,8 @@
 			"Provides [1] [Power]",
 			"Provides [2] [Encrypted Data]",
 			"Can only be built [in capital]",
-			"Gain a free [Compound Mixer] [in this city]"
+			"Gain a free [Compound Mixer] [in this city]",
+			"Gain a free [Food Store] [in this city]"
 		],
 		"quote": "'I will tell you a secret. Truth is, I'm not human. Not fully, at least. For some reason, Hexlock decided that it would be best having a computer lead them, instead of a person. And so their president decided to alter the head of his own daugther. Maybe the fact that I killed him as soon as I came out meant that I was now different. But to be honest? I feel the same. Just get bored of things much faster.'",
 		"civilopediaText": [
@@ -75,7 +76,7 @@
 		"name": "Ark One",
 		"isNationalWonder": true,
 		"uniqueTo": "Blackwarden",
-		"gold": 2,
+		"gold": 3,
 		"cityStrength": 10,
 		"cityHealth": 60,
 		"cost": 0,
@@ -166,7 +167,7 @@
 		"uniques": [
 			"Automatically built in all cities where it is buildable",
 			"[+2 Culture, +1 Faith] [in this city] <after discovering [Iron Working]>",
-			"Provides [2] [Oil]",
+			"Provides [3] [Oil]",
 			"Can only be built [in capital]",
 			"Gain a free [Food Store] [in this city]"
 		],
@@ -181,13 +182,16 @@
 		"name": "Peace Memorial",
 		"isNationalWonder": true,
 		"uniqueTo": "Commonwealth",
+		"cityStrength": 20,
+		"cityHealth": 80,
 		"cost": 0,
 		"uniques": [
 			"Automatically built in all cities where it is buildable",
 			"[25]% Great Person generation [in this city]",
-			"[+1 Faith, +1 Happiness, +1 Culture] <when not at war>",
+			"[+3 Happiness, +1 Culture] <when not at war>",
 			"Can only be built [in capital]",
-			"Gain a free [Monument] [in this city]"
+			"Gain a free [Monument] [in this city]",
+			"Gain a free [Food Store] [in this city]"
 		],
 		"quote": "Lasting peace is sought, it is essential to adopt international measures to improve the lot of the masses. The welfare of the entire human race must replace hunger and oppression. People of the world must be taught to give up envy, avarice and rancour.",
 		"civilopediaText": [
@@ -201,11 +205,11 @@
 		"isNationalWonder": true,
 		"uniqueTo": "Children of Rust",
 		"cost": 0,
-		"culture": 1,
 		"uniques": [
 			"Automatically built in all cities where it is buildable",
 			"Can only be built [in capital]",
-			"Gain a free [Salvage Yard] [in this city]"
+			"Gain a free [Salvage Yard] [in this city]",
+			"Gain a free [Food Store] [in this city]"
 		],
 		"quote": "Now there are no doors left in the houses for they have all been kicked off. So, also, there are no fires in the village and have not been for many days. Now the men full of strong drink have trodden in the fireplaces. They alone track there and there are no fires and their footprints are in all the fireplaces.",
 		"civilopediaText": [
@@ -224,7 +228,8 @@
 			"Automatically built in all cities where it is buildable",
 			"Can only be built [in capital]",
 			"[+1 Food] <with [1] to [6] neighboring [Coast] tiles>",
-			"Gain a free [Lighthouse] [in this city]"
+			"Gain a free [Lighthouse] [in this city]",
+			"Gain a free [Food Store] [in this city]"
 		],
 		"quote": "Brightly beams our father's mercy\nFrom his lighthouse evermore\nBut to us he gives the keeping\nOf the lights along the shore.",
 		"civilopediaText": [
@@ -263,6 +268,7 @@
 			"Automatically built in all cities where it is buildable",
 			"Can only be built [in capital]",
 			"Provides [1] [Weapons]",
+			"Provides [1] [Slaves]",
 			"Gain a free [Food Store] [in this city]"
 		],
 		"quote": "If you would keep your secret from an enemy, tell it not to a friend.",
