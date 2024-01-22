@@ -252,9 +252,6 @@
 			"Provides [1] [Uranium] <in [Uranium] tiles>",
 			"Provides [1] [Coal] <in [Coal] tiles>",
 			"Provides [1] [Aluminum] <in [Aluminum] tiles>",
-			"Provides [1] [Silver] <in [Silver] tiles>",
-			"Provides [1] [Gems] <in [Gems] tiles>",
-			"Provides [1] [Salt] <in [Salt] tiles>",
 			"Provides [1] [Metal] <in [Metal] tiles>",
             "Can only be built to improve a resource <in [resource] tiles>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
@@ -267,12 +264,12 @@
 		"turnsToBuild": 10,
 		"techRequired": "Computers",
 		"production": 1,
-		"food": 2,
+		"food": 1,
 		"uniques": [
 			"Food source",
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
-			"[+1 Science] <after discovering [Artificial Intelligence]>",
+			"[+1 Science, +1 Food] <after discovering [Artificial Intelligence]>",
 			"Cannot be built on [Water] tiles",
             "Can only be built to improve a resource <in [resource] tiles>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
@@ -284,10 +281,10 @@
 		"techRequired": "Computers",
 		"turnsToBuild": 10,
 		"production": 1,
-		"food": 2,
+		"food": 1,
 		"uniques": [
 			"Food source",
-			"[+1 Science] <after discovering [Artificial Intelligence]>",
+			"[+1 Science, +1 Food] <after discovering [Artificial Intelligence]>",
 			"Can only be built to improve a resource",
 			"Can only be built on [Water] tiles",
 			"Pillaging this improvement yields approximately [+10 Gold]"
@@ -303,7 +300,6 @@
 			"Can only be built to improve a resource",
 			"Cannot be built on [Water] tiles <before discovering [Ocean Remediation]>",
 			"[+1 Food] <after discovering [Atmosphere Remediation]>",
-            "Can only be built to improve a resource <in [resource] tiles>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "C"
