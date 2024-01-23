@@ -157,14 +157,15 @@
 		"uniqueTo": "The Patriots",
 		"replaces": "Scout",
 		"movement": 2,
-		"strength": 12,
+		"strength": 20,
 		"interceptRange": 1,
 		"cost": 25,
 		"upgradesTo": "Militia",
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Rifling",
 		"uniques": [
-			"Personnel"
+			"Personnel",
+			"[+50]% Strength <vs [Low Tech] units>"
 		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
