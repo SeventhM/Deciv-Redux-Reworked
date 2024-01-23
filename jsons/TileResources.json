@@ -340,7 +340,7 @@
 			"Wasteland"
 		],
 		"improvedBy": ["Salvage site", "Borough"],
-		"improvementStats": { "culture": 1 },
+		"improvementStats": { "culture": 1, "production": 1 },
 		"uniques": [
 			"Guaranteed with Strategic Balance resource option",
 			"Generated with weight [35] <in [Hill] tiles>",
@@ -364,7 +364,7 @@
 		"terrainsCanBeFoundOn": ["Jungle"],
 		"science": 1,
 		"improvedBy": ["Research site", "Borough"],
-		"improvementStats": { "science": 1 },
+		"improvementStats": { "science": 1, "production": 1 },
 		"uniques": [
 			"Generated with weight [30] <in [Jungle] Regions>",
 			"Generated near City States with weight [10]"
@@ -375,7 +375,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
 		"improvedBy": ["Research site", "Borough"],
-		"improvementStats": { "science": 2 },
+		"improvementStats": { "science": 1, "production": 1 },
 		"uniques": [
 			"Generated with weight [30] <in [Jungle] Regions>",
 			"Generated with weight [30] <in [Forest] Regions>",
@@ -387,7 +387,7 @@
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
 		"improvedBy": ["Borough", "Research site"],
-		"improvementStats": { "science": 2 },
+		"improvementStats": { "science": 1, "production":1 },
 		"majorDepositAmount": { "sparse": 5, "default": 7, "abundant": 9 },
 		"minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 },
 		"uniques": [
@@ -407,7 +407,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
 		"improvedBy": ["Salvage site", "Borough"],
-		"improvementStats": { "production": 1 },
+		"improvementStats": { "production": 1, "gold": 1 },
 		"uniques": [
 			"Generated with weight [30] <in [Jungle] Regions>",
 			"Generated with weight [30] <in [Forest] Regions>",
@@ -419,7 +419,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
 		"improvedBy": ["Salvage site", "Borough"],
-		"improvementStats": { "science": 1 },
+		"improvementStats": { "science": 1, "production": 1 },
 		"uniques": [
 			"Generated with weight [30] <in [Jungle] Regions>",
 			"Generated with weight [30] <in [Forest] Regions>",
@@ -497,7 +497,7 @@
 		"terrainsCanBeFoundOn": ["Badlands", "Hill"],
 		"food": 1,
 		"improvedBy": ["Pasture", "Bioculture"],
-		"improvementStats": { "food": 1 },
+		"improvementStats": { "food": 1, "gold": 1 },
 		"uniques": [
 			"Generated with weight [5] <in [Badlands] Regions>",
 			"Generated with weight [5] <in [Hill] Regions>",
@@ -511,7 +511,7 @@
 		"terrainsCanBeFoundOn": ["Tundra"],
 		"food": 1,
 		"improvedBy": ["Camp", "Bioculture"],
-		"improvementStats": { "food": 1 },
+		"improvementStats": { "food": 1, "gold": 1 },
 		"uniques": [
 			"Generated with weight [40] <in [Tundra] Regions>",
 			"Generated near City States with weight [15]"
@@ -523,7 +523,7 @@
 		"terrainsCanBeFoundOn": ["Tundra", "Wasteland", "Jungle", "Forest"],
 		"food": 1,
 		"improvedBy": ["Camp", "Bioculture"],
-		"improvementStats": { "production": 1 },
+		"improvementStats": { "production": 1, "culture": 1 },
 		"uniques": [
 			"Generated with weight [40] <in [Tundra] Regions>",
 			"Generated with weight [10] <in [Wasteland] Regions>",
@@ -538,7 +538,7 @@
 		"terrainsCanBeFoundOn": ["Hill", "Toxic Waste", "Jungle"],
 		"food": 1,
 		"improvedBy": ["Camp", "Bioculture"],
-		"improvementStats": { "culture": 1 },
+		"improvementStats": { "culture": 1, "food": 1 },
 		"uniques": [
 			"Generated with weight [5] <in [Jungle] Regions>",
 			"Generated with weight [30] <in [Hill] Regions>",
@@ -552,7 +552,7 @@
 		"terrainsCanBeFoundOn": ["Toxic Waste", "Fallout"],
 		"food": 1,
 		"improvedBy": ["Camp", "Bioculture"],
-		"improvementStats": { "food": 2, "culture": 1, "science": 1 },
+		"improvementStats": { "food": 1, "culture": 1, "science": 1 },
 		"uniques": [
 			"Generated with weight [25] <in [Tundra] Regions>",
 			"Generated with weight [30] <in [Hill] Regions>",
@@ -569,7 +569,7 @@
 		"terrainsCanBeFoundOn": ["Badlands", "Hill", "Wasteland"],
 		"food": 1,
 		"improvedBy": ["Camp", "Bioculture"],
-		"improvementStats": { "food": 1 },
+		"improvementStats": { "food": 1, "culture": 1 },
 		"uniques": [
 			"Generated with weight [5] <in [Badlands] Regions>",
 			"Generated with weight [5] <in [Wasteland] Regions>",
@@ -583,7 +583,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill", "Badlands", "Desert", "Tundra"],
 		"improvedBy": ["Mine", "Borehole"],
-		"improvementStats": { "food": 1 },
+		"improvementStats": { "food": 1, "production": 1 },
 		"uniques": [
 			"Generated with weight [35] <in [Hill] Regions>",
 			"Generated with weight [5] <in [Badlands] Regions>",
@@ -599,7 +599,7 @@
 		"terrainsCanBeFoundOn": ["Jungle", "Sunken Ruins"],
 		"culture": 1,
 		"improvedBy": ["Research site", "Borough", "Modular island"],
-		"improvementStats": { "culture": 1 },
+		"improvementStats": { "culture": 2, "science": 2 },
 		"uniques": [
 			"Generated with weight [30] <in [Jungle] Regions>",
 			"Generated with weight [20] <in [Hybrid] Regions>",
@@ -616,7 +616,7 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"improvedBy": ["Fishing Boats", "Bioculture"],
-		"improvementStats": { "food": 1 },
+		"improvementStats": { "food": 1, "culture": 1 },
 		"uniques": [
 			"Generated with weight [10] <in [Jungle] Regions>",
 			"Generated with weight [20] <in [Hybrid] Regions>",
@@ -634,7 +634,7 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"improvedBy": ["Fishing Boats", "Bioculture"],
-		"improvementStats": { "food": 1 },
+		"improvementStats": { "food": 1 , "culture": 1},
 		"uniques": [
 			"Generated with weight [10] <in [Jungle] Regions>",
 			"Generated with weight [20] <in [Hybrid] Regions>",
