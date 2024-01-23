@@ -662,7 +662,7 @@
                 "column": 1
             },
             {
-                "name": "Nationalization",
+                "name": "Workers Faculties",
                 "uniques": [
                     "[+15]% [Science] from every [Factory]",
                     "[+100]% Production when constructing [Factory] buildings [in all cities]"
@@ -681,7 +681,7 @@
             {
                 "name": "Shared Vision",
                 "requires": [
-                    "Nationalization"
+                    "Workers Faculties"
                 ],
                 "uniques": [
                     "[+5]% [Production] from every [Factory]"
