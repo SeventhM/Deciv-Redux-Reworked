@@ -3467,8 +3467,7 @@
 		"uniques": [
 			"Personnel",
 			"Great Person - [War]",
-			"Unbuildable",
-			"Consumes [1] [Weapons]"
+			"Unbuildable"
 		],
 		"promotions": ["Ignore terrain cost","[Ranger] ability"],
 		"attackSound": "shot"
