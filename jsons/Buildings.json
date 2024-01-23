@@ -2020,7 +2020,8 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+25]% Great Person generation [in this city]",
-			"[+2 Happiness, +1 Culture, +2 Food] <with [Power]>",
+			"[+1 Happiness, +1 Culture] <with [Power]>",
+			"[+1 Happiness, +2 Food] <with [Power]>",
 			"[+1] population [in this city]",
 			"Unsellable"
 		],
@@ -2034,8 +2035,9 @@
 		"specialistSlots": {"Administrator": 1, "Merchant": 1 },
 		"uniques": [
 			"[+25]% Great Person generation [in this city]",
+			"[+1 Happiness, +1 Culture] <with [Power]>",
 			"[-25]% Gold cost of acquiring tiles [in this city]",
-			"[+1 Happiness, +1 Culture, +1 Gold] <with [Power]>"
+			"[+1 Gold] <with [Power]>"
 		],
 		"cost": 160,
 		"hurryCostModifier": 25
@@ -2047,7 +2049,8 @@
 		"specialistSlots": {"Administrator": 1, "Merchant": 1 },
 		"uniques": [
 			"[+25]% Great Person generation [in this city]",
-			"[+1 Happiness, +1 Culture, +1 Gold] <with [Power]>",
+			"[+1 Happiness, +1 Culture] <with [Power]>",
+			"[+1 Gold] <with [Power]>",
 			//"[+1 Gold] <with [Alcohol]>",
 			//"[+1 Gold] <with [Narcotics]>",
 			//"[+1 Gold] <with [Refined Narcotics]>"
@@ -2305,9 +2308,10 @@
 		"replaces": "Library",
 		"uniqueTo": "Deadrock Clan",
 		"uniques": [
-			"[+1 Science, +1 Gold] <with [Power]>",
+			"[+1 Science] <with [Power]>",
 			"[+1 Science] per [2] population [in this city]",
-			"[+2 Science] from [Books] tiles [in this city]"
+			"[+2 Science] from [Books] tiles [in this city]",
+			"[+1 Gold] <with [Power]>"
 		],
 		"requiredTech": "Writing"
 	},
@@ -2328,9 +2332,10 @@
 		"replaces": "Library",
 		"uniqueTo": "Cult of Ignis",
 		"uniques": [
-			"[+1 Science, +1 Faith] [in this city] <with [Power]>",
+			"[+1 Science] per [2] population [in this city]",
+			"[+1 Science] <with [Power]>",
 			"[+2 Science] from [Books] tiles [in this city]",
-			"[+1 Science] per [3] population [in this city]"
+			"[+1 Faith] <with [Power]>"
 		],
 		"hurryCostModifier": 25,
 		"requiredTech": "Writing"
@@ -2407,11 +2412,12 @@
 		"percentStatBonus": { "science": 33 },
 		"specialistSlots": { "Scientist": 1 },
 		"uniques": [
+			"[+1 Science] <with [Power]>",
 			"[+1 Science] from [Jungle] tiles [in this city]",
 			"[+1 Science] from [Forest] tiles [in this city]",
 			"[+1 Science] from [Sunken Ruins] tiles [in this city]",
 			"Only available <in cities with a [Library]>",
-			"[+1 Culture, +1 Science] <with [Power]>"
+			"[+1 Culture] <with [Power]>"
 		],
 		"requiredTech": "Education"
 	},
@@ -2464,8 +2470,9 @@
 		"hurryCostModifier": 0,
 		"uniques": [
 			"[+1 Science] per [2] population [in this city]",
-			"[+1 Science, +1 Culture, +1 Faith] [in this city] <with [Power]>",
+			"[+1 Science] [in this city] <with [Power]>",
 			"New [Armor] units start with [15] Experience [in this city]",
+			"[+1 Culture, +1 Faith] [in this city] <with [Power]>",
 			"Only available <in cities with a [Sanctum]>"
 		],
 		"requiredTech": "Pharmaceuticals"
