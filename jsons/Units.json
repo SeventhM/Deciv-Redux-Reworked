@@ -3459,7 +3459,7 @@
 		"replaces": "Great General",
 		"upgradesTo": "Marksman",
 		"range": 1,
-		"movement": 2,
+		"movement": 4,
 		"strength": 40,
 		"cost": 500,
 		"rangedStrength": 45,
