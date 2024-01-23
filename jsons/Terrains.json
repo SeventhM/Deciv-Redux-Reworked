@@ -341,8 +341,8 @@
 			"Rare feature",
 			"Urban terrain",
 			"[25]% Chance to be destroyed by nukes",
-			"Considered [Desirable] when determining start locations <in [Forest] regions>",
-			"Considered [Desirable] when determining start locations <in [Jungle] regions>",
+			"Considered [Desirable] when determining start locations <in [Forest] Regions>",
+			"Considered [Desirable] when determining start locations <in [Jungle] Regions>",
 			"Considered [Production] when determining start locations",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
