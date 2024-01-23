@@ -662,7 +662,7 @@
                 "column": 1
             },
             {
-                "name": "Workers Faculties",
+                "name": "Nationalization",
                 "uniques": [
                     "[+15]% [Science] from every [Factory]",
                     "[+100]% Production when constructing [Factory] buildings [in all cities]"
@@ -681,7 +681,7 @@
             {
                 "name": "Shared Vision",
                 "requires": [
-                    "Workers Faculties"
+                    "Nationalization"
                 ],
                 "uniques": [
                     "[+5]% [Production] from every [Factory]"
@@ -977,7 +977,7 @@
     },
     {
         "name": "Legacy",
-        "era":"Industrial era",
+        "era": "Industrial era",
         "uniques": [
             "Only available <before adopting [Bionics]>",
             "Only available <before adopting [Mechanization]>",
@@ -986,41 +986,32 @@
         ],
         "policies": [
             {
-				"name": "Special Projects",
-				"uniques": [
+                "name": "Special Projects",
+                "uniques": [
                     "[+1 Science, +2 Culture, +2 Gold] from every [Wonder]"
                 ],
-				"row": 1,
-				"column": 1
-			},
-			{
-				"name": "Nationalization",
-				"uniques": [
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Endurance Programme",
+                "uniques": [
                     "[+25]% Great Person generation [in all cities]"
-				],
-				"row": 1,
-				"column": 3
-			},			
-			{
-				"name": "Inheritance",
-				"uniques": [
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Inheritance",
+                "uniques": [
                     "[-50]% Food consumption by specialists [in all cities]"
                 ],
-				"row": 1,
-				"column": 5
-			},
-			{
-				"name": "Endurance Programme",
-				"uniques": [
-                    "[+25]% [Gold] [in all cities]"
-				],
-				"requires": ["Special Projects"],
-				"row": 2,
-				"column": 1
-			},
-			{
-				"name": "Unity",
-				"uniques": [
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Unity",
+                "uniques": [
                     "[+5 Food] from every [Factory farm]",
                     "[+5 Production] from every [Manufactory]",
                     "[+2 Production] from every [Outpost]",
@@ -1031,29 +1022,33 @@
                     "[+5 Faith, +1 Culture] from every [Oracle]",
                     "[+5 Faith] from every [Seminary]",
                     "[+5 Science] from every [Academy]",
-				],
-				"requires": ["Nationalization"],
-				"row": 2,
-				"column": 3
-			},
-			{
-				"name": "Vision",
-				"uniques": [
+                ],
+                "requires": [
+                    "Endurance Programme",
+                    "Inheritance"
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Vision",
+                "uniques": [
                     "[-50]% Unhappiness from [Specialists] [in all cities]",
                     "[50]% Golden Age length",
                     "Empire enters golden age"
                 ],
-				"requires": ["Inheritance"],
-				"row": 2,
-				"column": 5
-			},			
-
-			{
-				"name": "Legacy Complete",
-				"uniques": [
+                "requires": [
+                    "Inheritance"
+                ],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Legacy Complete",
+                "uniques": [
                     "[+1 Production] from every specialist [in all cities]"
                 ]
-			}
+            }
         ]
     }
     /*{
