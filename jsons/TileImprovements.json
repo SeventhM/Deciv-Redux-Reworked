@@ -453,7 +453,6 @@
 		"name": "Remove Jungle", // Remove Ruins
 		"turnsToBuild": 4,
 		"terrainsCanBeBuiltOn": ["Jungle"],
-		"techRequired": "Construction",
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X"
 	},
