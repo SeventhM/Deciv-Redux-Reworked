@@ -29,11 +29,11 @@
 			"Deity"
 		]
 	},
-	{
+	/*{
 		"name": "your exploring unit receives training",
 		"notification": "The survivors trained us in their ways of combat!",
 		"uniques": ["This Unit gains [10] XP"]
-	},
+	},*/
 	{
 		"name": "survivors (adds population to a city)",
 		"notification": "We have found survivors in the camp! Population added to [cityName].",
@@ -54,7 +54,7 @@
 	{
 		"name": "advanced weaponry for your explorer",
 		"notification": "Our unit finds advanced weaponry hidden in the camp!",
-		"uniques": ["This Unit upgrades for free including special upgrades"]
+		"uniques": ["This Unit upgrades for free including special upgrades <starting from the [Neofeudal era]>"]
 	},
 	/*{
 		"name": "reveal nearby Barbarian camps",
