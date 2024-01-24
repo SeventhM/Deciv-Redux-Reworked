@@ -54,7 +54,7 @@
 		"name": "Hex Corporation",
 		"isNationalWonder": true,
 		"uniqueTo": "Hexlock",
-		"science": 2,
+		"science": 1,
 		"production": 1,
 		"cost": 0,
 		"uniques": [
@@ -62,7 +62,6 @@
 			"Provides [1] [Power]",
 			"Provides [2] [Encrypted Data]",
 			"Can only be built [in capital]",
-			"Gain a free [Compound Mixer] [in this city]",
 			"Gain a free [Food Store] [in this city]"
 		],
 		"quote": "'I will tell you a secret. Truth is, I'm not human. Not fully, at least. For some reason, Hexlock decided that it would be best having a computer lead them, instead of a person. And so their president decided to alter the head of his own daugther. Maybe the fact that I killed him as soon as I came out meant that I was now different. But to be honest? I feel the same. Just get bored of things much faster.'",
