@@ -2469,10 +2469,10 @@
 		"hurryCostModifier": 0,
 		"uniques": [
 			"[+1 Science] per [2] population [in this city]",
-			"[+1 Science] [in this city] <with [Power]>",
+			"[+1 Science] <with [Power]>",
 			"New [Armor] units start with [15] Experience [in this city]",
-			"[+1 Culture, +1 Faith] [in this city] <with [Power]>",
-			"Only available <in cities with a [Sanctum]>"
+			"[+1 Culture, +1 Faith] <with [Power]>",
+			"Only available <in cities with a [Library]>"
 		],
 		"requiredTech": "Pharmaceuticals"
 	},
@@ -2688,7 +2688,7 @@
 		"name": "Listening Post",
 		"maintenance": 1,
 		"happiness": 1,
-		"cost": 160,
+		"cost": 60,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
@@ -2699,7 +2699,6 @@
 	{
 		"name": "Prison Camp",
 		"hurryCostModifier": 25,
-		"cost": 160,
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
 			"Can only be built [in annexed cities]",
@@ -2714,7 +2713,7 @@
 		"uniqueTo": "Cult of Ignis",
 		"happiness": 1,
 		"maintenance": 1,
-		"cost": 160,
+		"cost": 60,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
@@ -2727,7 +2726,7 @@
 		"name": "Processing Center",
 		"replaces": "Prison Camp",
 		"uniqueTo": "Cult of Ignis",
-		"cost": 160,
+		"cost": 60,
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
 			"Provides [3] [Slaves]",
@@ -2741,7 +2740,7 @@
 		"uniqueTo": "Crimson Legion",
 		"happiness": 1,
 		"maintenance": 1,
-		"cost": 160,
+		"cost": 60,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
@@ -2754,7 +2753,7 @@
 		"name": "Legion Camp",
 		"replaces": "Prison Camp",
 		"uniqueTo": "Crimson Legion",
-		"cost": 160,
+		"cost": 60,
 		"cityStrength": 10,
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
@@ -2772,7 +2771,7 @@
 		"replaces": "Prison Camp",
 		"uniqueTo": "Commonwealth",
 		"maintenance": 1,
-		"cost": 160,
+		"cost": 60,
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
 			"Can only be built [in annexed cities]",
@@ -2786,7 +2785,7 @@
 		"replaces": "Prison Camp",
 		"uniqueTo": "Deadrock Clan",
 		"hurryCostModifier": 25,
-		"cost": 160,
+		"cost": 60,
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
 			"Provides [5] [Slaves]",
@@ -2982,7 +2981,6 @@
 	{
 		"name": "Oil Refinery",
 		"maintenance": 1,
-		"cost": 150,
 		"percentStatBonus": { "production": 25 },
 		"specialistSlots": { "Engineer": 1 },
 		"hurryCostModifier": 25,
@@ -2990,7 +2988,7 @@
 			"Provides [1] [Oil]",
 			"[+1 Production] <with [Power]>",
 			"[+2 Production] from [Oil] tiles [in this city]",
-			"Consumes [1] [Power]",
+			"Consumes [1] [Power]"
 			//"Only available <in cities without a [Oil Plant]>"
 		],
 		"requiredTech": "Chemistry"
@@ -3000,16 +2998,16 @@
 		"replaces": "Oil Refinery",
 		"uniqueTo": "Cult of Ignis",
 		"maintenance": 1,
-		"cost": 150,
 		"percentStatBonus": { "production": 25 },
 		"specialistSlots": { "Engineer": 1 },
 		"hurryCostModifier": 25,
 		"uniques": [
 			"[+2 Production, +2 Culture] from [Oil] tiles [in this city]",
 			"Provides [1] [Oil]",
-			"[+1 Production] <with [Power]>",
+			"[+1 Production] <with [Power]>"
 			//"Only available <in cities without a [Oil Plant]>"
-		]
+		],
+		"requiredTech": "Chemistry"
 	},
 	/*{
 		"name": "Oil Plant",
@@ -3173,7 +3171,6 @@
 		"name": "Heat Plant",
 		"replaces": "Hydro Plant",
 		"uniqueTo": "Hexlock",
-		"cost": 160,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Provides [2] [Power]",
@@ -3193,7 +3190,7 @@
 	{
 		"name": "Coal Plant",
 		"maintenance": 4,
-		"cost": 250,
+		"cost": 200,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Provides [8] [Power]",
@@ -3204,7 +3201,6 @@
 	{
 		"name": "Nuclear Plant",
 		"maintenance": 4,
-		"cost": 750,
 		"hurryCostModifier": 33,
 		"uniques": [
 			"Consumes [1] [Uranium]",
@@ -3222,7 +3218,7 @@
 		"uniqueTo": "Proklyatyye",
 		"replaces": "Nuclear Plant",
 		"maintenance": 4,
-		"cost": 250,
+		"cost": 400,
 		"culture": 1,
 		"faith": 1,
 		"percentStatBonus": { "food": -5 },
@@ -3243,7 +3239,7 @@
 	{
 		"name": "Recycling Plant",
 		"maintenance": 5,
-		"cost": 750,
+		"cost": 500,
 		"hurryCostModifier": 33,
 		"uniques": [
 			"Provides [6] [Power]",
@@ -3695,7 +3691,7 @@
 	{
 		"name": "Compound Mix GA",
 		"uniqueTo": "Hexlock",
-		"cost": 70,
+		"cost": 75,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Free [Great Administrator] appears",
@@ -3710,7 +3706,7 @@
 	{
 		"name": "Compound Mix GF",
 		"uniqueTo": "Hexlock",
-		"cost": 70,
+		"cost": 75,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Free [Great Farmer] appears",
@@ -3724,7 +3720,7 @@
 	{
 		"name": "Compound Mix GS",
 		"uniqueTo": "Hexlock",
-		"cost": 70,
+		"cost": 75,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Free [Great Scientist] appears",
@@ -3738,7 +3734,7 @@
 	{
 		"name": "Compound Mix GM",
 		"uniqueTo": "Hexlock",
-		"cost": 70,
+		"cost": 75,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Free [Great Merchant] appears",
@@ -3752,7 +3748,7 @@
 	{
 		"name": "Compound Mix GE",
 		"uniqueTo": "Hexlock",
-		"cost": 70,
+		"cost": 75,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Free [Great Engineer] appears",
