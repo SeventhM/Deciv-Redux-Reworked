@@ -144,6 +144,7 @@
 		"techRequired": "Engineering",
 		"uniques": [
 			"Provides [1] [Power]",
+            "Can only be built to improve a resource <in [resource] tiles>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "L"
@@ -169,6 +170,7 @@
 		"uniques": [
 			"Can also be built on tiles adjacent to fresh water",
 			"Provides [1] [Oil]",
+            "Can only be built to improve a resource <in [resource] tiles>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "Y"
@@ -218,6 +220,7 @@
 			"Natural tile",
 			"Can only be built on [Desert] tiles",
 			"[+1 Food] from [Fresh water] tiles",
+			"Can also be built on tiles adjacent to fresh water",
             "Can only be built to improve a resource <in [resource] tiles>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -235,6 +238,9 @@
 			"Cannot be built on [Badlands] tiles <before discovering [Hydroponics]>",
 			"[+1 Food] from [Fresh water] tiles",
 			"[+1 Food, +1 Production] <after discovering [Land Remediation]>",
+			"Can also be built on tiles adjacent to fresh water <in [Badlands] tiles> <after discovering [Hydroponics]>",
+			"Can also be built on tiles adjacent to fresh water <in [Tundra] tiles>",
+			"Can also be built on tiles adjacent to fresh water <in [Wasteland] tiles>",
             "Can only be built to improve a resource <in [resource] tiles>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
