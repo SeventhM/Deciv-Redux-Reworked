@@ -1319,7 +1319,7 @@
 		"name": "[Missionary Zeal] ability",
 		"uniques": [
 			"Can Spread Religion <[1] additional time(s)>",
-			"Can Remove Foreign religions from your own cities <[1] additional time(s)>",
+			"Can remove other religions from cities <[1] additional time(s)>",
 		]
 	}
 ]
