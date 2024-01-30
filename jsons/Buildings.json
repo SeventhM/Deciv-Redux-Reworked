@@ -810,7 +810,7 @@
 		"uniques": [
 			"[+10]% growth [in all cities]",
 			"[+5]% Production when constructing [All] buildings [in this city]",
-			"+30% Strength when fighting City-State units and cities",
+			"[+30]% Strength <vs [City-States]>",
 			"Receive triple Gold from Barbarian encampments and pillaging Cities",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
@@ -1000,7 +1000,7 @@
 		"cost": 125,
 		"requiredTech": "Engineering",
 		"uniques": [
-			"[-25]% tile improvement construction time",
+			"[-25]% construction time for [All] improvements",
 			"Free [Worker] appears"
 		]
 	},
@@ -1667,8 +1667,8 @@
 			"Only available <after adopting [Theocracy]>",
 			"Hidden when religion is disabled",
 			"[+50]% Natural religion spread [in this city]",
-			"[Philosopher] units built [in this city] can [Spread Religion] [1] extra times",
-			"[Great Sage] units built [in this city] can [Spread Religion] [1] extra times"
+			"All newly-trained [Great Sage] units [in this city] receive the [[Grand Monastery] ability] promotion",
+			"All newly-trained [Philosopher] units [in this city] receive the [[Grand Monastery] ability] promotion"
 		]
 	},
 	{
@@ -1687,8 +1687,8 @@
 			"Only available <after adopting [Theocracy]>",
 			"Hidden when religion is disabled",
 			"[+50]% Natural religion spread [in this city]",
-			"[Philosopher] units built [in this city] can [Spread Religion] [1] extra times",
-			"[Great Sage] units built [in this city] can [Spread Religion] [1] extra times",
+			"All newly-trained [Great Sage] units [in this city] receive the [[Grand Monastery] ability] promotion",
+			"All newly-trained [Philosopher] units [in this city] receive the [[Grand Monastery] ability] promotion",
 			"Free Social Policy",
 			"[-1] population [in this city]",
 		]

@@ -1287,7 +1287,7 @@
 	{
 		"name": "[Surveyor] ability",
 		"uniques": [
-			"[-25]% tile improvement construction time <after discovering [Replaceable Parts]>",
+			"[-25]% construction time for [All] improvements <after discovering [Replaceable Parts]>",
 			"Can build [All] improvements on tiles"
 		]
 	},
@@ -1307,6 +1307,19 @@
 			"[50]% XP gained from combat",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Uncapturable"
+		]
+	},
+	{
+		"name": "[Grand Monastery] ability",
+		"uniques": [
+			"Can Spread Religion <[1] additional time(s)>"
+		]
+	},
+	{
+		"name": "[Missionary Zeal] ability",
+		"uniques": [
+			"Can Spread Religion <[1] additional time(s)>",
+			"Can Remove Foreign religions from your own cities <[1] additional time(s)>",
 		]
 	}
 ]

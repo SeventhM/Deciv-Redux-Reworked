@@ -31,6 +31,7 @@
 		"upgradesTo": "Mechanized Worker",
 		"uniques": [
 			"Can build [All] improvements on tiles",
+			"Can build [Land] improvements on tiles",
 			"Automation is a primary action"
 		],
 		"cost": 70
@@ -45,7 +46,8 @@
 		"upgradesTo": "Mechanized Worker",
 		"uniques": [
 			"Can build [All] improvements on tiles",
-			"[-25]% tile improvement construction time",
+			"Can build [Land] improvements on tiles",
+			"[-25]% construction time for [All] improvements",
 			"Automation is a primary action"
 		],
 		"cost": 70
@@ -3218,7 +3220,7 @@
 		"name": "Philosopher",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can [Spread Religion] [2] times",
+			"Can Spread Religion <[2] times>",
 			"May enter foreign tiles without open borders, but loses [100] religious strength each turn it ends there",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
 			"[-1] Sight",
@@ -3234,7 +3236,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Prevents spreading of religion to the city it is next to",
-			"Can [Remove Foreign religions from your own cities] [2] times",
+			"Can remove other religions from cities <[2] times>",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
 			"[+1] Sight",
 			"Hidden when religion is disabled",

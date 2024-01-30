@@ -351,7 +351,9 @@
 		"uniques": [
 			"[Faith] cost of purchasing [Philosopher] units [-50]%",
 			"[Faith] cost of purchasing [Censor] units [-50]%",
-			"[Censor] units built [in all cities] can [Remove Foreign religions from your own cities] [1] extra times",
+			"All newly-trained [Great Sage] units [in this city] receive the [[Missionary Zeal] ability] promotion",
+			"All newly-trained [Philosopher] units [in this city] receive the [[Missionary Zeal] ability] promotion",
+			"All newly-trained [Censor] units [in this city] receive the [[Missionary Zeal] ability] promotion",
 			"[+25]% Spread Religion Strength <for [Philosopher] units>"
 		]
 	},
