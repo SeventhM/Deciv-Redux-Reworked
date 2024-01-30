@@ -704,6 +704,19 @@
 		"faith": 1,
 		"resourceType": "Strategic",
 		"improvementStats": { "faith": 1 },
-		"uniques": ["Not shown on world screen"]
+		"uniques": [
+			"Stockpiled",
+			"Not shown on world screen"
+		]
+	},
+	{
+		"name": "VX-Prime",
+		"faith": 1,
+		"resourceType": "Strategic",
+		"improvementStats": { "science": 1 },
+		"uniques": [
+			"Stockpiled",
+			"Not shown on world screen"
+		]
 	}
 ]

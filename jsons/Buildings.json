@@ -542,7 +542,7 @@
 			"Provides [2] [C2N14]",
 			"Provides [2] [C8H17]",
 			"Provides [2] [SbF5]",*/
-			"Provides [6] [VX]",
+			"Instantly provides [6] [VX]",
 			"[+100]% Yield from every [Crystal Refinery]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
@@ -3696,11 +3696,11 @@
 		"uniques": [
 			"Free [Great Administrator] appears",
 			"Only available <in cities with a [Compound Mixer]>",
-			"Consumes [2] [VX]",
+			"Instantly consumes [2] [VX]",
 			"Refinery",
 			"Unsellable",
-			"Never destroyed when the city is captured",
-			"Limited to [3] per Civilization"
+			"Requires at least [999] population <when below [2] [VX]>",
+			"Remove [Compound Mix GA] [in this city]"
 		]
 	},
 	{
@@ -3711,10 +3711,11 @@
 		"uniques": [
 			"Free [Great Farmer] appears",
 			"Only available <in cities with a [Compound Mixer]>",
-			"Consumes [2] [VX]",
+			"Instantly consumes [2] [VX]",
 			"Refinery",
 			"Unsellable",
-			"Never destroyed when the city is captured"
+			"Requires at least [999] population <when below [2] [VX]>",
+			"Remove [Compound Mix GF] [in this city]"
 		]
 	},
 	{
@@ -3725,10 +3726,11 @@
 		"uniques": [
 			"Free [Great Scientist] appears",
 			"Only available <in cities with a [Compound Mixer]>",
-			"Consumes [2] [VX]",
+			"Instantly consumes [2] [VX]",
 			"Refinery",
 			"Unsellable",
-			"Never destroyed when the city is captured"
+			"Requires at least [999] population <when below [2] [VX]>",
+			"Remove [Compound Mix GS] [in this city]"
 		]
 	},
 	{
@@ -3739,10 +3741,11 @@
 		"uniques": [
 			"Free [Great Merchant] appears",
 			"Only available <in cities with a [Compound Mixer]>",
-			"Consumes [2] [VX]",
+			"Instantly consumes [2] [VX]",
 			"Refinery",
 			"Unsellable",
-			"Never destroyed when the city is captured"
+			"Requires at least [999] population <when below [2] [VX]>",
+			"Remove [Compound Mix GM] [in this city]"
 		]
 	},
 	{
@@ -3753,10 +3756,11 @@
 		"uniques": [
 			"Free [Great Engineer] appears",
 			"Only available <in cities with a [Compound Mixer]>",
-			"Consumes [2] [VX]",
+			"Instantly consumes [2] [VX]",
 			"Refinery",
 			"Unsellable",
-			"Never destroyed when the city is captured"
+			"Requires at least [999] population <when below [2] [VX]>",
+			"Remove [Compound Mix GE] [in this city]"
 		]
 	},
 	{
@@ -3766,10 +3770,11 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Free Great Person",
-			"Must have an owned [Crystal Refinery] within [3] tiles",
+			"Instantly consumes [1] [VX-Prime]",
 			"Unsellable",
-			"Never destroyed when the city is captured",
-			"Only available <in cities with a [Compound Mixer]>"
+			"Only available <in cities with a [Compound Mixer]>",
+			"Requires at least [999] population <when below [1] [VX-Prime]>",
+			"Remove [Compound Mix Meltdown] [in this city]"
 		]
 	},
 	
