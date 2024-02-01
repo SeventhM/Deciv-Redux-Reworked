@@ -3253,7 +3253,7 @@
 		"uniques": [
 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"Can instantly construct a [Settlement] improvement <by consuming this unit>",
-       "Is part of Great Person group [Admin]",
+			"Is part of Great Person group [Admin]",
 			"Great Person - [Culture]",
 			"Unbuildable",
 			"Uncapturable"
@@ -3265,7 +3265,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can instantly construct a [Seminary] improvement <by consuming this unit> <if it hasn't used other actions yet>",
-			"Can [Spread Religion] [4] times",
+			"Can Spread Religion <[4] times>",
 			"Removes other religions when spreading religion",
 			"May found a religion",
 			"May enhance a religion",
@@ -3288,7 +3288,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can instantly construct a [Oracle] improvement <by consuming this unit> <if it hasn't used other actions yet>",
-			"Can [Spread Religion] [4] times",
+			"Can Spread Religion <[4] times>",
 			"Removes other religions when spreading religion",
 			"May found a religion",
 			"May enhance a religion",
@@ -3310,7 +3310,7 @@
 		"uniques": [
 			"Can hurry technology research",
 			"Can instantly construct a [Academy] improvement <by consuming this unit>",
-       "Is part of Great Person group [Scientist]",
+			"Is part of Great Person group [Scientist]",
 			"Great Person - [Science]",
 			"Unbuildable",
 			"Uncapturable"
@@ -3323,7 +3323,7 @@
 		"uniques": [
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
 			"Can instantly construct a [Settlement] improvement <by consuming this unit>",
-       "Is part of Great Person group [Merchant]",
+			"Is part of Great Person group [Merchant]",
 			"Great Person - [Gold]",
 			"Unbuildable",
 			"Uncapturable"
@@ -3369,7 +3369,7 @@
 		"uniques": [
 			"Can speed up construction of a building",
 			"Can instantly construct a [Manufactory] improvement <by consuming this unit>",
-       "Is part of Great Person group [Engineer]",
+			"Is part of Great Person group [Engineer]",
 			"Great Person - [Production]",
 			"Unbuildable",
 			"Uncapturable"
