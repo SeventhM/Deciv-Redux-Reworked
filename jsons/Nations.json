@@ -250,9 +250,8 @@
 		"uniques": [
 			"[2] free [Surveyor] units appear",
 			"[{Melee} {Land} {non-[Scout]}] units gain the [[Surveyor] ability] promotion",
-			"Free [Great Scientist] appears <upon discovering [Secrets of the Past]>",
-			"[+33]% Great Person generation [in all cities]",
-			"Starts with [Writing]",
+			"Free [Great Scientist] appears <upon discovering [Writing]>",
+            "[Great Scientist] is earned [33]% faster",
 			"Starts with [Electronics]",
 			"[-2 Science] [in all cities] <before discovering [Education]>",
 			"Starts with [Rationalism] adopted"

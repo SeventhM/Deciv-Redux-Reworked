@@ -98,7 +98,6 @@
 		"name": "Atlas Refuge",
 		"isNationalWonder": true,
 		"uniqueTo": "Atlas",
-		"specialistSlots": { "Scientist": 1 },
 		"science": 2,
 		"cityHealth": 40,
 		"cost": 0,
