@@ -189,7 +189,6 @@
 		"uniques": [
 			"Free [Security] appears",
 			"[+10]% Strength <for [All] units> <when fighting in [Foreign Land] tiles> <while the empire is happy>",
-			"City-State Influence recovers at twice the normal rate",
 			"Starts with [Trade]",
 			"Starts with [Currency]",
 			"Starts with [Electronics]",
@@ -317,6 +316,7 @@
             "[+50]% Happiness from luxury resources gifted by City-States",
 			"Military Units gifted from City-States start with [+10] XP",
 			"City-State territory always counts as friendly territory",
+			"City-State Influence recovers at twice the normal rate",
 			"Free [Gunman] appears",
 			"Cannot build [Enslaved] units",
 			"Starts with [Constitution] adopted"
@@ -624,7 +624,7 @@
 			"Free [War Buggy] appears",
 			"[-33]% maintenance costs <for [Armor] units>",
 			"Starts with [Machinery]",
-			"Starts with [Theocracy] adopted",
+			//"Starts with [Theocracy] adopted",
 			"[+1 Culture, +1 Faith] from every [Strategic resource]",
 			"Free [Great Prophet] appears <upon adopting [Theocracy Complete]>"
 		],

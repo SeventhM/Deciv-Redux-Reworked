@@ -164,7 +164,7 @@
 		"cost": 0,
 		"uniques": [
 			"Automatically built in all cities where it is buildable",
-			"[+2 Culture, +1 Faith] [in this city] <after discovering [Iron Working]>",
+			"[+2 Culture, +2 Faith] from [Oil well] tiles [in this city]",
 			"Provides [3] [Oil]",
 			"Can only be built [in capital]",
 			"Gain a free [Food Store] [in this city]"
@@ -2325,7 +2325,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Writing"
 	},
-	{
+	/*{
 		"name": "Sanctum",
 		"replaces": "Library",
 		"uniqueTo": "Cult of Ignis",
@@ -2337,7 +2337,7 @@
 		],
 		"hurryCostModifier": 25,
 		"requiredTech": "Writing"
-	},
+	},*/
 	{
 		"name": "National College",
 		"science": 2,
@@ -2401,7 +2401,7 @@
 		],
 		"requiredTech": "Education"
 	},
-	{
+	/*{
 		"name": "College of Mystics",
 		"replaces": "University",
 		"uniqueTo": "Cult of Ignis",
@@ -2418,7 +2418,7 @@
 			"[+1 Culture] <with [Power]>"
 		],
 		"requiredTech": "Education"
-	},
+	},*/
 	{
 		"name": "Public School",
 		"maintenance": 1,
@@ -2460,7 +2460,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Pharmaceuticals"
 	},
-	{
+	/*{
 		"name": "Initiate School",
 		"replaces": "Public School",
 		"uniqueTo": "Cult of Ignis",
@@ -2474,7 +2474,7 @@
 			"Only available <in cities with a [Library]>"
 		],
 		"requiredTech": "Pharmaceuticals"
-	},
+	},*/
 	{
 		"name": "Research Lab",
 		"percentStatBonus": { "science": 50 },
