@@ -565,7 +565,10 @@
                 "uniques": [
                     "[+1] Happiness from each type of luxury resource",
                     "[+1 Gold] from every [Moisture trap]",
-                    "[+1 Gold] from every [Water pump]"
+                    "[+1 Gold] from every [Water pump]",
+                    "[+100]% Production when constructing [Water Plant] buildings [in all cities]",
+                    "[+100]% Production when constructing [Water Storage] buildings [in all cities]",
+                    "[+100]% Production when constructing [Greywater Treatment Plant] buildings [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -632,6 +635,7 @@
                     "[+1 Gold, +1 Food] from every [Moisture trap]",
                     "[+1 Gold, +1 Food] from every [Water pump]",
                     "[+2 Gold, +2 Culture, +3 Food] from every [Settlement]",
+                    "Free [Great Merchant] appears",
                     "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
