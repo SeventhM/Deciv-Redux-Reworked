@@ -89,7 +89,7 @@
 	{
 		"name": "Field Scientist",
 		"unitType": "Civilian",
-		"replaces": "Mounted Worker",
+		//"replaces": "Mounted Worker",
 		"uniqueTo": "Hexlock",
 		"requiredTech": "Writing",
 		"cost": 70,
@@ -319,7 +319,7 @@
 	{
 		"name": "Purge Robot Proto",
 		"unitType": "Scrapper",
-		"replaces": "Spearman",
+		//"replaces": "Spearman",
 		"uniqueTo": "Hexlock",
 		"upgradesTo": "Purge Robot MKI",
 		"obsoleteTech": "Replaceable Parts",
@@ -1268,7 +1268,7 @@
 	{
 		"name": "Purge Robot MKI",
 		"unitType": "Scrapper",
-		"replaces": "Soldier",
+		//"replaces": "Soldier",
 		"uniqueTo": "Hexlock",
 		"upgradesTo": "Purge Robot MKII",
 		"movement": 2,
@@ -2753,7 +2753,7 @@
 	{
 		"name": "Purge Robot MKII",
 		"unitType": "Armor",
-		"replaces": "Modern Armor",
+		//"replaces": "Modern Armor",
 		"uniqueTo": "Hexlock",
 		"upgradesTo": "Purge Robot",
 		"movement": 5,
