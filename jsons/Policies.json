@@ -604,7 +604,7 @@
             {
                 "name": "Entrepreneurship",
                 "uniques": [
-                    "[-50]% maintenance on road & railroads",
+                    "[-25]% maintenance on road & railroads",
                     "[-25]% maintenance cost for buildings [in all cities]",
                     "[+2 Science] from every [Market]",
                     "[+2 Science] from every [Water Plant]",
@@ -632,8 +632,8 @@
             {
                 "name": "Monopoly Complete",
                 "uniques": [
-                    "[+1 Gold, +1 Food] from every [Moisture trap]",
-                    "[+1 Gold, +1 Food] from every [Water pump]",
+                    "[+1 Gold, +2 Food] from every [Moisture trap]",
+                    "[+1 Gold, +2 Food] from every [Water pump]",
                     "[+2 Gold, +2 Culture, +3 Food] from every [Settlement]",
                     "Free [Great Merchant] appears",
                     "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
