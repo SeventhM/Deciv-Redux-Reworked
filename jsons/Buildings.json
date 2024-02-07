@@ -1865,7 +1865,7 @@
 		"uniques": [
 			"[30]% Food is carried over after population increases [in this city]",
 			"All newly-trained [relevant] units [in this city] receive the [Medic I] promotion",
-			"[+1 Food] <with [Harvested Organs]>",
+			//"[+1 Food] <with [Harvested Organs]>",
 			"Consumes [1] [Power]"
 		]
 	},
@@ -1881,12 +1881,12 @@
 			"All newly-trained [relevant] units [in this city] receive the [Medic I] promotion",
 			"All newly-trained [Promotion Nullifier] units [in this city] receive the [Medic I] promotion",
 			"[+1 Food] from [Refinery] tiles [in this city]",
-			"[+5]% [Food] <with [Harvested Organs]>",
-			"[+5]% [Science] <with [Harvested Organs]>",
+			//"[+5]% [Food] <with [Harvested Organs]>",
+			//"[+5]% [Science] <with [Harvested Organs]>",
 			"Consumes [1] [Power]"
 		]
 	},
-	{
+	/*{
 		"name": "Organ Farm",
 		"replaces": "Hospital",
 		"uniqueTo": "Deadrock Clan",
@@ -1900,7 +1900,7 @@
 			"Provides [1] [Harvested Organs]",
 			"Consumes [1] [Slaves]"
 		]
-	},
+	},*/
 	{
 		"name": "Blood Bank",
 		"replaces": "Hospital",
@@ -1911,7 +1911,7 @@
 		"uniques": [
 			"[30]% Food is carried over after population increases [in this city]",
 			"All newly-trained [relevant] units [in this city] receive the [Medic I] promotion",
-			"[+1 Food] <with [Harvested Organs]>",
+			//"[+1 Food] <with [Harvested Organs]>",
 			"All newly-trained [Armor] units [in this city] receive the [Resupply] promotion",
 			"Consumes [1] [Slaves]"
 		]
@@ -1929,7 +1929,7 @@
 			"All newly-trained [Personnel] units [in this city] receive the [Gas Mask] promotion",
 			"All newly-trained [relevant] units [in this city] receive the [Medic I] promotion",
 			"All newly-trained [{Land} {Low Tech}] units [in this city] receive the [Gas Mask] promotion",
-			"[+1 Food] <with [Harvested Organs]>",
+			//"[+1 Food] <with [Harvested Organs]>",
 			"Consumes [1] [Power]"
 		]
 	},
@@ -1951,7 +1951,8 @@
 		"maintenance": 2,
 		"requiredTech": "Human Genome", // cloning?
 		"uniques": [
-			"Provides [2] [Harvested Organs]",
+			"[+2 Food] [in all cities]",
+			//"Provides [2] [Harvested Organs]",
 			"Only available <in cities with a [Medical Lab]>",
 			"Consumes [1] [Power]"
 		]
