@@ -2218,6 +2218,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Trade",
 		"uniques": [
+			"[+1 Gold] from [Luxury resource] tiles [in this city]",
 			"[+1 Gold, +1 Science] from [Refinery] tiles [in this city]"
 		]
 	},
