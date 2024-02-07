@@ -1253,10 +1253,11 @@
 	{
 		"name": "Portable Power Cell",
 		"uniques": [
-			"[+50] HP when healing <within [1] tiles of a [City center]>",
-			"[+50] HP when healing <within [1] tiles of a [Refinery]>",
-			"[+50] HP when healing <within [1] tiles of a [Solar collector]>",
-			"[+50] HP when healing <within [1] tiles of a [Wind farm]>"
+			"[+20] HP when healing",
+			"[+30] HP when healing <within [1] tiles of a [City center]>",
+			"[+30] HP when healing <within [1] tiles of a [Refinery]>",
+			"[+30] HP when healing <within [1] tiles of a [Solar collector]>",
+			"[+30] HP when healing <within [1] tiles of a [Wind farm]>"
 		]
 	},
 	{
