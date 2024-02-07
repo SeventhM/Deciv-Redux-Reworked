@@ -671,7 +671,7 @@
 	// Refineries
 	{
 		"name": "C1F3 Refinery",
-		"production": 1,
+		"production": 2,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniqueTo": "Hexlock",
 		"uniques": [
@@ -683,7 +683,7 @@
     },
 	{
 		"name": "C2N14 Refinery",
-		"gold": 2,
+		"gold": 4,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniqueTo": "Hexlock",
 		"uniques": [
@@ -695,7 +695,7 @@
     },
 	{
 		"name": "C8H17 Refinery",
-		"culture": 1,
+		"culture": 3,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniqueTo": "Hexlock",
 		"uniques": [
@@ -707,7 +707,7 @@
     },
 	{
 		"name": "SbF5 Refinery",
-		"science": 1,
+		"science": 2,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniqueTo": "Hexlock",
 		"uniques": [
@@ -719,7 +719,7 @@
     },
 	{
 		"name": "VX Refinery",
-		"food": 1,
+		"food": 2,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniqueTo": "Hexlock",
 		"uniques": [
