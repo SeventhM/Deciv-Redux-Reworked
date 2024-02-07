@@ -706,7 +706,7 @@
 		"improvementStats": { "faith": 1 },
 		"uniques": [
 			"Stockpiled",
-			"Not shown on world screen"
+			"Not shown on world screen <for [non-[Hexlock]]>"
 		]
 	},
 	{
@@ -716,7 +716,7 @@
 		"improvementStats": { "science": 1 },
 		"uniques": [
 			"Stockpiled",
-			"Not shown on world screen"
+			"Not shown on world screen <for [non-[Hexlock]]>"
 		]
 	}
 ]
