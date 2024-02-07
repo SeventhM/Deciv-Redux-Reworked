@@ -736,9 +736,13 @@
                 "name": "Emissions Standards",
                 "uniques": [
                     "[+2 Food, +2 Production] from every [Smart Grid]",
-                    "[+1 Happiness, +1 Culture] from every [Protected Area]",
-                    "[+1 Happiness, +1 Culture] from every [Greenhouse]",
-                    "[+1 Happiness, +1 Culture] from every [Mycoprotein Vats]"
+                    //"[+1 Happiness, +1 Culture] from every [Protected Area]",
+                    //"[+1 Happiness, +1 Culture] from every [Greenhouse]",
+                    //"[+1 Happiness, +1 Culture] from every [Mycoprotein Vats]"
+                    "[+1 Culture] from every [Protected Area]",
+                    "[+1 Culture] from every [Greenhouse]",
+                    "[+1 Culture] from every [Mycoprotein Vats]",
+                    "[+1 Happiness] from every [Farmer]"
                 ],
                 "row": 1,
                 "column": 3
@@ -749,10 +753,11 @@
                     "Emissions Standards"
                 ],
                 "uniques": [
-                    "[+2 Food, +1 Culture, +1 Faith, +2 Production] from every [Greenhouse]",
-                    "[+2 Food, +1 Culture, +1 Faith, +2 Production] from every [Protected Area]",
-                    "[+2 Food, +1 Culture, +1 Faith, +2 Production] from every [Mycoprotein Vats]",
-                    "[+2 Food, +1 Culture, +1 Faith, +2 Production] from every [Carbon Capture]"
+                    "[+2 Food, +1 Culture] from every [Food source]"
+                    //"[+2 Food, +1 Culture, +1 Faith, +2 Production] from every [Greenhouse]",
+                    //"[+2 Food, +1 Culture, +1 Faith, +2 Production] from every [Protected Area]",
+                    //"[+2 Food, +1 Culture, +1 Faith, +2 Production] from every [Mycoprotein Vats]",
+                    //"[+2 Food, +1 Culture, +1 Faith, +2 Production] from every [Carbon Capture]"
                 ],
                 "row": 2,
                 "column": 2
@@ -788,6 +793,7 @@
                 ],
                 "uniques": [
                     "[+2 Gold] from every [Farmer]",
+                    "[+1 Gold] from every [Food source]",
                     "[+1 Gold] from [Fresh water] tiles [in all cities]",
                     "[+1 Gold] from every [Rainwater Purifier]"
                 ],
@@ -816,7 +822,7 @@
             "Scientific": 30
         },
         "uniques": [
-            "[+1 Production, +1 Science] [in all cities]",
+            "[+1 Production, +1 Science, +2 Happiness] [in all cities]",
             "Only available <before adopting [Naturalism]>",
             "Only available <before adopting [Legacy]>",
             "Only available <before adopting [Bionics]>"
