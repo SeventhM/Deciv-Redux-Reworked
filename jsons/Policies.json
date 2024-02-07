@@ -297,7 +297,8 @@
                 "name": "Holy Scriptures",
                 "uniques": [
                     "[-15]% Culture cost of natural border growth [in all cities]",
-                    "Gain a free [Enhancer] belief"
+                    "May choose [1] additional [Enhancer] beliefs when [founding] a religion",
+                    "Gain a free [Enhancer] belief <after founding a religion>"
                 ],
                 "requires": [
                     "Indulgences",
