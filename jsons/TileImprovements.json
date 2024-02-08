@@ -320,7 +320,7 @@
 		"uniques": [
 			"Food source",
 			"Cannot be built on [Fissure] tiles",
-			"[+1 Food, 1 Production] for each adjacent [Mountain]",
+			"[+1 Food, +1 Production] for each adjacent [Mountain]",
 			//"[+1 Food] from [Fresh water] tiles",
 			//"[+1 Food, +1 Production] <after discovering [Geo Engineering]>",
             "Can only be built to improve a resource <in [resource] tiles>",
