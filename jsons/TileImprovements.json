@@ -274,7 +274,7 @@
 			"Food source",
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
-			"[+1 Production] <in tiles without [resource]",
+			"[+1 Production] <in tiles without [resource]>",
 			"[+1 Food] <after discovering [Artificial Intelligence]>",
 			"Cannot be built on [Water] tiles",
             "Can only be built to improve a resource <in [resource] tiles>",
@@ -320,7 +320,7 @@
 		"uniques": [
 			"Food source",
 			"Cannot be built on [Fissure] tiles",
-			"[+1 Food 1 Production] for each adjacent [Mountain]",
+			"[+1 Food, 1 Production] for each adjacent [Mountain]",
 			//"[+1 Food] from [Fresh water] tiles",
 			//"[+1 Food, +1 Production] <after discovering [Geo Engineering]>",
             "Can only be built to improve a resource <in [resource] tiles>",
@@ -511,7 +511,7 @@
 		"uniques": [
 			"Great Improvement",
 			"Removes removable features when built",
-			"[+3 Science] <after discovering [Labatory]>",
+			"[+3 Science] <after discovering [Laboratory]>",
 			"[+3 Science] <after discovering [Decryption]>",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		]
