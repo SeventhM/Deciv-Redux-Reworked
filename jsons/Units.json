@@ -3220,9 +3220,9 @@
 		"name": "Philosopher",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can Spread Religion <[2] times>",
+			"Can Spread Religion <for [8] movement> <[2] times> <after which this unit is consumed>",
 			"May enter foreign tiles without open borders, but loses [100] religious strength each turn it ends there",
-			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"Can be purchased for [200] [in all cities in which the majority religion is a major religion]",
 			"[-1] Sight",
 			"Unbuildable",
 			"Religious Unit",
@@ -3236,8 +3236,8 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Prevents spreading of religion to the city it is next to",
-			"Can remove other religions from cities <[2] times>",
-			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
+			"Can remove other religions from cities <for [4] movement> <in [Friendly] tiles> <once> <after which this unit is consumed>",
+			"Can be purchased for [200] [Faith] [in all cities in which the majority religion is an enhanced religion]",
 			"[+1] Sight",
 			"Hidden when religion is disabled",
 			"Unbuildable",
@@ -3265,7 +3265,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can instantly construct a [Seminary] improvement <by consuming this unit> <if it hasn't used other actions yet>",
-			"Can Spread Religion <[4] times>",
+            "Can Spread Religion <for [8] movement> <[4] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion",
 			"May found a religion",
 			"May enhance a religion",
@@ -3288,7 +3288,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can instantly construct a [Oracle] improvement <by consuming this unit> <if it hasn't used other actions yet>",
-			"Can Spread Religion <[4] times>",
+            "Can Spread Religion <for [8] movement> <[4] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion",
 			"May found a religion",
 			"May enhance a religion",
