@@ -297,7 +297,7 @@
 			{
 				"name": "Plastics",
 				"row": 5,
-				"prerequisites": ["Replaceable Parts", "Laboratory"],
+				"prerequisites": ["Replaceable Parts", "Laboratory", "Electronics"],
 				"quote": "Ben, I want to say one word to you, just one word: plastics."
 			},
 			{
@@ -309,7 +309,7 @@
 			{
 				"name": "Railroads",
 				"row": 8,
-				"prerequisites": ["Replaceable Parts"],
+				"prerequisites": ["Replaceable Parts", "Electronics"],
 				"quote": "Iron and heat are, as we know, the supporters, the bases, of the mechanic arts."
 			},
 			{
