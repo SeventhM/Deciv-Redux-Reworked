@@ -1566,7 +1566,7 @@
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Can build [All] improvements on tiles",
-			"[-25]% tile improvement construction time",
+			"[-25]% construction time for [All] improvements",
 			"Automation is a primary action"
 		]
 	},
