@@ -2263,7 +2263,7 @@
 		"specialistSlots": { "Merchant": 1 },
 		"uniques": [
 			"[+1 Gold] <with [Power]>",
-			"[+1 Gold] from [River] tiles [in this city]",
+			"[+1 Gold, +1 Food] from [River] tiles [in this city]",
 			"Consumes [1] [Power]",
 			"Only available <in cities with a [Factory]>"
 		],
