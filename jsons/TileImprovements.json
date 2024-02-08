@@ -7,7 +7,7 @@
 		"uniques": [
 			"Food source",
 			"Can also be built on tiles adjacent to fresh water",
-			"[+1 Food] from [Fresh water] tiles",
+			//"[+1 Food] from [Fresh water] tiles",
 			"[+1 Food] <after discovering [Ecology]>",
 			"Obsolete with [Land Remediation]",
 			"Cannot be built on [Fissure] tiles",
@@ -201,7 +201,7 @@
 			"Can also be built on tiles adjacent to fresh water",
 			"Cannot be built on [Permafrost] tiles",
 			"Cannot be built on [Desert] tiles",
-			"[+1 Food] from [Fresh water] tiles",
+			//"[+1 Food] from [Fresh water] tiles",
 			"[+1 Food] <after discovering [Atmosphere Remediation]>",
             "Can only be built to improve a resource <in [resource] tiles>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
@@ -219,7 +219,7 @@
 			"Food source",
 			"Natural tile",
 			"Can only be built on [Desert] tiles",
-			"[+1 Food] from [Fresh water] tiles",
+			//"[+1 Food] from [Fresh water] tiles",
 			"Can also be built on tiles adjacent to fresh water",
             "Can only be built to improve a resource <in [resource] tiles>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
@@ -235,7 +235,7 @@
 		"uniques": [
 			"Food source",
 			"Natural tile",
-			"[+1 Food] from [Fresh water] tiles",
+			//"[+1 Food] from [Fresh water] tiles",
 			"[+1 Food, +1 Production] <after discovering [Land Remediation]>",
 			"Can also be built on tiles adjacent to fresh water <in [Badlands] tiles>",
 			"Can also be built on tiles adjacent to fresh water <in [Tundra] tiles>",
@@ -321,7 +321,7 @@
 			"Food source",
 			"Cannot be built on [Fissure] tiles",
 			"[+1 Food 1 Production] for each adjacent [Mountain]",
-			"[+1 Food] from [Fresh water] tiles",
+			//"[+1 Food] from [Fresh water] tiles",
 			//"[+1 Food, +1 Production] <after discovering [Geo Engineering]>",
             "Can only be built to improve a resource <in [resource] tiles>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
@@ -636,7 +636,7 @@
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Constructing it will take over the tiles around it and assign them to your closest city",
 			"Can be built just outside your borders",
-			"[+1 Food] from [Fresh water] tiles",
+			//"[+1 Food] from [Fresh water] tiles",
 			"[+1 Culture, +1 Food] <after discovering [Hydroponics]>",
 			"Provides [1] [Narcotics]",
 			"Pillaging this improvement yields approximately [+20 Gold]"
