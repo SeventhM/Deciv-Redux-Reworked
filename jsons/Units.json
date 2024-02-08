@@ -3222,7 +3222,7 @@
 		"uniques": [
 			"Can Spread Religion <for [8] movement> <[2] times> <after which this unit is consumed>",
 			"May enter foreign tiles without open borders, but loses [100] religious strength each turn it ends there",
-			"Can be purchased for [200] [in all cities in which the majority religion is a major religion]",
+			"Can be purchased for [200] [Faith] [in all cities in which the majority religion is a major religion]",
 			"[-1] Sight",
 			"Unbuildable",
 			"Religious Unit",
