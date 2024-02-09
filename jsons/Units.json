@@ -34,7 +34,7 @@
 			"Can build [Land] improvements on tiles",
 			"Automation is a primary action"
 		],
-		"cost": 70
+		"cost": 48
 	},
 	{
 		"name": "Tree Lover",
@@ -50,7 +50,7 @@
 			"[-25]% construction time for [All] improvements",
 			"Automation is a primary action"
 		],
-		"cost": 70
+		"cost": 48
 	},
 	{
 		"name": "Surveyor",
@@ -84,7 +84,7 @@
 			"Only available <in cities with a [Stable]>",
 			"Automation is a primary action"
 		],
-		"cost": 130
+		"cost": 70
 	},
 	{
 		"name": "Field Scientist",
@@ -475,7 +475,7 @@
 		"movement": 2,
 		"strength": 26,
 		"interceptRange": 1,
-		"cost": 55,
+		"cost": 70,
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Soldier",
 		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
@@ -490,7 +490,7 @@
 		"movement": 2,
 		"strength": 26,
 		"interceptRange": 1,
-		"cost": 55,
+		"cost": 70,
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Soldier",
 		"hurryCostModifier": 20,
@@ -506,7 +506,7 @@
 		"movement": 2,
 		"strength": 26,
 		"interceptRange": 1,
-		"cost": 55,
+		"cost": 70,
 		"upgradesTo": "Soldier",
 		"obsoleteTech": "Replaceable Parts",
 		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
@@ -522,7 +522,7 @@
 		"movement": 2,
 		"strength": 26,
 		"interceptRange": 1,
-		"cost": 55,
+		"cost": 70,
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Soldier",
 		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
@@ -561,7 +561,7 @@
 		"movement": 2,
 		"strength": 26,
 		"interceptRange": 1,
-		"cost": 55,
+		"cost": 70,
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Soldier",
@@ -580,7 +580,7 @@
 		"movement": 2,
 		"strength": 26,
 		"interceptRange": 1,
-		"cost": 55,
+		"cost": 70,
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Soldier",
@@ -596,7 +596,7 @@
 		"strength": 20,
 		"rangedStrength": 23,
 		"interceptRange": 1,
-		"cost": 60,
+		"cost": 70,
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Rifleman",
 		"hurryCostModifier": 20,
@@ -639,7 +639,7 @@
 		"strength": 20,
 		"rangedStrength": 23,
 		"interceptRange": 1,
-		"cost": 60,
+		"cost": 70,
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Rifleman",
