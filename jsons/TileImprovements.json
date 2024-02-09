@@ -47,6 +47,7 @@
 	{
 		"name": "Salvage site",
 		"turnsToBuild": 7,
+		"techRequired": "Secrets of the Past",
 		"uniques": [
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
@@ -73,6 +74,7 @@
 	{
 		"name": "Camp",
 		"turnsToBuild": 7,
+		"techRequired": "Redomestication",
 		"uniques": [
 			"Food source",
 			"[+1 Food] <after discovering [Ecology]>",
