@@ -554,6 +554,7 @@
 		"improvedBy": ["Camp", "Bioculture"],
 		"improvementStats": { "food": 1, "culture": 1, "science": 1 },
 		"uniques": [
+			"Special placement during map generation",
 			"Generated with weight [25] <in [Tundra] Regions>",
 			"Generated with weight [30] <in [Hill] Regions>",
 			"Generated with weight [20] <in [Wasteland] Regions>",
@@ -599,7 +600,7 @@
 		"terrainsCanBeFoundOn": ["Jungle", "Sunken Ruins"],
 		"culture": 1,
 		"improvedBy": ["Research site", "Borough", "Modular island"],
-		"improvementStats": { "culture": 2, "science": 2 },
+		"improvementStats": { "culture": 1, "science": 1 },
 		"uniques": [
 			"Generated with weight [30] <in [Jungle] Regions>",
 			"Generated with weight [20] <in [Hybrid] Regions>",
