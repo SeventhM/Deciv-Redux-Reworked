@@ -98,7 +98,6 @@
 		"name": "Atlas Refuge",
 		"isNationalWonder": true,
 		"uniqueTo": "Atlas",
-		"science": 2,
 		"cityHealth": 40,
 		"cost": 0,
 		"uniques": [
