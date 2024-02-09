@@ -463,8 +463,7 @@
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Rifleman",
 		"uniques": [
-			"Low Tech",
-			"[+33]% Strength <vs [Low Tech] units>"
+			"Low Tech"
 		],
 		"promotions": ["Forage"],
 		"attackSound": "arrow"
@@ -738,7 +737,6 @@
 		"obsoleteTech": "Rifling",
 		"uniques": [
 			"Personnel",
-			"[+50]% Strength <vs [Low Tech] units>",
 			"[-25]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Can move after attacking"
@@ -969,7 +967,6 @@
 		"upgradesTo": "Armored Car",
 		"obsoleteTech": "Replaceable Parts",
 		"uniques": [
-			"[+20]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs cities> <when attacking>",
 			"Can move after attacking",
 			"No defensive terrain bonus"
@@ -1049,7 +1046,6 @@
 		"obsoleteTech": "Rifling",
 		"uniques": [
 			"Low Tech",
-			"[+33]% Strength <vs [Low Tech] units>"
 		],
 		"attackSound": "swarm"
 	},
