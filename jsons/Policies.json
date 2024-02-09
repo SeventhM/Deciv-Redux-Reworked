@@ -18,7 +18,6 @@
                 "name": "Castle Doctrine",
                 "uniques": [
                     "Units in cities cost no Maintenance",
-                    "Provides a [Walls] in your first [4] cities for free",
                     "[+50]% Strength for cities <with a garrison> <when attacking>"
                 ],
                 "row": 1,
@@ -113,7 +112,6 @@
                 "uniques": [
                     "Free [Worker] appears",
                     "Units in cities cost no Maintenance",
-                    "[+2 Production] [in all cities]",
                     "[-33]% maintenance costs <for [Civilian] units>"
                 ],
                 "row": 1,
@@ -122,6 +120,7 @@
             {
                 "name": "Reclaimers",
                 "uniques": [
+                    "[+2 Production] [in all cities]",
                     "[+5]% Production when constructing [All] buildings [in all cities]"
                 ],
                 "requires": [
