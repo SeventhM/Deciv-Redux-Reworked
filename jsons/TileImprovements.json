@@ -24,7 +24,7 @@
 		"techRequired": "Mining",
 		"uniques": [
 			"[+1 Production] <after discovering [Steam Power]>",
-            "Can only be built to improve a resource <in [resource] tiles>",
+			"Can only be built to improve a resource <in [resource] tiles>",
 			"Obsolete with [Railroads]",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -146,7 +146,7 @@
 		"techRequired": "Engineering",
 		"uniques": [
 			"Provides [1] [Power]",
-            "Can only be built to improve a resource <in [resource] tiles>",
+			"Can only be built to improve a resource <in [resource] tiles>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "L"
@@ -157,7 +157,6 @@
 		"techRequired": "Machinery",
 		"uniques": [
 			"Provides [1] [Oil]",
-			"Cannot be built on [Water] tiles <before discovering [Oceanography]>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
