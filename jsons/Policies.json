@@ -333,7 +333,7 @@
             {
                 "name": "Technocracy",
                 "uniques": [
-                    "[+1 Gold] from all [Science] buildings"
+                    "[+1 Gold] from all [{non-[Wonder]} {Science}] buildings"
                 ],
                 "row": 1,
                 "column": 1
