@@ -84,7 +84,8 @@
 			"Starts with [Chemistry]",
 			"Starts with [Electronics]",
 			"[-2 Happiness] [in all cities]",
-			"[2] free [Purge Robot Proto] units appear"
+			"[2] free [Purge Robot Proto] units appear",
+			"Double quantity of [Encrypted Data] produced",
 		],
 		"cities": [
 			"Halimax",
