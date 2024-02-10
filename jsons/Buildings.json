@@ -2075,6 +2075,7 @@
 		"name": "Plantation",
 		"replaces": "Town Hall",
 		"uniqueTo": "Cult of Ignis",
+		"requiredTech": "Civil Service",
 		"percentStatBonus": { "food": 5 },
 		"specialistSlots": {"Administrator": 1, "Farmer": 1 },
 		"uniques": [
