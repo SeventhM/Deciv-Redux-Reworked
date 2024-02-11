@@ -120,6 +120,7 @@
 		"gold": 1,
 		"cityStrength": 20,
 		"cityHealth": 80,
+		"greatPersonPoints": { "Great General": 5 },
 		"cost": 0,
 		"uniques": [
 			"Automatically built in all cities where it is buildable",
@@ -1074,7 +1075,7 @@
 	{
 		"name": "Public Broadcast",
 		"isWonder": true,
-		"cost": 100,
+		"culture": 1,
 		"requiredTech": "Radio",
 		"uniques": [
 			"[+1] population [in all cities]",
@@ -3356,7 +3357,7 @@
 			"[+10]% Strength <for [Automated] units>",
 			"Consumes [1] [Power]"
 		],
-		"requiredTech": "Electronics"
+		//"requiredTech": "Electronics"
 	},
 	{
 		"name": "Aerospace Facility",
