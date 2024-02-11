@@ -198,7 +198,7 @@
                 "name": "Military Tradition",
                 "uniques": [
                     "[+3 Production, +3 Food, +3 Gold] from every [Prison Camp]",
-                    "[50]% XP gained from combat <for [Military] units>"
+                    "[50]% XP gained from combat <for [non-[Air]] units>"
                 ],
                 "requires": [
                     "Doctrine",
@@ -210,7 +210,10 @@
             {
                 "name": "Triumph",
                 "uniques": [
-                    "[-33]% Gold cost of upgrading <for [Military] units>",
+                    //"[-33]% Gold cost of upgrading <for [Military] units>",
+                    "[+2 Food, +2 Culture] from every [Citadel]",
+                    "[+2 Food, +2 Culture] from every [Crystal Refinery]",
+                    "[+2 Food, +2 Culture] from every [Prison Farm]",
                     "[+4 Production, +4 Gold, +4 Culture, +4 Happiness] from every [Military Academy]"
                 ],
                 "requires": [
