@@ -192,7 +192,7 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
-	{
+	/*{
 		"name": "Auxiliary",
 		"unitType": "Scrapper",
 		"movement": 2,
@@ -211,12 +211,11 @@
 			"Only available <with [Slaves]>"
 		],
 		"attackSound": "metalhit"
-	},
+	},*/
 	{
 		"name": "Rubble Gang",
 		"unitType": "Scrapper",
 		"uniqueTo": "Deadrock Clan",
-		"replaces": "Auxiliary",
 		"movement": 2,
 		"strength": 16,
 		"cost": 15,
@@ -238,7 +237,6 @@
 		"name": "Wild Dog",
 		"unitType": "Scrapper",
 		"uniqueTo": "Barbarians",
-		"replaces": "Auxiliary",
 		"movement": 3,
 		"strength": 16,
 		"cost": 15,

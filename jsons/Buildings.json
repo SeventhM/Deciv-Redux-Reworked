@@ -1901,7 +1901,7 @@
 		]
 	},*/
 	{
-		"name": "Blood Bank",
+		"name": "Fueling Bank",
 		"replaces": "Hospital",
 		"uniqueTo": "Cult of Ignis",
 		"maintenance": 2,
@@ -1911,8 +1911,8 @@
 			"[30]% Food is carried over after population increases [in this city]",
 			"All newly-trained [relevant] units [in this city] receive the [Medic I] promotion",
 			//"[+1 Food] <with [Harvested Organs]>",
-			"All newly-trained [Armor] units [in this city] receive the [Resupply] promotion",
-			"Consumes [1] [Slaves]"
+			"All newly-trained [Armor] units [in this city] receive the [Resupply] promotion"
+			//"Consumes [1] [Slaves]"
 		]
 	},
 	{
@@ -2057,21 +2057,22 @@
 		"requiredTech": "Currency"
 	},
 	{
-		"name": "Slave Market",
+		"name": "Legion Market",
 		"replaces": "Town Hall",
 		"uniqueTo": "Crimson Legion",
 		"percentStatBonus": { "gold": 10, "production": 10 },
 		"specialistSlots": {"Administrator": 1},
+		"cost": 70,
 		"production": 1,
 		"culture": 1,
 		"happiness": 1,
 		"uniques": [
 			"[+25]% Great Person generation [in this city]",
-			"Consumes [1] [Slaves]"
+			//"Consumes [1] [Slaves]"
 		],
-		"requiredTech": "Trade"
+		//"requiredTech": "Trade"
 	},
-	{
+	/*{
 		"name": "Plantation",
 		"replaces": "Town Hall",
 		"uniqueTo": "Cult of Ignis",
@@ -2085,7 +2086,7 @@
 		],
 		"cost": 120,
 		"hurryCostModifier": 25
-	},
+	},*/
 	{
 		"name": "Museum",
 		"culture": 1,
@@ -2723,7 +2724,7 @@
 		],
 		"requiredTech": "Trade"
 	},
-	{
+	/*{
 		"name": "Processing Center",
 		"replaces": "Prison Camp",
 		"uniqueTo": "Cult of Ignis",
@@ -2734,18 +2735,22 @@
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Construction"
-	},
+	},*/
 	{
 		"name": "Colosseum",
 		"replaces": "Listening Post",
 		"uniqueTo": "Crimson Legion",
 		"happiness": 1,
 		"maintenance": 1,
+		"cityStrength": 10,
+		"cityHealth": 50,
 		"cost": 60,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
 			"New [Military] units start with [15] Experience [in this city]",
+			"Free [Swordsman] appears",
+			"Unsellable",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Trade"
@@ -2755,14 +2760,12 @@
 		"replaces": "Prison Camp",
 		"uniqueTo": "Crimson Legion",
 		"cost": 60,
-		"cityStrength": 10,
-		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
-			"Provides [3] [Slaves]",
+			"Provides [1] [Slaves]",
+			"Can only be built [in annexed cities]",
 			"[+15]% Production when constructing [Melee] units [in this city]",
-			"Free [Swordsman] appears",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Construction"
