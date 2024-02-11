@@ -1343,11 +1343,13 @@
 	{
 		"name": "Conscript",
 		"unitType": "Scrapper",
+		"uniqueTo":"Deadrock Clan",
 		"movement": 2,
 		"strength": 35,
 		"interceptRange": 1,
 		"cost": 80,
-		"upgradesTo": "NBC Conscript",
+		"upgradesTo": "Henchman",
+		//"upgradesTo": "NBC Conscript",
 		"hurryCostModifier": 20,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Combined Arms",
@@ -2026,7 +2028,7 @@
 		],
 		"attackSound": "machinegun"
 	},
-	{
+	/*{
 		"name": "NBC Conscript",
 		"unitType": "Scrapper",
 		"movement": 2,
@@ -2049,12 +2051,12 @@
 		],
 		"promotions":["Gas Mask"],
 		"attackSound": "machinegun"
-	},
+	},*/
 	{
 		"name": "Henchman",
 		"unitType": "Scrapper",
 		"uniqueTo": "Deadrock Clan",
-		"replaces": "NBC Conscript",
+		//"replaces": "NBC Conscript",
 		"movement": 2,
 		"strength": 80,
 		"interceptRange": 1,
