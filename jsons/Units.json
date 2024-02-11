@@ -336,24 +336,6 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Swordsman",
-		"unitType": "Scrapper",
-		"uniqueTo": "Crimson Legion",
-		"replaces": "Spearman",
-		"movement": 2,
-		"strength": 22,
-		"cost": 50,
-		"obsoleteTech": "Rifling",
-		"upgradesTo": "Militia",
-		"hurryCostModifier": 20,
-		"uniques": [
-			"Low Tech",
-			"[+25]% Strength <vs cities>",
-			"[+25]% Strength <vs [Low Tech] units>"
-		],
-		"attackSound": "metalhit"
-	},
-	{
 		"name": "Sharkman",
 		"unitType": "Scrapper",
 		"uniqueTo": "The Mariners",
@@ -480,6 +462,25 @@
 		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
+	},
+	{
+		"name": "Swordsman",
+		"unitType": "Scrapper",
+		"uniqueTo": "Crimson Legion",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 26,
+		"interceptRange": 1,
+		"cost": 70,
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Soldier",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Low Tech",
+			"[+25]% Strength <vs cities>",
+			"Personnel"
+		],
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Guerilla",
@@ -1116,10 +1117,10 @@
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Munitions",
 		"uniques": [
+			"Low Tech",
 			"[+33]% Strength <vs [Low Tech] units>",
-			"[+100]% Strength <vs cities> <when attacking>",
+			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
-			"Must set up to ranged attack",
 			"[-1] Sight"
 		],
 		"promotions":["Artillery"],
