@@ -1301,6 +1301,7 @@
 	{
 		"name": "[Ranger] ability",
 		"uniques": [
+			"[+2] Movement",
 			"Great General",
 			"Great Person - [War]",
 			"[+20]% Strength <when fighting in [Friendly Land] tiles>",
