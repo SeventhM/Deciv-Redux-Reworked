@@ -588,9 +588,11 @@
 		"upgradesTo": "Soldier",
 		"uniques": [
 			"Personnel",
-			"Consumes [1] [Uranium]"
+			"Consumes [1] [Uranium]",
+			"Heals [25] damage if it kills a unit",
+			"Earn [100]% of killed [Military] unit's [Strength] as [Science]",
 		],
-		"promotions": ["Forage"],
+		"promotions": [],
 		"attackSound": "nonmetalhit"
 	},
 	{
