@@ -2848,8 +2848,8 @@
 		"name": "Armory",
 		"cityStrength": 5,
 		"hurryCostModifier": 25,
-		"requiredTech": "Construction",
-		"requiredNearbyImprovedResources": ["Weapons"],
+		"requiredTech": "Rifling",
+		//"requiredNearbyImprovedResources": ["Weapons"],
 		"uniques": [
 			"New [Military] units start with [15] Experience [in this city]",
 			"[+1 Production] from [Weapons] tiles [in this city]",

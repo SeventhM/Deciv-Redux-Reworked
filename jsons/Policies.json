@@ -181,7 +181,8 @@
                 "name": "Doctrine",
                 "uniques": [
                     "Earn [50]% of killed [Military] unit's [Strength] as [Gold]",
-                    "[+2 Production, +2 Gold, +2 Culture] from every [Barracks]"
+                    "[+1 Production, +1 Gold, +1 Culture] from every [Barracks]",
+                    "[+1 Production, +1 Gold, +1 Culture] from every [Armory]"
                 ],
                 "row": 1,
                 "column": 3
