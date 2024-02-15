@@ -218,7 +218,8 @@
 		"uniqueTo": "Deadrock Clan",
 		"movement": 2,
 		"strength": 16,
-		"cost": 15,
+		"cost": 30,
+		"hurryCostModifier": -20,
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Conscript",
 		"uniques": [
@@ -239,7 +240,7 @@
 		"uniqueTo": "Barbarians",
 		"movement": 3,
 		"strength": 16,
-		"cost": 15,
+		"cost": 30,
 		"obsoleteTech": "Rifling",
 		"uniques": [
 			"Low Tech"
@@ -326,6 +327,7 @@
 		"movement": 2,
 		"strength": 20,
 		"cost": 50,
+		"hurryCostModifier": -20,
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Militia",
 		"uniques": [
@@ -433,8 +435,8 @@
 		"movement": 2,
 		"strength": 18,
 		"rangedStrength": 15,
-		"cost": 35,
-		"hurryCostModifier": 20,
+		"cost": 55,
+		"hurryCostModifier": 0,
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Gunman",
@@ -557,8 +559,8 @@
 		"movement": 2,
 		"strength": 26,
 		"interceptRange": 1,
-		"cost": 40,
-		"hurryCostModifier": 20,
+		"cost": 70,
+		"hurryCostModifier": 0,
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Soldier",
 		"uniques": [
@@ -632,11 +634,11 @@
 		"strength": 20,
 		"rangedStrength": 23,
 		"interceptRange": 1,
-		"cost": 40,
+		"cost": 70,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "Rifleman",
-		"hurryCostModifier": 20,
+		"hurryCostModifier": 0,
 		"uniques": [
 			"Personnel",
 			"Enslaved",
@@ -813,7 +815,7 @@
 			"Can build [Trench] improvements on tiles",
 			"Consumes [1] [Slaves]"
 		],
-		"hurryCostModifier": 20,
+		"hurryCostModifier": 0,
 		"attackSound": "horse",
 		"promotions": ["Urban Warfare"]
 	},
@@ -1366,10 +1368,10 @@
 		"movement": 2,
 		"strength": 35,
 		"interceptRange": 1,
-		"cost": 80,
+		"cost": 120,
 		"upgradesTo": "Henchman",
 		//"upgradesTo": "NBC Conscript",
-		"hurryCostModifier": 20,
+		"hurryCostModifier": 0,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Combined Arms",
 		"uniques": [
@@ -1413,7 +1415,7 @@
 		"cost": 120,
 		"upgradesTo": "Assassin",
 		"requiredTech": "Rifling",
-		"hurryCostModifier": 20,
+		"hurryCostModifier": 0,
 		"uniques": ["Personnel"],
 		"promotions": ["Headhunter","Urban Warfare"],
 		"attackSound": "shot"
@@ -1660,14 +1662,14 @@
 		"movement": 2,
 		"strength": 55,
 		"interceptRange": 1,
-		"cost": 100,
+		"cost": 225,
 		"requiredTech": "Radio",
 		"upgradesTo": "NBC Infantry",
 		"uniques": [
 			"Personnel",
 			"Consumes [1] [Weapons]"
 		],
-		"hurryCostModifier": 20,
+		"hurryCostModifier": 0,
 		"attackSound": "machinegun"
 	},
 	{
@@ -1717,9 +1719,9 @@
 		"strength": 45,
 		"rangedStrength": 50,
 		"interceptRange": 1,
-		"cost": 100,
+		"cost": 225,
 		"requiredTech": "Currency",
-		"hurryCostModifier": 20,
+		"hurryCostModifier": 0,
 		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
 		"promotions": ["Headhunter","Urban Warfare"],
 		"attackSound": "shot"
@@ -2079,9 +2081,9 @@
 		"movement": 2,
 		"strength": 80,
 		"interceptRange": 1,
-		"cost": 125,
+		"cost": 330,
 		"requiredTech": "Plastics",
-		"hurryCostModifier": 20,
+		"hurryCostModifier": 0,
 		"uniques": [
 			"Personnel",
 			"Enslaved",
