@@ -2062,7 +2062,7 @@
 		"uniqueTo": "Crimson Legion",
 		"percentStatBonus": { "gold": 10, "production": 10 },
 		"specialistSlots": {"Administrator": 1},
-		"cost": 70,
+		"cost": 90,
 		"production": 1,
 		"culture": 1,
 		"happiness": 1,
