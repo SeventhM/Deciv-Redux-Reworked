@@ -1073,7 +1073,7 @@
 		"movement": 2,
 		"strength": 30,
 		"cost": 50,
-		"requiredTech": "Iron Working",
+		"requiredTech": "Steel",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Soldier",
 		"uniques": [
