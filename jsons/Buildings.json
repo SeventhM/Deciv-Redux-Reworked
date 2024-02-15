@@ -2756,7 +2756,7 @@
 		],
 		"requiredTech": "Trade"
 	},
-	{
+	/*{
 		"name": "Legion Camp",
 		"replaces": "Prison Camp",
 		"uniqueTo": "Crimson Legion",
@@ -2770,7 +2770,7 @@
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Construction"
-	},
+	},*/
 	{
 		"name": "Black Site",
 		"replaces": "Prison Camp",
@@ -2819,7 +2819,7 @@
 		]
 	},
 	{
-		"name": "Caesareum",
+		"name": "Legion Camp",
 		"uniqueTo": "Crimson Legion",
 		"replaces": "Barracks",
 		"hurryCostModifier": 25,

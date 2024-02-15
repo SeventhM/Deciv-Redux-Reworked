@@ -506,7 +506,8 @@
 			"[+1] Sight <for [Clansman] units>",
 			"[Personnel] units gain the [Clansman] promotion",
 			"[Scout] units gain the [Clansman] promotion",
-			"[Enslaved] units gain the [Clansman] promotion"
+			"[Enslaved] units gain the [Clansman] promotion",
+			"Empire enters golden age <upon conquering a city> <after adopting [Sovereignty Complete]>"
 		],
 		"cities": [
 			"Xanadu",
@@ -559,8 +560,7 @@
 			"[-33]% maintenance costs <for [Land] units>",
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"[+20]% Strength <for [Low Tech] units>",
-			"Starts with [Supremacy] adopted",
-			"Empire enters golden age <upon conquering a city> <after adopting [Sovereignty Complete]>"
+			"[+25]% Production towards any buildings that already exist in the Capital"
 		],
 		"cities": [
 			"Postumus",
