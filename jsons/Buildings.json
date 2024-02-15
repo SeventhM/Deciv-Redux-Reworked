@@ -120,7 +120,7 @@
 		"gold": 1,
 		"cityStrength": 20,
 		"cityHealth": 80,
-		"greatPersonPoints": { "Great General": 5 },
+		"greatPersonPoints": { "Great General": 4 },
 		"cost": 0,
 		"uniques": [
 			"Automatically built in all cities where it is buildable",
