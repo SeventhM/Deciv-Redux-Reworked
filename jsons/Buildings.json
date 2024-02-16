@@ -2060,7 +2060,7 @@
 		"name": "Legion Market",
 		"replaces": "Town Hall",
 		"uniqueTo": "Crimson Legion",
-		"percentStatBonus": { "gold": 10, "production": 10 },
+		//"percentStatBonus": { "gold": 10, "production": 10 },
 		"specialistSlots": {"Administrator": 1},
 		"cost": 90,
 		"production": 1,
@@ -2743,8 +2743,6 @@
 		"uniqueTo": "Crimson Legion",
 		"happiness": 1,
 		"maintenance": 1,
-		"cityStrength": 10,
-		"cityHealth": 50,
 		"cost": 60,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -2823,7 +2821,7 @@
 		"replaces": "Barracks",
 		"hurryCostModifier": 25,
 		"cost": 50,
-		"production":1,
+		"production": 1,
 		"uniques": [
 			"[+15]% Production when constructing [Military] units [in this city]",
 			"New [Military] units start with [15] Experience [in this city]",
