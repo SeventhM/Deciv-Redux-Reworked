@@ -190,7 +190,8 @@
             {
                 "name": "Autocracy",
                 "uniques": [
-                    "[+3 Happiness, +2 Culture] [in all cities with a garrison]"
+                    "[+1 Happiness, +2 Culture] [in all cities with a garrison]",
+                    "[+2 Happiness] from every [Prison Camp]"
                 ],
                 "row": 1,
                 "column": 5
