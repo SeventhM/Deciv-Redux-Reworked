@@ -1765,7 +1765,6 @@
 	},
 	{
 		"name": "Ranch",
-		"requiredNearbyImprovedResources": ["Cattle", "Goats", "Furs", "Hogs", "Insects", "Deer", "Fungus"],
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
