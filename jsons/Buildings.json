@@ -937,7 +937,7 @@
 			"Free [Civilian Convoy] appears"
 		]
 	},
-	{
+	/*{
 		"name": "Electing Leaders",
 		"replaces": "Search for Survivors",
 		"uniqueTo": "New Star",
@@ -947,7 +947,7 @@
 			"Free [Great General] appears",
 			"Free [Civilian Convoy] appears"
 		]
-	},
+	},*/
 	{
 		"name": "Experiment on Survivors",
 		"replaces": "Search for Survivors",
