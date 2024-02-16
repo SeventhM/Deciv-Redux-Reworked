@@ -1056,6 +1056,9 @@
 		"style": "Barbarians",
 		"outerColor": [0, 0, 0],
 		"innerColor": [185, 12, 12],
-		"uniques": ["[-33]% Strength <vs cities> <before discovering [Steam Power]>"]
+		"uniques": [
+			"[Military] units gain the [Scavenge] promotion",
+			"[-33]% Strength <vs cities> <before discovering [Steam Power]>"
+		]
 	}
 ]

@@ -245,7 +245,7 @@
 		"uniques": [
 			"Low Tech"
 		],
-		"promotions": ["Forage", "Urban Warfare"],
+		"promotions": ["Urban Warfare"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -405,7 +405,7 @@
 		"cost": 50,
 		"upgradesTo": "Militia",
 		"uniques": ["Low Tech"],
-		"promotions": ["Forage"],
+		"promotions": [],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -468,7 +468,7 @@
 		"uniques": [
 			"Low Tech"
 		],
-		"promotions": ["Forage"],
+		"promotions": [],
 		"attackSound": "arrow"
 	},
 	{
@@ -590,7 +590,7 @@
 			"Personnel",
 			"Consumes [1] [Uranium]",
 			"Heals [25] damage if it kills a unit",
-			"Earn [100]% of killed [Military] unit's [Strength] as [Science]",
+			"Earn [100]% of killed [Military] unit's [Strength] as [Science]"
 		],
 		"promotions": [],
 		"attackSound": "nonmetalhit"
@@ -608,7 +608,7 @@
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Soldier",
 		"uniques": ["Personnel"],
-		"promotions": ["Forage"],
+		"promotions": [],
 		"attackSound": "shot"
 	},
 	{
@@ -668,7 +668,7 @@
 		"upgradesTo": "Rifleman",
 		"hurryCostModifier": 20,
 		"uniques": ["Personnel"],
-		"promotions": ["Forage"],
+		"promotions": [],
 		"attackSound": "shot"
 	},
 	{
@@ -765,7 +765,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking"
 		],
-		"promotions": ["Forage"],
+		"promotions": [],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -861,8 +861,7 @@
 			"[-33]% Strength <vs cities> <when attacking>"
 		],
 		"promotions": [
-			"Entrench",
-			"Forage"
+			"Entrench"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
@@ -911,7 +910,6 @@
 			"[-33]% Strength <vs cities> <when attacking>"
 		],
 		"promotions": [
-			"Forage",
 			"Entrench"
 		],
 		"hurryCostModifier": 20,
@@ -995,7 +993,7 @@
 			"Can move after attacking",
 			"No defensive terrain bonus"
 		],
-		"promotions": ["Forage"],
+		"promotions": [],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
 	},
@@ -1069,7 +1067,7 @@
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Rifling",
 		"uniques": [
-			"Low Tech",
+			"Low Tech"
 		],
 		"attackSound": "swarm"
 	},
@@ -1358,7 +1356,6 @@
 		"upgradesTo": "Infantry",
 		"uniques": ["Personnel"],
 		"promotions": [
-			"Forage",
 			"Entrench"
 		],
 		"attackSound": "shot"
@@ -1439,7 +1436,6 @@
 		"hurryCostModifier": 20,
 		"uniques": ["Personnel"],
 		"promotions": [
-			"Forage",
 			"Entrench"
 		],
 		"attackSound": "shot"
@@ -1503,7 +1499,6 @@
 			"[-33]% Strength <vs cities> <when attacking>"
 		],
 		"promotions": [
-			"Forage",
 			"Entrench"
 		],
 		"hurryCostModifier": 20,
@@ -1550,7 +1545,6 @@
 			"[-33]% Strength <vs cities> <when attacking>"
 		],
 		"promotions": [
-			"Forage",
 			"Entrench"
 		],
 		"hurryCostModifier": 20,
@@ -1843,7 +1837,7 @@
 			"Can move after attacking",
 			"No defensive terrain bonus"
 		],
-		"promotions": ["Forage"],
+		"promotions": [],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
 	},
@@ -1929,7 +1923,6 @@
 			"[-33]% Strength <vs [Armor] units>"
 		],
 		"promotions": [
-			"Forage",
 			"Accuracy"
 		],
 		"hurryCostModifier": 20,
@@ -2045,7 +2038,6 @@
 		"hurryCostModifier": 20,
 		"uniques": ["Personnel"],
 		"promotions": [
-			"Forage",
 			"Entrench",
 			"Gas Mask"
 		],
@@ -2135,7 +2127,6 @@
 			"Personnel"
 		],
 		"promotions": [
-			"Forage",
 			"Entrench"
 		],
 		"attackSound": "shot"
