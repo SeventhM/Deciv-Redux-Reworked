@@ -2203,7 +2203,7 @@
 	{
 		"name": "Market",
 		"specialistSlots": { "Merchant": 1 },
-		"gold": 1,
+		"gold": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Trade",
 		"uniques": [
@@ -2215,7 +2215,7 @@
 		"replaces": "Market",
 		"uniqueTo": "Hexlock",
 		"specialistSlots": { "Merchant": 1 },
-		"gold": 1,
+		"gold": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Trade",
 		"uniques": [
@@ -2227,7 +2227,7 @@
 		"name": "Caravan Office",
 		"replaces": "Market",
 		"uniqueTo": "Commonwealth",
-		"gold": 2,
+		"gold": 3,
 		"specialistSlots": { "Merchant": 1 },
 		"hurryCostModifier": 25,
 		"greatPersonPoints": { "Great Merchant": 1 },
@@ -2252,6 +2252,7 @@
 	},
 	{
 		"name": "Water Storage",
+		"gold": 2,
 		"percentStatBonus": { "gold": 10 },
 		"specialistSlots": { "Merchant": 1 },
 		"requiredTech": "Currency",
@@ -2259,7 +2260,7 @@
 	},
 	{
 		"name": "Greywater Treatment Plant",
-		"gold": 1,
+		"gold": 2,
 		"percentStatBonus": {"gold": 10 },
 		"specialistSlots": { "Merchant": 1 },
 		"uniques": [
