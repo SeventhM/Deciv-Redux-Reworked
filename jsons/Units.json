@@ -274,7 +274,6 @@
 		"interceptRange": 1,
 		"cost": 50,
 		"obsoleteTech": "Rifling",
-		"upgradesTo": "Militia",
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Low Tech",
