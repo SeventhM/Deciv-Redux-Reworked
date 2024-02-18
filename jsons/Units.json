@@ -637,8 +637,7 @@
 		"rangedStrength": 23,
 		"interceptRange": 1,
 		"cost": 70,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Combined Arms",
+		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Rifleman",
 		"hurryCostModifier": 0,
 		"uniques": [
