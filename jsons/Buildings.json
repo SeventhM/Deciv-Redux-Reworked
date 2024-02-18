@@ -142,9 +142,9 @@
 		"isNationalWonder": true,
 		"uniqueTo": "Crimson Legion",
 		"cityHealth": 20,
-		"production": 2,
 		"cost": 0,
 		"uniques": [
+			"[+15]% Production when constructing [Military] units [in this city]",
 			"Automatically built in all cities where it is buildable",
 			"Can only be built [in capital]",
 			"Gain a free [Food Store] [in this city]"
