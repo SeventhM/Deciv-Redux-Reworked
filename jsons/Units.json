@@ -125,10 +125,11 @@
 		"movement": 2,
 		"strength": 12,
 		"cost": 25,
-		"upgradesTo": "Gunman",
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Rifling",
 		"uniques": [
+			"Can upgrade to [Spearman]",
+			"Can upgrade to [Archer]",
 			"Never appears as a Barbarian unit",
 			"Low Tech"
 		],
@@ -145,10 +146,11 @@
 		"movement": 2,
 		"strength": 12,
 		"cost": 25,
-		"upgradesTo": "Gunman",
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Rifling",
 		"uniques": [
+			"Can upgrade to [Spearman]",
+			"Can upgrade to [Archer]",
 			"[+1] Sight",
 			"Low Tech"
 		],
@@ -164,10 +166,11 @@
 		"strength": 20,
 		"interceptRange": 1,
 		"cost": 25,
-		"upgradesTo": "Militia",
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Rifling",
 		"uniques": [
+			"Can upgrade to [Gunman]",
+			"Can upgrade to [Militia]",
 			"Personnel",
 			"[+50]% Strength <vs [Low Tech] units>"
 		],
@@ -183,10 +186,11 @@
 		"strength": 12,
 		"interceptRange": 1,
 		"cost": 25,
-		"upgradesTo": "Militia",
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Rifling",
 		"uniques": [
+			"Can upgrade to [Gunman]",
+			"Can upgrade to [Militia]",
 			"Personnel"
 		],
 		"promotions": ["Ignore terrain cost"],
