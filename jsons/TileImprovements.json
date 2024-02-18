@@ -519,24 +519,31 @@
 	},
 	{
 		"name": "Settlement",
-		"gold": 1,
-		"culture": 1,
+		"culture": 4,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
 			"Removes removable features when built",
-			"[+1 Science] for each adjacent [Forest]",
-			"[+1 Science] for each adjacent [Jungle]",
-			"[+1 Food] for each adjacent [Food source]",
-			"[+1 Gold] <after discovering [Currency]>",
-			"[+1 Culture] <after discovering [Civil Service]>",
-			"[+1 Gold] <after discovering [Radar]>",
-			"[+1 Culture] <after discovering [Avionics]>",
-			"[+1 Gold] <after discovering [Robotics]>",
-			"[+1 Culture] <after discovering [Incentivization]>",
+			"[+1 Science] for each adjacent [resource] <after discovering [Avionics]>",
+			"[+2 Culture] <after discovering [Civil Service]>",
+			"[+2 Culture] <after discovering [Avionics]>",
+			"[+2 Gold] <after discovering [Incentivization]>",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		]
 	},
+    {
+        "name": "Customs house",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "gold": 4,
+        "uniques": [
+            "Great Improvement",
+			"[+2 Gold] <after discovering [Currency]>",
+			"[+2 Gold] <after discovering [Radar]>",
+			"[+2 Gold] <after discovering [Incentivization]>",
+            "Removes removable features when built",
+            "Pillaging this improvement yields approximately [+20 Gold]"
+        ]
+    },
 	{
 		"name": "Manufactory",
 		"production": 4,
