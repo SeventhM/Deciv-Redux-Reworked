@@ -225,13 +225,10 @@
 		"uniques": [
 			"Low Tech",
 			"Enslaved",
-			"Can build [All Road] improvements on tiles",
-			"Can build [Fort] improvements on tiles",
-			"Can build [Trench] improvements on tiles",
 			"[+50]% Strength <vs [Mounted] units>",
 			"Consumes [1] [Slaves]"
 		],
-		"promotions": ["Urban Warfare"],
+		"promotions": ["Urban Warfare", "Rubble Builder"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -421,8 +418,7 @@
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Gunman",
 		"uniques": [
-			"Low Tech",
-			"[+33]% Strength <vs [Low Tech] units>"
+			"Low Tech"
 		],
 		"attackSound": "arrow"
 	},
@@ -443,13 +439,9 @@
 		"uniques": [
 			"Low Tech",
 			"Enslaved",
-			"Can build [All Road] improvements on tiles",
-			"Can build [Fort] improvements on tiles",
-			"Can build [Trench] improvements on tiles",
-			"[+33]% Strength <vs [Low Tech] units>",
 			"Consumes [1] [Slaves]"
 		],
-		"promotions": ["Urban Warfare"],
+		"promotions": ["Urban Warfare", "Rubble Builder"],
 		"attackSound": "arrow"
 	},
 	{
@@ -566,12 +558,10 @@
 		"uniques": [
 			"Personnel",
 			"Enslaved",
-			"Can build [All Road] improvements on tiles",
-			"Can build [Fort] improvements on tiles",
-			"Can build [Trench] improvements on tiles",
 			"Only available <with [Slaves]>",
 			"Consumes [1] [Slaves]"
 		],
+		"promotions": ["Rubble Builder"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -643,12 +633,9 @@
 		"uniques": [
 			"Personnel",
 			"Enslaved",
-			"Can build [All Road] improvements on tiles",
-			"Can build [Fort] improvements on tiles",
-			"Can build [Trench] improvements on tiles",
 			"Consumes [1] [Slaves]"
 		],
-		"promotions": ["Urban Warfare"],
+		"promotions": ["Urban Warfare", "Rubble Builder"],
 		"attackSound": "shot"
 	},
 	{
@@ -713,7 +700,6 @@
 		"upgradesTo": "Hussar",
 		"uniques": [
 			"Low Tech",
-			"[+50]% Strength <vs [Low Tech] units>",
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
@@ -735,7 +721,6 @@
 		"upgradesTo": "Hussar",
 		"uniques": [
 			"Low Tech",
-			"[+50]% Strength <vs [Low Tech] units>",
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
@@ -783,7 +768,6 @@
 			"Low Tech",
 			"No defensive terrain bonus",
 			"Can move after attacking",
-			"[+33]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs cities> <when attacking>",
 			"Only available <in cities with a [Stable]>"
 		],
@@ -807,18 +791,14 @@
 			"Low Tech",
 			"No defensive terrain bonus",
 			"Can move after attacking",
-			"[+33]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs cities> <when attacking>",
 			"Only available <in cities with a [Stable]>",
 			"Enslaved",
-			"Can build [All Road] improvements on tiles",
-			"Can build [Fort] improvements on tiles",
-			"Can build [Trench] improvements on tiles",
 			"Consumes [1] [Slaves]"
 		],
 		"hurryCostModifier": 0,
 		"attackSound": "horse",
-		"promotions": ["Urban Warfare"]
+		"promotions": ["Urban Warfare", "Rubble Builder"]
 	},
 	{
 		"name": "Hussar",
@@ -1375,14 +1355,12 @@
 		"uniques": [
 			"Personnel",
 			"Enslaved",
-			"[-25]% tile improvement construction time",
-			"Can build [All Road] improvements on tiles",
-			"Can build [Fort] improvements on tiles",
-			"Can build [Trench] improvements on tiles",
+			"[-25]% construction time for [All] improvements",
 			"Only available <with [Slaves]>",
 			"Consumes [1] [Slaves]",
 			"Never appears as a Barbarian unit"
 		],
+		"promotions": ["Rubble Builder"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1414,7 +1392,7 @@
 		"upgradesTo": "Assassin",
 		"requiredTech": "Rifling",
 		"hurryCostModifier": 0,
-		"uniques": ["Personnel"],
+		"uniques": ["Personnel","Rubble Builder"],
 		"promotions": ["Headhunter","Urban Warfare"],
 		"attackSound": "shot"
 	},
@@ -1664,6 +1642,7 @@
 			"Personnel",
 			"Consumes [1] [Weapons]"
 		],
+		"promotions": ["Rubble Builder"],
 		"hurryCostModifier": 0,
 		"attackSound": "machinegun"
 	},
@@ -1718,7 +1697,7 @@
 		"requiredTech": "Currency",
 		"hurryCostModifier": 0,
 		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
-		"promotions": ["Headhunter","Urban Warfare"],
+		"promotions": ["Headhunter","Urban Warfare","Rubble Builder"],
 		"attackSound": "shot"
 	},
 	{
@@ -2055,7 +2034,7 @@
 		"uniques": [
 			"Personnel",
 			"Enslaved",
-			"[-25]% tile improvement construction time",
+			"[-25]% construction time for [All] improvements",
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Can build [Trench] improvements on tiles",
@@ -2080,13 +2059,10 @@
 		"uniques": [
 			"Personnel",
 			"Enslaved",
-			"[-25]% tile improvement construction time",
-			"Can build [All Road] improvements on tiles",
-			"Can build [Fort] improvements on tiles",
-			"Can build [Trench] improvements on tiles",
+			"[-25]% construction time for [All] improvements",
 			"Consumes [1] [Slaves]"
 		],
-		"promotions":["Gas Mask","Urban Warfare"],
+		"promotions":["Gas Mask","Urban Warfare","Rubble Builder"],
 		"attackSound": "machinegun"
 	},
 	{

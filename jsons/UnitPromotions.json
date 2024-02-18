@@ -1291,6 +1291,14 @@
 			"Can pass through impassable tiles"
 		]
 	},
+	{
+		"name": "Rubble Builder",
+		"uniques": [
+			"Can build [All Road] improvements on tiles",
+			"Can build [Fort] improvements on tiles",
+			"Can build [Trench] improvements on tiles"
+		]
+	}
 	
 
 	// 'ability' promotions
