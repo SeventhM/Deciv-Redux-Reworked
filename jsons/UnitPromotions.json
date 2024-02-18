@@ -78,6 +78,7 @@
 			"Medic I",
 			"Formation",
 			"Sentry",
+			"Suppression",
 			"Survivalism",
 			"Forage",
 			"Precision"
@@ -108,6 +109,7 @@
 			"Medic I",
 			"Formation",
 			"Sentry",
+			"Suppression",
 			"Survivalism",
 			"Forage"
 		],
@@ -442,6 +444,7 @@
 			"Medic I",
 			"Formation",
 			"Sentry",
+			"Suppression",
 			"Survivalism",
 			"Forage"
 		],
@@ -459,7 +462,8 @@
 			"Ambush",
 			"Sentry",
 			"Survivalism",
-			"Precision"
+			"Precision",
+			"Suppression"
 		],
 		"uniques": [
 			"[+25]% Strength <vs [Wounded] units>",
@@ -478,7 +482,8 @@
 			"Formation",
 			"Ambush",
 			"Assault",
-			"Forage"
+			"Forage",
+			"Suppression"
 		],
 		"uniques": [
 			"[+1] Movement",
@@ -542,16 +547,27 @@
 	{
 		"name": "Suppression",
 		"prerequisites": [
-			"Survivalism",
-			"Amphibious",
-			"Sentry",
-			"Precision",
-			"Medic I",
-			"Ambush",
-			"Formation"
+			"Drill",
+			"Shock",
+			"Entrench",
+			"Accuracy",
+			"Combat Drill",
+			"Barrage",
+			"Hull Down",
+			"Evasion",
+			"Strike",
+			"Littoral Warfare",
+			"Convoy",
+			"Bombardment",
+			"Targeting",
+			"Wolfpack I",
+			"Armor Plating",
+			"Flight Deck I",
+			"Guerilla Warfare",
+			"Urban Warfare"
 		],
 		"uniques": [
-			"[+33]% Strength <vs [Melee] units>",
+			"[+33]% Strength <vs [Low Tech] units>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Shooter","Siege","Ranged Vechicle","Mounted Ranged","Helicopter"]
@@ -570,6 +586,7 @@
 			"Survivalism",
 			"Precision",
 			"Sentry",
+			"Suppression",
 			"Forage",
 			"Formation",
 			"Ambush"
@@ -584,7 +601,6 @@
 		"name": "Mobility",
 		"prerequisites": [
 			"Resupply",
-			"Suppression",
 			"Extended Range"
 		],
 		"uniques": [
@@ -626,6 +642,7 @@
 		"prerequisites": [
 			"Survivalism",
 			"Sentry",
+			"Suppression",
 			"Flight Deck II",
 			"Wolfpack II",
 			"Close-In Weapons System"
@@ -658,6 +675,7 @@
 		"prerequisites": [
 			"Survivalism",
 			"Sentry",
+			"Suppression",
 			"Flight Deck II",
 			"Close-In Weapons System",
 			"Wolfpack II"
@@ -722,7 +740,6 @@
 			"Pursuit",
 			"Medic II",
 			"Reconnaissance III",
-			"Suppression",
 			"Extended Range",
 			"Maneuver"
 		],
@@ -738,6 +755,7 @@
 			"Survivalism",
 			"Amphibious",
 			"Sentry",
+			"Suppression",
 			"Precision",
 			"Medic I",
 			"Ambush",
@@ -824,7 +842,6 @@
 	{
 		"name": "Air Repair",
 		"prerequisites": [
-			"Suppression",
 			"Extended Range",
 			"Resupply",
 			"Siege III",
@@ -842,10 +859,8 @@
 	{
 		"name": "Logistics",
 		"prerequisites": [
-			"Suppression",
 			"Skirmish",
 			"Extended Range",
-			"Suppression",
 			"Resupply",
 			"Flank Speed",
 			"Damage Control",
@@ -977,7 +992,6 @@
 	{
 		"name": "Artillery",
 		"prerequisites": [
-			"Suppression",
 			"Skirmish",
 			"Extended Range",
 			"Maneuver",
