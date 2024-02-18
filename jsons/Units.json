@@ -667,7 +667,7 @@
 		"requiredTech": "Sailing",
 		"movement": 4,
 		"strength": 20,
-		"cost": 50,
+		"cost": 70,
 		"obsoleteTech": "Navigation",
 		"upgradesTo": "Patrol Boat",
 		"uniques": [
@@ -684,7 +684,7 @@
 		"requiredTech": "Sailing",
 		"movement": 4,
 		"strength": 20,
-		"cost": 50,
+		"cost": 70,
 		"obsoleteTech": "Navigation",
 		"upgradesTo": "Patrol Boat",
 		"uniques": [
