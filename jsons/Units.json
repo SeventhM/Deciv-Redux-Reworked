@@ -905,7 +905,6 @@
 		"upgradesTo": "Armored Car",
 		"obsoleteTech": "Replaceable Parts",
 		"uniques": [
-			"[+20]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs cities> <when attacking>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
@@ -927,7 +926,6 @@
 		"obsoleteTech": "Replaceable Parts",
 		"uniques": [
 			"[+1] Sight",
-			"[+20]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs cities> <when attacking>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
@@ -948,7 +946,6 @@
 		"upgradesTo": "Armored Car",
 		"obsoleteTech": "Combined Arms",
 		"uniques": [
-			"[+20]% Strength <vs [Low Tech] units>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Consumes [1] [Oil]"
