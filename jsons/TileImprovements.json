@@ -128,7 +128,7 @@
 		"techRequired": "Steel",
 		"uniques": [
 			"Provides [1] [Power]",
-			"Cannot be built on [Water] tiles <before discovering [Oceanography]>",
+			"Cannot be built on [Water] tiles <before discovering [Filler 4]>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],

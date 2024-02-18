@@ -62,6 +62,11 @@
 		"wonderCost": 185,
 		"techs": [
 			{
+				"name": "Filler 4",
+				"row": 1,
+				"prerequisites": ["Sailing"]
+			},
+			{
 				"name": "Writing",
 				"row": 3,
 				"prerequisites": ["Secrets of the Past"],
@@ -99,7 +104,7 @@
 			{
 				"name": "Navigation",
 				"row": 1,
-				"prerequisites": ["Writing", "Sailing"],
+				"prerequisites": ["Writing", "Filler 4"],
 				"uniques": [
 					"[+1] Movement <for [Embarked] units>",
 					"[+1] Sight <for [Embarked] units>",
