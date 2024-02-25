@@ -500,6 +500,7 @@
 		"style": "Gang",
 		"uniqueName": "Regulators",
 		"uniques": [
+			"[Gold] cost of purchasing [Enslaved] units [-20]%",
 			"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>",
 			"[2] free [Clansman] units appear",
 			"[Personnel] units gain the [Clansman] promotion",

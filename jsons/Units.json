@@ -223,7 +223,7 @@
 		"movement": 2,
 		"strength": 16,
 		"cost": 30,
-		"hurryCostModifier": -20,
+		"hurryCostModifier": 20,
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Conscript",
 		"uniques": [
@@ -429,13 +429,13 @@
 		"name": "Rubble Archer",
 		"unitType": "Shooter",
 		"uniqueTo": "Deadrock Clan",
-		"replaces": "Archer",
+		//"replaces": "Archer",
 		"range": 1,
 		"movement": 2,
 		"strength": 18,
 		"rangedStrength": 15,
 		"cost": 55,
-		"hurryCostModifier": 0,
+		"hurryCostModifier": 20,
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Gunman",
@@ -550,12 +550,12 @@
 		"name": "Rubble Militia",
 		"unitType": "Scrapper",
 		"uniqueTo": "Deadrock Clan",
-		"replaces": "Militia",
+		//"replaces": "Militia",
 		"movement": 2,
 		"strength": 26,
 		"interceptRange": 1,
 		"cost": 70,
-		"hurryCostModifier": 0,
+		"hurryCostModifier": 20,
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Soldier",
 		"uniques": [
@@ -623,7 +623,7 @@
 		"name": "Rubble Gunman",
 		"unitType": "Shooter",
 		"uniqueTo": "Deadrock Clan",
-		"replaces": "Gunman",
+		//"replaces": "Gunman",
 		"range": 1,
 		"movement": 2,
 		"strength": 20,
@@ -632,7 +632,7 @@
 		"cost": 70,
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Rifleman",
-		"hurryCostModifier": 0,
+		"hurryCostModifier": 20,
 		"uniques": [
 			"Personnel",
 			"Enslaved",
@@ -780,7 +780,7 @@
 	{
 		"name": "Rubble Rider",
 		"uniqueTo": "Deadrock Clan",
-		"replaces": "Skirmisher",
+		//"replaces": "Skirmisher",
 		"unitType": "Mounted Ranged",
 		"range": 1,
 		"movement": 4,
@@ -799,7 +799,7 @@
 			"Enslaved",
 			"Consumes [1] [Slaves]"
 		],
-		"hurryCostModifier": 0,
+		"hurryCostModifier": 20,
 		"attackSound": "horse",
 		"promotions": ["Urban Warfare", "Rubble Builder"]
 	},
@@ -1349,7 +1349,7 @@
 		"cost": 120,
 		"upgradesTo": "Henchman",
 		//"upgradesTo": "NBC Conscript",
-		"hurryCostModifier": 0,
+		"hurryCostModifier": 20,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Combined Arms",
 		"uniques": [
@@ -1391,7 +1391,7 @@
 		"cost": 120,
 		"upgradesTo": "Assassin",
 		"requiredTech": "Rifling",
-		"hurryCostModifier": 0,
+		"hurryCostModifier": 20,
 		"uniques": ["Personnel","Rubble Builder"],
 		"promotions": ["Headhunter","Urban Warfare"],
 		"attackSound": "shot"
@@ -1643,7 +1643,7 @@
 			"Consumes [1] [Weapons]"
 		],
 		"promotions": ["Rubble Builder"],
-		"hurryCostModifier": 0,
+		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
 	},
 	{
@@ -1695,7 +1695,7 @@
 		"interceptRange": 1,
 		"cost": 225,
 		"requiredTech": "Currency",
-		"hurryCostModifier": 0,
+		"hurryCostModifier": 20,
 		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
 		"promotions": ["Headhunter","Urban Warfare","Rubble Builder"],
 		"attackSound": "shot"
@@ -2055,7 +2055,7 @@
 		"interceptRange": 1,
 		"cost": 330,
 		"requiredTech": "Plastics",
-		"hurryCostModifier": 0,
+		"hurryCostModifier": 20,
 		"uniques": [
 			"Personnel",
 			"Enslaved",
