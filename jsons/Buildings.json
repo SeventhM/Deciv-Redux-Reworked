@@ -934,7 +934,7 @@
 		"cost": 60,
 		"isNationalWonder": true,
 		"uniques": [
-			"[+1] population [in all cities]",
+			"[+1] population [in this city]",
 			"Free [Civilian Convoy] appears"
 		]
 	},
@@ -945,6 +945,7 @@
 		"cost": 50,
 		"isNationalWonder": true,
 		"uniques": [
+			"[+1] population [in this city]",
 			"Free [Great General] appears",
 			"Free [Civilian Convoy] appears"
 		]
@@ -956,7 +957,7 @@
 		"cost": 50,
 		"isNationalWonder": true,
 		"uniques": [
-			"[+1] population [in all cities]",
+			"[+1] population [in this city]",
 			"Free [Field Scientist] appears"
 		]
 	},
@@ -967,6 +968,7 @@
 		"cost": 50,
 		"isNationalWonder": true,
 		"uniques": [
+			"[+1] population [in this city]",
             "Provides [4] [Slaves]",
 			"Free [Civilian Convoy] appears"
         ]
