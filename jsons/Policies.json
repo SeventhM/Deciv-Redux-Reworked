@@ -639,7 +639,7 @@
                 "uniques": [
                     "[+1 Gold, +2 Food] from every [Moisture trap]",
                     "[+1 Gold, +2 Food] from every [Water pump]",
-                    "[+2 Gold, +2 Culture, +3 Food] from every [Settlement]",
+                    "[+4 Gold, +3 Food] from every [Customs house]",
                     "Free [Great Merchant] appears",
                     "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
@@ -1031,9 +1031,10 @@
                     "[+5 Production] from every [Manufactory]",
                     "[+2 Production] from every [Outpost]",
                     "[+2 Production] from every [Prison farm]",
-                    "[+3 Gold, +3 Culture] from every [Settlement]",
+                    "[+5 Culture] from every [Settlement]",
+                    "[+5 Gold] from every [Customs house]",
                     "[+2 Gold, +2 Science] from every [Citadel]",
-                    "[+3 Culture] from every [Narcotics farm]",
+                    "[+2 Culture, +2 Gold] from every [Narcotics farm]",
                     "[+5 Faith, +1 Culture] from every [Oracle]",
                     "[+5 Faith] from every [Seminary]",
                     "[+5 Science] from every [Academy]",
