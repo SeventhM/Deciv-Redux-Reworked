@@ -268,7 +268,7 @@
 		"name": "Swordsman",
 		"unitType": "Scrapper",
 		"uniqueTo": "Crimson Legion",
-		"replaces": "Militia",
+		"replaces": "Spearman",
 		"movement": 2,
 		"strength": 26,
 		"interceptRange": 1,
