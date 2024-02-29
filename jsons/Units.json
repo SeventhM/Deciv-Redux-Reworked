@@ -978,6 +978,41 @@
 		"attackSound": "tankshot"
 	},
 
+	/*{
+		"name": "Name Pending",
+		"unitType": "Ranged Water",
+		"requiredTech": "Filler 4",
+		"movement": 4,
+		"rangedStrength": 18,
+		"strength": 18,
+		"cost": 70,
+		//"obsoleteTech": "Navigation",
+		"upgradesTo": "Patrol Boat",
+		"uniques": [
+			//"Low Tech",
+			"Cannot enter ocean tiles"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Trimaran Ranged",
+		"unitType": "Melee Water",
+		"uniqueTo": "The Mariners",
+		"replaces": "Name Pending",
+		"requiredTech": "Filler 4",
+		"movement": 4,
+		"rangedStrength": 18,
+		"strength": 18,
+		"cost": 70,
+		//"obsoleteTech": "Navigation",
+		"upgradesTo": "Patrol Boat",
+		"uniques": [
+			//"Low Tech"
+		],
+		"attackSound": "nonmetalhit",
+		"promotions": ["Littoral Warfare"]
+	},*/
+
 	// Rediscovering era
 	{
 		"name": "Patrol Boat",
