@@ -338,5 +338,47 @@
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 0,
 		"clearBarbarianCampReward": 25
-	}
+	},
+	{
+		"name": "Immortal Test",
+		"baseHappiness": 9,
+		"extraHappinessPerLuxury": 0,
+		"researchCostModifier": 1,
+		"unitCostModifier": 1,
+		"unitSupplyBase": 5,
+		"unitSupplyPerCity": 2,
+		"buildingCostModifier": 1,
+		"policyCostModifier": 1,
+		"unhappinessModifier": 1,
+		"barbarianBonus": 0,
+		"playerBonusStartingUnits": ["Civilian Convoy", "Scout"],
+		"aiCityGrowthModifier": 1,
+		"aiUnitCostModifier": 1,
+		"aiBuildingCostModifier": 1,
+		"aiWonderCostModifier": 1,
+		"aiBuildingMaintenanceModifier": 1,
+		"aiUnitMaintenanceModifier": 1,
+		"aiFreeTechs": [
+			//"Secrets of the Past",
+			//"Construction",
+			//"Redomestication",
+			//"Iron Working"
+		],
+		"aiMajorCivBonusStartingUnits": [
+			"Civilian Convoy",
+			"Civilian Convoy",
+			"Scout",
+			"Scout",
+			"Scout"
+		],
+		"aiCityStateBonusStartingUnits": [
+			"Civilian Convoy",
+			"Scout",
+			"Spearman"
+		],
+		"aiUnhappinessModifier": 1,
+		"aisExchangeTechs": true,
+		"turnBarbariansCanEnterPlayerTiles": 0,
+		"clearBarbarianCampReward": 25
+	},
 ]
