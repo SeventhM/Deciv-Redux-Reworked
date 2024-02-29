@@ -3808,9 +3808,9 @@
 	{
 		"name": "Encyclopedia",
 		"uniqueTo": "The Archive",
-		"replaces": "Monument",
+		"isNationalWonder": true,
 		"cost": 0,
-		"culture": 8,
+		"culture": 4,
 		"science": 1,
 		"happiness": 1,
 		"uniques": [
@@ -3831,10 +3831,11 @@
 	{
 		"name": "Homestead",
 		"uniqueTo": "Jericho",
-		"replaces": "Monument",
+		"isNationalWonder": true,
 		"cost": 0,
-		"culture": 5,
+		"culture": 3,
 		"uniques": [
+			"Can only be built [in capital]",
 			"Automatically built in all cities where it is buildable",
 			"Reveals the entire map",
 			"Provides [1] [Oil]",
@@ -3845,11 +3846,11 @@
 	{
 		"name": "Devil's Monument",
 		"uniqueTo": "Devil's Canyon",
-		"replaces": "Monument",
+		"isNationalWonder": true,
 		"gold": 5,
-		"culture": 1,
 		"cost": 0,
 		"uniques": [
+			"Can only be built [in capital]",
 			"Automatically built in all cities where it is buildable",
 			"Reveals the entire map"
 		]
@@ -3870,7 +3871,6 @@
 		"replaces": "Nuclear Plant",
 		"cost": 0,
 		"uniques": [
-			"Automatically built in all cities where it is buildable",
 			"Provides [8] [Power]",
 			"[+33]% Production when constructing [Missile] units [in this city]",
 			"Never destroyed when the city is captured"
@@ -3879,10 +3879,11 @@
 	{
 		"name": "Silk Road",
 		"uniqueTo": "Bartertown",
-		"replaces": "Monument",
+		"isNationalWonder": true,
 		"cost": 0,
-		"culture": 4,
+		"culture": 2,
 		"uniques": [
+			"Can only be built [in capital]",
 			"Automatically built in all cities where it is buildable",
 			"Reveals the entire map",
 			"Provides [1] [Oil]",
@@ -3902,13 +3903,14 @@
 	{
 		"name": "Divine Knowledge",
 		"uniqueTo": "Order of Jerome",
-		"replaces": "Monument",
+		"isNationalWonder": true,
 		"cost": 0,
-		"culture": 4,
+		"culture": 2,
 		"faith": 5,
 		"science": 3,
 		"happiness": 2,
 		"uniques": [
+			"Can only be built [in capital]",
 			"Automatically built in all cities where it is buildable",
 			"Reveals the entire map",
 			"Provides [1] [Power]"
@@ -3927,13 +3929,14 @@
 	{
 		"name": "Arroyo",
 		"uniqueTo": "Arroyo",
-		"replaces": "Monument",
+		"isNationalWonder": true,
 		"cost": 0,
 		"science": 1,
 		"food": 2,
-		"culture": 10,
+		"culture": 3,
 		"happiness": 2,
 		"uniques": [
+			"Can only be built [in capital]",
 			"Automatically built in all cities where it is buildable",
 			"Reveals the entire map"
 		]
@@ -3941,13 +3944,14 @@
 	{
 		"name": "Ghost Mountain",
 		"uniqueTo": "Ghost Mountain",
-		"replaces": "Monument",
+		"isNationalWonder": true,
 		"cost": 0,
 		"food": 2,
 		"science": 1,
-		"culture": 10,
+		"culture": 3,
 		"happiness": 2,
 		"uniques": [
+			"Can only be built [in capital]",
 			"Automatically built in all cities where it is buildable",
 			"Reveals the entire map"
 		]
@@ -3984,12 +3988,13 @@
 	{
 		"name": "Alma Base",
 		"uniqueTo": "Almaty",
-		"replaces": "Monument",
+		"isNationalWonder": true,
 		"cost": 0,
-		"culture": 5,
+		"culture": 3,
 		"happiness": 4,
 		"specialistSlots": { "Engineer": 2 },
 		"uniques": [
+			"Can only be built [in capital]",
 			"Automatically built in all cities where it is buildable",
 			"Reveals the entire map",
 			"Provides [2] [Oil]",
@@ -4000,12 +4005,12 @@
 	{
 		"name": "Hub Monument",
 		"uniqueTo": "The Hub",
-		"replaces": "Monument",
+		"isNationalWonder": true,
 		"cost": 0,
-		"culture": 2,
 		"production": 2,
 		"percentStatBonus": { "production": 15 },
 		"uniques": [
+			"Can only be built [in capital]",
 			"Automatically built in all cities where it is buildable",
 			"Reveals the entire map"
 		]
@@ -4024,12 +4029,13 @@
 	{
 		"name": "Grand Temple",
 		"uniqueTo": "Deseret Nation",
-		"replaces": "Monument",
+		"isNationalWonder": true,
 		"cost": 0,
-		"culture": 3,
+		"culture": 1,
 		"faith": 5,
 		"happiness": 1,
 		"uniques": [
+			"Can only be built [in capital]",
 			"Automatically built in all cities where it is buildable",
 			"Reveals the entire map"
 		]
@@ -4047,11 +4053,11 @@
 	{
 		"name": "Iron Rod Monument",
 		"uniqueTo": "Church of the Iron Rod",
-		"replaces": "Monument",
+		"isNationalWonder": true,
 		"cost": 0,
-		"culture": 2,
 		"production": 1,
 		"uniques": [
+			"Can only be built [in capital]",
 			"Automatically built in all cities where it is buildable",
 			"Reveals the entire map"
 		]
@@ -4069,12 +4075,12 @@
 	{
 		"name": "Land Value Tax",
 		"uniqueTo": "Arden Club",
-		"replaces": "Monument",
+		"isNationalWonder": true,
 		"cost": 0,
-		"culture": 2,
 		"gold": 2,
 		"food": 2,
 		"uniques": [
+			"Can only be built [in capital]",
 			"Automatically built in all cities where it is buildable",
 			"Reveals the entire map",
 			"[+1 Gold] from [Land] tiles [in this city]"
@@ -4083,12 +4089,12 @@
 	{
 		"name": "Great Mountain Shrine",
 		"uniqueTo": "Fo Guang",
-		"replaces": "Monument",
+		"isNationalWonder": true,
 		"cost": 0,
-		"culture": 2,
 		"gold": 2,
 		"food": 2,
 		"uniques": [
+			"Can only be built [in capital]",
 			"Automatically built in all cities where it is buildable",
 			"Reveals the entire map"
 		]
@@ -4106,14 +4112,14 @@
 	{
 		"name": "Tellus Forest",
 		"uniqueTo": "Tellus",
-		"replaces": "Monument",
+		"isNationalWonder": true,
 		"cost": 0,
 		//"cityHealth": 50,
 		"food": 2,
-		"culture": 1,
 		"gold": 20,
 		"happiness": 2,
 		"uniques": [
+			"Can only be built [in capital]",
 			"Automatically built in all cities where it is buildable",
 			"[+1 Food, +2 Production, +1 Gold] from [Tree plantation] tiles [in this city]",
 			"Reveals the entire map",
@@ -4123,12 +4129,13 @@
 	{
 		"name": "Royal Court",
 		"uniqueTo": "Dahomey",
-		"replaces": "Monument",
+		"isNationalWonder": true,
 		"cost": 0,
-		"culture": 3,
+		"culture": 1,
 		"gold": 2,
 		"food": 2,
 		"uniques": [
+			"Can only be built [in capital]",
 			"Automatically built in all cities where it is buildable",
 			"Reveals the entire map"
 		]
