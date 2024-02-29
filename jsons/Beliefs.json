@@ -5,8 +5,7 @@
 		"type": "Pantheon",
 		"uniques": [
 			"[+1 Faith] from every [Monument]",
-			"[+1 Culture] from every [Shrine]",
-			"[+1 Culture, +1 Faith] from every [Vault of Records]"
+			"[+1 Culture] from every [Shrine]"
 		]
 	},
 	{
@@ -175,8 +174,7 @@
 		"uniques": [
 			"[+1 Faith] from every [Mine]",
 			"[+1 Faith] from every [Borehole]",
-			"[+1 Faith] from every [Manufactory]",
-			"[+1 Production, +1 Faith] from every [Mining Pit]"
+			"[+1 Faith] from every [Manufactory]"
 		]
 	},
     {
