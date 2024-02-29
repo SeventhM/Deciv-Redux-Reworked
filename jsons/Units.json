@@ -671,7 +671,7 @@
 		"obsoleteTech": "Navigation",
 		"upgradesTo": "Patrol Boat",
 		"uniques": [
-			"Low Tech",
+			//"Low Tech",
 			"Cannot enter ocean tiles"
 		],
 		"attackSound": "nonmetalhit"
@@ -688,7 +688,7 @@
 		"obsoleteTech": "Navigation",
 		"upgradesTo": "Patrol Boat",
 		"uniques": [
-			"Low Tech"
+			//"Low Tech"
 		],
 		"attackSound": "nonmetalhit",
 		"promotions": ["Littoral Warfare"]
