@@ -405,7 +405,7 @@
             "Scientific": 20
         },
         "uniques": [
-            "[+25]% Great Person generation [in all cities]"
+            "[Great Administrator] is earned [33]% faster"
         ],
         "policies": [
             {
@@ -441,8 +441,7 @@
                 "name": "Legislative Process",
                 "uniques": [
                     "[+25]% [Culture] from every [Congress]",
-                    "[+25]% [Culture] from every [Council]",
-                    "[Great Administrator] is earned [25]% faster"
+                    "[+25]% [Culture] from every [Council]"
                 ],
                 "requires": [
                     "Civil Society",
