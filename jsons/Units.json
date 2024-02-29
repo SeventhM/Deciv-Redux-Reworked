@@ -273,6 +273,7 @@
 		"strength": 26,
 		"interceptRange": 1,
 		"cost": 50,
+		"upgradesTo": "Militia",
 		"obsoleteTech": "Rifling",
 		"hurryCostModifier": 20,
 		"uniques": [
@@ -489,7 +490,7 @@
 		"interceptRange": 1,
 		"cost": 70,
 		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Soldier",
+		"upgradesTo": "Legion",
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Low Tech",
