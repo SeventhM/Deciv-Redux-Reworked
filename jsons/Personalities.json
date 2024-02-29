@@ -1,0 +1,14 @@
+[
+    {
+		"name": "Blackwarden's Policies",
+        "priorities": {
+            "Monopoly": 99
+        }
+	},
+    {
+		"name": "Ignis's Policies",
+        "priorities": {
+            "Theocracy": 99
+        }
+	},
+]

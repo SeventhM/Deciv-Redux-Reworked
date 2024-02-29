@@ -12,7 +12,7 @@
 		"leaderName": "Willand Keiji",
 		"adjective": ["Star"],
 		"startBias": ["Wasteland"],
-		"preferredVictoryType": "Diplomatic",
+		//"preferredVictoryType": "Diplomatic",
 		"favoredReligion": "Humanism",
 
 		"startIntroPart1": "'When the Cataclysm happened, there were many that felt lost. Like the world was too far gone. I always had hope, but sometimes it's hard to keep it. Ever since we came out, the world has felt like a jungle. Ruled by wild beasts.'",
@@ -60,7 +60,7 @@
 		"leaderName": "Aura",
 		"adjective": ["Hexlock"],
 		"startBias": ["Fissure"],
-		"preferredVictoryType": "Domination",
+		//"preferredVictoryType": "Domination",
 		"favoredReligion": "Objectivism",
 
 		"startIntroPart1": "'I will admit. There were times were even I felt stumped. Science is supposed to be free. To let you discover things to your heart's content without a single care. But for every step forward, there are some who wish to take two steps backwards. With their arbitrary regulations and limits. They had a system meant to hinder your progress. They... are gone now.'",
@@ -110,7 +110,7 @@
 		"leaderName": "Scarlett",
 		"adjective": ["Scavenger"],
 		"startBias": ["Forest"],
-		"preferredVictoryType": "Cultural",
+		//"preferredVictoryType": "Cultural",
 		"favoredReligion": "Ghost Dance",
 
 		// "startIntroPart1": "TBA",
@@ -168,8 +168,9 @@
 	{
 		"name": "Blackwarden",
 		"leaderName": "Eric Price",
+		"personality": "Blackwarden's Policies",
 		"adjective": ["Mercenary"],
-		"preferredVictoryType": "Domination",
+		//"preferredVictoryType": "Domination",
 		"favoredReligion": "Capitalism",
 
 		"startIntroPart1": "With over 250,000 employees across 40 nations, Blackwarden Associates is the first choice for any situation requiring a professional and discreet security solution. Our friendly, highly trained personnel are always ready to help  - from your local bank or supermarket, to immigration processing centers and border defense at home, to fallout remediation and nuclear site security in the Indus Exclusion Zone.",
@@ -413,7 +414,7 @@
 		"leaderName": "Timothy D. West",
 		"adjective": ["Survivalist"],
 		"startBias": ["Hill"],
-		"preferredVictoryType": "Scientific",
+		//"preferredVictoryType": "Scientific",
 		"favoredReligion": "Liberty",
 
 		"startIntroPart1": "Take a look out there, kid. There used to be green trees everywhere, and bright blue water, and white snow on the mountain tops. I know it's hard for you to believe, but there was a time when everything wasn't covered in ash. But those dumb sons of bitches had to go and ruin it all. They didn't know how good they had it, and they killed themselves. But they didn't kill us. Know why? Because we knew how to survive, that's why. We knew how to make do with less, how to hide when they came hunting, and how to hit them where it hurt. That's why we're still here. And that's why we're going to keep living.",
@@ -484,7 +485,7 @@
 		"leaderName": "Boss Karl",
 		"adjective": ["Regulator"],
 		"startBias": ["Jungle"],
-		"preferredVictoryType": "Domination",
+		//"preferredVictoryType": "Domination",
 		"favoredReligion": "Capitalism",
 
 		"declaringWar": "You are mine!",
@@ -602,9 +603,10 @@
 	{
 		"name": "Cult of Ignis",
 		"leaderName": "Ignitor Martina",
+		"personality": "Ignis's Policies",
 		"adjective": ["Cult"],
 		"startBias": ["Desert"],
-		"preferredVictoryType": "Domination",
+		//"preferredVictoryType": "Domination",
 		"favoredReligion": "Divine Engine",
 
 		"startIntroPart1": "In the beginning, the earth was without form, cold and void. And the Divine Engine moved upon the face of the earth, and brought forth humans, to serve her. And she blessed the people upon the earth with steel and holy oil, to make engines of their own. But the people of the earth forgot the Divine Engine who had blessed them. So the Engine sent forth the Flame to destroy the people who had sinned, and the earth was cleansed. But the Flame had mercy upon the people, and spared the people who repented and swore to serve the Engine. And it came to pass that Divine Engine blessed the people once more, and gave them steel and holy oil, and commanded them to multiply and replenish the earth, for the engine's glory.",
@@ -669,7 +671,7 @@
 		"leaderName": "Deacon Hopper",
 		"adjective": ["Marine"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Domination",
+		//"preferredVictoryType": "Domination",
 		"favoredReligion": "Rongorongo",
 
 		// "startIntroPart1": "",
@@ -723,7 +725,7 @@
 		"leaderName": "Mutulu Makonnen",
 		"adjective": ["Afrikan"],
 		"startBias": ["Avoid [Tundra]"],
-		"preferredVictoryType": "Scientific",
+		//"preferredVictoryType": "Scientific",
 		"favoredReligion": "Rastafari",
 
 		// "startIntroPart1": "",
@@ -791,7 +793,7 @@
 		"leaderName": "Trofim Bugorski",
 		"adjective": ["Proklyatyy"],
 		"startBias": ["Tundra"],
-		"preferredVictoryType": "Scientific",
+		//"preferredVictoryType": "Scientific",
 	
 		"startIntroPart1": "Perhaps it would have been better if man had never split the atom. If only we could go back and make it so no one could harness nuclear energy... Maybe then, we would never have burned the world to the ground. Maybe then you would not feel the sickness in your bones. But all that is in the past. We have to live with it now, no? But here is our secret: we can live with it, and they cannot. They have no stomach for radiation. And so this curse upon the land is a blessing to us. The sickness goes before us and destroys our enemies, leaving only us alive. That is not so bad now, is it?",
 		"startIntroPart2": "This sick and dying world is our birthright. Let us go and claim it all for ourselves, and see if we cannot make a heaven out of this hell.",
