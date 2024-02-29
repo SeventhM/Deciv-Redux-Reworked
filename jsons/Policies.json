@@ -411,7 +411,8 @@
             {
                 "name": "Civil Society",
                 "uniques": [
-                    "[+2 Culture] from every [Town Hall]"
+                    "[+1 Culture] from every [Town Hall]",
+                    "[+2 Culture] from every [Broadcast Tower]"
                 ],
                 "row": 1,
                 "column": 2
@@ -427,7 +428,8 @@
             {
                 "name": "Public Good",
                 "uniques": [
-                    "[+2 Gold, +2 Science, +2 Culture] from every [Broadcast Tower]"
+                    "[+1 Gold, +1 Science] from every [Town Hall]",
+                    "[+2 Gold, +2 Science] from every [Broadcast Tower]"
                 ],
                 "requires": [
                     "Civil Society"
