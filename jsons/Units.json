@@ -1170,7 +1170,7 @@
 		"movement": 4,
 		"strength": 34,
 		"cost": 120,
-		"requiredTech": "Iron Working",
+		"requiredTech": "Steel",
 		"upgradesTo": "Tank",
 		"obsoleteTech": "Combined Arms",
 		"uniques": [
