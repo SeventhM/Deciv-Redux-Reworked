@@ -64,7 +64,8 @@
 			{
 				"name": "Filler 4",
 				"row": 1,
-				"prerequisites": ["Sailing"]
+				"prerequisites": ["Sailing"],
+				"uniques": ["[+1] Sight <for [Embarked] units>"]
 			},
 			{
 				"name": "Writing",
