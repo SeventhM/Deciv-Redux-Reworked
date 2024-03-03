@@ -978,8 +978,8 @@
 		"attackSound": "tankshot"
 	},
 
-	/*{
-		"name": "Name Pending",
+	{
+		"name": "Gunboat",
 		"unitType": "Ranged Water",
 		"requiredTech": "Filler 4",
 		"movement": 4,
@@ -987,7 +987,7 @@
 		"strength": 18,
 		"cost": 70,
 		//"obsoleteTech": "Navigation",
-		"upgradesTo": "Patrol Boat",
+		//"upgradesTo": "Patrol Boat",
 		"uniques": [
 			//"Low Tech",
 			"Cannot enter ocean tiles"
@@ -995,23 +995,22 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Trimaran Ranged",
-		"unitType": "Melee Water",
+		"name": "Lagoon",
+		"unitType": "Ranged Water",
 		"uniqueTo": "The Mariners",
-		"replaces": "Name Pending",
+		"replaces": "Gunboat",
 		"requiredTech": "Filler 4",
 		"movement": 4,
-		"rangedStrength": 18,
-		"strength": 18,
+		"rangedStrength": 24,
+		"strength": 24,
 		"cost": 70,
 		//"obsoleteTech": "Navigation",
-		"upgradesTo": "Patrol Boat",
+		//"upgradesTo": "Patrol Boat",
 		"uniques": [
 			//"Low Tech"
 		],
-		"attackSound": "nonmetalhit",
-		"promotions": ["Littoral Warfare"]
-	},*/
+		"attackSound": "nonmetalhit"
+	},
 
 	// Rediscovering era
 	{
