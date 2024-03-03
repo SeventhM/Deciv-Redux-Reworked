@@ -2617,7 +2617,7 @@
 	},
 	{
 		"name": "Choke Points",
-		"cityStrength": 12,
+		"cityStrength": 5,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Only available <in cities with a [Walls]>",
@@ -2637,7 +2637,7 @@
 	},
 	{
 		"name": "Battery",
-		"cityStrength": 10,
+		"cityStrength": 7,
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": [
@@ -2674,7 +2674,7 @@
 		"replaces": "Active Denial System",
 		"uniqueTo": "Hexlock",
 		"maintenance": 1,
-		"cityStrength": 10,
+		"cityStrength": 5,
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -2870,7 +2870,7 @@
 		"isNationalWonder": true,
 		"hurryCostModifier": 25,
 		"cost": 120,
-		"cityStrength": 10,
+		"cityStrength": 5,
 		"uniques": [
 			"New [Military] units start with [15] Experience [in all cities]",
 			"All newly-trained [relevant] units [in all cities] receive the [Guerilla Warfare] promotion",
