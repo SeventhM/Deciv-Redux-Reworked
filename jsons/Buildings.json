@@ -2111,9 +2111,9 @@
 	},
 	{
 		"name": "Television Studio",
-		"culture": 1,
+		"culture": 2,
 		"happiness": 2,
-		"specialistSlots": { "Administrator": 1 },
+		"specialistSlots": { "Administrator": 2 },
 		"maintenance": 1,
 		"uniques": [
 			"Only available <in cities with a [Broadcast Tower]>",
