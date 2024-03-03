@@ -1555,7 +1555,7 @@
 		"greatPersonPoints": { "Great Administrator": 2 },
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"Requires a [Town Hall] in all cities",
+			"Only available <if [Town Hall] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
 			"Only available <after adopting [Constitution]>",
 			"[+1 Production] [in all cities connected to capital]",
@@ -1659,7 +1659,7 @@
 		"cost": 150,
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"Requires a [Monastery] in all cities",
+			"Only available <if [Monastery] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
 			"Can only be built [in holy cities]",
 			"Only available <after adopting [Theocracy]>",
@@ -1679,7 +1679,7 @@
 		"faith": 10,
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"Requires a [Altar of Ignis] in all cities",
+			"Only available <if [Altar of Ignis] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
 			"Can only be built [in holy cities]",
 			"Only available <after adopting [Theocracy]>",
@@ -1699,7 +1699,7 @@
 		"science": 1,
 		"requiredTech": "Biology",
 		"uniques": [
-			"Requires a [Hospital] in all cities",
+			"Only available <if [Hospital] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
 			"[15]% Food is carried over after population increases [in all cities]",
 			"[+10]% growth [in all cities]",
@@ -2127,7 +2127,7 @@
 		"happiness": 4,
 		"culture": 4,
 		"uniques": [
-			"Requires a [Television Studio] in all cities",
+			"Only available <if [Television Studio] is constructed in all [non-[Puppeted]] cities>",
 			"Only available <in cities with a [Television Studio]>",
 			"Cost increases by [30] per owned city"
 		],
@@ -2350,7 +2350,7 @@
 		"isNationalWonder": true,
 		"percentStatBonus": { "science": 33 },
 		"uniques": [
-			"Requires a [Library] in all cities",
+			"Only available <if [Library] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city"
 		],
 		"requiredTech": "Education"
@@ -2856,7 +2856,7 @@
 		"isNationalWonder": true,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Requires a [Barracks] in all cities",
+			"Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
 			"New [Military] units start with [30] Experience [in this city]",
 			"Cost increases by [30] per owned city",
 			"Free [Great General] appears"
