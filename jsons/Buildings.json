@@ -1327,7 +1327,6 @@
 			"Must have an owned [Soft Drinks Factory] within [3] tiles",
 			"Empire enters golden age",
 			"[+2 Culture, +2 Happiness, +1 Gold] from [Soft Drinks Factory] tiles [in all cities]",
-			"Consumes [1] [Power]",
 			"Unbuildable <if [Distribute Soft Drinks] is constructed>"
 		]
 	},
