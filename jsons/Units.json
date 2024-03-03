@@ -3501,7 +3501,7 @@
 		"name": "Great Farmer",
 		"unitType": "Civilian",
 		"uniques": [
-			"[+2] population [in this city] <by consuming this unit>",
+			"[+2] population [in this city] <by consuming this unit> <in [City center] tiles>",
 			"Can instantly construct a [Factory farm] improvement <by consuming this unit>",
 			"Is part of Great Person group [Farmer]",
 			"Great Person - [Food]",
