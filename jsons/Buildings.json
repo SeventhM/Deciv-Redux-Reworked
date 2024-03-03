@@ -3809,13 +3809,14 @@
 	{
 		"name": "Encyclopedia",
 		"uniqueTo": "The Archive",
-		"isNationalWonder": true,
+		//"isNationalWonder": true,
 		"cost": 0,
 		"culture": 4,
 		"science": 1,
 		"happiness": 1,
 		"uniques": [
-			"Reveals the entire map"
+			"Reveals the entire map",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -3832,7 +3833,7 @@
 	{
 		"name": "Homestead",
 		"uniqueTo": "Jericho",
-		"isNationalWonder": true,
+		//"isNationalWonder": true,
 		"cost": 0,
 		"culture": 3,
 		"uniques": [
@@ -3841,19 +3842,21 @@
 			"Reveals the entire map",
 			"Provides [1] [Oil]",
 			"Provides [1] [Power]",
-			"Provides [1] [Weapons]"
+			"Provides [1] [Weapons]",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
 		"name": "Devil's Monument",
 		"uniqueTo": "Devil's Canyon",
-		"isNationalWonder": true,
+		//"isNationalWonder": true,
 		"gold": 5,
 		"cost": 0,
 		"uniques": [
 			"Can only be built [in capital]",
 			"Automatically built in all cities where it is buildable",
-			"Reveals the entire map"
+			"Reveals the entire map",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -3880,7 +3883,7 @@
 	{
 		"name": "Silk Road",
 		"uniqueTo": "Bartertown",
-		"isNationalWonder": true,
+		//"isNationalWonder": true,
 		"cost": 0,
 		"culture": 2,
 		"uniques": [
@@ -3888,7 +3891,8 @@
 			"Automatically built in all cities where it is buildable",
 			"Reveals the entire map",
 			"Provides [1] [Oil]",
-			"Provides [1] [Weapons]"
+			"Provides [1] [Weapons]",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -3904,7 +3908,7 @@
 	{
 		"name": "Divine Knowledge",
 		"uniqueTo": "Order of Jerome",
-		"isNationalWonder": true,
+		//"isNationalWonder": true,
 		"cost": 0,
 		"culture": 2,
 		"faith": 5,
@@ -3914,7 +3918,8 @@
 			"Can only be built [in capital]",
 			"Automatically built in all cities where it is buildable",
 			"Reveals the entire map",
-			"Provides [1] [Power]"
+			"Provides [1] [Power]",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -3930,7 +3935,7 @@
 	{
 		"name": "Arroyo",
 		"uniqueTo": "Arroyo",
-		"isNationalWonder": true,
+		//"isNationalWonder": true,
 		"cost": 0,
 		"science": 1,
 		"food": 2,
@@ -3939,13 +3944,14 @@
 		"uniques": [
 			"Can only be built [in capital]",
 			"Automatically built in all cities where it is buildable",
-			"Reveals the entire map"
+			"Reveals the entire map",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
 		"name": "Ghost Mountain",
 		"uniqueTo": "Ghost Mountain",
-		"isNationalWonder": true,
+		//"isNationalWonder": true,
 		"cost": 0,
 		"food": 2,
 		"science": 1,
@@ -3954,7 +3960,8 @@
 		"uniques": [
 			"Can only be built [in capital]",
 			"Automatically built in all cities where it is buildable",
-			"Reveals the entire map"
+			"Reveals the entire map",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -3989,7 +3996,7 @@
 	{
 		"name": "Alma Base",
 		"uniqueTo": "Almaty",
-		"isNationalWonder": true,
+		//"isNationalWonder": true,
 		"cost": 0,
 		"culture": 3,
 		"happiness": 4,
@@ -4000,20 +4007,22 @@
 			"Reveals the entire map",
 			"Provides [2] [Oil]",
 			"Provides [1] [Power]",
-			"Free [Artillery] appears"
+			"Free [Artillery] appears",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
 		"name": "Hub Monument",
 		"uniqueTo": "The Hub",
-		"isNationalWonder": true,
+		//"isNationalWonder": true,
 		"cost": 0,
 		"production": 2,
 		"percentStatBonus": { "production": 15 },
 		"uniques": [
 			"Can only be built [in capital]",
 			"Automatically built in all cities where it is buildable",
-			"Reveals the entire map"
+			"Reveals the entire map",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -4030,7 +4039,7 @@
 	{
 		"name": "Grand Temple",
 		"uniqueTo": "Deseret Nation",
-		"isNationalWonder": true,
+		//"isNationalWonder": true,
 		"cost": 0,
 		"culture": 1,
 		"faith": 5,
@@ -4038,7 +4047,8 @@
 		"uniques": [
 			"Can only be built [in capital]",
 			"Automatically built in all cities where it is buildable",
-			"Reveals the entire map"
+			"Reveals the entire map",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -4054,13 +4064,14 @@
 	{
 		"name": "Iron Rod Monument",
 		"uniqueTo": "Church of the Iron Rod",
-		"isNationalWonder": true,
+		//"isNationalWonder": true,
 		"cost": 0,
 		"production": 1,
 		"uniques": [
 			"Can only be built [in capital]",
 			"Automatically built in all cities where it is buildable",
-			"Reveals the entire map"
+			"Reveals the entire map",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -4076,7 +4087,7 @@
 	{
 		"name": "Land Value Tax",
 		"uniqueTo": "Arden Club",
-		"isNationalWonder": true,
+		//"isNationalWonder": true,
 		"cost": 0,
 		"gold": 2,
 		"food": 2,
@@ -4084,20 +4095,22 @@
 			"Can only be built [in capital]",
 			"Automatically built in all cities where it is buildable",
 			"Reveals the entire map",
-			"[+1 Gold] from [Land] tiles [in this city]"
+			"[+1 Gold] from [Land] tiles [in this city]",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
 		"name": "Great Mountain Shrine",
 		"uniqueTo": "Fo Guang",
-		"isNationalWonder": true,
+		//"isNationalWonder": true,
 		"cost": 0,
 		"gold": 2,
 		"food": 2,
 		"uniques": [
 			"Can only be built [in capital]",
 			"Automatically built in all cities where it is buildable",
-			"Reveals the entire map"
+			"Reveals the entire map",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -4113,7 +4126,7 @@
 	{
 		"name": "Tellus Forest",
 		"uniqueTo": "Tellus",
-		"isNationalWonder": true,
+		//"isNationalWonder": true,
 		"cost": 0,
 		//"cityHealth": 50,
 		"food": 2,
@@ -4124,13 +4137,14 @@
 			"Automatically built in all cities where it is buildable",
 			"[+1 Food, +2 Production, +1 Gold] from [Tree plantation] tiles [in this city]",
 			"Reveals the entire map",
-			"Free [Tree Lover] appears"
+			"Free [Tree Lover] appears",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
 		"name": "Royal Court",
 		"uniqueTo": "Dahomey",
-		"isNationalWonder": true,
+		//"isNationalWonder": true,
 		"cost": 0,
 		"culture": 1,
 		"gold": 2,
@@ -4138,7 +4152,8 @@
 		"uniques": [
 			"Can only be built [in capital]",
 			"Automatically built in all cities where it is buildable",
-			"Reveals the entire map"
+			"Reveals the entire map",
+			"Destroyed when the city is captured"
 		]
 	}
 ]
