@@ -33,8 +33,10 @@
 			"[+3] to Fertility for Map Generation",
 			"A Region is formed with at least [30]% [Wasteland] tiles, with priority [7]",
 			"A Region can not contain more [Badlands] tiles than [Wasteland] tiles",
-			"Considered [Desirable] when determining start locations",
-			"Considered [Food] when determining start locations",
+			"Considered [Desirable] when determining start locations <in [Wasteland] regions>",
+			"Considered [Desirable] when determining start locations <in [Tundra] regions>",
+			"Considered [Food] when determining start locations <in [Desert] regions>",
+			"Considered [Production] when determining start locations",
 			"Becomes [Swamp] when adjacent to [River]",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
@@ -75,10 +77,12 @@
             "Occurs at temperature between [-0.7] and [-0.4] and humidity between [0.4] and [0.6]",
             "Occurs at temperature between [-0.6] and [-0.4] and humidity between [0.2] and [0.4]",
             "Occurs at temperature between [-0.5] and [-0.4] and humidity between [0] and [0.2]",
-			"[+2] to Fertility for Map Generation",
+			"[+3] to Fertility for Map Generation",
 			"A Region is formed with at least [30]% [Tundra] tiles and [Permafrost] tiles, with priority [1]",
-			"Considered [Desirable] when determining start locations <in [Tundra] Regions>",
-			"Considered [Food] when determining start locations",
+			"Considered [Desirable] when determining start locations <in [Wasteland] regions>",
+			"Considered [Desirable] when determining start locations <in [Tundra] regions>",
+			"Considered [Food] when determining start locations <in [Desert] regions>",
+			"Considered [Production] when determining start locations",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
@@ -95,11 +99,9 @@
             "Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.7]",
 			"[+1] to Fertility for Map Generation",
 			"A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
-			"Considered [Desirable] when determining start locations",
-			"Considered [Food] when determining start locations",
+			"Considered [Desirable] when determining start locations <in [Desert] regions>",
 			"Becomes [Swamp] when adjacent to [River]",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"[+1 Food] <within [1] tiles of a [Lakes]> <after discovering [Ecology]>"
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
 	{
@@ -251,6 +253,7 @@
 			"Permafrost"
 		],
 		"uniques": [
+			"Considered [Undesirable] when determining start locations",
 			"Rare feature",
 			"Rough terrain",
 			"[-2] to Fertility for Map Generation"
@@ -264,8 +267,7 @@
 		"uniques": [
 			"Rare feature",
 			"Fresh water",
-			"Considered [Desirable] when determining start locations",
-			"Always Fertility [4] for Map Generation"
+			"[+1] to Fertility for Map Generation"
 		]
 	},
 	{
@@ -301,8 +303,8 @@
 		"unbuildable": true,
 		"uniques": [
 			"Rare feature",
-			"[-2] to Fertility for Map Generation",
-			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."
+			"Considered [Undesirable] when determining start locations",
+			"[-2] to Fertility for Map Generation"
 		],
 		"occursOn": [
 			"Wasteland",
