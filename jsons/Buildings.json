@@ -4203,7 +4203,6 @@
         "name": "Slave House",
         "uniqueTo": "Dahomey",
         "cost": 0,
-        "culture": 1,
         "uniques": [
             "Automatically built in all cities where it is buildable",
             "Provides [2] [Slaves]",
