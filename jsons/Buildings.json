@@ -3916,8 +3916,7 @@
         "name": "Arroyo",
         "uniqueTo": "Arroyo",
         "cost": 0,
-        "culture": 8,
-        "happiness": 2,
+        "culture": 5,
         "uniques": [
             "Can only be built [in capital]",
             "Automatically built in all cities where it is buildable",
@@ -3930,8 +3929,7 @@
         "name": "Ghost Mountain",
         "uniqueTo": "Ghost Mountain",
         "cost": 0,
-        "culture": 8,
-        "happiness": 2,
+        "culture": 5,
         "uniques": [
             "Can only be built [in capital]",
             "Automatically built in all cities where it is buildable",
@@ -4071,6 +4069,7 @@
         "name": "Great Mountain Shrine",
         "uniqueTo": "Fo Guang",
         "cost": 0,
+		"culture":3,
         "gold": 2,
         "uniques": [
             "Can only be built [in capital]",
