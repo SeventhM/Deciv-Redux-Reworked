@@ -3885,20 +3885,6 @@
         ]
     },
     {
-        "name": "Devil's Nuclear Plant",
-        "uniqueTo": "Devil's Canyon",
-        "replaces": "Nuclear Plant",
-        "cost": 0,
-        "uniques": [
-            "Can only be built [in capital]",
-            "Automatically built in all cities where it is buildable",
-            "Provides [8] [Power]",
-            "[+33]% Production when constructing [Missile] units [in this city]",
-            "Only available <in cities without a [Coal Plant]>",
-            "Never destroyed when the city is captured"
-        ]
-    },
-    {
         "name": "Silk Road",
         "uniqueTo": "Bartertown",
         "cost": 0,
