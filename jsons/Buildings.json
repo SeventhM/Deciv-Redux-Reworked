@@ -3837,7 +3837,7 @@
         "name": "Homestead",
         "uniqueTo": "Jericho",
         "cost": 0,
-        "culture": 3,
+        "culture": 1,
         "uniques": [
             "Can only be built [in capital]",
             "Automatically built in all cities where it is buildable",
