@@ -4098,8 +4098,6 @@
         "name": "Tellus Forest",
         "uniqueTo": "Tellus",
         "cost": 0,
-        "gold": 20,
-        "happiness": 2,
         "uniques": [
             "Can only be built [in capital]",
             "Automatically built in all cities where it is buildable",
