@@ -3805,7 +3805,7 @@
 	},
 	
 	// City-state uniques
-	{
+	/*{
         "name": "Archive of the Arts",
         "uniqueTo": "The Archive",
         "cost": 0,
@@ -3819,7 +3819,7 @@
             "Provides [1] [Power]",
             "Never destroyed when the city is captured"
         ]
-    },
+    },*/
     {
         "name": "Encyclopedia",
         "uniqueTo": "The Archive",
