@@ -4059,8 +4059,6 @@
         "name": "Land Value Tax",
         "uniqueTo": "Arden Club",
         "cost": 0,
-        "culture": 2,
-        "gold": 2,
         "uniques": [
             "Can only be built [in capital]",
             "Automatically built in all cities where it is buildable",
