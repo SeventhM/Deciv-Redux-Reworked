@@ -3973,7 +3973,6 @@
         "name": "Alma Base",
         "uniqueTo": "Almaty",
         "cost": 0,
-        "culture": 3,
         "uniques": [
             "Can only be built [in capital]",
             "Automatically built in all cities where it is buildable",
