@@ -4024,10 +4024,9 @@
             "Provides [2] [Oil]",
             "Provides [1] [Power]"
         ],
-        "cost": 40,
         "replaces": "Town Hall",
         "uniqueTo": "Almaty",
-        "requiredTech": "Manufacturing"
+        "requiredTech": "Civil Service"
     },
     {
         "name": "Hub Monument",
