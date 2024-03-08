@@ -3967,15 +3967,6 @@
         ]
     },
     {
-        "name": "Arroyo Library",
-        "uniqueTo": "Arroyo",
-        "replaces": "Library",
-        "science": 1,
-        "uniques": [
-            "Unbuildable"
-        ]
-    },
-    {
         "name": "Ghost Mountain",
         "uniqueTo": "Ghost Mountain",
         "cost": 0,
@@ -3991,15 +3982,6 @@
             "Reveals the entire map",
             "[+1] population [in this city]",
             "Free [Spearman] appears"
-        ]
-    },
-    {
-        "name": "Ghost Library",
-        "uniqueTo": "Ghost Mountain",
-        "replaces": "Library",
-        "science": 1,
-        "uniques": [
-            "Unbuildable"
         ]
     },
     {
@@ -4196,15 +4178,6 @@
             "Reveals the entire map",
             "[+1] population [in this city]",
             "Free [Spearman] appears"
-        ]
-    },
-    {
-        "name": "Fo Guang Library",
-        "uniqueTo": "Fo Guang",
-        "replaces": "Library",
-        "science": 1,
-        "uniques": [
-            "Unbuildable"
         ]
     },
     {
