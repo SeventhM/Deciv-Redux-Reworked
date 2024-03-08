@@ -4033,7 +4033,7 @@
     {
         "name": "Alma Oil Depot",
         "culture": 1,
-        "happiness": 5,
+        "happiness": 1,
         "specialistSlots": { "Engineer": 2 },
         "maintenance": 1,
         "uniques": [
