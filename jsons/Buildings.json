@@ -4065,29 +4065,6 @@
         ]
     },
     {
-        "name": "Trader's Hub",
-        "uniqueTo": "The Hub",
-        "cost": 0,
-        "uniques": [
-            "Automatically built in all cities where it is buildable",
-            "Never destroyed when the city is captured"
-        ]
-    },
-    {
-        "name": "Hub Work Camp",
-        "uniqueTo": "The Hub",
-        "replaces": "Work Camp",
-        "percentStatBonus": { "production": 15 },
-        "production": 1,
-        "specialistSlots": { "Engineer": 1 },
-        "maintenance": 1,
-        "hurryCostModifier": 0,
-        "uniques": [
-            "Provides [1] [Slaves]"
-        ],
-        "requiredTech": "Construction"
-    },
-    {
         "name": "Mormon Monument",
         "uniqueTo": "Deseret Nation",
         "cost": 0,
