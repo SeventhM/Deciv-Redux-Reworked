@@ -1021,7 +1021,8 @@
 		"style": "",
 		"uniques": [
 			"Starts with [Land Remediation]",
-			"Starts with [Ecology]"
+			"Starts with [Ecology]",
+            "[+1 Food, +2 Production, +1 Gold] from [Tree plantation] tiles [in this city]"
 		],
 		"declaringWar": "The plant has spoken, you must be defeated!",
 		"attacked": "We will not let you destroy our sacred Trees!",

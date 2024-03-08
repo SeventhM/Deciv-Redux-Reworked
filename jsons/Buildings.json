@@ -4238,15 +4238,6 @@
         ]
     },
     {
-        "name": "Sacred Tree",
-        "uniqueTo": "Tellus",
-        "cost": 0,
-        "uniques": [
-            "Automatically built in all cities where it is buildable",
-            "[+1 Food, +2 Production, +1 Gold] from [Tree plantation] tiles [in this city]"
-        ]
-    },
-    {
         "name": "Royal Court",
         "uniqueTo": "Dahomey",
         "cost": 0,
