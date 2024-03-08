@@ -4085,11 +4085,8 @@
         "uniqueTo": "Deseret Nation",
         "cost": 0,
         "faith": 5,
-        "culture": 1,
-        "happiness": 1,
         "uniques": [
             "Automatically built in all cities where it is buildable",
-            "Provides [1] [Weapons]",
             "Never destroyed when the city is captured"
         ]
     },
