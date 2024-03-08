@@ -4056,6 +4056,9 @@
             "Can only be built [in capital]",
             "Automatically built in all cities where it is buildable",
             "Destroyed when the city is captured",
+            "Provides [2] [Oil]",
+            "Provides [2] [Weapons]",
+            "Provides [2] [Slaves]",
             "Reveals the entire map",
             "[+1] population [in this city]",
             "Free [Spearman] appears"
@@ -4067,9 +4070,6 @@
         "cost": 0,
         "uniques": [
             "Automatically built in all cities where it is buildable",
-            "Provides [2] [Oil]",
-            "Provides [2] [Weapons]",
-            "Provides [2] [Slaves]",
             "Never destroyed when the city is captured"
         ]
     },
