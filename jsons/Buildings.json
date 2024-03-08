@@ -3806,6 +3806,475 @@
 	
 	// City-state uniques
 	{
+        "name": "Archive of the Arts",
+        "uniqueTo": "The Archive",
+        "cost": 0,
+        "culture": 5,
+        "science": 1,
+        "happiness": 1,
+        "greatPersonPoints": { "Great Administrator": 2 },
+        "uniques": [
+            "Automatically built in all cities where it is buildable",
+            "[+50]% Golden Age length",
+            "Provides [1] [Power]",
+            "Never destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Encyclopedia",
+        "uniqueTo": "The Archive",
+        "cost": 0,
+        "culture": 1,
+        "food": 2,
+        "cityHealth": 50,
+        "cityStrength": 10,
+        "uniques": [
+            "Can only be built [in capital]",
+            "Automatically built in all cities where it is buildable",
+            "Destroyed when the city is captured",
+            "Reveals the entire map",
+            "[+1] population [in this city]",
+            "Free [Spearman] appears"
+        ]
+    },
+    {
+        "name": "Homestead",
+        "uniqueTo": "Jericho",
+        "cost": 0,
+        "culture": 3,
+        "food": 2,
+        "cityHealth": 50,
+        "cityStrength": 10,
+        "uniques": [
+            "Can only be built [in capital]",
+            "Automatically built in all cities where it is buildable",
+            "Destroyed when the city is captured",
+            "Reveals the entire map",
+            "Provides [1] [Oil]",
+            "Provides [1] [Power]",
+            "Provides [1] [Weapons]",
+            "[+1] population [in this city]",
+            "Free [Spearman] appears"
+        ]
+    },
+    {
+        "name": "Devil's Monument",
+        "uniqueTo": "Devil's Canyon",
+        "gold": 5,
+        "food": 2,
+        "cityHealth": 50,
+        "cityStrength": 10,
+        "cost": 0,
+        "uniques": [
+            "Can only be built [in capital]",
+            "Automatically built in all cities where it is buildable",
+            "Destroyed when the city is captured",
+            "Reveals the entire map",
+            "[+1] population [in this city]",
+            "Free [Spearman] appears"
+        ]
+    },
+    {
+        "name": "Nuclear Storage",
+        "uniqueTo": "Devil's Canyon",
+        "cost": 0,
+        "uniques": [
+            "Automatically built in all cities where it is buildable",
+            "Provides [2] [Uranium]",
+            "Never destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Devil's Nuclear Plant",
+        "uniqueTo": "Devil's Canyon",
+        "replaces": "Nuclear Plant",
+        "cost": 0,
+        "uniques": [
+            "Can only be built [in capital]",
+            "Automatically built in all cities where it is buildable",
+            "Provides [8] [Power]",
+            "[+33]% Production when constructing [Missile] units [in this city]",
+            "Only available <in cities without a [Coal Plant]>",
+            "Never destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Silk Road",
+        "uniqueTo": "Bartertown",
+        "cost": 0,
+        "food": 2,
+        "cityHealth": 50,
+        "cityStrength": 10,
+        "uniques": [
+            "Can only be built [in capital]",
+            "Automatically built in all cities where it is buildable",
+            "Destroyed when the city is captured",
+            "Reveals the entire map",
+            "Provides [1] [Oil]",
+            "Provides [1] [Weapons]",
+            "[+1] population [in this city]",
+            "Free [Spearman] appears"
+        ]
+    },
+    {
+        "name": "The Abbey",
+        "uniqueTo": "Order of Jerome",
+        "cost": 0,
+        "faith": 5,
+        "culture": 1,
+        "science": 3,
+        "happiness": 2,
+        "greatPersonPoints": { "Great Scientist": 2 },
+        "uniques": [
+            "Automatically built in all cities where it is buildable",
+            "Never destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Divine Knowledge",
+        "uniqueTo": "Order of Jerome",
+        "cost": 0,
+        "culture": 1,
+        "food": 2,
+        "cityHealth": 50,
+        "cityStrength": 10,
+        "uniques": [
+            "Can only be built [in capital]",
+            "Automatically built in all cities where it is buildable",
+            "Destroyed when the city is captured",
+            "Reveals the entire map",
+            "Provides [1] [Power]",
+            "[+1] population [in this city]",
+            "Free [Spearman] appears"
+        ]
+    },
+    {
+        "name": "Arroyo",
+        "uniqueTo": "Arroyo",
+        "cost": 0,
+        "cityHealth": 50,
+        "cityStrength": 10,
+        "food": 2,
+        "culture": 8,
+        "happiness": 2,
+        "uniques": [
+            "Can only be built [in capital]",
+            "Automatically built in all cities where it is buildable",
+            "Destroyed when the city is captured",
+            "Reveals the entire map",
+            "[+1] population [in this city]",
+            "Free [Spearman] appears"
+        ]
+    },
+    {
+        "name": "Arroyo Library",
+        "uniqueTo": "Arroyo",
+        "replaces": "Library",
+        "science": 1,
+        "uniques": [
+            "Unbuildable"
+        ]
+    },
+    {
+        "name": "Ghost Mountain",
+        "uniqueTo": "Ghost Mountain",
+        "cost": 0,
+        "cityHealth": 100,
+        "cityStrength": 10,
+        "food": 2,
+        "culture": 8,
+        "happiness": 2,
+        "uniques": [
+            "Can only be built [in capital]",
+            "Automatically built in all cities where it is buildable",
+            "Destroyed when the city is captured",
+            "Reveals the entire map",
+            "[+1] population [in this city]",
+            "Free [Spearman] appears"
+        ]
+    },
+    {
+        "name": "Ghost Library",
+        "uniqueTo": "Ghost Mountain",
+        "replaces": "Library",
+        "science": 1,
+        "uniques": [
+            "Unbuildable"
+        ]
+    },
+    {
+        "name": "Alma Air Base",
+        "uniqueTo": "Almaty",
+        "cityStrength": 10,
+        "cityHealth": 50,
+        "cost": 0,
+        "science": 1,
+        "production": 3,
+        "uniques": [
+            "Automatically built in all cities where it is buildable",
+            "Provides [2] [Weapons]",
+            "Must not be on [Hill]",
+            "Only available <in cities without a [Alma Tank Depot]>",
+            "Never destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Alma Tank Depot",
+        "uniqueTo": "Almaty",
+        "cityStrength": 5,
+        "cityHealth": 100,
+        "cost": 0,
+        "science": 1,
+        "production": 3,
+        "uniques": [
+            "Automatically built in all cities where it is buildable",
+            "Provides [2] [Weapons]",
+            "Only available <in cities without a [Alma Air Base]>",
+            "Never destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Alma Base",
+        "uniqueTo": "Almaty",
+        "cost": 0,
+        "cityHealth": 100,
+        "food": 2,
+        "cityStrength": 10,
+        "culture": 3,
+        "uniques": [
+            "Can only be built [in capital]",
+            "Automatically built in all cities where it is buildable",
+            "Destroyed when the city is captured",
+            "Reveals the entire map",
+            "Free [Howitzer] appears",
+            "[+1] population [in this city]"
+        ]
+    },
+    {
+        "name": "Alma Oil Depot",
+        "culture": 1,
+        "happiness": 5,
+        "specialistSlots": { "Engineer": 2 },
+        "maintenance": 1,
+        "uniques": [
+            "Provides [2] [Oil]",
+            "Provides [1] [Power]",
+        ],
+        "cost": 40,
+        "replaces": "Town Hall",
+        "uniqueTo": "Almaty",
+        "requiredTech": "Manufacturing"
+    },
+    {
+        "name": "Hub Monument",
+        "uniqueTo": "The Hub",
+        "cost": 0,
+        "food": 2,
+        "cityHealth": 50,
+        "cityStrength": 10,
+        "uniques": [
+            "Can only be built [in capital]",
+            "Automatically built in all cities where it is buildable",
+            "Destroyed when the city is captured",
+            "Reveals the entire map",
+            "[+1] population [in this city]",
+            "Free [Spearman] appears"
+        ]
+    },
+    {
+        "name": "Trader's Hub",
+        "uniqueTo": "The Hub",
+        "cost": 0,
+        "uniques": [
+            "Automatically built in all cities where it is buildable",
+            "Provides [2] [Oil]",
+            "Provides [2] [Weapons]",
+            "Provides [2] [Slaves]",
+            "Never destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Hub Work Camp",
+        "uniqueTo": "The Hub",
+        "replaces": "Work Camp",
+        "percentStatBonus": { "production": 15 },
+        "production": 1,
+        "specialistSlots": { "Engineer": 1 },
+        "maintenance": 1,
+        "hurryCostModifier": 0,
+        "uniques": [
+            "Provides [1] [Slaves]"
+        ],
+        "requiredTech": "Construction"
+    },
+    {
+        "name": "Mormon Monument",
+        "uniqueTo": "Deseret Nation",
+        "cost": 0,
+        "food": 2,
+        "cityHealth": 50,
+        "cityStrength": 10,
+        "uniques": [
+            "Can only be built [in capital]",
+            "Automatically built in all cities where it is buildable",
+            "Destroyed when the city is captured",
+            "Reveals the entire map",
+            "[+1] population [in this city]",
+            "Free [Spearman] appears"
+        ]
+    },
+    {
+        "name": "Grand Temple",
+        "uniqueTo": "Deseret Nation",
+        "cost": 0,
+        "faith": 5,
+        "culture": 1,
+        "happiness": 1,
+        "uniques": [
+            "Automatically built in all cities where it is buildable",
+            "Provides [1] [Weapons]",
+            "Never destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Iron Rod Monument",
+        "uniqueTo": "Church of the Iron Rod",
+        "cost": 0,
+        "food": 2,
+        "cityHealth": 50,
+        "cityStrength": 10,
+        "uniques": [
+            "Can only be built [in capital]",
+            "Automatically built in all cities where it is buildable",
+            "Destroyed when the city is captured",
+            "Reveals the entire map",
+            "[+1] population [in this city]",
+            "Free [Spearman] appears"
+        ]
+    },
+    {
+        "name": "Iron Rod Stockpile",
+        "uniqueTo": "Church of the Iron Rod",
+        "production": 1,
+        "cost": 0,
+        "uniques": [
+            "Provides [4] [Weapons]",
+            "Never destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Land Value Tax",
+        "uniqueTo": "Arden Club",
+        "cost": 0,
+        "culture": 2,
+        "gold": 2,
+        "food": 2,
+        "cityHealth": 50,
+        "cityStrength": 10,
+        "uniques": [
+            "Can only be built [in capital]",
+            "Automatically built in all cities where it is buildable",
+            "Destroyed when the city is captured",
+            "Reveals the entire map",
+            "[+1 Gold] from [Land] tiles [in this city]",
+            "[+1] population [in this city]",
+            "Free [Spearman] appears"
+        ]
+    },
+    {
+        "name": "Great Mountain Shrine",
+        "uniqueTo": "Fo Guang",
+        "cost": 0,
+        "gold": 2,
+        "food": 2,
+        "cityHealth": 50,
+        "cityStrength": 10,
+        "uniques": [
+            "Can only be built [in capital]",
+            "Automatically built in all cities where it is buildable",
+            "Destroyed when the city is captured",
+            "Reveals the entire map",
+            "[+1] population [in this city]",
+            "Free [Spearman] appears"
+        ]
+    },
+    {
+        "name": "Fo Guang Library",
+        "uniqueTo": "Fo Guang",
+        "replaces": "Library",
+        "science": 1,
+        "uniques": [
+            "Unbuildable"
+        ]
+    },
+    {
+        "name": "Tea Room",
+        "uniqueTo": "Fo Guang",
+        "cost": 0,
+        "culture": 1,
+        "uniques": [
+            "Automatically built in all cities where it is buildable",
+            "Provides [2] [Tea Leaves]",
+            "Never destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Tellus Forest",
+        "uniqueTo": "Tellus",
+        "cost": 0,
+        "cityHealth": 50,
+        "cityStrength": 10,
+        "food": 2,
+        "gold": 20,
+        "happiness": 2,
+        "uniques": [
+            "Can only be built [in capital]",
+            "Automatically built in all cities where it is buildable",
+            "Destroyed when the city is captured",
+            "Reveals the entire map",
+            "Free [Tree Lover] appears",
+            "[+1] population [in this city]",
+            "Free [Spearman] appears"
+        ]
+    },
+    {
+        "name": "Sacred Tree",
+        "uniqueTo": "Tellus",
+        "cost": 0,
+        "uniques": [
+            "Automatically built in all cities where it is buildable",
+            "[+1 Food, +2 Production, +1 Gold] from [Tree plantation] tiles [in this city]"
+        ]
+    },
+    {
+        "name": "Royal Court",
+        "uniqueTo": "Dahomey",
+        "cost": 0,
+        "gold": 2,
+        "food": 2,
+        "cityHealth": 50,
+        "cityStrength": 10,
+        "uniques": [
+            "Can only be built [in capital]",
+            "Automatically built in all cities where it is buildable",
+            "Destroyed when the city is captured",
+            "Reveals the entire map",
+            "[+1] population [in this city]",
+            "Free [Spearman] appears"
+        ]
+    },
+    {
+        "name": "Slave House",
+        "uniqueTo": "Dahomey",
+        "cost": 0,
+        "culture": 1,
+        "uniques": [
+            "Automatically built in all cities where it is buildable",
+            "Provides [2] [Slaves]",
+            "Never destroyed when the city is captured"
+        ]
+    }
+	/*{
 		"name": "Encyclopedia",
 		"uniqueTo": "The Archive",
 		//"isNationalWonder": true,
@@ -4154,5 +4623,5 @@
 			"Reveals the entire map",
 			"Destroyed when the city is captured"
 		]
-	}
+	}*/
 ]
