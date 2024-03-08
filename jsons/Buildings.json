@@ -3825,15 +3825,11 @@
         "uniqueTo": "The Archive",
         "cost": 0,
         "culture": 1,
-        "food": 2,
-        "cityHealth": 50,
-        "cityStrength": 10,
         "uniques": [
             "Can only be built [in capital]",
             "Automatically built in all cities where it is buildable",
             "Destroyed when the city is captured",
             "Reveals the entire map",
-            "[+1] population [in this city]",
             "Free [Spearman] appears"
         ]
     },
@@ -3842,9 +3838,6 @@
         "uniqueTo": "Jericho",
         "cost": 0,
         "culture": 3,
-        "food": 2,
-        "cityHealth": 50,
-        "cityStrength": 10,
         "uniques": [
             "Can only be built [in capital]",
             "Automatically built in all cities where it is buildable",
@@ -3853,7 +3846,6 @@
             "Provides [1] [Oil]",
             "Provides [1] [Power]",
             "Provides [1] [Weapons]",
-            "[+1] population [in this city]",
             "Free [Spearman] appears"
         ]
     },
@@ -3861,16 +3853,12 @@
         "name": "Devil's Monument",
         "uniqueTo": "Devil's Canyon",
         "gold": 5,
-        "food": 2,
-        "cityHealth": 50,
-        "cityStrength": 10,
         "cost": 0,
         "uniques": [
             "Can only be built [in capital]",
             "Automatically built in all cities where it is buildable",
             "Destroyed when the city is captured",
             "Reveals the entire map",
-            "[+1] population [in this city]",
             "Free [Spearman] appears"
         ]
     },
@@ -3888,9 +3876,6 @@
         "name": "Silk Road",
         "uniqueTo": "Bartertown",
         "cost": 0,
-        "food": 2,
-        "cityHealth": 50,
-        "cityStrength": 10,
         "uniques": [
             "Can only be built [in capital]",
             "Automatically built in all cities where it is buildable",
@@ -3898,7 +3883,6 @@
             "Reveals the entire map",
             "Provides [1] [Oil]",
             "Provides [1] [Weapons]",
-            "[+1] population [in this city]",
             "Free [Spearman] appears"
         ]
     },
@@ -3919,16 +3903,12 @@
         "uniqueTo": "Order of Jerome",
         "cost": 0,
         "culture": 1,
-        "food": 2,
-        "cityHealth": 50,
-        "cityStrength": 10,
         "uniques": [
             "Can only be built [in capital]",
             "Automatically built in all cities where it is buildable",
             "Destroyed when the city is captured",
             "Reveals the entire map",
             "Provides [1] [Power]",
-            "[+1] population [in this city]",
             "Free [Spearman] appears"
         ]
     },
@@ -3936,9 +3916,6 @@
         "name": "Arroyo",
         "uniqueTo": "Arroyo",
         "cost": 0,
-        "cityHealth": 50,
-        "cityStrength": 10,
-        "food": 2,
         "culture": 8,
         "happiness": 2,
         "uniques": [
@@ -3946,7 +3923,6 @@
             "Automatically built in all cities where it is buildable",
             "Destroyed when the city is captured",
             "Reveals the entire map",
-            "[+1] population [in this city]",
             "Free [Spearman] appears"
         ]
     },
@@ -3954,9 +3930,6 @@
         "name": "Ghost Mountain",
         "uniqueTo": "Ghost Mountain",
         "cost": 0,
-        "cityHealth": 100,
-        "cityStrength": 10,
-        "food": 2,
         "culture": 8,
         "happiness": 2,
         "uniques": [
@@ -3964,7 +3937,6 @@
             "Automatically built in all cities where it is buildable",
             "Destroyed when the city is captured",
             "Reveals the entire map",
-            "[+1] population [in this city]",
             "Free [Spearman] appears"
         ]
     },
@@ -4001,17 +3973,13 @@
         "name": "Alma Base",
         "uniqueTo": "Almaty",
         "cost": 0,
-        "cityHealth": 100,
-        "food": 2,
-        "cityStrength": 10,
         "culture": 3,
         "uniques": [
             "Can only be built [in capital]",
             "Automatically built in all cities where it is buildable",
             "Destroyed when the city is captured",
             "Reveals the entire map",
-            "Free [Artillery] appears",
-            "[+1] population [in this city]"
+            "Free [Militia] appears"
         ]
     },
     {
@@ -4032,9 +4000,6 @@
         "name": "Hub Monument",
         "uniqueTo": "The Hub",
         "cost": 0,
-        "food": 2,
-        "cityHealth": 50,
-        "cityStrength": 10,
         "uniques": [
             "Can only be built [in capital]",
             "Automatically built in all cities where it is buildable",
@@ -4043,7 +4008,6 @@
             "Provides [2] [Weapons]",
             "Provides [2] [Slaves]",
             "Reveals the entire map",
-            "[+1] population [in this city]",
             "Free [Spearman] appears"
         ]
     },
@@ -4051,15 +4015,11 @@
         "name": "Mormon Monument",
         "uniqueTo": "Deseret Nation",
         "cost": 0,
-        "food": 2,
-        "cityHealth": 50,
-        "cityStrength": 10,
         "uniques": [
             "Can only be built [in capital]",
             "Automatically built in all cities where it is buildable",
             "Destroyed when the city is captured",
             "Reveals the entire map",
-            "[+1] population [in this city]",
             "Free [Spearman] appears"
         ]
     },
@@ -4077,15 +4037,11 @@
         "name": "Iron Rod Monument",
         "uniqueTo": "Church of the Iron Rod",
         "cost": 0,
-        "food": 2,
-        "cityHealth": 50,
-        "cityStrength": 10,
         "uniques": [
             "Can only be built [in capital]",
             "Automatically built in all cities where it is buildable",
             "Destroyed when the city is captured",
             "Reveals the entire map",
-            "[+1] population [in this city]",
             "Free [Spearman] appears"
         ]
     },
@@ -4105,16 +4061,12 @@
         "cost": 0,
         "culture": 2,
         "gold": 2,
-        "food": 2,
-        "cityHealth": 50,
-        "cityStrength": 10,
         "uniques": [
             "Can only be built [in capital]",
             "Automatically built in all cities where it is buildable",
             "Destroyed when the city is captured",
             "Reveals the entire map",
             "[+1 Gold] from [Land] tiles [in this city]",
-            "[+1] population [in this city]",
             "Free [Spearman] appears"
         ]
     },
@@ -4123,15 +4075,11 @@
         "uniqueTo": "Fo Guang",
         "cost": 0,
         "gold": 2,
-        "food": 2,
-        "cityHealth": 50,
-        "cityStrength": 10,
         "uniques": [
             "Can only be built [in capital]",
             "Automatically built in all cities where it is buildable",
             "Destroyed when the city is captured",
             "Reveals the entire map",
-            "[+1] population [in this city]",
             "Free [Spearman] appears"
         ]
     },
@@ -4150,9 +4098,6 @@
         "name": "Tellus Forest",
         "uniqueTo": "Tellus",
         "cost": 0,
-        "cityHealth": 50,
-        "cityStrength": 10,
-        "food": 2,
         "gold": 20,
         "happiness": 2,
         "uniques": [
@@ -4161,7 +4106,6 @@
             "Destroyed when the city is captured",
             "Reveals the entire map",
             "Free [Tree Lover] appears",
-            "[+1] population [in this city]",
             "Free [Spearman] appears"
         ]
     },
@@ -4170,15 +4114,11 @@
         "uniqueTo": "Dahomey",
         "cost": 0,
         "gold": 2,
-        "food": 2,
-        "cityHealth": 50,
-        "cityStrength": 10,
         "uniques": [
             "Can only be built [in capital]",
             "Automatically built in all cities where it is buildable",
             "Destroyed when the city is captured",
             "Reveals the entire map",
-            "[+1] population [in this city]",
             "Free [Spearman] appears"
         ]
     },
