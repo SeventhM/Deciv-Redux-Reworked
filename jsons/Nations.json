@@ -999,7 +999,7 @@
 	{
 		"name": "Fo Guang",
 		"adjective": ["Fo Guang"],
-		"cityStateType": "Prayer",
+		"cityStateType": "Trading",
 		"style": "",
 		"uniques": [
 			"Damage is ignored when determining unit Strength <for [All] units>",
