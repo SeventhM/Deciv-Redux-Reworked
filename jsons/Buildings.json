@@ -3906,10 +3906,8 @@
         "name": "The Abbey",
         "uniqueTo": "Order of Jerome",
         "cost": 0,
-        "faith": 5,
-        "culture": 1,
+        "faith": 3,
         "science": 3,
-        "happiness": 2,
         "greatPersonPoints": { "Great Scientist": 2 },
         "uniques": [
             "Automatically built in all cities where it is buildable",
