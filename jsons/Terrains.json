@@ -33,9 +33,9 @@
 			"[+3] to Fertility for Map Generation",
 			"A Region is formed with at least [30]% [Wasteland] tiles, with priority [7]",
 			"A Region can not contain more [Badlands] tiles than [Wasteland] tiles",
-			"Considered [Desirable] when determining start locations <in [Wasteland] regions>",
-			"Considered [Desirable] when determining start locations <in [Tundra] regions>",
-			"Considered [Food] when determining start locations <in [Desert] regions>",
+			"Considered [Desirable] when determining start locations <in [Wasteland] Regions>",
+			"Considered [Desirable] when determining start locations <in [Tundra] Regions>",
+			"Considered [Food] when determining start locations <in [Desert] Regions>",
 			"Considered [Production] when determining start locations",
 			"Becomes [Swamp] when adjacent to [River]",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
@@ -79,9 +79,9 @@
             "Occurs at temperature between [-0.5] and [-0.4] and humidity between [0] and [0.2]",
 			"[+3] to Fertility for Map Generation",
 			"A Region is formed with at least [30]% [Tundra] tiles and [Permafrost] tiles, with priority [1]",
-			"Considered [Desirable] when determining start locations <in [Wasteland] regions>",
-			"Considered [Desirable] when determining start locations <in [Tundra] regions>",
-			"Considered [Food] when determining start locations <in [Desert] regions>",
+			"Considered [Desirable] when determining start locations <in [Wasteland] Regions>",
+			"Considered [Desirable] when determining start locations <in [Tundra] Regions>",
+			"Considered [Food] when determining start locations <in [Desert] Regions>",
 			"Considered [Production] when determining start locations",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
@@ -99,7 +99,7 @@
             "Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.7]",
 			"[+1] to Fertility for Map Generation",
 			"A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
-			"Considered [Desirable] when determining start locations <in [Desert] regions>",
+			"Considered [Desirable] when determining start locations <in [Desert] Regions>",
 			"Becomes [Swamp] when adjacent to [River]",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
