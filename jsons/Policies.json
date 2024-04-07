@@ -92,9 +92,8 @@
             {
                 "name": "Restorers",
                 "uniques": [
-                    "[+50]% Production when constructing [Civilian Convoy] units [in capital]",
-                    "Free [Civilian Convoy] appears",
-                    "[+1] Movement <for [Civilian Convoy] units>"
+                    "[+2 Production] [in all cities]",
+                    "[+5]% Production when constructing [All] buildings [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -120,8 +119,9 @@
             {
                 "name": "Reclaimers",
                 "uniques": [
-                    "[+2 Production] [in all cities]",
-                    "[+5]% Production when constructing [All] buildings [in all cities]"
+                    "[+50]% Production when constructing [Civilian Convoy] units [in capital]",
+                    "Free [Civilian Convoy] appears",
+                    "[+1] Movement <for [Civilian Convoy] units>"
                 ],
                 "requires": [
                     "Restorers"
