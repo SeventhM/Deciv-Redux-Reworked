@@ -4,8 +4,8 @@
 		"name": "Ancestor Worship",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Faith] from every [Monument]",
-			"[+1 Culture] from every [Shrine]"
+			//"[+1 Faith] from every [Monument]",
+			"[+2 Culture] from every [Shrine]"
 		]
 	},
 	{
@@ -41,30 +41,30 @@
 		"name": "God of Beasts",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Food, +1 Faith] from every [Horses]",
-			"[+1 Food, +1 Faith] from every [Cattle]",
-			"[+1 Food, +1 Faith] from every [Goats]"
+			"[+1 Food, +1 Faith] from every [{Horses} {resource}]",
+			"[+1 Food, +1 Faith] from every [{Cattle} {resource}]",
+			"[+1 Food, +1 Faith] from every [{Goats} {resource}]"
 		]
 	},
 	{
 		"name": "Spiritual Research",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Science, +1 Faith] from every [Artifacts]",
-			"[+1 Science, +1 Faith] from every [Encrypted Data]",
-			"[+1 Science, +1 Faith] from every [Data]",
-			"[+1 Science, +1 Faith] from every [Books]"
+			"[+1 Science, +1 Faith] from every [{Artifacts} {resource}]",
+			"[+1 Science, +1 Faith] from every [{Encrypted Data} {resource}]",
+			"[+1 Science, +1 Faith] from every [{Data} {resource}]",
+			"[+1 Science, +1 Faith] from every [{Books} {resource}]"
 		]
 	},
 	{
 		"name": "God of the Craftsman",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Culture, +1 Faith] from every [Machine Parts]",
-			"[+1 Culture, +1 Faith] from every [Electronics]",
-			"[+1 Culture, +1 Faith] from every [Scrap]",
-			"[+1 Culture, +1 Faith] from every [Plastics]",
-			"[+1 Culture, +1 Faith] from every [Weapons]"
+			"[+1 Culture, +1 Faith] from every [{Machine Parts} {resource}]",
+			"[+1 Culture, +1 Faith] from every [{Electronics} {resource}]",
+			"[+1 Culture, +1 Faith] from every [{Scrap} {resource}]",
+			"[+1 Culture, +1 Faith] from every [{Plastics} {resource}]",
+			"[+1 Culture, +1 Faith] from every [{Weapons} {resource}]"
 		]
 	},
 	{
@@ -85,8 +85,8 @@
 		"name": "Lord of the Flies",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Culture, +1 Faith] from every [Insects]",
-			"[+1 Culture, +1 Faith] from every [Hostile Fauna]"
+			"[+1 Culture, +1 Faith] from every [{Insects} {resource}]",
+			"[+1 Culture, +1 Faith] from every [{Hostile Fauna} {resource}]"
 		]
 	},
 	{
@@ -108,12 +108,12 @@
 		"name": "Lord of the Hunt",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Food] from every [Deer]",
-			"[+1 Food] from every [Furs]",
-			"[+1 Food] from every [Fungus]",
-			"[+1 Food] from every [Hostile Fauna]",
-			"[+1 Food] from every [Hogs]",
-			"[+1 Food] from every [Insects]"
+			"[+1 Food] from every [{Deer} {resource}]",
+			"[+1 Food] from every [{Furs} {resource}]",
+			"[+1 Food] from every [{Fungus} {resource}]",
+			"[+1 Food] from every [{Hostile Fauna} {resource}]",
+			"[+1 Food] from every [{Hogs} {resource}]",
+			"[+1 Food] from every [{Insects} {resource}]"
 		]
 	},
 	{
@@ -142,8 +142,8 @@
 		"name": "Blessed Steel",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Production, +1 Faith] from every [Metal]",
-			"[+1 Production, +1 Faith] from every [Scrap]"
+			"[+1 Production, +1 Faith] from every [{Metal} {resource}]",
+			"[+1 Production, +1 Faith] from every [{Scrap} {resource}]"
 		]
 	},
 	{
@@ -181,8 +181,8 @@
         "name": "Harvest Festival",
         "type": "Pantheon",
         "uniques": [
-			"[+1 Food] from every [Grain]",
-			"[+1 Food] from every [Tubers]"
+			"[+1 Food] from every [{Grain} {resource}]",
+			"[+1 Food] from every [{Tubers} {resource}]"
 		]
     },
 	{
