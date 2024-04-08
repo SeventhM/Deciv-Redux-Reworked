@@ -67,27 +67,27 @@
     {
         "name": "Research",
         "friendBonusUniques": [
-            "[+5 Science] <before the [Neofeudal era]>",
-            "[+10 Science] <starting from the [Neofeudal era]> <before the [Industrial era]>",
-            "[+20 Science] <starting from the [Industrial era]>"
+            "[+3 Science] <before the [Neofeudal era]>",
+            "[+5 Science] <starting from the [Neofeudal era]> <before the [Industrial era]>",
+            "[+8 Science] <starting from the [Industrial era]>"
         ],
         "allyBonusUniques": [
-            "[+10 Science] <before the [Neofeudal era]>",
-            "[+20 Science] <starting from the [Neofeudal era]> <before the [Industrial era]>",
-            "[+40 Science] <starting from the [Industrial era]>"
+            "[+6 Science] <before the [Neofeudal era]>",
+            "[+10 Science] <starting from the [Neofeudal era]> <before the [Industrial era]>",
+            "[+16 Science] <starting from the [Industrial era]>"
         ],
         "color": [55,55,255]
     },
     {
         "name": "Labor",
         "friendBonusUniques": [
-            "[+3 Production] [in capital] <before the [Industrial era]>",
-            "[+6 Production] [in capital] <starting from the [Industrial era]>"
+            "[+2 Production] [in capital] <before the [Industrial era]>",
+            "[+4 Production] [in capital] <starting from the [Industrial era]>"
         ],
         "allyBonusUniques": [
-            "[+3 Production] [in capital] <before the [Industrial era]>",
+            "[+2 Production] [in capital] <before the [Industrial era]>",
             "[+2 Production] [in all cities] <before the [Industrial era]>",
-            "[+6 Production] [in capital] <starting from the [Industrial era]>",
+            "[+4 Production] [in capital] <starting from the [Industrial era]>",
             "[+4 Production] [in all cities] <starting from the [Industrial era]>"
         ],
         "color": [220,100,15]
